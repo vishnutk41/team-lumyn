@@ -6,9 +6,12 @@ import "@/styles/frequently-asked-questions.scss";
 import "@/styles/home.scss";
 import "@/styles/menu.scss";
 import "@/styles/podcast.scss";
+import "@/styles/blog_details.scss";
+import "@/styles/products.scss";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "react-multi-carousel/lib/styles.css";
 
 import type { AppProps } from "next/app";
 

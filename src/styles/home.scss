@@ -14,12 +14,12 @@
     padding: 0px 60px;
     width:100%;
     background: url("/assets/banner-animation.gif");
-    background-size: cover; /* Options: contain, auto */
-    background-position: center; /* Options: top, bottom, left, right */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   
     h2 {
-       font-family: "Poppins", serif;
+      font-family: "Poppins", serif;
       font-size: 68px;
       font-weight: 700;
       line-height: 72.83px;
@@ -34,7 +34,7 @@
         display: flex;
         flex-direction: row;
         margin-left: 230px;
-        margin-top: 170px;
+        margin-top: 23vh;
 
         .star {
           transform: translate(10px,-100px);
@@ -261,7 +261,10 @@
         width: 521px;
         position: relative;
         overflow: hidden;
+        border-radius: 8px;
         // height: 522px;
+
+ 
 
         // .background-img {
         //   position: absolute;
@@ -540,7 +543,7 @@
         width: 100%;
         margin-left: 20px;
   
-        .title{
+        .title {
            font-family: "Poppins", serif;
           font-size: 21px;
           font-weight: 700;
@@ -550,6 +553,7 @@
           text-decoration-skip-ink: none;
           color: var(--white);
         }
+
         .description{
            font-family: "Poppins", serif;
           font-size: 16px;
@@ -561,8 +565,9 @@
           color: var(--gray-100);
           
         }
+
         .number{
-           font-family: "Poppins", serif;
+          font-family: "Poppins", serif;
           font-size: 51px;
           font-weight: 700;
           line-height: 61.72px;
@@ -685,7 +690,7 @@
                 margin-bottom: 10px;
                 width: fit-content;
                 height: fit-content;
-                 font-family: "Poppins", serif;
+                font-family: "Poppins", serif;
                 padding: 8px 18px;
                 font-size: 16px;
                 font-weight: 500;
@@ -694,7 +699,7 @@
                 text-underline-position: from-font;
                 text-decoration-skip-ink: none;
                 color: var(--white);
-                background-color: var(--gray-600);
+                background-color: var(--gray-300);
                 border-radius: 20px;
                 box-shadow: 0px 0px 30px 0px #00000033;
                 text-wrap: nowrap;

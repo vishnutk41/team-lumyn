@@ -5,8 +5,6 @@ import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
 
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-
 
 // import { Geist, Geist_Mono } from "next/font/google";
 // import style from "@/styles/home.module.css";
@@ -20,7 +18,6 @@ import "react-multi-carousel/lib/styles.css";
 //   variable: "--font-geist-mono",
 //   subsets: ["latin"],
 // });
-
 
 
 export default function Home() {
@@ -42,7 +39,6 @@ export default function Home() {
       <h2 className="title_one"> <span>LUMYN:</span> WHERE</h2>
     <Image className="star" src="/assets/svg/star.svg" width={150} height={150} alt="star" />
   </div>
-
 
   <h2 className="title_two">FINDS <span>LIGHT</span></h2>
   <button >Learn More</button>
@@ -143,12 +139,11 @@ export default function Home() {
     slidesToSlide={1}
     swipeable
   >
-
     <div className="card" >
-        <div className="overlay ">
+        <div className="overlay">
             <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
         </div>
-    <Image className="background-img" src="/assets/images/BrandForge.webp" width={521} height={522} alt="image" />
+      <Image className="background-img" src="/assets/images/BrandForge.webp" width={521} height={522} alt="image" />
       <div className="bottom">
         <h4 className="title">BrandForge</h4>
         <p className="sub_title">Create a memorable brand that resonates.</p>
@@ -159,13 +154,11 @@ export default function Home() {
           </div>
           <div className="wrapper">
             <Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
-
             Identity Design
           </div>
           <div className="wrapper">
             <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
-  
-Strategic Positioning
+            Strategic Positioning
           </div>
         </div>
       </div>
@@ -197,7 +190,6 @@ Conversion Optimization
         </div>
       </div>
     </div>
-
 
     <div className="card">
         <div className="overlay ">
@@ -392,8 +384,8 @@ Growth Insights
 
   </Carousel>
 
-
   </div>
+
 </div>
 
 <div className="section_three">
