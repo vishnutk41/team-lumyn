@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   sassOptions: {
     implementation: 'sass',
+    includePaths:[`${__dirname}/styles`]
   },
 };
 
