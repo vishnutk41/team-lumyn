@@ -183,14 +183,13 @@
   
   }
   
-  .inter_mediate_section{
+  .inter_mediate_section {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 5px 0px;
+    padding: 30px 0px;
     text-wrap: nowrap;
-  
-     font-family: "Poppins", serif;
+    font-family: "Poppins", serif;
     font-size: 51px;
     font-weight: 700;
     line-height: 61.72px;
@@ -386,6 +385,50 @@
     height: 930px;
     width: 100%;
     margin-top: 60px;
+    position: relative;
+
+    .high_light{
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      width: 100%;
+
+      .title{
+        font-family: "Poppins", serif;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-wrap: nowrap;
+        color: var(--white);
+      }
+
+      .bar {
+       width: 4px;
+       height: 50px;
+       background-color: #00ed85;
+       margin-left: 10px;
+      }
+
+      .description{
+        margin: auto 0px;
+        font-family: "Poppins", serif;
+        font-size: 14px;
+        padding-left: 10px;
+        max-width: 700px;
+        font-weight: 400;
+        line-height: 16.4px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--white);
+      }
+      
+    }
 
     .card {
       display: flex;

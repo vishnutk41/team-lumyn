@@ -390,6 +390,13 @@ Growth Insights
 
 <div className="section_three">
 
+  <div className="high_light">
+    <h3 className="title">Exclusive Highlights</h3>
+    <div className="bar"></div>
+    <p className="description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum dictum congue lorem vel varius. Integer sollicitudin pellentesque euismod.</p>
+
+  </div>
+
   <div className="card">
   <div className="image_container padding">
   <div className="image podcast_room" />
@@ -423,6 +430,7 @@ Growth Insights
   </div>
 </div>
   </div>
+
   <div className="card">
   <div className="image_container padding">
   <div className="image led_panel" />

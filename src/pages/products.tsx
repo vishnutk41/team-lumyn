@@ -1,6 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
 import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
+
+import Carousel from "react-multi-carousel";
 
 export default function Products() {
 
@@ -23,6 +26,124 @@ export default function Products() {
                     <span className={"active"}>Product Details</span>
                 </div>
                 <div className="container">
+                    <div className="part_one">
+
+  <Carousel 
+    additionalTransfrom={0}
+    arrows
+    autoPlaySpeed={3000}
+    centerMode={false}
+    className=""
+    containerClass=""
+    dotListClass=""
+    draggable
+    focusOnSelect={false}
+    infinite={true}
+    itemClass=""
+    keyBoardControl
+    minimumTouchDrag={80}
+    pauseOnHover
+    renderArrowsWhenDisabled={false}
+    renderButtonGroupOutside={false}
+    renderDotsOutside={false}
+    responsive={{
+      desktop: {
+        breakpoint: {
+          max: 3000,
+          min: 1024
+        },
+        items: 1,
+        partialVisibilityGutter: 30
+      },
+      mobile: {
+        breakpoint: {
+          max: 464,
+          min: 0
+        },
+        items: 1,
+        partialVisibilityGutter: 25
+      },
+      tablet: {
+        breakpoint: {
+          max: 1024,
+          min: 464
+        },
+        items: 1,
+        partialVisibilityGutter: 20
+      }
+    }}
+    rewind={false}
+    rewindWithAnimation={false}
+    rtl={false}
+    shouldResetAutoplay
+    showDots={false}
+    sliderClass=""
+    slidesToSlide={1}
+    swipeable
+  >
+
+  <div >
+    <div className="image_container" >
+
+    </div>
+    <div className="discription">
+    <p className="content">
+        At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
+        </p>
+    </div>
+  </div>
+
+  <div >
+    <div className="image_container">
+
+    </div>
+    <div className="discription">
+
+        <p className="content">
+        At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
+        </p>
+
+    </div>
+  </div>
+
+    </Carousel>
+
+                 
+                    </div>
+                    <div className="part_two">
+
+                        <h3 className="title"> Corporate Branding </h3>
+                        <p className="sub_title"> Create a Brand That Stands the Test of Time! </p>
+
+                              <div className="icon_highlight">
+                                  <div className="wrapper">
+                                    <Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
+                                    Brand Development
+                                  </div>
+                                  <div className="wrapper">
+                                    <Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
+                                    Identity Design
+                                  </div>
+                                  <div className="wrapper">
+                                    <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
+                                    Strategic Positioning
+                                  </div>
+                                </div>
+
+                                <div className="container_text">
+                                    <div className="item">Mastermind Team</div>
+                                    <div className="item">Strategic Vision</div>
+                                    <div className="item">Innovative Techniques</div>
+                                    <div className="item">Future-Proof Solutions</div>
+                                    <div className="item">Real-Time Monitoring</div>
+                                    <div className="item">Goal-Crushing Focus</div>
+                                </div>
+
+                                <button className="primay_button">
+                                Contact Us
+                                </button>
+                    </div>
+                    
       
                 </div>
             </div>
