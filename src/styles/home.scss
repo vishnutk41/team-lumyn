@@ -1081,6 +1081,7 @@
       padding: 0px 20px;
       width:100%;
       max-width: 100%;
+      position: relative;
 
     
       .top {
@@ -1112,9 +1113,15 @@
     
        }
 
-       .react-multi-carousel-dot-list {
-          position: relative;
+       .react-multi-carousel-list  {
+        position: relative;
        }
+
+       .react-multi-carousel-dot-list {
+        transform: translateY(35px);
+        display: flex;
+      }
+
 
        .react-multiple-carousel__arrow{
         display: none;
@@ -1126,6 +1133,16 @@
       margin-top: 60px;
       display:flex;
       flex-direction: column;
+
+      .react-multiple-carousel__arrow {
+        display: none;
+      }
+
+      .react-multi-carousel-dot-list {
+        display: none;
+      }
+
+
       .title {
         font-size: 21px;
         font-weight: 700;
@@ -1177,7 +1194,7 @@
                 color: #FFFFFF;
             }
 
-            .sub_title {
+            .description {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
@@ -1202,13 +1219,17 @@
       }
 
       .sub_title {
+        padding-top: 6px;
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
+        color: #C1C1C1;
       }
+
+
     }
 
     .section_three {

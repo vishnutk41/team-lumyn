@@ -655,7 +655,8 @@
       min-height: 100vh;
       padding: 0px 20px;
       width:100%;
-      background-image: url('/assets/images/podcast\ hero\ banner-01.webp');
+      background-image: none;
+      // background-image: url('/assets/images/podcast\ hero\ banner-01.webp');
   
       .container{
         margin-left: auto;
@@ -666,6 +667,7 @@
       }
   
       .title{
+        display: none;
         font-family: "Poppins", serif;
         font-size: 60px;
         font-weight: 700;
@@ -681,6 +683,7 @@
       }
   
       .sub_title{
+        display: none;
         font-family: "Poppins", serif;
         padding-top: 5px;
         font-size: 24px;
@@ -694,6 +697,7 @@
       }
   
       button {
+        display: none;
         margin-top: 20px;
       }
     

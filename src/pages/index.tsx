@@ -19,7 +19,6 @@ import Carousel from "react-multi-carousel";
 //   subsets: ["latin"],
 // });
 
-
 export default function Home() {
   return (
     <>
@@ -31,330 +30,448 @@ export default function Home() {
       </Head>
       <div className="page">
         <main className="main home">
+          <div className="banner_section">
+            <NavMenuBar />
 
-
-      <div className="banner_section">
-        <NavMenuBar/>
-        
-        {/* <div className="star_container">
+            {/* <div className="star_container">
             <h2 className="title_one"> <span>LUMYN:</span> WHERE</h2>
           <Image className="star" src="/assets/svg/star.svg" width={150} height={150} alt="star" />
         </div>
 
       <h2 className="title_two">FINDS <span>LIGHT</span></h2> */}
-      <button className="primay_button">Learn More</button>
-    </div>
+            <button className="primay_button">Learn More</button>
+          </div>
 
-<div className="section_one">
-  <div className="top">
-    <h3> See how Lumyn transforms brands into industry leaders </h3>
-    <p>Watch now and ignite your success with bold strategies, creative solutions, and unmatched passion!</p>
-  </div>
-  <div className="image_container"></div>
-  <div className="bottom">
-    <div className="container">
-      <div className="item">
-        <h3>100+</h3>
-        <p>Projects Completed</p>
-      </div>
-      <div className="item">
-        <h3>50+</h3>
-        <p>Total Customers</p>
-      </div>
-      <div className="item">
-        <h3>50K+</h3>
-        <p>Dedicated Hours</p>
-      </div>
-      <div className="item">
-        <h3>4.8/5</h3>
-        <p>Customer Satisfaction</p>
-      </div>
-    </div>
-    <p className="mobile text_description">
-    Vestibulum ante ipsum primis in faucibus
-orci luctus et ultrices posuere cubilia curae;
-Vestibulum dictum congue lorem vel varius.
-    </p>
-    <button className="primay_button">Get Connect</button>
-  </div>
-</div>
+          <div className="section_one">
+            <div className="top">
+              <h3> See how Lumyn transforms brands into industry leaders </h3>
+              <p>
+                Watch now and ignite your success with bold strategies, creative
+                solutions, and unmatched passion!
+              </p>
+            </div>
+            <div className="image_container"></div>
+            <div className="bottom">
+              <div className="container">
+                <div className="item">
+                  <h3>100+</h3>
+                  <p>Projects Completed</p>
+                </div>
+                <div className="item">
+                  <h3>50+</h3>
+                  <p>Total Customers</p>
+                </div>
+                <div className="item">
+                  <h3>50K+</h3>
+                  <p>Dedicated Hours</p>
+                </div>
+                <div className="item">
+                  <h3>4.8/5</h3>
+                  <p>Customer Satisfaction</p>
+                </div>
+              </div>
+              <p className="mobile text_description">
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia curae; Vestibulum dictum congue lorem vel
+                varius.
+              </p>
+              <button className="primay_button">Get Connect</button>
+            </div>
+          </div>
 
-<div className="inter_mediate_section"> 
-  <span>*  Silent Speed, Green Adventure   *  Silent Speed, Green Adventure   *  Silent Speed, Green Adventure   *</span>
-</div>
+          <div className="inter_mediate_section">
+            <span>
+              * Silent Speed, Green Adventure * Silent Speed, Green Adventure *
+              Silent Speed, Green Adventure *
+            </span>
+          </div>
 
-<div className="section_two">
+          <div className="section_two">
+            <div className="top">
+              <h3> What We Offer </h3>
+              <p>Services Designed to Make Your Brand Unforgettable</p>
+              <p>View More</p>
+            </div>
 
-  <div className="top">
-    <h3> What We Offer </h3>
-    <p>Services Designed to Make Your Brand Unforgettable</p>
-    <p>View More</p>
-  </div>
-
-  {/* <div className="card_container">
+            {/* <div className="card_container">
 
   </div> */}
 
-  <Carousel 
-    additionalTransfrom={0}
-    arrows
-    autoPlaySpeed={3000}
-    centerMode={false}
-    className=""
-    containerClass=""
-    dotListClass=""
-    draggable
-    focusOnSelect={false}
-    infinite={true}
-    itemClass=""
-    keyBoardControl
-    minimumTouchDrag={80}
-    pauseOnHover
-    renderArrowsWhenDisabled={false}
-    renderButtonGroupOutside={false}
-    renderDotsOutside={true}
-    responsive={{
-      desktop: {
-        breakpoint: {
-          max: 3000,
-          min: 1024
-        },
-        items: 3,
-        partialVisibilityGutter: 30
-      },
-      mobile: {
-        breakpoint: {
-          max: 768,
-          min: 0
-        },
-        items: 1,
-        partialVisibilityGutter: 25
-      },
-      tablet: {
-        breakpoint: {
-          max: 1024,
-          min: 768
-        },
-        items: 2,
-        partialVisibilityGutter: 20
-      }
-    }}
-    rewind={false}
-    rewindWithAnimation={false}
-    rtl={false}
-    shouldResetAutoplay
-    showDots={true}
-    sliderClass=""
-    slidesToSlide={1}
-    swipeable
-  >
+            <Carousel
+              additionalTransfrom={0}
+              arrows
+              autoPlaySpeed={3000}
+              centerMode={false}
+              className=""
+              containerClass=""
+              dotListClass=""
+              draggable
+              focusOnSelect={false}
+              infinite={true}
+              itemClass=""
+              keyBoardControl
+              minimumTouchDrag={80}
+              pauseOnHover
+              renderArrowsWhenDisabled={false}
+              renderButtonGroupOutside={false}
+              renderDotsOutside={true}
+              responsive={{
+                desktop: {
+                  breakpoint: {
+                    max: 3000,
+                    min: 1024,
+                  },
+                  items: 3,
+                  partialVisibilityGutter: 30,
+                },
+                mobile: {
+                  breakpoint: {
+                    max: 768,
+                    min: 0,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 25,
+                },
+                tablet: {
+                  breakpoint: {
+                    max: 1024,
+                    min: 768,
+                  },
+                  items: 2,
+                  partialVisibilityGutter: 20,
+                },
+              }}
+              rewind={false}
+              rewindWithAnimation={false}
+              rtl={false}
+              shouldResetAutoplay
+              showDots={true}
+              sliderClass=""
+              slidesToSlide={1}
+              swipeable
+            >
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_1"></div>
 
-      <div className="item" style={{width:"100%"}}>
+                <div className="bottom">
+                  <h4 className="title">BrandForge</h4>
+                  <p className="sub_title">
+                    Create a memorable brand that resonates.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-01.svg"
+                        width={36}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Brand Development
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-02.svg"
+                        width={36}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Identity Design
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-03.svg"
+                        width={36}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Strategic Positioning
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        <div className="img img_1">
-        </div>
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_2"></div>
+                <div className="bottom">
+                  <h4 className="title">WebCommerce</h4>
+                  <p className="sub_title">
+                    Professional visuals that beautifully narrate your brand’s
+                    story.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-04.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      E-Commerce Solutions
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-05.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Custom Web Design
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-06.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Conversion Optimization
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        <div className="bottom">
-<h4 className="title">BrandForge</h4>
-<p className="sub_title">Create a memorable brand that resonates.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-<Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
-    Brand Development
-  </div>
-  <div className="wrapper">
-<Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
-    Identity Design
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
-    Strategic Positioning
-  </div>
-</div>
-</div>
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_3"></div>
+                <div className="bottom">
+                  <h4 className="title">ProjeXpert</h4>
+                  <p className="sub_title">
+                    Streamline projects with optimized workflows and expert
+                    management.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-10.svg"
+                        width={36}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Project Management
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-11.svg"
+                        width={36}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Workflow Optimization
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-12.svg"
+                        width={36}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Efficient Execution
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      </div>
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_4"></div>
+                <div className="bottom">
+                  <h4 className="title">CutCraft Studios</h4>
+                  <p className="sub_title">
+                    Turn ideas into engaging, impactful videos with expert
+                    editing.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-13.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Content Editing
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-14.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Video editing
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-15.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Refined Storytelling
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div className="item" style={{width:"100%"}}>
-      <div className="img img_2"></div>
-<div className="bottom">
-<h4 className="title">WebCommerce</h4>
-<p className="sub_title">Professional visuals that beautifully narrate your brand’s story.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-04.svg" width={35} height={35} alt="map-point" />
-    E-Commerce Solutions
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-05.svg" width={35} height={35} alt="map-point" />
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_5"></div>
+                <div className="bottom">
+                  <h4 className="title">MarketBlaze</h4>
+                  <p className="sub_title">
+                    Fuel business growth with targeted marketing and data-driven
+                    campaigns.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-16.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Marketing Strategies
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-17.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      SEO Campaigns
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-18.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Ad Optimization
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-    Custom Web Design
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-06.svg" width={35} height={35} alt="map-point" />
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_6"></div>
+                <div className="bottom">
+                  <h4 className="title">Customease</h4>
+                  <p className="sub_title">
+                    Experience personalized solutions with client-first
+                    innovation and support.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-19.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Custom Solutions
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-20.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Tailored Services
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-21.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Client-Centric Support
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-Conversion Optimization
-  </div>
-</div>
-</div>
-      </div>
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_7"></div>
+                <div className="bottom">
+                  <h4 className="title">SocialMuse</h4>
+                  <p className="sub_title">
+                    Grow and nurture your audience with expertly managed social
+                    platforms.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-22.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Social Media Marketing
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-23.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Content Curation
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-24.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Audience Engagement
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <div className="item" style={{ width: "100%" }}>
+                <div className="img img_8"></div>
+                <div className="bottom">
+                  <h4 className="title">InsightMedia</h4>
+                  <p className="sub_title">
+                    Navigate the ever-evolving media landscape with confidence
+                    and clarity.
+                  </p>
+                  <div className="icon_highlight">
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-25.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Data Analytics
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-26.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Performance Tracking
+                    </div>
+                    <div className="wrapper">
+                      <Image
+                        src="/assets/svg/WWO Icons-18.svg"
+                        width={35}
+                        height={35}
+                        alt="map-point"
+                      />
+                      Growth Insights
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Carousel>
 
-      <div className="item" style={{width:"100%"}}>
-   <div className="img img_3"></div>
-   <div className="bottom">
-<h4 className="title">ProjeXpert</h4>
-<p className="sub_title">Streamline projects with optimized workflows and expert management.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-10.svg" width={36} height={35} alt="map-point" />
-    Project Management
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-11.svg" width={36} height={35} alt="map-point" />
-
-    Workflow Optimization
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-12.svg" width={36} height={35} alt="map-point" />
-
-Efficient Execution
-  </div>
-</div>
-</div>
-      </div>
-
-
-      <div className="item" style={{width:"100%"}}>
-      <div className="img img_4"></div>
-      <div className="bottom">
-<h4 className="title">CutCraft Studios</h4>
-<p className="sub_title">Turn ideas into engaging, impactful videos with expert editing.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-13.svg" width={35} height={35} alt="map-point" />
-    Content Editing
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-14.svg" width={35} height={35} alt="map-point" />
-
-    Video editing
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-15.svg" width={35} height={35} alt="map-point" />
-
-Refined Storytelling
-  </div>
-</div>
-</div>
-      </div>
-
-      <div className="item" style={{width:"100%"}}>
-      <div className="img img_5"></div>
-      <div className="bottom">
-<h4 className="title">MarketBlaze</h4>
-<p className="sub_title">Fuel business growth with targeted marketing and data-driven campaigns.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-16.svg" width={35} height={35} alt="map-point" />
-    Marketing Strategies
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-17.svg" width={35} height={35} alt="map-point" />
-
-    SEO Campaigns
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-18.svg" width={35} height={35} alt="map-point" />
-
-Ad Optimization
-  </div>
-</div>
-</div>
-
-      </div>
-
-      <div className="item" style={{width:"100%"}}>
-
-      <div className="img img_6"></div>
-      <div className="bottom">
-<h4 className="title">Customease</h4>
-<p className="sub_title">Experience personalized solutions with client-first innovation and support.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-19.svg" width={35} height={35} alt="map-point" />
-    Custom Solutions
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-20.svg" width={35} height={35} alt="map-point" />
-    
-    Tailored Services
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-21.svg" width={35} height={35} alt="map-point" />
-
-Client-Centric Support
-  </div>
-</div>
-</div>
-
-      </div>
-
-      <div className="item" style={{width:"100%"}}>
-
-      <div className="img img_7"></div>
-      <div className="bottom">
-<h4 className="title">SocialMuse</h4>
-<p className="sub_title">Grow and nurture your audience with expertly managed social platforms.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-22.svg" width={35} height={35} alt="map-point" />
-    Social Media Marketing
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-23.svg" width={35} height={35} alt="map-point" />
-
-    Content Curation
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-24.svg" width={35} height={35} alt="map-point" />
-
-Audience Engagement
-  </div>
-</div>
-</div>
-
-      </div>
-
-      <div className="item" style={{width:"100%"}}>
-
-<div className="img img_8"></div>
-<div className="bottom">
-<h4 className="title">InsightMedia</h4>
-<p className="sub_title">Navigate the ever-evolving media landscape with confidence and clarity.</p>
-<div className="icon_highlight">
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-25.svg" width={35} height={35} alt="map-point" />
-    Data Analytics
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-26.svg" width={35} height={35} alt="map-point" />
-
-    Performance Tracking
-  </div>
-  <div className="wrapper">
-    <Image src="/assets/svg/WWO Icons-18.svg" width={35} height={35} alt="map-point" />
-
-Growth Insights
-  </div>
-</div>
-</div>
-
-</div>
-
-  </Carousel>
-
-{/* 
+            {/* 
   <div className="card_container_mobile">
        <Carousel 
                     additionalTransfrom={0}
@@ -417,13 +534,144 @@ Growth Insights
                   </Carousel>
 
   </div> */}
+          </div>
 
-</div>
+          <div className="section_three_mobile mobile">
+            <h3 className="title">Exclusive Highlight</h3>
+            <p className="sub_title">Experience innovation at its finest.</p>
 
-<div className="section_three_mobile mobile">
-<h3 className="title">Exclusive Highlight</h3>
-<p className="sub_title">Experience innovation at its finest.</p>
-<div className="image_container">
+            <Carousel
+              additionalTransfrom={0}
+              arrows
+              autoPlaySpeed={3000}
+              centerMode={false}
+              className=""
+              containerClass=""
+              dotListClass="slide_dot"
+              draggable
+              focusOnSelect={false}
+              infinite={true}
+              itemClass=""
+              keyBoardControl
+              minimumTouchDrag={80}
+              pauseOnHover
+              renderArrowsWhenDisabled={false}
+              renderButtonGroupOutside={true}
+              renderDotsOutside={true}
+              responsive={{
+                desktop: {
+                  breakpoint: {
+                    max: 3000,
+                    min: 1024,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 30,
+                },
+                mobile: {
+                  breakpoint: {
+                    max: 464,
+                    min: 0,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 25,
+                },
+                tablet: {
+                  breakpoint: {
+                    max: 1024,
+                    min: 464,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 20,
+                },
+              }}
+              rewind={false}
+              rewindWithAnimation={false}
+              rtl={false}
+              shouldResetAutoplay
+              showDots={true}
+              sliderClass=""
+              slidesToSlide={1}
+              swipeable
+            >
+
+
+              <div className="image_container">
+                <div className="text_container">
+                  <div className="bar">
+                    <div className="inner_bar"></div>
+                  </div>
+                  <div className="wrapper">
+                    <h3 className="title">Podcast Room</h3>
+                  <p className="description">
+                    “Professional Space for Creative Voices”
+                    <br />A state-of-the-art facility designed to produce
+                    polished and impactful podcasts.
+                  </p>
+                  <p className="number">01</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="image_container">
+                <div className="text_container">
+                  <div className="bar">
+                    <div className="inner_bar"></div>
+                  </div>
+                  <div className="wrapper">
+                  <h3 className="title">SEO Services</h3>
+                  <p className="description">
+                    “Rank Higher, Shine Brighter.”
+                    <br />
+                    Boost your search engine visibility with proven strategies
+                    that drive organic traffic.
+                  </p>
+                  <p className="number">02</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="image_container">
+                <div className="text_container">
+                  <div className="bar">
+                    <div className="inner_bar"></div>
+                  </div>
+                  <div className="wrapper">
+                  <h3 className="title">LED Panels</h3>
+                  <p className="description">
+                    “Eye-Catching Displays That Demand Attention”
+                    <br />
+                    Illuminate your brand with vibrant, high-quality LED panels
+                    designed to captivate and engage your audience.
+                  </p>
+                  <p className="number">03</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="image_container">
+                <div className="text_container">
+                  <div className="bar">
+                    <div className="inner_bar"></div>
+                  </div>
+                  <div className="wrapper">
+                  <h3 className="title">Content Creation</h3>
+                  <p className="description">
+                    “E“Compelling Stories That Convert”
+                    <br />
+                    Bring your brand’s message to life with dynamic, tailored
+                    content that connects with your audience and enhances your
+                    marketing strategy.
+                  </p>
+                  <p className="number">04</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </Carousel>
+
+            {/* <div className="image_container">
   <div className="text_container">
     <div className="bar">
       <div className="inner_bar"></div>
@@ -436,261 +684,306 @@ Growth Insights
     </div>
 
   </div>
-</div>
-</div>
+</div> */}
+          </div>
 
-<div className="section_three">
+          <div className="section_three">
+            <div className="high_light">
+              <h3 className="title">Exclusive Highlights</h3>
+              <div className="bar"></div>
+              <p className="description">
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia curae; Vestibulum dictum congue lorem vel
+                varius. Integer sollicitudin pellentesque euismod.
+              </p>
+            </div>
 
-  <div className="high_light">
-    <h3 className="title">Exclusive Highlights</h3>
-    <div className="bar"></div>
-    <p className="description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum dictum congue lorem vel varius. Integer sollicitudin pellentesque euismod.</p>
+            <div className="card">
+              <div className="image_container padding">
+                <div className="image podcast_room" />
+              </div>
 
-  </div>
+              <div className="bottom">
+                <div className="strip">
+                  <div className="con"></div>
+                </div>
+                <div className="wrapper">
+                  <h3 className="title">Podcast Room</h3>
+                  <p className="description">
+                    “Professional Space for Creative Voices”
+                    <br />A state-of-the-art facility designed to produce
+                    polished and impactful podcasts.
+                  </p>
+                  <p className="number">01</p>
+                </div>
+              </div>
+            </div>
 
-  <div className="card">
-  <div className="image_container padding">
-  <div className="image podcast_room" />
-  </div>
+            <div className="card">
+              <div className="image_container padding">
+                <div className="image seo_service" />
+              </div>
 
-  <div className="bottom">
-  <div className="strip">
-  <div className="con"></div>
-  </div>
-  <div className="wrapper">
-    <h3 className="title">Podcast Room</h3>
-    <p className="description">“Professional Space for Creative Voices”<br/>A state-of-the-art facility designed to produce polished and impactful podcasts.</p>
-    <p className="number">01</p>
-  </div>
-   </div>
-  </div>
+              <div className="bottom">
+                <div className="strip">
+                  <div className="con"></div>
+                </div>
+                <div className="wrapper">
+                  <h3 className="title">SEO Services</h3>
+                  <p className="description">
+                    “Rank Higher, Shine Brighter.”
+                    <br />
+                    Boost your search engine visibility with proven strategies
+                    that drive organic traffic.
+                  </p>
+                  <p className="number">02</p>
+                </div>
+              </div>
+            </div>
 
-  <div className="card">
-  <div className="image_container padding">
-  <div className="image seo_service" />
-  </div>
+            <div className="card">
+              <div className="image_container padding">
+                <div className="image led_panel" />
+              </div>
 
-  <div className="bottom">
-  <div className="strip">
-  <div className="con"></div>
-  </div>
-  <div className="wrapper">
-    <h3 className="title">SEO Services</h3>
-    <p className="description">“Rank Higher, Shine Brighter.”<br/>Boost your search engine visibility with proven strategies that drive organic traffic.</p>
-    <p className="number">02</p>
-  </div>
-</div>
-  </div>
+              <div className="bottom">
+                <div className="strip">
+                  <div className="con"></div>
+                </div>
+                <div className="wrapper">
+                  <h3 className="title">LED Panels</h3>
+                  <p className="description">
+                    “Eye-Catching Displays That Demand Attention”
+                    <br />
+                    Illuminate your brand with vibrant, high-quality LED panels
+                    designed to captivate and engage your audience.
+                  </p>
+                  <p className="number">03</p>
+                </div>
+              </div>
+            </div>
 
-  <div className="card">
-  <div className="image_container padding">
-  <div className="image led_panel" />
-  </div>
+            <div className="card">
+              <div className="image_container">
+                <div className="image content_creation" />
+              </div>
 
-  <div className="bottom">
-  <div className="strip">
-  <div className="con"></div>
-  </div>
-  <div className="wrapper">
-  <h3 className="title">LED Panels</h3>
-    <p className="description">“Eye-Catching Displays That Demand Attention”<br/>Illuminate your brand with vibrant, high-quality LED panels designed to captivate and engage your audience.</p>
-    <p className="number">03</p>
-  </div>
-</div>
-  </div>
+              <div className="bottom">
+                <div className="strip">
+                  <div className="con"></div>
+                </div>
+                <div className="wrapper">
+                  <h3 className="title">Content Creation</h3>
+                  <p className="description">
+                    “E“Compelling Stories That Convert”
+                    <br />
+                    Bring your brand’s message to life with dynamic, tailored
+                    content that connects with your audience and enhances your
+                    marketing strategy.
+                  </p>
+                  <p className="number">04</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <div className="card">
-  <div className="image_container">
-  <div className="image content_creation" />
-  </div>
+          <div className="section_four">
+            <div className="middle">
+              <h3 className="title">About Lumyn</h3>
+              <p className="description">
+                We believe that every brand has its own light, waiting to shine.
+                Our mission is to help you find that glow, amplify it, and let
+                it illuminate the world. Just as fireflies illuminate their
+                surroundings with effortless grace, Lumyn ignites the spark
+                within brands, helping them shine brighter, reach farther, and
+                captivate audiences with their unique stories. Every strategy,
+                campaign, and design we create is like a firefly’s
+                light—distinctive, purposeful, and unforgettable.
+              </p>
+              <button className="primay_button">Get Connect</button>
+            </div>
 
-  <div className="bottom">
-  <div className="strip">
-  <div className="con"></div>
-  </div>
-  <div className="wrapper">
-    <h3 className="title">Content Creation</h3>
-    <p className="description">“E“Compelling Stories That Convert”<br/>Bring your brand’s message to life with dynamic, tailored content that connects with your audience and enhances your marketing strategy.</p>
-    <p className="number">04</p>
-  </div>
-</div>
-  </div>
+            <div className="bottom">
+              <div className="container">
+                <div className="left"></div>
+                <div className="right">
+                  <h3 className="title">Code Crafted</h3>
+                  <p className="sub_title">
+                    Create fully personalized websites that reflect your brand’s
+                    unique identity.
+                  </p>
 
-</div>
+                  <div className="container">
+                    <div className="item">Mastermind Team</div>
+                    <div className="item">Strategic Vision</div>
+                    <div className="item">Innovative Techniques</div>
+                    <div className="item">Future-Proof Solutions</div>
+                    <div className="item">Real-Time Monitoring</div>
+                    <div className="item">Goal-Crushing Focus</div>
+                  </div>
+                  <p className="mobile text_description">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Vestibulum dictum congue
+                    lorem vel varius.
+                  </p>
+                  <button className="primay_button">Contact Us</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-<div className="section_four">
-  <div className="middle">
-    <h3 className="title">About Lumyn</h3>
-    <p className="description">We believe that every brand has its own light, waiting to shine. Our mission is to help you find that glow, amplify it, and let it illuminate the world. Just as fireflies illuminate their surroundings with effortless grace, Lumyn ignites the spark within brands, helping them shine brighter, reach farther, and captivate audiences with their unique stories. Every strategy, campaign, and design we create is like a firefly’s light—distinctive, purposeful, and unforgettable.</p>
-    <button className="primay_button">Get Connect</button>
-  </div>
+          <div className="section_five">
+            <div className="top">
+              <h3>
+                {" "}
+                What's New?
+                <br />
+                Check Out Our Blog
+              </h3>
+              <p>
+                From fresh ideas to trending topics, our blog covers it all.
+              </p>
+            </div>
 
-  <div className="bottom">
-    <div className="container">
-      <div className="left">
-        
-      </div>
-      <div className="right">
-        <h3 className="title">Code Crafted</h3>
-        <p className="sub_title">Create fully personalized websites that reflect your brand’s unique identity.</p>
+            <div className="card_container">
+              <div className="card">
+                <div className="bottom">
+                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <h4 className="title">
+                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
+                    lacinia.
+                  </h4>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bottom">
+                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <h4 className="title">
+                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
+                    lacinia.
+                  </h4>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bottom">
+                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <h4 className="title">
+                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
+                    lacinia.
+                  </h4>
+                </div>
+              </div>
+            </div>
 
-        <div className="container">
-          <div className="item">Mastermind Team</div>
-          <div className="item">Strategic Vision</div>
-          <div className="item">Innovative Techniques</div>
-          <div className="item">Future-Proof Solutions</div>
-          <div className="item">Real-Time Monitoring</div>
-          <div className="item">Goal-Crushing Focus</div>
-        </div>
-        <p className="mobile text_description">
-    Vestibulum ante ipsum primis in faucibus
-orci luctus et ultrices posuere cubilia curae;
-Vestibulum dictum congue lorem vel varius.
-    </p>
-        <button className="primay_button">Contact Us</button>
-      </div>
-    </div>
-  </div>
-</div>
+            <Carousel
+              additionalTransfrom={0}
+              arrows
+              autoPlaySpeed={3000}
+              centerMode={false}
+              className=""
+              containerClass=""
+              dotListClass="slide_dot"
+              draggable
+              focusOnSelect={false}
+              infinite={true}
+              itemClass=""
+              keyBoardControl
+              minimumTouchDrag={80}
+              pauseOnHover
+              renderArrowsWhenDisabled={false}
+              renderButtonGroupOutside={true}
+              renderDotsOutside={true}
+              responsive={{
+                desktop: {
+                  breakpoint: {
+                    max: 3000,
+                    min: 1024,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 30,
+                },
+                mobile: {
+                  breakpoint: {
+                    max: 464,
+                    min: 0,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 25,
+                },
+                tablet: {
+                  breakpoint: {
+                    max: 1024,
+                    min: 464,
+                  },
+                  items: 1,
+                  partialVisibilityGutter: 20,
+                },
+              }}
+              rewind={false}
+              rewindWithAnimation={false}
+              rtl={false}
+              shouldResetAutoplay
+              showDots={true}
+              sliderClass=""
+              slidesToSlide={1}
+              swipeable
+            >
+              <div className="card">
+                <div className="bottom">
+                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <h4 className="title">
+                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
+                    lacinia.
+                  </h4>
+                  <a className="view_more"> View more </a>
+                </div>
+              </div>
 
-<div className="section_five">
-  <div className="top">
-    <h3> What's New?<br/>Check Out Our Blog</h3>
-    <p>From fresh ideas to trending topics, our blog covers it all.</p>
-  </div>
+              <div className="card">
+                <div className="bottom">
+                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <h4 className="title">
+                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
+                    lacinia.
+                  </h4>
+                  <a className="view_more"> View more </a>
+                </div>
+              </div>
 
-  <div className="card_container">
-    <div className="card">
-      <div className="bottom">
-        <p className="sub_title">By Admin | 42 Comments</p>
-        <h4 className="title">Etiam semper nibh et pellentesque vulputate. Phasellua ut lacinia.</h4>
-      </div>
-    </div>
-    <div className="card">
-      <div className="bottom">
-        <p className="sub_title">By Admin | 42 Comments</p>
-        <h4 className="title">Etiam semper nibh et pellentesque vulputate. Phasellua ut lacinia.</h4>
-      </div>
-    </div>
-    <div className="card">
-      <div className="bottom">
-        <p className="sub_title">By Admin | 42 Comments</p>
-        <h4 className="title">Etiam semper nibh et pellentesque vulputate. Phasellua ut lacinia.</h4>
-      </div>
-    </div>
-  </div>
+              <div className="card">
+                <div className="bottom">
+                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <h4 className="title">
+                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
+                    lacinia.
+                  </h4>
+                  <a className="view_more"> View more </a>
+                </div>
+              </div>
+            </Carousel>
+          </div>
 
-                    <Carousel 
-                      additionalTransfrom={0}
-                      arrows
-                      autoPlaySpeed={3000}
-                      centerMode={false}
-                      className=""
-                      containerClass=""
-                      dotListClass="slide_dot"
-                      draggable
-                      focusOnSelect={false}
-                      infinite={true}
-                      itemClass=""
-                      keyBoardControl
-                      minimumTouchDrag={80}
-                      pauseOnHover
-                      renderArrowsWhenDisabled={false}
-                      renderButtonGroupOutside={true}
-                      renderDotsOutside={true}
-                      responsive={{
-                        desktop: {
-                          breakpoint: {
-                            max: 3000,
-                            min: 1024
-                          },
-                          items: 1,
-                          partialVisibilityGutter: 30
-                        },
-                        mobile: {
-                          breakpoint: {
-                            max: 464,
-                            min: 0
-                          },
-                          items: 1,
-                          partialVisibilityGutter: 25
-                        },
-                        tablet: {
-                          breakpoint: {
-                            max: 1024,
-                            min: 464
-                          },
-                          items: 1,
-                          partialVisibilityGutter: 20
-                        }
-                      }}
-                      rewind={false}
-                      rewindWithAnimation={false}
-                      rtl={false}
-                      shouldResetAutoplay
-                      showDots={true}
-                      sliderClass=""
-                      slidesToSlide={1}
-                      swipeable
-                    >
+          <div className="section_six">
+            <h3 className="title">
+              We've made our presence <br /> known across the globe{" "}
+            </h3>
 
-   <div className="card">
-      <div className="bottom">
-        <p className="sub_title">By Admin | 42 Comments</p>
-        <h4 className="title">Etiam semper nibh et pellentesque vulputate. Phasellua ut lacinia.</h4>
-        <a className="view_more"> View more </a>
-      </div>
-    </div>
-
-    <div className="card">
-      <div className="bottom">
-        <p className="sub_title">By Admin | 42 Comments</p>
-        <h4 className="title">Etiam semper nibh et pellentesque vulputate. Phasellua ut lacinia.</h4>
-        <a className="view_more"> View more </a>
-      </div>
-    </div>
-
-    <div className="card">
-      <div className="bottom">
-        <p className="sub_title">By Admin | 42 Comments</p>
-        <h4 className="title">Etiam semper nibh et pellentesque vulputate. Phasellua ut lacinia.</h4>
-        <a className="view_more"> View more </a>
-      </div>
-    </div>
-
-                    </Carousel>
-</div>
-
-<div className="section_six">
-
-  <h3 className="title" >We've made our presence <br/> known across the globe </h3>
-
-  <div className="container">
-      <div className="item">
-
-       </div>
-       <div className="item">
-      
-      </div>
-      <div className="item">
-      
-      </div>
-      <div className="item">
-      
-      </div>
-  </div>
-
-</div>
-
+            <div className="container">
+              <div className="item"></div>
+              <div className="item"></div>
+              <div className="item"></div>
+              <div className="item"></div>
+            </div>
+          </div>
         </main>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
 }
 
-
-{/* <div className={style.banner_section}>
+{
+  /* <div className={style.banner_section}>
 <NavMenuBar/>
 <h2 className={style.title_one}>LUMYN: WHERE YOUR</h2>
 <h2 className={style.title_two}>FINDS ITS LIGHT</h2>
@@ -824,9 +1117,11 @@ Learn More
 
 <div className={style.section_three}>
 
-</div> */}
+</div> */
+}
 
-{/* <div className={style.section_description}>
+{
+  /* <div className={style.section_description}>
 
 <div className={style.item}>
 <div className={style.strip}>
@@ -969,5 +1264,5 @@ Bring your brand’s message to life with dynamic, tailored content that connect
       </div>
     </div>
   </div>
-</div> */}
-
+</div> */
+}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Footer = () =>(
 <footer className="footer">
@@ -48,18 +49,19 @@ export const Footer = () =>(
           </div>
         </div>
 
+
         <div className="link_container">
           <div className="main_menu">
             <h4>Main Menu</h4>
-            <a>Podcast</a>
-            <a>Shop</a>
+            <Link href={'/podcast'}>Podcast</Link>
+            <Link href={'/products'}>Shop</Link>
           </div>
 
           <div className="useful_links">
             <h4>Useful links</h4>
-            <a>Contact Us</a>
-            <a>FAQ</a>
-            <a>Blog</a>
+            <Link href={'/contact-us'}>Contact Us</Link>
+            <Link href={'/frequently-asked-questions'}>FAQ</Link>
+            <Link href={'/blogs'}>Blog</Link>
           </div>
         </div>
       </div>
