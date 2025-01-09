@@ -29,7 +29,7 @@ export const Footer = () =>(
 
           <div>
             <Image
-              src="/assets/svg/location.svg"
+              src="/assets/svg/mobile.svg"
               alt="shop icon"
               width={20}
               height={20}
@@ -39,7 +39,7 @@ export const Footer = () =>(
 
           <div>
             <Image
-              src="/assets/svg/location.svg"
+              src="/assets/svg/globe.svg"
               alt="shop icon"
               width={20}
               height={20}
@@ -94,6 +94,12 @@ export const Footer = () =>(
           />
           <Image
             src="/assets/svg/twitter.svg"
+            alt="twitter-logo"
+            width={20}
+            height={20}
+          />
+            <Image
+            src="/assets/svg/linkedin.svg"
             alt="twitter-logo"
             width={20}
             height={20}

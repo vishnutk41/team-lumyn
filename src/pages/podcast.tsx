@@ -3,6 +3,8 @@ import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
 import Rating from "@/component/rating";
 
+import Carousel from "react-multi-carousel";
+
 export default function Podcast() {
   return (
     <>
@@ -18,16 +20,16 @@ export default function Podcast() {
             <NavMenuBar />
 
             <div className="container">
-              <h3 className="title"></h3>
-              <p className="title"></p>
-              <button></button>
+              <h3 className="title">YOUR VOICE , <span>YOUR STORY</span> <br/> <span>WITH LUMYN </span>PODCAST ROOMS</h3>
+              <p className="sub_title">Maecenas sit amet ultrices metus. Nunc efficitur ex metus, ut tristique diam suscipit sodales. Nullam dapibus a nisl pretium id.</p>
+              <button className="primay_button">Book Today</button>
             </div>
           </div>
 
           <div className="section_one">
             <div className="wrapper">
               <div className="amplify_your_voice">
-                <h3 className="title">Ready to Amplify Your Voice?</h3>
+                <h3 className="title">Ready to <span>Amplify</span> Your Voice?</h3>
               </div>
 
               <div className="container">
@@ -35,6 +37,10 @@ export default function Podcast() {
                 <p className="sub_title">
                   Book & start creating content that makes an impact
                 </p>
+
+                <div className="amplify_your_voice_mobile mobile">
+                <h3 className="title">Ready to <span>Amplify</span> Your Voice?</h3>
+                </div>
 
                 <div className="card_container">
                   <div className="card">
@@ -56,6 +62,74 @@ export default function Podcast() {
                     </div>
                   </div>
                 </div>
+
+                  <Carousel 
+                    additionalTransfrom={0}
+                    arrows
+                    autoPlaySpeed={3000}
+                    centerMode={false}
+                    className=""
+                    containerClass=""
+                    dotListClass="slide_dot"
+                    draggable
+                    focusOnSelect={false}
+                    infinite={true}
+                    itemClass=""
+                    keyBoardControl
+                    minimumTouchDrag={80}
+                    pauseOnHover
+                    renderArrowsWhenDisabled={false}
+                    renderButtonGroupOutside={true}
+                    renderDotsOutside={true}
+                    responsive={{
+                      desktop: {
+                        breakpoint: {
+                          max: 3000,
+                          min: 1024
+                        },
+                        items: 1,
+                        partialVisibilityGutter: 30
+                      },
+                      mobile: {
+                        breakpoint: {
+                          max: 464,
+                          min: 0
+                        },
+                        items: 1,
+                        partialVisibilityGutter: 25
+                      },
+                      tablet: {
+                        breakpoint: {
+                          max: 1024,
+                          min: 464
+                        },
+                        items: 1,
+                        partialVisibilityGutter: 20
+                      }
+                    }}
+                    rewind={false}
+                    rewindWithAnimation={false}
+                    rtl={false}
+                    shouldResetAutoplay
+                    showDots={true}
+                    sliderClass=""
+                    slidesToSlide={1}
+                    swipeable
+                  >
+                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'red'}}>
+
+                    </div>
+                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'yellow'}}>
+
+                    </div>
+                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'orange'}}>
+                      
+                    </div>
+
+
+                  </Carousel>
+
+
               </div>
             </div>
 

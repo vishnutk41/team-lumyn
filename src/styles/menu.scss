@@ -48,7 +48,10 @@
       }
   
       .menu_icon {
+        display:flex;
+        flex-direction: row;
         width: fit-content;
+        gap: 30px;
       }
       
     }
@@ -63,4 +66,92 @@
       position: absolute;
     }
     
+  }
+
+  @media (max-width: 480px) {
+    /* Styles for small phones */
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles for phones */
+    .menu_bar {
+      margin-top: 10px;
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    
+      .menu_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 20px;
+        width: 100%;
+        position: relative;
+    
+        .menu_nav {
+          width: fit-content;
+          display: none;
+    
+          a {
+            margin-right: 30px;
+             font-family: "Poppins", serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #ffffff8a;
+            cursor: pointer;
+          }
+  
+        
+  
+          a:hover{
+            color: #00ed85;
+          }
+  
+          .active {
+            color: #00ed85 !important;
+          }
+    
+          a:not(:last-child) { margin-right: 30px; }
+    
+        }
+    
+        .menu_icon {
+          margin-left: auto;
+          width: fit-content;
+        }
+        
+      }
+      
+    
+      .logo_container {
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        justify-items: left;
+        justify-self: left;
+        position: absolute;
+
+        img{
+          transform: translateX(-40px);
+        }
+      }
+      
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    /* Styles for desktops */
   }

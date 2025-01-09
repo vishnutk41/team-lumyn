@@ -34,15 +34,15 @@ export default function Home() {
 
 
         <div className="banner_section">
-  <NavMenuBar/>
-  <div className="star_container">
-      <h2 className="title_one"> <span>LUMYN:</span> WHERE</h2>
-    <Image className="star" src="/assets/svg/star.svg" width={150} height={150} alt="star" />
-  </div>
+        <NavMenuBar/>
+        <div className="star_container">
+            <h2 className="title_one"> <span>LUMYN:</span> WHERE</h2>
+          <Image className="star" src="/assets/svg/star.svg" width={150} height={150} alt="star" />
+        </div>
 
-  <h2 className="title_two">FINDS <span>LIGHT</span></h2>
-  <button >Learn More</button>
-</div>
+      <h2 className="title_two">FINDS <span>LIGHT</span></h2>
+      <button >Learn More</button>
+    </div>
 
 <div className="section_one">
   <div className="top">
@@ -69,6 +69,11 @@ export default function Home() {
         <p>Customer Satisfaction</p>
       </div>
     </div>
+    <p className="mobile text_description">
+    Vestibulum ante ipsum primis in faucibus
+orci luctus et ultrices posuere cubilia curae;
+Vestibulum dictum congue lorem vel varius.
+    </p>
     <button className="primay_button">Get Connect</button>
   </div>
 </div>
@@ -79,12 +84,14 @@ export default function Home() {
 
 <div className="section_two">
   <div className="top">
-
     <h3> What We Offer </h3>
     <p>Services Designed to Make Your Brand Unforgettable</p>
+    <p>View More</p>
   </div>
 
-  <div className="card_container">
+  {/* <div className="card_container">
+
+  </div> */}
 
   <Carousel 
     additionalTransfrom={0}
@@ -139,253 +146,111 @@ export default function Home() {
     slidesToSlide={1}
     swipeable
   >
-    <div className="card" >
-        <div className="overlay">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-      <Image className="background-img" src="/assets/images/BrandForge.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">BrandForge</h4>
-        <p className="sub_title">Create a memorable brand that resonates.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
-            Brand Development
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
-            Identity Design
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
-            Strategic Positioning
-          </div>
-        </div>
+
+      <div className="item img_1" style={{width:"100%",height:'500px'}}>
+
       </div>
-    </div>
-               
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-       <Image className="background-img" src="/assets/images/WebCommerce.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">WebCommerce</h4>
-        <p className="sub_title">Professional visuals that beautifully narrate your brand’s story.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-04.svg" width={35} height={35} alt="map-point" />
-            E-Commerce Solutions
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-05.svg" width={35} height={35} alt="map-point" />
-        
-            Custom Web Design
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-06.svg" width={35} height={35} alt="map-point" />
+      <div className="item" style={{width:"100%",height:'500px',backgroundColor:'yellow'}}>
 
-Conversion Optimization
-          </div>
-        </div>
       </div>
-    </div>
+      <div className="item" style={{width:"100%",height:'500px',backgroundColor:'orange'}}>
 
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-    <Image className="background-img" src="/assets/images/LensCraft Studios.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">LensCraft Studios</h4>
-        <p className="sub_title">Professional visuals that beautifully narrate your brand’s story.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-07.svg" width={36} height={35} alt="map-point" />
-            Creative Visuals
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-08.svg" width={36} height={35} alt="map-point" />
-      
-            Video Production
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-09.svg" width={36} height={35} alt="map-point" />
-
-Photography
-
-          </div>
-        </div>
       </div>
-    </div>
+      <div className="item" style={{width:"100%",height:'500px',backgroundColor:'blue'}}>
 
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-    <Image className="background-img" src="/assets/images/ProjeXpert.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">ProjeXpert</h4>
-        <p className="sub_title">Streamline projects with optimized workflows and expert management.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-10.svg" width={36} height={35} alt="map-point" />
-            Project Management
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-11.svg" width={36} height={35} alt="map-point" />
-
-            Workflow Optimization
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-12.svg" width={36} height={35} alt="map-point" />
-
-Efficient Execution
-          </div>
-        </div>
       </div>
-    </div>
+      <div className="item" style={{width:"100%",height:'500px',backgroundColor:'black'}}>
 
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-    <Image className="background-img" src="/assets/images/CutCraft Studios.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">CutCraft Studios</h4>
-        <p className="sub_title">Turn ideas into engaging, impactful videos with expert editing.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-13.svg" width={35} height={35} alt="map-point" />
-            Content Editing
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-14.svg" width={35} height={35} alt="map-point" />
-
-            Video editing
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-15.svg" width={35} height={35} alt="map-point" />
- 
-Refined Storytelling
-          </div>
-        </div>
       </div>
-    </div>
-               
-    <div className="card">
-    <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-    </div>
-    <Image className="background-img" src="/assets/images/MarketBlaze.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">MarketBlaze</h4>
-        <p className="sub_title">Fuel business growth with targeted marketing and data-driven campaigns.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-16.svg" width={35} height={35} alt="map-point" />
-            Marketing Strategies
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-17.svg" width={35} height={35} alt="map-point" />
+      <div className="item" style={{width:"100%",height:'500px',backgroundColor:'white'}}>
 
-            SEO Campaigns
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-18.svg" width={35} height={35} alt="map-point" />
-
-Ad Optimization
-          </div>
-        </div>
       </div>
-    </div>
-
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-        <Image className="background-img" src="/assets/images/Customease.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">Customease</h4>
-        <p className="sub_title">Experience personalized solutions with client-first innovation and support.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-19.svg" width={35} height={35} alt="map-point" />
-            Custom Solutions
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-20.svg" width={35} height={35} alt="map-point" />
-            
-            Tailored Services
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-21.svg" width={35} height={35} alt="map-point" />
-
-Client-Centric Support
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-    <Image className="background-img" src="/assets/images/SocialMuse.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">SocialMuse</h4>
-        <p className="sub_title">Grow and nurture your audience with expertly managed social platforms.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-22.svg" width={35} height={35} alt="map-point" />
-            Social Media Marketing
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-23.svg" width={35} height={35} alt="map-point" />
-  
-            Content Curation
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-24.svg" width={35} height={35} alt="map-point" />
-
-Audience Engagement
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="card">
-        <div className="overlay ">
-            <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
-        </div>
-      <Image className="background-img" src="/assets/images/InsightMedia.webp" width={521} height={522} alt="image" />
-      <div className="bottom">
-        <h4 className="title">InsightMedia</h4>
-        <p className="sub_title">Navigate the ever-evolving media landscape with confidence and clarity.</p>
-        <div className="icon_highlight">
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-25.svg" width={35} height={35} alt="map-point" />
-            Data Analytics
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-26.svg" width={35} height={35} alt="map-point" />
-
-            Performance Tracking
-          </div>
-          <div className="wrapper">
-            <Image src="/assets/svg/WWO Icons-18.svg" width={35} height={35} alt="map-point" />
-
-Growth Insights
-          </div>
-        </div>
-      </div>
-    </div>
-
 
   </Carousel>
 
-  </div>
+{/* 
+  <div className="card_container_mobile">
+       <Carousel 
+                    additionalTransfrom={0}
+                    arrows
+                    autoPlaySpeed={3000}
+                    centerMode={false}
+                    className=""
+                    containerClass=""
+                    dotListClass="slide_dot"
+                    draggable
+                    focusOnSelect={false}
+                    infinite={true}
+                    itemClass=""
+                    keyBoardControl
+                    minimumTouchDrag={80}
+                    pauseOnHover
+                    renderArrowsWhenDisabled={false}
+                    renderButtonGroupOutside={true}
+                    renderDotsOutside={true}
+                    responsive={{
+                      desktop: {
+                        breakpoint: {
+                          max: 3000,
+                          min: 1024
+                        },
+                        items: 1,
+                        partialVisibilityGutter: 30
+                      },
+                      mobile: {
+                        breakpoint: {
+                          max: 464,
+                          min: 0
+                        },
+                        items: 1,
+                        partialVisibilityGutter: 25
+                      },
+                      tablet: {
+                        breakpoint: {
+                          max: 1024,
+                          min: 464
+                        },
+                        items: 1,
+                        partialVisibilityGutter: 20
+                      }
+                    }}
+                    rewind={false}
+                    rewindWithAnimation={false}
+                    rtl={false}
+                    shouldResetAutoplay
+                    showDots={true}
+                    sliderClass=""
+                    slidesToSlide={1}
+                    swipeable
+                  >
+                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'red'}}></div>
+                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'yellow'}}></div>
+                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'orange'}}></div>
 
+
+                  </Carousel>
+
+  </div> */}
+
+</div>
+
+<div className="section_three_mobile mobile">
+<h3 className="title">Exclusive Highlight</h3>
+<p className="sub_title">Experience innovation at its finest.</p>
+<div className="image_container">
+  <div className="text_container">
+    <div className="bar">
+      <div className="inner_bar"></div>
+    </div>
+    <div className="wrapper">
+      <h4 className="title">Anti-Theft Measures</h4>
+      <p className="sub_title">Nam aliquet ante ac nulla dignissim, nec
+      tempus mi auctor. Aliqcc umsan eu.</p>
+      <p className="number">01</p>
+    </div>
+
+  </div>
+</div>
 </div>
 
 <div className="section_three">
@@ -491,6 +356,11 @@ Growth Insights
           <div className="item">Real-Time Monitoring</div>
           <div className="item">Goal-Crushing Focus</div>
         </div>
+        <p className="mobile text_description">
+    Vestibulum ante ipsum primis in faucibus
+orci luctus et ultrices posuere cubilia curae;
+Vestibulum dictum congue lorem vel varius.
+    </p>
         <button className="primay_button">Contact Us</button>
       </div>
     </div>
@@ -833,3 +703,4 @@ Bring your brand’s message to life with dynamic, tailored content that connect
     </div>
   </div>
 </div> */}
+
