@@ -8,26 +8,28 @@ export const NavMenuBar = () =>{
 
   const [active,setActive] = useState('/')
 
-  useEffect(() => {  if (typeof window !== 'undefined') { 
+  useEffect(() => { 
+    if(open){
+      document.body.style.overflow = 'hidden'
+    }else{
+      document.body.style.overflow = 'auto'
+    }
+    // open ? document.body.style.overflow = 'hidden' :  document.body.style.overflow = 'auto';
+    if (typeof window !== 'undefined') { 
     const currentPath = window.location.pathname; 
     setActive(currentPath)
-  } }, [open]);
-
-
+  } 
+}, [open]);
 
 
   
 
-  useEffect(() => {  if (typeof window !== 'undefined') { 
-   window.addEventListener('scroll',(e)=>{
-    console.log("asdf")
-   }); 
-  } }, [open]);
 
   if(open){
 
+
     return (
-      <div className="mobile mobile_menu">
+  <div className="mobile mobile_menu">
     <div className="close"  onClick={()=>{setOpen(false)}}>
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M0.97691 20.0035C0.783705 20.0035 0.594829 19.9463 0.434174 19.8389C0.273518 19.7316 0.148301 19.5791 0.0743596 19.4006C0.000418397 19.2221 -0.0189244 19.0257 0.0187779 18.8362C0.0564802 18.6467 0.149534 18.4726 0.286168 18.336L18.3361 0.286114C18.5193 0.102918 18.7677 0 19.0268 0C19.2859 0 19.5344 0.102918 19.7176 0.286114C19.9008 0.46931 20.0037 0.717778 20.0037 0.976856C20.0037 1.23593 19.9008 1.4844 19.7176 1.6676L1.66765 19.7175C1.57703 19.8083 1.46935 19.8803 1.35081 19.9294C1.23227 19.9785 1.10521 20.0037 0.97691 20.0035Z" fill="white"/>
@@ -40,6 +42,7 @@ export const NavMenuBar = () =>{
           <Link href={'/blogs'}  className={`${active ==  '/blogs' ? 'active':''}`}> Blog </Link>
       </div>
     )
+
   }else{
 
     return (

@@ -153,8 +153,9 @@
               display: flex;
               flex-direction:column ;
               padding: 20px;
-              border: 1px solid #00ed85;
+              
               background-color: var(--magenta-600);
+              border: 1px solid #00ed85;
               box-shadow: 0px 0px 18px 0px #00ed85 inset;
               height: 150px;
               width: 100%;
@@ -467,7 +468,7 @@
     gap: 8px;
     span {
      background-color: var(--background_color_seven);
-     border: 1px solid #884EAA;
+     border: 1px solid #00E782;
      width: fit-content;
      padding: 8px 12px;
      border-radius: 19px;
@@ -481,10 +482,9 @@
     }
   }
   button {
-    background: linear-gradient(237.89deg, #884EAA 22.1%, #6B4ACA 84.17%);
     box-shadow: 0px 0px 44px 0px #171717;
     margin-top: 60px;
-    color:var(--text_color_one)
+    // color:var(--text_color_one)
   }
   }
   
@@ -591,8 +591,8 @@
       width: 100%;
       height: 300px;
       border-radius: 20px;
-      border: 1px solid #884EAA;
-      box-shadow: 0px 0px 18px 0px #884EAA80 inset;
+      border: 1px solid #00ed85;
+      box-shadow: 0px 0px 18px 0px #00ed85 inset;
   
       .part_one {
         display: flex;
@@ -804,11 +804,11 @@
               flex-direction: column;
               width: 100%;
               height: 500px;
-              border: 1px solid #884EAA;
               background-color: var(--gray-200);
               border-radius: 8px;
               position: relative;
-              box-shadow: 0px 0px 18px 0px #884EAA80 inset;
+              border: 1px solid #00ed85;
+              box-shadow: 0px 0px 18px 0px #00ed85 inset;
       
       
               /* .image_container {
@@ -1327,8 +1327,8 @@ text-decoration-skip-ink: none;
         height: fit-content;
         border-radius: 20px;
         border-style: none;
-        border: 0px solid #884EAA;
-        box-shadow: 0px 0px 0px 0px #884EAA80 inset;
+        border: 1px solid #00ed85;
+        box-shadow: 0px 0px 18px 0px #00ed85 inset;
     
         .part_one {
           display: flex;
