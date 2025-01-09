@@ -37,7 +37,6 @@ body {
   margin: 0;
   cursor: default;
 }
-svg { pointer-events: none; }
 
 body {
   color: var(--foreground);
@@ -65,7 +64,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--button-primay-background);
+    background: rgb(0,90,85);
+    background: linear-gradient(270deg, rgba(0,90,85,1) 0%, rgba(0,115,93,1) 17%, rgba(0,236,132,1) 100%);
     width: 156px;
     height: 45px;
     border-radius: 45px;

@@ -116,14 +116,21 @@ export default function Podcast() {
                     slidesToSlide={1}
                     swipeable
                   >
-                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'red'}}>
+                    <div className="item">
+                      <div className="bottom">
+                        <span>NovaVision Glasses Pro 2</span>
+                      </div>
 
                     </div>
-                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'yellow'}}>
-
+                    <div className="item" >
+                    <div className="bottom">
+                        <span>NovaVision Glasses Pro 2</span>
+                      </div>
                     </div>
-                    <div className="item" style={{width:"100%",height:'500px',backgroundColor:'orange'}}>
-                      
+                    <div className="item" >
+                    <div className="bottom">
+                        <span>NovaVision Glasses Pro 2</span>
+                      </div>
                     </div>
 
 
@@ -131,6 +138,7 @@ export default function Podcast() {
 
 
               </div>
+
             </div>
 
             <div className="offer_container">
@@ -212,8 +220,11 @@ export default function Podcast() {
                 </p>
                 <div className="container">
                   <div className="item"></div>
+                  <div className="item"></div>
+                  <div className="item"></div>
+                  <div className="item"></div>
                 </div>
-                <button className="secondary_button">Book Today</button>
+                <button className="primay_button">Book Today</button>
               </div>
             </div>
 
@@ -272,13 +283,33 @@ export default function Podcast() {
           <div className="section_seven">
             <div className="container">
               <div className="part_one">
+                {/* <div className="column">
+                  <div className="item"></div>
+                  <div className="item"></div>
+                  <div className="item"></div>
+                </div>
                 <div className="column"></div>
-                <div className="column"></div>
-                <div className="column"></div>
+                <div className="column"></div> */}
               </div>
 
               <div className="part_two">
                 <h3 className="title">Follow Us @Teamlumyn</h3>
+                <div className="team mobile">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clipPath="url(#clip0_4168_216)">
+<path d="M15.8964 32.9288H7.82349C7.82349 28.4441 4.25662 24.7927 -0.131226 24.7927V16.5356C8.70666 16.5356 15.8964 23.8894 15.8964 32.9288Z" fill="#00EC84"/>
+<path d="M23.8542 32.9288H15.7813C15.7813 23.8894 22.971 16.5356 31.8089 16.5356V24.7927C27.4242 24.7927 23.8542 28.4409 23.8542 32.9288Z" fill="#00EC84"/>
+<path d="M31.8089 16.6691C22.971 16.6691 15.7813 9.31534 15.7813 0.275879H23.8542C23.8542 4.76062 27.4211 8.41203 31.8089 8.41203V16.6691Z" fill="#00EC84"/>
+<path d="M-0.131226 16.6691V8.41203C4.25351 8.41203 7.82349 4.7638 7.82349 0.275879H15.8964C15.8964 9.31534 8.70666 16.6691 -0.131226 16.6691Z" fill="#00EC84"/>
+</g>
+<defs>
+<clipPath id="clip0_4168_216">
+<rect width="32" height="33" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+<p className="lumyn_text">@Team Lumyn</p>
+                </div>
               </div>
             </div>
           </div>
