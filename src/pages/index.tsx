@@ -33,15 +33,16 @@ export default function Home() {
         <main className="main home">
 
 
-        <div className="banner_section">
+      <div className="banner_section">
         <NavMenuBar/>
-        <div className="star_container">
+        
+        {/* <div className="star_container">
             <h2 className="title_one"> <span>LUMYN:</span> WHERE</h2>
           <Image className="star" src="/assets/svg/star.svg" width={150} height={150} alt="star" />
         </div>
 
-      <h2 className="title_two">FINDS <span>LIGHT</span></h2>
-      <button >Learn More</button>
+      <h2 className="title_two">FINDS <span>LIGHT</span></h2> */}
+      <button className="primay_button">Learn More</button>
     </div>
 
 <div className="section_one">

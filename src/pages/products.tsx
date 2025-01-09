@@ -26,7 +26,7 @@ export default function Products() {
                     <span className={"active"}>Product Details</span>
                 </div>
                 <div className="container">
-                    <div className="part_one">
+                   
 
   <Carousel 
     additionalTransfrom={0}
@@ -76,73 +76,198 @@ export default function Products() {
     rewindWithAnimation={false}
     rtl={false}
     shouldResetAutoplay
-    showDots={false}
+    showDots={true}
     sliderClass=""
     slidesToSlide={1}
     swipeable
   >
 
-  <div >
-    <div className="image_container" >
+      <div className="slide_container">
 
-    </div>
-    <div className="discription">
-    <p className="content">
-        At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
-        </p>
-    </div>
-  </div>
+      <div className="part_one">
+        <div className="image_container" >
 
-  <div >
-    <div className="image_container">
-
-    </div>
-    <div className="discription">
-
+        </div>
+        <div className="discription">
         <p className="content">
-        At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
-        </p>
+            At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
+            </p>
+        </div>
+      </div>
 
+      <div className="part_two">
+
+    <h3 className="title"> Corporate Branding </h3>
+    <p className="sub_title"> Create a Brand That Stands the Test of Time! </p>
+
+          <div className="icon_highlight">
+              <div className="wrapper">
+                <Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
+                Brand Development
+              </div>
+              <div className="wrapper">
+                <Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
+                Identity Design
+              </div>
+              <div className="wrapper">
+                <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
+                Strategic Positioning
+              </div>
+            </div>
+
+            <div className="container_text">
+                <div className="item">Mastermind Team</div>
+                <div className="item">Strategic Vision</div>
+                <div className="item">Innovative Techniques</div>
+                <div className="item">Future-Proof Solutions</div>
+                <div className="item">Real-Time Monitoring</div>
+                <div className="item">Goal-Crushing Focus</div>
+            </div>
+
+            <p className="extra_descirption mobile">
+              Vestibulum ante ipsum primis in
+              faucibus orci luctus ultrices posuere
+              cubilia curae; Vestibulum dictum
+            </p>
+
+            <button className="primay_button">
+            Contact Us
+            </button>
+      </div>
+
+      <div className="discription_mobile mobile">
+              <h3 className="title">Description</h3>
+              <p className="content">
+              At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
+              </p>
+              <div className="bottom">
+                <div className="wrapper">
+                <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.1965 10.6924C19.1413 10.6646 19.086 10.6507 19.0302 10.6507C18.9102 10.6507 18.8045 10.6967 18.7123 10.7891L17.8271 11.6741C17.7444 11.7572 17.7028 11.8585 17.7028 11.9785V15.4911C17.7028 16.0998 17.4866 16.6205 17.053 17.0541C16.6196 17.4874 16.0986 17.704 15.49 17.704H3.98315C3.37453 17.704 2.85354 17.4874 2.42023 17.0541C1.98683 16.6206 1.77025 16.0999 1.77025 15.4911V3.9845C1.77025 3.37597 1.98683 2.85503 2.42023 2.42158C2.85354 1.98822 3.37453 1.77159 3.98315 1.77159H15.4901C15.693 1.77159 15.9004 1.79925 16.1125 1.85462C16.1678 1.87293 16.2093 1.88228 16.2366 1.88228C16.3567 1.88228 16.4627 1.83631 16.5549 1.74412L17.2326 1.06643C17.3431 0.955933 17.3848 0.822137 17.3569 0.665526C17.3292 0.517973 17.2461 0.411886 17.1078 0.347411C16.6103 0.117217 16.0706 0.00158691 15.4898 0.00158691H3.98315C2.88595 0.00158691 1.94774 0.391153 1.1686 1.17029C0.389567 1.94952 0 2.88759 0 3.98483V15.4918C0 16.5888 0.389567 17.527 1.16865 18.3061C1.94778 19.0855 2.886 19.475 3.9832 19.475H15.49C16.5871 19.475 17.5254 19.0855 18.3045 18.3061C19.0837 17.527 19.4736 16.5889 19.4736 15.4918V11.0934C19.4735 10.9 19.3809 10.7664 19.1965 10.6924Z" fill="white"/>
+    <path d="M22.6681 2.75376L21.1466 1.23226C20.9253 1.01103 20.6623 0.900391 20.358 0.900391C20.054 0.900391 19.7909 1.01103 19.5698 1.23226L10.6214 10.1806L6.9842 6.5432C6.76287 6.32182 6.50002 6.21132 6.19586 6.21132C5.89165 6.21132 5.6289 6.32182 5.40752 6.5432L3.88622 8.0645C3.66494 8.28578 3.5542 8.54863 3.5542 8.85298C3.5542 9.1572 3.66494 9.41994 3.88622 9.64132L9.83323 15.5883C10.0546 15.8098 10.3174 15.9202 10.6216 15.9202C10.9257 15.9202 11.1885 15.8098 11.4099 15.5883L22.6679 4.33039C22.889 4.10916 22.9999 3.84626 22.9999 3.54205C22.9999 3.23784 22.8893 2.975 22.6681 2.75376Z" fill="#00EC84"/>
+    </svg>
+
+    <span className="text">Mauris varius</span>
+                </div>
+                <div className="wrapper">
+                <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.1965 10.6924C19.1413 10.6646 19.086 10.6507 19.0302 10.6507C18.9102 10.6507 18.8045 10.6967 18.7123 10.7891L17.8271 11.6741C17.7444 11.7572 17.7028 11.8585 17.7028 11.9785V15.4911C17.7028 16.0998 17.4866 16.6205 17.053 17.0541C16.6196 17.4874 16.0986 17.704 15.49 17.704H3.98315C3.37453 17.704 2.85354 17.4874 2.42023 17.0541C1.98683 16.6206 1.77025 16.0999 1.77025 15.4911V3.9845C1.77025 3.37597 1.98683 2.85503 2.42023 2.42158C2.85354 1.98822 3.37453 1.77159 3.98315 1.77159H15.4901C15.693 1.77159 15.9004 1.79925 16.1125 1.85462C16.1678 1.87293 16.2093 1.88228 16.2366 1.88228C16.3567 1.88228 16.4627 1.83631 16.5549 1.74412L17.2326 1.06643C17.3431 0.955933 17.3848 0.822137 17.3569 0.665526C17.3292 0.517973 17.2461 0.411886 17.1078 0.347411C16.6103 0.117217 16.0706 0.00158691 15.4898 0.00158691H3.98315C2.88595 0.00158691 1.94774 0.391153 1.1686 1.17029C0.389567 1.94952 0 2.88759 0 3.98483V15.4918C0 16.5888 0.389567 17.527 1.16865 18.3061C1.94778 19.0855 2.886 19.475 3.9832 19.475H15.49C16.5871 19.475 17.5254 19.0855 18.3045 18.3061C19.0837 17.527 19.4736 16.5889 19.4736 15.4918V11.0934C19.4735 10.9 19.3809 10.7664 19.1965 10.6924Z" fill="white"/>
+    <path d="M22.6681 2.75376L21.1466 1.23226C20.9253 1.01103 20.6623 0.900391 20.358 0.900391C20.054 0.900391 19.7909 1.01103 19.5698 1.23226L10.6214 10.1806L6.9842 6.5432C6.76287 6.32182 6.50002 6.21132 6.19586 6.21132C5.89165 6.21132 5.6289 6.32182 5.40752 6.5432L3.88622 8.0645C3.66494 8.28578 3.5542 8.54863 3.5542 8.85298C3.5542 9.1572 3.66494 9.41994 3.88622 9.64132L9.83323 15.5883C10.0546 15.8098 10.3174 15.9202 10.6216 15.9202C10.9257 15.9202 11.1885 15.8098 11.4099 15.5883L22.6679 4.33039C22.889 4.10916 22.9999 3.84626 22.9999 3.54205C22.9999 3.23784 22.8893 2.975 22.6681 2.75376Z" fill="#00EC84"/>
+    </svg>
+
+    <span className="text">Mauris varius</span>
+                </div>
+
+                <div className="wrapper">
+                <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.1965 10.6924C19.1413 10.6646 19.086 10.6507 19.0302 10.6507C18.9102 10.6507 18.8045 10.6967 18.7123 10.7891L17.8271 11.6741C17.7444 11.7572 17.7028 11.8585 17.7028 11.9785V15.4911C17.7028 16.0998 17.4866 16.6205 17.053 17.0541C16.6196 17.4874 16.0986 17.704 15.49 17.704H3.98315C3.37453 17.704 2.85354 17.4874 2.42023 17.0541C1.98683 16.6206 1.77025 16.0999 1.77025 15.4911V3.9845C1.77025 3.37597 1.98683 2.85503 2.42023 2.42158C2.85354 1.98822 3.37453 1.77159 3.98315 1.77159H15.4901C15.693 1.77159 15.9004 1.79925 16.1125 1.85462C16.1678 1.87293 16.2093 1.88228 16.2366 1.88228C16.3567 1.88228 16.4627 1.83631 16.5549 1.74412L17.2326 1.06643C17.3431 0.955933 17.3848 0.822137 17.3569 0.665526C17.3292 0.517973 17.2461 0.411886 17.1078 0.347411C16.6103 0.117217 16.0706 0.00158691 15.4898 0.00158691H3.98315C2.88595 0.00158691 1.94774 0.391153 1.1686 1.17029C0.389567 1.94952 0 2.88759 0 3.98483V15.4918C0 16.5888 0.389567 17.527 1.16865 18.3061C1.94778 19.0855 2.886 19.475 3.9832 19.475H15.49C16.5871 19.475 17.5254 19.0855 18.3045 18.3061C19.0837 17.527 19.4736 16.5889 19.4736 15.4918V11.0934C19.4735 10.9 19.3809 10.7664 19.1965 10.6924Z" fill="white"/>
+    <path d="M22.6681 2.75376L21.1466 1.23226C20.9253 1.01103 20.6623 0.900391 20.358 0.900391C20.054 0.900391 19.7909 1.01103 19.5698 1.23226L10.6214 10.1806L6.9842 6.5432C6.76287 6.32182 6.50002 6.21132 6.19586 6.21132C5.89165 6.21132 5.6289 6.32182 5.40752 6.5432L3.88622 8.0645C3.66494 8.28578 3.5542 8.54863 3.5542 8.85298C3.5542 9.1572 3.66494 9.41994 3.88622 9.64132L9.83323 15.5883C10.0546 15.8098 10.3174 15.9202 10.6216 15.9202C10.9257 15.9202 11.1885 15.8098 11.4099 15.5883L22.6679 4.33039C22.889 4.10916 22.9999 3.84626 22.9999 3.54205C22.9999 3.23784 22.8893 2.975 22.6681 2.75376Z" fill="#00EC84"/>
+    </svg>
+
+    <span className="text">Mauris varius</span>
+                </div>
+
+              </div>
+        </div>
+
+      </div>
+
+      <div className="slide_container">
+
+    <div className="part_one">
+      <div className="image_container" >
+
+      </div>
+      <div className="discription">
+      <p className="content">
+          At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
+          </p>
+      </div>
     </div>
-  </div>
 
-    </Carousel>
+    <div className="part_two">
+
+    <h3 className="title"> Corporate Branding </h3>
+    <p className="sub_title"> Create a Brand That Stands the Test of Time! </p>
+
+        <div className="icon_highlight">
+            <div className="wrapper">
+              <Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
+              Brand Development
+            </div>
+            <div className="wrapper">
+              <Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
+              Identity Design
+            </div>
+            <div className="wrapper">
+              <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
+              Strategic Positioning
+            </div>
+          </div>
+
+          <div className="container_text">
+              <div className="item">Mastermind Team</div>
+              <div className="item">Strategic Vision</div>
+              <div className="item">Innovative Techniques</div>
+              <div className="item">Future-Proof Solutions</div>
+              <div className="item">Real-Time Monitoring</div>
+              <div className="item">Goal-Crushing Focus</div>
+          </div>
+
+          <p className="extra_descirption mobile">
+            Vestibulum ante ipsum primis in
+            faucibus orci luctus ultrices posuere
+            cubilia curae; Vestibulum dictum
+          </p>
+
+          <button className="primay_button">
+          Contact Us
+          </button>
+    </div>
+
+    <div className="discription_mobile mobile">
+            <h3 className="title">Description</h3>
+            <p className="content">
+            At Lumyn, we craft unique and compelling corporate brands that drive customer awareness and loyalty. Through consistent branding, we help build strong brand equity and credibility, ensuring your brand attracts investors and generates confidence. Our tailored strategies give you a competitive edge, enabling your business to stand out in a crowded marketplace. Whether you're looking to strengthen your brand's presence or expand into new markets, our solutions help you achieve long-term success. Let us help you create a brand that not only resonates with your audience but also fosters lasting relationships, customer loyalty, and much more.
+            </p>
+            <div className="bottom">
+              <div className="wrapper">
+              <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.1965 10.6924C19.1413 10.6646 19.086 10.6507 19.0302 10.6507C18.9102 10.6507 18.8045 10.6967 18.7123 10.7891L17.8271 11.6741C17.7444 11.7572 17.7028 11.8585 17.7028 11.9785V15.4911C17.7028 16.0998 17.4866 16.6205 17.053 17.0541C16.6196 17.4874 16.0986 17.704 15.49 17.704H3.98315C3.37453 17.704 2.85354 17.4874 2.42023 17.0541C1.98683 16.6206 1.77025 16.0999 1.77025 15.4911V3.9845C1.77025 3.37597 1.98683 2.85503 2.42023 2.42158C2.85354 1.98822 3.37453 1.77159 3.98315 1.77159H15.4901C15.693 1.77159 15.9004 1.79925 16.1125 1.85462C16.1678 1.87293 16.2093 1.88228 16.2366 1.88228C16.3567 1.88228 16.4627 1.83631 16.5549 1.74412L17.2326 1.06643C17.3431 0.955933 17.3848 0.822137 17.3569 0.665526C17.3292 0.517973 17.2461 0.411886 17.1078 0.347411C16.6103 0.117217 16.0706 0.00158691 15.4898 0.00158691H3.98315C2.88595 0.00158691 1.94774 0.391153 1.1686 1.17029C0.389567 1.94952 0 2.88759 0 3.98483V15.4918C0 16.5888 0.389567 17.527 1.16865 18.3061C1.94778 19.0855 2.886 19.475 3.9832 19.475H15.49C16.5871 19.475 17.5254 19.0855 18.3045 18.3061C19.0837 17.527 19.4736 16.5889 19.4736 15.4918V11.0934C19.4735 10.9 19.3809 10.7664 19.1965 10.6924Z" fill="white"/>
+    <path d="M22.6681 2.75376L21.1466 1.23226C20.9253 1.01103 20.6623 0.900391 20.358 0.900391C20.054 0.900391 19.7909 1.01103 19.5698 1.23226L10.6214 10.1806L6.9842 6.5432C6.76287 6.32182 6.50002 6.21132 6.19586 6.21132C5.89165 6.21132 5.6289 6.32182 5.40752 6.5432L3.88622 8.0645C3.66494 8.28578 3.5542 8.54863 3.5542 8.85298C3.5542 9.1572 3.66494 9.41994 3.88622 9.64132L9.83323 15.5883C10.0546 15.8098 10.3174 15.9202 10.6216 15.9202C10.9257 15.9202 11.1885 15.8098 11.4099 15.5883L22.6679 4.33039C22.889 4.10916 22.9999 3.84626 22.9999 3.54205C22.9999 3.23784 22.8893 2.975 22.6681 2.75376Z" fill="#00EC84"/>
+    </svg>
+
+    <span className="text">Mauris varius</span>
+              </div>
+              <div className="wrapper">
+              <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.1965 10.6924C19.1413 10.6646 19.086 10.6507 19.0302 10.6507C18.9102 10.6507 18.8045 10.6967 18.7123 10.7891L17.8271 11.6741C17.7444 11.7572 17.7028 11.8585 17.7028 11.9785V15.4911C17.7028 16.0998 17.4866 16.6205 17.053 17.0541C16.6196 17.4874 16.0986 17.704 15.49 17.704H3.98315C3.37453 17.704 2.85354 17.4874 2.42023 17.0541C1.98683 16.6206 1.77025 16.0999 1.77025 15.4911V3.9845C1.77025 3.37597 1.98683 2.85503 2.42023 2.42158C2.85354 1.98822 3.37453 1.77159 3.98315 1.77159H15.4901C15.693 1.77159 15.9004 1.79925 16.1125 1.85462C16.1678 1.87293 16.2093 1.88228 16.2366 1.88228C16.3567 1.88228 16.4627 1.83631 16.5549 1.74412L17.2326 1.06643C17.3431 0.955933 17.3848 0.822137 17.3569 0.665526C17.3292 0.517973 17.2461 0.411886 17.1078 0.347411C16.6103 0.117217 16.0706 0.00158691 15.4898 0.00158691H3.98315C2.88595 0.00158691 1.94774 0.391153 1.1686 1.17029C0.389567 1.94952 0 2.88759 0 3.98483V15.4918C0 16.5888 0.389567 17.527 1.16865 18.3061C1.94778 19.0855 2.886 19.475 3.9832 19.475H15.49C16.5871 19.475 17.5254 19.0855 18.3045 18.3061C19.0837 17.527 19.4736 16.5889 19.4736 15.4918V11.0934C19.4735 10.9 19.3809 10.7664 19.1965 10.6924Z" fill="white"/>
+    <path d="M22.6681 2.75376L21.1466 1.23226C20.9253 1.01103 20.6623 0.900391 20.358 0.900391C20.054 0.900391 19.7909 1.01103 19.5698 1.23226L10.6214 10.1806L6.9842 6.5432C6.76287 6.32182 6.50002 6.21132 6.19586 6.21132C5.89165 6.21132 5.6289 6.32182 5.40752 6.5432L3.88622 8.0645C3.66494 8.28578 3.5542 8.54863 3.5542 8.85298C3.5542 9.1572 3.66494 9.41994 3.88622 9.64132L9.83323 15.5883C10.0546 15.8098 10.3174 15.9202 10.6216 15.9202C10.9257 15.9202 11.1885 15.8098 11.4099 15.5883L22.6679 4.33039C22.889 4.10916 22.9999 3.84626 22.9999 3.54205C22.9999 3.23784 22.8893 2.975 22.6681 2.75376Z" fill="#00EC84"/>
+    </svg>
+
+    <span className="text">Mauris varius</span>
+              </div>
+
+              <div className="wrapper">
+              <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.1965 10.6924C19.1413 10.6646 19.086 10.6507 19.0302 10.6507C18.9102 10.6507 18.8045 10.6967 18.7123 10.7891L17.8271 11.6741C17.7444 11.7572 17.7028 11.8585 17.7028 11.9785V15.4911C17.7028 16.0998 17.4866 16.6205 17.053 17.0541C16.6196 17.4874 16.0986 17.704 15.49 17.704H3.98315C3.37453 17.704 2.85354 17.4874 2.42023 17.0541C1.98683 16.6206 1.77025 16.0999 1.77025 15.4911V3.9845C1.77025 3.37597 1.98683 2.85503 2.42023 2.42158C2.85354 1.98822 3.37453 1.77159 3.98315 1.77159H15.4901C15.693 1.77159 15.9004 1.79925 16.1125 1.85462C16.1678 1.87293 16.2093 1.88228 16.2366 1.88228C16.3567 1.88228 16.4627 1.83631 16.5549 1.74412L17.2326 1.06643C17.3431 0.955933 17.3848 0.822137 17.3569 0.665526C17.3292 0.517973 17.2461 0.411886 17.1078 0.347411C16.6103 0.117217 16.0706 0.00158691 15.4898 0.00158691H3.98315C2.88595 0.00158691 1.94774 0.391153 1.1686 1.17029C0.389567 1.94952 0 2.88759 0 3.98483V15.4918C0 16.5888 0.389567 17.527 1.16865 18.3061C1.94778 19.0855 2.886 19.475 3.9832 19.475H15.49C16.5871 19.475 17.5254 19.0855 18.3045 18.3061C19.0837 17.527 19.4736 16.5889 19.4736 15.4918V11.0934C19.4735 10.9 19.3809 10.7664 19.1965 10.6924Z" fill="white"/>
+    <path d="M22.6681 2.75376L21.1466 1.23226C20.9253 1.01103 20.6623 0.900391 20.358 0.900391C20.054 0.900391 19.7909 1.01103 19.5698 1.23226L10.6214 10.1806L6.9842 6.5432C6.76287 6.32182 6.50002 6.21132 6.19586 6.21132C5.89165 6.21132 5.6289 6.32182 5.40752 6.5432L3.88622 8.0645C3.66494 8.28578 3.5542 8.54863 3.5542 8.85298C3.5542 9.1572 3.66494 9.41994 3.88622 9.64132L9.83323 15.5883C10.0546 15.8098 10.3174 15.9202 10.6216 15.9202C10.9257 15.9202 11.1885 15.8098 11.4099 15.5883L22.6679 4.33039C22.889 4.10916 22.9999 3.84626 22.9999 3.54205C22.9999 3.23784 22.8893 2.975 22.6681 2.75376Z" fill="#00EC84"/>
+    </svg>
+
+    <span className="text">Mauris varius</span>
+              </div>
+
+            </div>
+      </div>
+
+      </div>
+
+
+      </Carousel>
 
                  
-                    </div>
-                    <div className="part_two">
-
-                        <h3 className="title"> Corporate Branding </h3>
-                        <p className="sub_title"> Create a Brand That Stands the Test of Time! </p>
-
-                              <div className="icon_highlight">
-                                  <div className="wrapper">
-                                    <Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
-                                    Brand Development
-                                  </div>
-                                  <div className="wrapper">
-                                    <Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
-                                    Identity Design
-                                  </div>
-                                  <div className="wrapper">
-                                    <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
-                                    Strategic Positioning
-                                  </div>
-                                </div>
-
-                                <div className="container_text">
-                                    <div className="item">Mastermind Team</div>
-                                    <div className="item">Strategic Vision</div>
-                                    <div className="item">Innovative Techniques</div>
-                                    <div className="item">Future-Proof Solutions</div>
-                                    <div className="item">Real-Time Monitoring</div>
-                                    <div className="item">Goal-Crushing Focus</div>
-                                </div>
-
-                                <button className="primay_button">
-                                Contact Us
-                                </button>
-                    </div>
+               
+  
                     
       
                 </div>

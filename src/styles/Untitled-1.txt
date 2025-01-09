@@ -1,0 +1,247 @@
+<div className="card" >
+<div className="overlay">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+<Image className="background-img" src="/assets/images/BrandForge.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">BrandForge</h4>
+<p className="sub_title">Create a memorable brand that resonates.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+<Image src="/assets/svg/WWO Icons-01.svg" width={36} height={35} alt="map-point" />
+    Brand Development
+  </div>
+  <div className="wrapper">
+<Image src="/assets/svg/WWO Icons-02.svg" width={36} height={35} alt="map-point" />
+    Identity Design
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-03.svg" width={36} height={35} alt="map-point" />
+    Strategic Positioning
+  </div>
+</div>
+</div>
+</div>
+       
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+{/* <div className="background-img img_1"  /> 
+<Image className="background-img img-1" src="/assets/images/WebCommerce.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">WebCommerce</h4>
+<p className="sub_title">Professional visuals that beautifully narrate your brand’s story.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-04.svg" width={35} height={35} alt="map-point" />
+    E-Commerce Solutions
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-05.svg" width={35} height={35} alt="map-point" />
+
+    Custom Web Design
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-06.svg" width={35} height={35} alt="map-point" />
+
+Conversion Optimization
+  </div>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+{/* <div className="background-img img_2"  /> */}
+<Image className="background-img" src="/assets/images/LensCraft Studios.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">LensCraft Studios</h4>
+<p className="sub_title">Professional visuals that beautifully narrate your brand’s story.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-07.svg" width={36} height={35} alt="map-point" />
+    Creative Visuals
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-08.svg" width={36} height={35} alt="map-point" />
+
+    Video Production
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-09.svg" width={36} height={35} alt="map-point" />
+
+Photography
+
+  </div>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+{/* <div className="background-img img_3"  /> */}
+<Image className="background-img" src="/assets/images/ProjeXpert.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">ProjeXpert</h4>
+<p className="sub_title">Streamline projects with optimized workflows and expert management.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-10.svg" width={36} height={35} alt="map-point" />
+    Project Management
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-11.svg" width={36} height={35} alt="map-point" />
+
+    Workflow Optimization
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-12.svg" width={36} height={35} alt="map-point" />
+
+Efficient Execution
+  </div>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+{/* <div className="background-img img_4"  /> */}
+<Image className="background-img" src="/assets/images/CutCraft Studios.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">CutCraft Studios</h4>
+<p className="sub_title">Turn ideas into engaging, impactful videos with expert editing.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-13.svg" width={35} height={35} alt="map-point" />
+    Content Editing
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-14.svg" width={35} height={35} alt="map-point" />
+
+    Video editing
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-15.svg" width={35} height={35} alt="map-point" />
+
+Refined Storytelling
+  </div>
+</div>
+</div>
+</div>
+       
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+{/* <div className="background-img img_5"  /> */}
+<Image className="background-img" src="/assets/images/MarketBlaze.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">MarketBlaze</h4>
+<p className="sub_title">Fuel business growth with targeted marketing and data-driven campaigns.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-16.svg" width={35} height={35} alt="map-point" />
+    Marketing Strategies
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-17.svg" width={35} height={35} alt="map-point" />
+
+    SEO Campaigns
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-18.svg" width={35} height={35} alt="map-point" />
+
+Ad Optimization
+  </div>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+{/* <div className="background-img img_6"  /> */}
+<Image className="background-img" src="/assets/images/Customease.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">Customease</h4>
+<p className="sub_title">Experience personalized solutions with client-first innovation and support.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-19.svg" width={35} height={35} alt="map-point" />
+    Custom Solutions
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-20.svg" width={35} height={35} alt="map-point" />
+    
+    Tailored Services
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-21.svg" width={35} height={35} alt="map-point" />
+
+Client-Centric Support
+  </div>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+<Image className="background-img" src="/assets/images/SocialMuse.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">SocialMuse</h4>
+<p className="sub_title">Grow and nurture your audience with expertly managed social platforms.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-22.svg" width={35} height={35} alt="map-point" />
+    Social Media Marketing
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-23.svg" width={35} height={35} alt="map-point" />
+
+    Content Curation
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-24.svg" width={35} height={35} alt="map-point" />
+
+Audience Engagement
+  </div>
+</div>
+</div>
+</div>
+
+<div className="card">
+<div className="overlay ">
+    <Image src="/assets/svg/star.svg" width={40} height={40} alt="star" />
+</div>
+<Image className="background-img" src="/assets/images/InsightMedia.webp" width={521} height={522} alt="image" />
+<div className="bottom">
+<h4 className="title">InsightMedia</h4>
+<p className="sub_title">Navigate the ever-evolving media landscape with confidence and clarity.</p>
+<div className="icon_highlight">
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-25.svg" width={35} height={35} alt="map-point" />
+    Data Analytics
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-26.svg" width={35} height={35} alt="map-point" />
+
+    Performance Tracking
+  </div>
+  <div className="wrapper">
+    <Image src="/assets/svg/WWO Icons-18.svg" width={35} height={35} alt="map-point" />
+
+Growth Insights
+  </div>
+</div>
+</div>
+</div>
