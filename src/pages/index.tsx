@@ -601,7 +601,7 @@ export default function Home() {
                     <div className="inner_bar"></div>
                   </div>
                   <div className="wrapper">
-                    <h3 className="title">Podcast Room</h3>
+                    <h3 className="title">EchoPod</h3>
                   <p className="description">
                     “Professional Space for Creative Voices”
                     <br />A state-of-the-art facility designed to produce
@@ -619,7 +619,7 @@ export default function Home() {
                     <div className="inner_bar"></div>
                   </div>
                   <div className="wrapper">
-                  <h3 className="title">SEO Services</h3>
+                  <h3 className="title">OptiRank</h3>
                   <p className="description">
                     “Rank Higher, Shine Brighter.”
                     <br />
@@ -637,7 +637,7 @@ export default function Home() {
                     <div className="inner_bar"></div>
                   </div>
                   <div className="wrapper">
-                  <h3 className="title">LED Panels</h3>
+                  <h3 className="title">LumaPanels</h3>
                   <p className="description">
                     “Eye-Catching Displays That Demand Attention”
                     <br />
@@ -655,7 +655,7 @@ export default function Home() {
                     <div className="inner_bar"></div>
                   </div>
                   <div className="wrapper">
-                  <h3 className="title">Content Creation</h3>
+                  <h3 className="title">ContentAura</h3>
                   <p className="description">
                     “E“Compelling Stories That Convert”
                     <br />
@@ -692,9 +692,9 @@ export default function Home() {
               <h3 className="title">Exclusive Highlights</h3>
               <div className="bar"></div>
               <p className="description">
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                posuere cubilia curae; Vestibulum dictum congue lorem vel
-                varius. Integer sollicitudin pellentesque euismod.
+              From top-tier podcast rooms and expert SEO strategies to dynamic 
+              LED panels and captivating content creation—boost visibility, 
+              engage your audience, and drive unstoppable results.
               </p>
             </div>
 
@@ -708,7 +708,7 @@ export default function Home() {
                   <div className="con"></div>
                 </div>
                 <div className="wrapper">
-                  <h3 className="title">Podcast Room</h3>
+                  <h3 className="title">EchoPod</h3>
                   <p className="description">
                     “Professional Space for Creative Voices”
                     <br />A state-of-the-art facility designed to produce
@@ -729,7 +729,7 @@ export default function Home() {
                   <div className="con"></div>
                 </div>
                 <div className="wrapper">
-                  <h3 className="title">SEO Services</h3>
+                  <h3 className="title">OptiRank</h3>
                   <p className="description">
                     “Rank Higher, Shine Brighter.”
                     <br />
@@ -751,7 +751,7 @@ export default function Home() {
                   <div className="con"></div>
                 </div>
                 <div className="wrapper">
-                  <h3 className="title">LED Panels</h3>
+                  <h3 className="title">LumaPanels</h3>
                   <p className="description">
                     “Eye-Catching Displays That Demand Attention”
                     <br />
@@ -773,7 +773,7 @@ export default function Home() {
                   <div className="con"></div>
                 </div>
                 <div className="wrapper">
-                  <h3 className="title">Content Creation</h3>
+                  <h3 className="title">ContentAura</h3>
                   <p className="description">
                     “E“Compelling Stories That Convert”
                     <br />

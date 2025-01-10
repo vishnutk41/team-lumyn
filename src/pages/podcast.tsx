@@ -46,19 +46,21 @@ export default function Podcast() {
                   <div className="card">
                     <div className="image_container"></div>
                     <div className="bottom_container">
-                      <h4 className="title">NovaVision Glasses Pro 2</h4>
+                      <h4 className="title">Echo Lite 
+                      </h4>
                     </div>
                   </div>
                   <div className="card">
                     <div className="image_container"></div>
                     <div className="bottom_container">
-                      <h4 className="title">NovaVision Glasses Pro 2</h4>
+                      <h4 className="title">Resonance Pro 
+                      </h4>
                     </div>
                   </div>
                   <div className="card">
                     <div className="image_container"></div>
                     <div className="bottom_container">
-                      <h4 className="title">NovaVision Glasses Pro 2</h4>
+                      <h4 className="title">Sonic Max</h4>
                     </div>
                   </div>
                 </div>
@@ -118,18 +120,20 @@ export default function Podcast() {
                   >
                     <div className="item">
                       <div className="bottom">
-                        <span>NovaVision Glasses Pro 2</span>
+                        <span>Echo Lite 
+                        </span>
                       </div>
 
                     </div>
                     <div className="item" >
                     <div className="bottom">
-                        <span>NovaVision Glasses Pro 2</span>
+                        <span>Resonance Pro 
+                        </span>
                       </div>
                     </div>
                     <div className="item" >
                     <div className="bottom">
-                        <span>NovaVision Glasses Pro 2</span>
+                        <span>Sonic Max</span>
                       </div>
                     </div>
 
