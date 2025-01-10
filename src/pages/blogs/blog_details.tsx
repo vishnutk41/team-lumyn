@@ -35,6 +35,7 @@ export default function BlogDetails() {
                                 </div>
 
                                 <div className="blog_title_description">
+
                                   <div className="comments">by Admin  |  </div>
                                   <h3 className="title"> Domain Privacy Protection: Why It's Essential for Website Owners  </h3>
                                   <p className="description"> Ut gravida, purus id vestibulum ullamcorper, velit leo egestas lacus, in vestibulum nisi nulla vitae nisi. Ut condimentum tortor urna, ut vestibulum eros porta at. Vivamus vitae dui a odio tincidunt aliquam. Pellentesque vulputate convallis arcu, vel suscipit purus luctus a. Nulla nec pretium arcu. Aenean lectus enim, lacinia eu porta in, ultricies sit amet turpis. Mauris semper tempor nisi in laoreet. Quisque vehicula imperdiet quam, non aliquet libero interdum ut. Praesent nec nisl id lacus hendrerit auctor. Curabitur vulputate eu metus vel tincidunt. Fusce et ligula quis massa ultricies cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vel vulputate ligula. Ut eros ante, volutpat et magna a, malesuada semper ante. Integer gravida mi ante, vitae viverra enim tristique at. Cras lobortis eleifend justo.
@@ -59,9 +60,10 @@ export default function BlogDetails() {
                                 <div className="section_quote">
 
                                   <div className="quote">
+
                                   <svg width="106" height="86" viewBox="0 0 106 86" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M59.901 86V55.2268C59.901 41.4888 63.6736 29.4909 71.2188 19.2332C78.7639 8.79232 90.3576 2.38125 106 0V20.0575C96.9826 21.1565 91.0017 24.0873 88.0573 28.8498C85.1128 33.6123 83.6406 39.9318 83.6406 47.8083L67.3542 44.5112H105.448V86H59.901ZM0 86V55.2268C0 41.4888 3.77257 29.4909 11.3177 19.2332C18.8628 8.79232 30.4566 2.38125 46.099 0V20.0575C37.0816 21.1565 31.1007 24.0873 28.1562 28.8498C25.2118 33.6123 23.7396 39.9318 23.7396 47.8083L7.45313 44.5112H45.5469V86H0Z" fill="white" fill-opacity="0.17"/>
-</svg>
+                                  <path d="M59.901 86V55.2268C59.901 41.4888 63.6736 29.4909 71.2188 19.2332C78.7639 8.79232 90.3576 2.38125 106 0V20.0575C96.9826 21.1565 91.0017 24.0873 88.0573 28.8498C85.1128 33.6123 83.6406 39.9318 83.6406 47.8083L67.3542 44.5112H105.448V86H59.901ZM0 86V55.2268C0 41.4888 3.77257 29.4909 11.3177 19.2332C18.8628 8.79232 30.4566 2.38125 46.099 0V20.0575C37.0816 21.1565 31.1007 24.0873 28.1562 28.8498C25.2118 33.6123 23.7396 39.9318 23.7396 47.8083L7.45313 44.5112H45.5469V86H0Z" fill="white" fill-opacity="0.17"/>
+                                  </svg>
 
                                   </div>
 
@@ -74,18 +76,17 @@ export default function BlogDetails() {
                  
                         <div className="blog_details_container">
 
+                              <div className="section_image_description">
 
-                                <div className="section_image_description">
+                              <div className="description_container padding">
+                                  <h4 className="title">Vivamus ultricies accumsan mi, sit amet ornare urna tristique</h4>
+                                  <p className="description">Ut gravida, purus id vestibulum ullamcorper, velit leo egestas lacus, in vestibulum nisi nulla vitae nisi. Ut condimentum tortor urna, ut vestibulum eros porta at. Vivamus vitae dui a odio tincidunt aliquam. Pellentesque vulputate convallis arcu, vel suscipit purus luctus a. Nulla nec pretium arcu. Aenean lectus enim, lacinia eu porta in, ultricies sit amet turpis. Mauris semper tempor nisi in laoreet. Quisque vehicula imperdiet quam, non aliquet libero interdum ut. Praesent nec nisl id lacus hendrerit auctor. Curabitur vulputate eu metus vel tincidunt. Fusce et ligula quis massa ultricies cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vel vulputate ligula. Ut eros ante, volutpat et magna a, malesuada semper ante. Integer gravida mi ante, vitae viverra enim tristique at. Cras lobortis eleifend justo. Cras a ex in quam ornare finibus. Integer ut convallis risus, nec iaculis nulla. Nunc nec hendrerit est. Nunc nulla nulla, tristique quis quam at, porta consectetur ante. Sed sollicitudin, sem id finibus sagittis, libero massa rhoncus augue, nec interdum purus tellus sit amet leo. Suspendisse justo orci, faucibus quis nisi at, iaculis ultrices nisi. Curabitur sed tincidunt nunc, vitae egestas ex.</p>
+                              </div>
+                              <div className="image_container">
 
-                                <div className="description_container padding">
-                                    <h4 className="title">Vivamus ultricies accumsan mi, sit amet ornare urna tristique</h4>
-                                    <p className="description">Ut gravida, purus id vestibulum ullamcorper, velit leo egestas lacus, in vestibulum nisi nulla vitae nisi. Ut condimentum tortor urna, ut vestibulum eros porta at. Vivamus vitae dui a odio tincidunt aliquam. Pellentesque vulputate convallis arcu, vel suscipit purus luctus a. Nulla nec pretium arcu. Aenean lectus enim, lacinia eu porta in, ultricies sit amet turpis. Mauris semper tempor nisi in laoreet. Quisque vehicula imperdiet quam, non aliquet libero interdum ut. Praesent nec nisl id lacus hendrerit auctor. Curabitur vulputate eu metus vel tincidunt. Fusce et ligula quis massa ultricies cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vel vulputate ligula. Ut eros ante, volutpat et magna a, malesuada semper ante. Integer gravida mi ante, vitae viverra enim tristique at. Cras lobortis eleifend justo. Cras a ex in quam ornare finibus. Integer ut convallis risus, nec iaculis nulla. Nunc nec hendrerit est. Nunc nulla nulla, tristique quis quam at, porta consectetur ante. Sed sollicitudin, sem id finibus sagittis, libero massa rhoncus augue, nec interdum purus tellus sit amet leo. Suspendisse justo orci, faucibus quis nisi at, iaculis ultrices nisi. Curabitur sed tincidunt nunc, vitae egestas ex.</p>
-                                </div>
-                                <div className="image_container">
-
-                                </div>
-                               
-                                </div>
+                              </div>
+                              
+                              </div>
 
                               <div className="section_bottom">
                                 <div className="social_media_container">
@@ -127,15 +128,26 @@ export default function BlogDetails() {
                                     <div className="blog_image"> </div>
 
                                     <div className="content_container">
-                                    <p className="top">
-by Admin  |  
+                                      <p className="top">
+                                        by Admin  | 42 comments 
                                       </p>
-                                      <h3 className="title">
+                                      <p className="title">
                                       Cruising into the Future Electric Scooters
-                                      </h3>
-                                      <span> <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      </p>
+
+                                      <div className="arrow-wrap"> 
+
+                                      <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.185385 6.89351L6.7834 12.3786C7.0042 12.562 7.33448 12.535 7.52092 12.3179C7.70763 12.1007 7.67993 11.7759 7.45913 11.5925L1.95315 7.01532H18.9766C19.2656 7.01532 19.5 6.7848 19.5 6.50057C19.5 6.21635 19.2656 5.98583 18.9766 5.98583H1.95341L7.45939 1.40865C7.6802 1.22502 7.7079 0.900452 7.52119 0.68329C7.41758 0.562789 7.27002 0.500705 7.12113 0.500705C7.00181 0.500705 6.88168 0.540523 6.7834 0.622253L0.185385 6.10738C0.0676575 6.20509 -0.000263214 6.3489 -0.000263214 6.50057C-0.000263214 6.65225 0.0676575 6.7958 0.185385 6.89377V6.89351Z" fill="white"/>
-</svg> Previous</span>
+</svg> 
+                                        <span> 
+                                         Next
+                                      </span> 
+
+
+                                     
+            </div>
+                                
                                     </div>
 
                                   </div>
@@ -146,29 +158,29 @@ by Admin  |
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
-by Admin  |  
+by Admin  |  42 comments
                                       </p>
-                                      <h3 className="title">
+                                      <p className="title">
                                       Cruising into the Future Electric Scooters
-                                      </h3>
-                                      <span> 
+                                      </p>
+                                      <div className="arrow-wrap">  
+                                        <span> 
                                          Next
-                                         <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      </span> 
+
+
+                                      <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.3146 6.89351L12.7166 12.3786C12.4958 12.562 12.1655 12.535 11.9791 12.3179C11.7924 12.1007 11.8201 11.7759 12.0409 11.5925L17.5469 7.01532H0.523377C0.234388 7.01532 0 6.7848 0 6.50057C0 6.21635 0.234388 5.98583 0.523377 5.98583H17.5466L12.0406 1.40865C11.8198 1.22502 11.7921 0.900452 11.9788 0.68329C12.0824 0.562789 12.23 0.500705 12.3789 0.500705C12.4982 0.500705 12.6183 0.540523 12.7166 0.622253L19.3146 6.10738C19.4323 6.20509 19.5003 6.3489 19.5003 6.50057C19.5003 6.65225 19.4323 6.7958 19.3146 6.89377V6.89351Z" fill="white"/>
 </svg>
-
-                                         
-                                         </span>
+            </div>
+                                      
                                   </div>
                                   </div>
 
                                 </div>
                               </div>
 
-
-
-            
-              </div>
+                         </div>
 
             </main>
         <Footer/>
