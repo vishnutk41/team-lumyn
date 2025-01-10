@@ -26,7 +26,7 @@ export default function Blogs() {
                 <div className="container">
                     <div className="blog_item">
                         <div className="image"></div>
-                        <p className="comment"> by Admin | 42 comments </p>
+                        <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
@@ -35,27 +35,7 @@ export default function Blogs() {
 
                     <div className="blog_item">
                         <div className="image"></div>
-                        <p className="comment"> by Admin | 42 comments </p>
-                        <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="container">
-                    <div className="blog_item">
-                        <div className="image"></div>
-                        <p className="comment"> by Admin | 42 comments </p>
-                        <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
-                        </p>
-                    </div>
-
-                    <div className="blog_item">
-                        <div className="image"></div>
-                        <p className="comment"> by Admin | 42 comments </p>
+                        <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
@@ -66,7 +46,7 @@ export default function Blogs() {
                 <div className="container">
                     <div className="blog_item">
                         <div className="image"></div>
-                        <p className="comment"> by Admin | 42 comments </p>
+                        <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
@@ -75,7 +55,27 @@ export default function Blogs() {
 
                     <div className="blog_item">
                         <div className="image"></div>
-                        <p className="comment"> by Admin | 42 comments </p>
+                        <p className="comment"> by Admin |   </p>
+                        <p className="title">
+                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
+                            Sed eget finibus metus. Sed arcu leibero.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="container">
+                    <div className="blog_item">
+                        <div className="image"></div>
+                        <p className="comment"> by Admin |   </p>
+                        <p className="title">
+                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
+                            Sed eget finibus metus. Sed arcu leibero.
+                        </p>
+                    </div>
+
+                    <div className="blog_item">
+                        <div className="image"></div>
+                        <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.

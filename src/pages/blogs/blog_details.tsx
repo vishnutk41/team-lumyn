@@ -35,7 +35,7 @@ export default function BlogDetails() {
                                 </div>
 
                                 <div className="blog_title_description">
-                                  <div className="comments">by Admin  | 42 comments</div>
+                                  <div className="comments">by Admin  |  </div>
                                   <h3 className="title"> Domain Privacy Protection: Why It's Essential for Website Owners  </h3>
                                   <p className="description"> Ut gravida, purus id vestibulum ullamcorper, velit leo egestas lacus, in vestibulum nisi nulla vitae nisi. Ut condimentum tortor urna, ut vestibulum eros porta at. Vivamus vitae dui a odio tincidunt aliquam. Pellentesque vulputate convallis arcu, vel suscipit purus luctus a. Nulla nec pretium arcu. Aenean lectus enim, lacinia eu porta in, ultricies sit amet turpis. Mauris semper tempor nisi in laoreet. Quisque vehicula imperdiet quam, non aliquet libero interdum ut. Praesent nec nisl id lacus hendrerit auctor. Curabitur vulputate eu metus vel tincidunt. Fusce et ligula quis massa ultricies cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vel vulputate ligula. Ut eros ante, volutpat et magna a, malesuada semper ante. Integer gravida mi ante, vitae viverra enim tristique at. Cras lobortis eleifend justo.
                                     Cras a ex in quam ornare finibus. Integer ut convallis risus, nec iaculis nulla. Nunc nec hendrerit est. Nunc nulla nulla, tristique quis quam at, porta consectetur ante. Sed sollicitudin, sem id finibus sagittis, libero massa rhoncus augue, nec interdum purus tellus sit amet leo. Suspendisse justo orci, faucibus quis nisi at, iaculis ultrices nisi. Curabitur sed tincidunt nunc, vitae egestas ex. </p>
@@ -128,7 +128,7 @@ export default function BlogDetails() {
 
                                     <div className="content_container">
                                     <p className="top">
-by Admin  | 42 comments
+by Admin  |  
                                       </p>
                                       <h3 className="title">
                                       Cruising into the Future Electric Scooters
@@ -146,7 +146,7 @@ by Admin  | 42 comments
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
-by Admin  | 42 comments
+by Admin  |  
                                       </p>
                                       <h3 className="title">
                                       Cruising into the Future Electric Scooters

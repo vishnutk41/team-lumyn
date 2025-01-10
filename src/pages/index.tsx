@@ -70,11 +70,11 @@ export default function Home() {
                   <p>Customer Satisfaction</p>
                 </div>
               </div>
-              <p className="mobile text_description">
+              {/* <p className="mobile text_description">
                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
                 posuere cubilia curae; Vestibulum dictum congue lorem vel
                 varius.
-              </p>
+              </p> */}
               <button className="primay_button">Get Connect</button>
             </div>
           </div>
@@ -848,28 +848,27 @@ export default function Home() {
             <div className="card_container">
               <div className="card">
                 <div className="bottom">
-                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
-                    lacinia.
+                  Driving Organic Traffic: Essential Strategies for 2024
+
                   </h4>
                 </div>
               </div>
               <div className="card">
                 <div className="bottom">
-                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
-                    lacinia.
+                  Domain Privacy Protection: Why It's Essential for Website Owners
                   </h4>
                 </div>
               </div>
               <div className="card">
                 <div className="bottom">
-                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
-                    lacinia.
+                  Website Revamping: A Strategic Approach to Business Growth
+
                   </h4>
                 </div>
               </div>
@@ -930,10 +929,10 @@ export default function Home() {
             >
               <div className="card">
                 <div className="bottom">
-                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
-                    lacinia.
+                  Driving Organic Traffic: Essential Strategies for 2024
+
                   </h4>
                   <a className="view_more"> View more </a>
                 </div>
@@ -941,10 +940,10 @@ export default function Home() {
 
               <div className="card">
                 <div className="bottom">
-                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
-                    lacinia.
+                  Domain Privacy Protection: Why It's Essential for Website Owners
+
                   </h4>
                   <a className="view_more"> View more </a>
                 </div>
@@ -952,10 +951,10 @@ export default function Home() {
 
               <div className="card">
                 <div className="bottom">
-                  <p className="sub_title">By Admin | 42 Comments</p>
+                  <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                    Etiam semper nibh et pellentesque vulputate. Phasellua ut
-                    lacinia.
+                  Website Revamping: A Strategic Approach to Business Growth
+
                   </h4>
                   <a className="view_more"> View more </a>
                 </div>
@@ -1239,7 +1238,7 @@ Bring your brand’s message to life with dynamic, tailored content that connect
     <div className={style.card}>
 
       <div className={style.bottom}>
-      <p className={style.sub_title}>By Admin | 42 Comments</p>
+      <p className={style.sub_title}>By Admin |  </p>
         <h4 className={style.title}>Etiam semper nibh et pellentesque
         vulputate. Phasellua ut lacinia.</h4>
       </div>
@@ -1248,7 +1247,7 @@ Bring your brand’s message to life with dynamic, tailored content that connect
     <div className={style.card}>
 
     <div className={style.bottom}>
-    <p className={style.sub_title}>By Admin | 42 Comments</p>
+    <p className={style.sub_title}>By Admin |  </p>
         <h4 className={style.title}>Etiam semper nibh et pellentesque
         vulputate. Phasellua ut lacinia.</h4>
       </div>
@@ -1258,7 +1257,7 @@ Bring your brand’s message to life with dynamic, tailored content that connect
     <div className={style.card}>
 
     <div className={style.bottom}>
-        <p className={style.sub_title}>By Admin | 42 Comments</p>
+        <p className={style.sub_title}>By Admin |  </p>
         <h4 className={style.title}>Etiam semper nibh et pellentesque
         vulputate. Phasellua ut lacinia.</h4>
       </div>
