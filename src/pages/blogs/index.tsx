@@ -2,6 +2,8 @@ import Head from "next/head";
 import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
 
+import Link from "next/link";
+
 export default function Blogs() {
 
     return(
@@ -24,63 +26,66 @@ export default function Blogs() {
                 </div>
 
                 <div className="container">
-                    <div className="blog_item">
-                        <div className="image"></div>
+                    <Link  className="blog_item" href="/blogs/blog_details">
+                       <div className="image"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
                         </p>
-                    </div>
+                    </Link>
+                    
 
-                    <div className="blog_item">
+                    <Link  className="blog_item" href="/blogs/blog_details">
                         <div className="image"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
                         </p>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="container">
-                    <div className="blog_item">
-                        <div className="image"></div>
-                        <p className="comment"> by Admin |   </p>
-                        <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
-                        </p>
-                    </div>
 
-                    <div className="blog_item">
+                    <Link  className="blog_item" href="/blogs/blog_details">
                         <div className="image"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
                         </p>
-                    </div>
+                    </Link>
+
+                    <Link  className="blog_item" href="/blogs/blog_details">
+                        <div className="image"></div>
+                        <p className="comment"> by Admin |   </p>
+                        <p className="title">
+                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
+                            Sed eget finibus metus. Sed arcu leibero.
+                        </p>
+                    </Link>
                 </div>
 
                 <div className="container">
-                    <div className="blog_item">
-                        <div className="image"></div>
-                        <p className="comment"> by Admin |   </p>
-                        <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
-                        </p>
-                    </div>
 
-                    <div className="blog_item">
+                      <Link  className="blog_item" href="/blogs/blog_details">
                         <div className="image"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
                         </p>
-                    </div>
+                    </Link>
+
+                    <Link  className="blog_item" href="/blogs/blog_details">
+                        <div className="image"></div>
+                        <p className="comment"> by Admin |   </p>
+                        <p className="title">
+                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
+                            Sed eget finibus metus. Sed arcu leibero.
+                        </p>
+                    </Link>
                 </div>
             </div>
             <div className="pagination_section">

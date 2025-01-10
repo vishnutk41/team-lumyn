@@ -28,6 +28,7 @@ export default function Podcast() {
 
           <div className="section_one">
             <div className="wrapper">
+
               <div className="amplify_your_voice">
                 <h3 className="title">Ready to <span>Amplify</span> Your Voice?</h3>
               </div>
@@ -65,80 +66,80 @@ export default function Podcast() {
                   </div>
                 </div>
 
-                  <Carousel 
-                    additionalTransfrom={0}
-                    arrows
-                    autoPlaySpeed={3000}
-                    centerMode={false}
-                    className=""
-                    containerClass=""
-                    dotListClass="slide_dot"
-                    draggable
-                    focusOnSelect={false}
-                    infinite={true}
-                    itemClass=""
-                    keyBoardControl
-                    minimumTouchDrag={80}
-                    pauseOnHover
-                    renderArrowsWhenDisabled={false}
-                    renderButtonGroupOutside={true}
-                    renderDotsOutside={true}
-                    responsive={{
-                      desktop: {
-                        breakpoint: {
-                          max: 3000,
-                          min: 1024
-                        },
-                        items: 1,
-                        partialVisibilityGutter: 30
+                <Carousel 
+                  additionalTransfrom={0}
+                  arrows
+                  autoPlaySpeed={3000}
+                  centerMode={false}
+                  className=""
+                  containerClass=""
+                  dotListClass="slide_dot"
+                  draggable
+                  focusOnSelect={false}
+                  infinite={true}
+                  itemClass=""
+                  keyBoardControl
+                  minimumTouchDrag={80}
+                  pauseOnHover
+                  renderArrowsWhenDisabled={false}
+                  renderButtonGroupOutside={true}
+                  renderDotsOutside={true}
+                  responsive={{
+                    desktop: {
+                      breakpoint: {
+                        max: 3000,
+                        min: 1024
                       },
-                      mobile: {
-                        breakpoint: {
-                          max: 464,
-                          min: 0
-                        },
-                        items: 1,
-                        partialVisibilityGutter: 25
+                      items: 1,
+                      partialVisibilityGutter: 30
+                    },
+                    mobile: {
+                      breakpoint: {
+                        max: 464,
+                        min: 0
                       },
-                      tablet: {
-                        breakpoint: {
-                          max: 1024,
-                          min: 464
-                        },
-                        items: 1,
-                        partialVisibilityGutter: 20
-                      }
-                    }}
-                    rewind={false}
-                    rewindWithAnimation={false}
-                    rtl={false}
-                    shouldResetAutoplay
-                    showDots={true}
-                    sliderClass=""
-                    slidesToSlide={1}
-                    swipeable
-                  >
-                    <div className="item">
-                      <div className="bottom">
-                        <span>Echo Lite 
-                        </span>
-                      </div>
-
-                    </div>
-                    <div className="item" >
+                      items: 1,
+                      partialVisibilityGutter: 25
+                    },
+                    tablet: {
+                      breakpoint: {
+                        max: 1024,
+                        min: 464
+                      },
+                      items: 1,
+                      partialVisibilityGutter: 20
+                    }
+                  }}
+                  rewind={false}
+                  rewindWithAnimation={false}
+                  rtl={false}
+                  shouldResetAutoplay
+                  showDots={true}
+                  sliderClass=""
+                  slidesToSlide={1}
+                  swipeable
+                >
+                  <div className="item">
                     <div className="bottom">
-                        <span>Resonance Pro 
-                        </span>
-                      </div>
-                    </div>
-                    <div className="item" >
-                    <div className="bottom">
-                        <span>Sonic Max</span>
-                      </div>
+                      <span>Echo Lite 
+                      </span>
                     </div>
 
+                  </div>
+                  <div className="item" >
+                  <div className="bottom">
+                      <span>Resonance Pro 
+                      </span>
+                    </div>
+                  </div>
+                  <div className="item" >
+                  <div className="bottom">
+                      <span>Sonic Max</span>
+                    </div>
+                  </div>
 
-                  </Carousel>
+
+                </Carousel>
 
 
               </div>
@@ -149,6 +150,26 @@ export default function Podcast() {
               <span> Grab this limited time deal :</span>
             </div>
           </div>
+
+          <div className="section_section">
+
+            <div className="span">
+<div className="one"></div>
+<div  className="two">
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="11" cy="11" r="11" fill="url(#paint0_linear_692_162)"/>
+<defs>
+<linearGradient id="paint0_linear_692_162" x1="9.06667" y1="-8" x2="-6.8791" y2="2.00519" gradientUnits="userSpaceOnUse">
+<stop stop-color="#17935C"/>
+<stop offset="1" stop-color="#184B35"/>
+</linearGradient>
+</defs>
+</svg>
+</div>
+<div className="three"></div>
+            </div>
+            <div className="container">
+
 
           <div className="section_two">
             <div className="part_one">
@@ -235,6 +256,13 @@ export default function Podcast() {
             <div className="part_two"></div>
           </div>
 
+
+            </div>
+
+          </div>
+
+
+
           <div className="section_five">
             <div className="image"></div>
             <div className="title">Book Your Podcasting Experience</div>
@@ -317,6 +345,7 @@ export default function Podcast() {
               </div>
             </div>
           </div>
+
         </main>
 
         <Footer />

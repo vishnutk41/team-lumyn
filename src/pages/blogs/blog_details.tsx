@@ -129,7 +129,7 @@ export default function BlogDetails() {
 
                                     <div className="content_container">
                                       <p className="top">
-                                        by Admin  | 42 comments 
+                                        by Admin  |  42 comments 
                                       </p>
                                       <p className="title">
                                       Cruising into the Future Electric Scooters
@@ -141,7 +141,8 @@ export default function BlogDetails() {
 <path d="M0.185385 6.89351L6.7834 12.3786C7.0042 12.562 7.33448 12.535 7.52092 12.3179C7.70763 12.1007 7.67993 11.7759 7.45913 11.5925L1.95315 7.01532H18.9766C19.2656 7.01532 19.5 6.7848 19.5 6.50057C19.5 6.21635 19.2656 5.98583 18.9766 5.98583H1.95341L7.45939 1.40865C7.6802 1.22502 7.7079 0.900452 7.52119 0.68329C7.41758 0.562789 7.27002 0.500705 7.12113 0.500705C7.00181 0.500705 6.88168 0.540523 6.7834 0.622253L0.185385 6.10738C0.0676575 6.20509 -0.000263214 6.3489 -0.000263214 6.50057C-0.000263214 6.65225 0.0676575 6.7958 0.185385 6.89377V6.89351Z" fill="white"/>
 </svg> 
                                         <span> 
-                                         Next
+                                        Previous
+
                                       </span> 
 
 

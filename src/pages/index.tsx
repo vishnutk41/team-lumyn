@@ -151,7 +151,11 @@ export default function Home() {
               swipeable
             >
               <div className="item" style={{ width: "100%" }}>
-                <div className="img img_1"></div>
+                <div className="img img_1">
+                  {/* <div className="star_container">
+                    <div className="star"></div>
+                  </div> */}
+                </div>
 
                 <div className="bottom">
                   <h4 className="title">BrandForge</h4>
@@ -271,7 +275,9 @@ export default function Home() {
               </div>
 
               <div className="item" style={{ width: "100%" }}>
-                <div className="img img_4"></div>
+                <div className="img img_4">
+                  
+                </div>
                 <div className="bottom">
                   <h4 className="title">CutCraft Studios</h4>
                   <p className="sub_title">
@@ -826,6 +832,18 @@ export default function Home() {
                     ultrices posuere cubilia curae; Vestibulum dictum congue
                     lorem vel varius.
                   </p>
+                    <p className="text"> Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Vestibulum dictum congue
+                    lorem vel varius.</p>
+                    <p className="sub_head"> What us make different</p>
+                    <p className="text">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae.
+                    <br/>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Vestibulum dictum congue
+                    lorem vel varius.
+                    </p>
                   <button className="primay_button">Contact Us</button>
                 </div>
               </div>

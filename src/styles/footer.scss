@@ -42,7 +42,7 @@
             text-align: left;
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
-            color:var(--gray-200);
+            color: #C1C1C1;
           }
   
           .main_menu {
@@ -69,6 +69,18 @@
           width: fit-content;
           max-width: 500px;
           padding-right: 100px;
+
+          .cta{
+            font-family: "Poppins", serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-bottom: 20px;
+            color: var(--gray-200);
+          }
           
           .footer_logo{
             transform: translateX(-20px);
@@ -314,14 +326,15 @@
           background-color: #252525;
           width:100%;
   
-          input {
-            background-color: inherit;
+          .email_input {
+            // background-color: inherit;
             padding: 5px 20px;
             height: 100%;
             width: 100%;
             border-style: none;
             border-color: none;
             outline: none;
+            color: #939393;
           }
   
           .image_container {
@@ -333,7 +346,7 @@
   
         h3 {
           display: none;
-           font-family: "Poppins", serif;
+          font-family: "Poppins", serif;
           font-size: 30px;
           font-weight: 750;
           line-height: 36.31px;

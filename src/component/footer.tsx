@@ -35,7 +35,7 @@ export const Footer = () =>(
               width={20}
               height={20}
             />
-            <p>+971 58 586 7086</p>
+            <a className="cta" href="tel:+971 58 304 1458 " >+971 58 304 1458 </a>
           </div>
 
           <div>
@@ -45,23 +45,26 @@ export const Footer = () =>(
               width={20}
               height={20}
             />
-            <p>info@teamlumyn.com</p>
+            <p>hello@teamlumyn.com</p>
           </div>
         </div>
 
 
         <div className="link_container">
           <div className="main_menu">
-            <h4>Main Menu</h4>
+            <h4>Learn More</h4>
             <Link href={'/podcast'}>Podcast</Link>
             <Link href={'/products'}>Shop</Link>
+            <Link href={'/blogs'}>Blog</Link>
+            <Link href={'/frequently-asked-questions'}>FAQ</Link>
           </div>
 
           <div className="useful_links">
-            <h4>Useful links</h4>
-            <Link href={'/contact-us'}>Contact Us</Link>
-            <Link href={'/frequently-asked-questions'}>FAQ</Link>
-            <Link href={'/blogs'}>Blog</Link>
+            <h4>other Links</h4>
+            <Link href={'#'}>Cookies</Link>
+            <Link href={'#'}>Privacy policy</Link>
+            <Link href={'#'}>Payment policy</Link>
+            <Link href={'#'}>Terms & Conditions</Link>
           </div>
         </div>
       </div>
@@ -71,7 +74,7 @@ export const Footer = () =>(
         <p>Stay informed about the latest news and releases.</p>
 
         <div className="input_container">
-          <input placeholder="Email" />
+          <input className="email_input" placeholder="Your Email" />
           <div className="image_container">
             <Image
               src="/assets/svg/send_arrow.svg"

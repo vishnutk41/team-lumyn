@@ -12,20 +12,22 @@
     padding: 0px 60px;
     width:100%;
     background-image: url('/assets/images/podcast\ hero\ banner-01.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .container{
       margin-left: auto;
       margin-top: auto;
       width: fit-content;
       padding-bottom: 10px;
-      transform: translateX(40px);
+      transform: translateX(80px);
     }
 
     .title{
       font-family: "Poppins", serif;
-      font-size: 60px;
+      font-size: 50px;
       font-weight: 700;
-      line-height: 62.83px;
+      line-height: 56.83px;
       text-align: left;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
@@ -39,9 +41,9 @@
     .sub_title{
       font-family: "Poppins", serif;
       padding-top: 5px;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 26.31px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24.31px;
       text-align: left;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
@@ -211,7 +213,7 @@
   .section_two {
     display: flex;
     flex-direction: row;
-    padding: 0px 60px;
+    padding: 0px 50px;
     width: 100%;
     height: 550px;
     margin-bottom: 120px;
@@ -269,11 +271,58 @@
       background-color: var(--gray-200);
     }
   }
+
+  .section_section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+    .span {
+      display: flex;
+      flex-direction: column;
+      width: 15px;
+      z-index: 100;
+      transform: translateX(35px);
+
+      .one{
+          margin: 0px auto ;
+          height: 180px;
+          width: 2px;
+          background: rgb(0,90,85);
+          background: linear-gradient(180deg, rgba(0,90,85,1) 0%, rgba(0,115,93,1) 17%, rgba(0,236,132,1) 100%);
+      }
+
+      .two{
+        margin: 15px auto ;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        transform: translateX(-2px);
+      }
+
+      .three{
+        margin: 0px auto  ;
+        height: 100%;
+        width: 2px;
+        background: rgb(0,90,85);
+        background: linear-gradient(180deg, rgba(0,90,85,1) 0%, rgba(0,115,93,1) 17%, rgba(0,236,132,1) 100%);
+      
+      }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+  }
   
   .section_three {
     display: flex;
     flex-direction: row;
-    padding: 0px 60px;
+    padding: 0px 50px;
     width: 100%;
     height: 550px;
     margin-bottom: 120px;
@@ -366,7 +415,7 @@
   .section_four {
     display: flex;
     flex-direction: row;
-    padding: 0px 60px;
+    padding: 0px 50px;
     width:100%;
     height: 550px;
     margin-bottom: 120px;
@@ -439,7 +488,8 @@
     flex-direction: column;
     padding: 120px 60px;
     width:100%;
-    background-color: var(--background_color_three);
+    background: #212236;
+    // background-color: var(--background_color_three);
     align-items: center;
   .image{
     width: 400px;
@@ -467,7 +517,7 @@
     flex-direction: row;
     gap: 8px;
     span {
-     background-color: var(--background_color_seven);
+    background: rgba(255, 255, 255, 0.1);
      border: 1px solid #00E782;
      width: fit-content;
      padding: 8px 12px;
@@ -583,7 +633,7 @@
     padding: 120px 60px;
     width: 100%;
     height: fit-content;
-    background-color: var(--background_color_eight);
+    // background-color: var(--background_color_eight);
   
     .container {
       display: flex;
@@ -912,6 +962,59 @@ text-decoration-skip-ink: none;
     
   
     }
+
+    .section_section{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  
+  
+      .span {
+        display: flex;
+        flex-direction: column;
+        width: 10px;
+        z-index: 100;
+        transform: translateX(10px);
+  
+        .one{
+            margin: 0px auto ;
+            height: 130px;
+            width: 2px;
+            background: rgb(0,90,85);
+            background: linear-gradient(180deg, rgba(0,90,85,1) 0%, rgba(0,115,93,1) 17%, rgba(0,236,132,1) 100%);
+        }
+  
+        .two{
+          margin: 16px auto ;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          transform: translateX(-7px);
+
+          svg{
+            scale:0.8;
+            transform: translateY(-7px);
+          }
+        }
+  
+        .three{
+          margin: 0px auto  ;
+          height: 100%;
+          width: 2px;
+          background: rgb(0,90,85);
+          background: linear-gradient(180deg, rgba(0,90,85,1) 0%, rgba(0,115,93,1) 17%, rgba(0,236,132,1) 100%);
+        
+        }
+      }
+  
+      .container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+      }
+  
+    }
     
     .section_two {
       display: flex;
@@ -967,13 +1070,14 @@ text-decoration-skip-ink: none;
           gap: 20px;
           width: 100%;
           height: 100px;
-    
+
           .item {
             flex: 1;
             background-color: var(--gray-300);
             border-radius: 8px;
-            height: 100%;
+            height: 300px;
           }
+
         }
       }
     
@@ -1203,19 +1307,19 @@ text-decoration-skip-ink: none;
       flex-direction: row;
       gap: 8px;
       span {
-       background: #1B1B1B;
+       background: rgba(255, 255, 255, 0.1);
        border-style: none;
        width: fit-content;
        padding: 4px 10px;
        border-radius: 19px;
-         font-family: "Poppins", serif;
-         font-family: Inter;
-         font-size: 10px;
-         font-weight: 500;
-         line-height: 26px;
-         text-align: center;
-         text-underline-position: from-font;
-         text-decoration-skip-ink: none;         
+        font-family: "Poppins", serif;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;         
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
@@ -1338,7 +1442,7 @@ text-decoration-skip-ink: none;
           display: flex;
           flex-direction: row;
           width: 100%;
-          height: 170px;
+          height: 200px;
           padding: 0px 0px;
           overflow: hidden;
           background-image: url('/assets/png/team.png');
