@@ -70,16 +70,23 @@
           max-width: 500px;
           padding-right: 100px;
 
-          .cta{
+          .cta {
             font-family: "Poppins", serif;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 400;
             line-height: 26px;
             text-align: left;
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
             margin-bottom: 20px;
+            margin-left: 15px;
             color: var(--gray-200);
+            // color: #C1C1C1;
+            // font-size: 12px;
+            // font-weight: 400;
+            // margin-left: 15px;
+            // line-height: 16.94px;
+            // color: #C1C1C1;
           }
           
           .footer_logo{
@@ -295,6 +302,14 @@
           div {
             display: flex;
             flex-direction: row;
+
+            .cta{
+                font-size: 12px;
+                font-weight: 400;
+                margin-left: 15px;
+                line-height: 16.94px;
+                color: #C1C1C1;
+            }
       
             p {
               font-family: "Poppins", serif;

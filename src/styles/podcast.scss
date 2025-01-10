@@ -19,7 +19,7 @@
       margin-left: auto;
       margin-top: auto;
       width: fit-content;
-      padding-bottom: 10px;
+      padding-bottom: 60px;
       transform: translateX(80px);
     }
 
@@ -901,6 +901,11 @@
             margin-top: 60px;
             display: flex;
 
+
+            .react-multiple-carousel__arrow {
+              display: none;
+            }
+
             .item{
               display: flex;
               flex-direction: column;
@@ -919,12 +924,12 @@
                 background: #212236;
                 span{
                   margin: auto;
-font-size: 21px;
-font-weight: 700;
-line-height: 25.41px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+                  font-size: 21px;
+                  font-weight: 700;
+                  line-height: 25.41px;
+                  text-align: center;
+                  text-underline-position: from-font;
+                  text-decoration-skip-ink: none;
 
                 }
               }
@@ -932,6 +937,7 @@ text-decoration-skip-ink: none;
           }
 
           .react-multi-carousel-dot-list{
+            display: flex;
             position: relative !important;
           }
     
