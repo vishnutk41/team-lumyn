@@ -25,7 +25,7 @@ export const Footer = () =>(
               width={20}
               height={20}
             />
-            <p>New Al Safiya Building, office SM18B4</p>
+            <p>New Alsafiyah Building, office SM18B4, Abu Hail, Dubai UAE</p>
           </div>
 
           <div>
@@ -35,12 +35,12 @@ export const Footer = () =>(
               width={20}
               height={20}
             />
-            <a className="cta" href="tel:+971 58 304 1458 " >+971 58 304 1458 </a>
+            <a className="cta" href="tel:+971 58 586 7086 " >+971 58 586 7086 </a>
           </div>
 
           <div>
             <Image
-              src="/assets/svg/globe.svg"
+              src="/assets/svg/mail_icon.svg"
               alt="shop icon"
               width={20}
               height={20}
