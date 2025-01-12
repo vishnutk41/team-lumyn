@@ -21,7 +21,7 @@ export default function Podcast() {
 
             <div className="container">
               <h3 className="title">YOUR VOICE , <span>YOUR STORY</span> <br/> <span>WITH LUMYN </span>PODCAST ROOMS</h3>
-              <p className="sub_title">Maecenas sit amet ultrices metus. Nunc efficitur ex metus, ut tristique diam suscipit sodales. Nullam dapibus a nisl pretium id.</p>
+              <p className="sub_title">Step into our state-of-the-art studios and produce podcasts that captivate. Crystal-clear sound, flawless recordings – tell your story with impact.</p>
               <button className="primay_button">Book Today</button>
             </div>
           </div>
@@ -195,12 +195,12 @@ export default function Podcast() {
             <div className="part_two">
               <div className="wrapper">
                 <h3 className="title">
-                  Create. Inspire. Amplify: Podcasting Reimagined
+                Where Innovation Meets Creativity
                 </h3>
                 <p className="sub_title">
-                  Podcasts are more than just audio; the space where your voice
-                  takes center stage. Professionally crafted podcast rooms
-                  designed to elevate your story.
+                Our podcast rooms are designed for creators, by creators. 
+                Experience a seamless blend of advanced technology and creative freedom to produce content that stands out. 
+                Whether you’re a seasoned podcaster or just starting out, we’ve got everything you need to succeed.
                 </p>
                 <div className="container">
                   <div className="item">
@@ -236,12 +236,10 @@ export default function Podcast() {
             <div className="part_one">
               <div className="wrapper">
                 <h3 className="title">
-                  Create. Inspire. Amplify: Podcasting Reimagined
+                A Space to Create Without Limits
                 </h3>
                 <p className="sub_title">
-                  Podcasts are more than just audio; the space where your voice
-                  takes center stage. Professionally crafted podcast rooms
-                  designed to elevate your story.
+                From podcast enthusiasts to business professionals, we cater to all your needs with a range of flexible services.
                 </p>
                 <div className="container">
                   <div className="item"></div>
@@ -276,17 +274,15 @@ export default function Podcast() {
           </div>
 
           <div className="section_six">
-            <h4 className="title">What they say about us</h4>
+            <h4 className="title">Transforming Ideas into Impactful Podcasts</h4>
 
             <div className="container">
               <div className="item">
                 <Rating number={4} />
                 <p className="testimonial">
-                  Nunc bibendum, lacus a ornare condimentum, diam augue semper
-                  nulla, in porta orci diam eget tortor. Vestibulum imperdiet
-                  finibus mattis. Morbi interdum purus ut ex tristique, eget
-                  pharetra lorem feugiat. Nullam ac dui eu lorem vulputate
-                  luctus.
+                "The team at Lumyn made the entire process effortless.
+                 From the moment I stepped into the studio, everything was perfectly set up.
+                  My podcast has never sounded so professional!"
                 </p>
                 <p className="author">
                   Ernest Alford{" "}

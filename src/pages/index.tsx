@@ -806,7 +806,7 @@ export default function Home() {
                 campaign, and design we create is like a firefly’s
                 light—distinctive, purposeful, and unforgettable.
               </p>
-              <button className="primay_button">Get Connect</button>
+              <button className="primay_button">Get Connected</button>
             </div>
 
             <div className="bottom">
@@ -820,31 +820,35 @@ export default function Home() {
                   </p>
 
                   <div className="container">
-                    <div className="item">Mastermind Team</div>
-                    <div className="item">Strategic Vision</div>
-                    <div className="item">Innovative Techniques</div>
-                    <div className="item">Future-Proof Solutions</div>
-                    <div className="item">Real-Time Monitoring</div>
-                    <div className="item">Goal-Crushing Focus</div>
+                  <div className="item">Responsive Development</div>
+
+                    <div className="item">Custom Designs</div>
+                    <div className="item">SEO Optimization</div>
+                    <div className="item">Fast Loading Speed </div>
+                    <div className="item">Security First </div>
+                    <div className="item">Scalable Solutions</div>
+                    <div className="item">Expert Support </div>
+
                   </div>
                   <p className="mobile text_description">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia curae; Vestibulum dictum congue
-                    lorem vel varius.
+                  Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
                   </p>
-                    <p className="text"> Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia curae; Vestibulum dictum congue
-                    lorem vel varius.</p>
-                    <p className="sub_head"> What us make different</p>
-                    <p className="text">
+                    <p className="text"> Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.</p>
+                    {/* <p className="sub_head"> What us make different</p> */}
+                    {/* <p className="text">
                     Vestibulum ante ipsum primis in faucibus orci luctus et
                     ultrices posuere cubilia curae.
                     <br/>
                     Vestibulum ante ipsum primis in faucibus orci luctus et
                     ultrices posuere cubilia curae; Vestibulum dictum congue
                     lorem vel varius.
-                    </p>
-                  <button className="primay_button">Contact Us</button>
+                    </p> */}
+<button
+  className="primay_button"
+  onClick={() => (window.location.href = 'http://localhost:3000/contact-us')}
+>
+  Contact Us
+</button>
                 </div>
               </div>
             </div>
