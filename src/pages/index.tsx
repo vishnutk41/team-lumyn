@@ -90,7 +90,6 @@ export default function Home() {
             <div className="top">
               <h3> What We Offer </h3>
               <p>Services Designed to Make Your Brand Unforgettable</p>
-              <p>View More</p>
             </div>
 
             {/* <div className="card_container">
@@ -1056,7 +1055,7 @@ Learn More
 
 <div className={style.section_two}>
 <div className={style.top}>
-  <h3> What We Offer </h3>
+  <h3>  </h3>
   <p>
   Services Designed to Make Your Brand Unforgettable
   </p>
