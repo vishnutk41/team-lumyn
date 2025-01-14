@@ -7,6 +7,8 @@ import "@/styles/home.scss";
 import "@/styles/menu.scss";
 import "@/styles/podcast.scss";
 import "@/styles/blog_details.scss";
+import "@/styles/privacy_policy.scss";
+import "@/styles/terms_conditions.scss";
 import "@/styles/products.scss";
 
 // import "slick-carousel/slick/slick.css";

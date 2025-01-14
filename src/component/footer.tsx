@@ -62,9 +62,9 @@ export const Footer = () =>(
           <div className="useful_links">
             <h4>other Links</h4>
             <Link href={'#'}>Cookies</Link>
-            <Link href={'#'}>Privacy policy</Link>
+            <Link href={'/privacy_policy'}>Privacy policy</Link>
             <Link href={'#'}>Payment policy</Link>
-            <Link href={'#'}>Terms & Conditions</Link>
+            <Link href={'/terms_conditions'}>Terms & Conditions</Link>
           </div>
         </div>
       </div>
