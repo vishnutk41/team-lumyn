@@ -74,41 +74,49 @@ export const Footer = () =>(
         <p>Stay informed about the latest news and releases.</p>
 
         <div className="input_container">
-          <input className="email_input" placeholder="Your Email" />
-          <div className="image_container">
-            <Image
-              src="/assets/svg/send_arrow.svg"
-              alt="arrow-logo"
-              width={27}
-              height={27}
-            />
-          </div>
-        </div>
+  <input className="email_input" placeholder="Your Email" />
+  <div className="button_container">
+    <button className="subscribe_button">Subscribe</button>
+  </div>
+</div>
+
         <div className="social_media">
+        <a href="https://www.facebook.com/profile.php?id=61571040153157" target="_blank" rel="noopener noreferrer">
+
           <Image
             src="/assets/svg/facebook.svg"
             alt="facebook-logo"
             width={20}
             height={20}
           />
+          </a>
+                    <a href="https://www.instagram.com/wearelumyn/profilecard/?igsh=dWhxMDA1bXd2ZXY5" target="_blank" rel="noopener noreferrer">
+
           <Image
             src="/assets/svg/instagram.svg"
             alt="instagram-logo"
             width={20}
             height={20}
           />
+           </a>
+          <a href="https://x.com/wearelumyn?s=21" target="_blank" rel="noopener noreferrer">
+
           <Image
             src="/assets/svg/twitter.svg"
             alt="twitter-logo"
             width={20}
             height={20}
           />
-            <Image
-            src="/assets/svg/linkedin.svg"
-            alt="twitter-logo"
-            width={20}
-            height={20}
-          />
+          </a>
+<a href="https://www.linkedin.com/company/wearelumyn/" target="_blank" rel="noopener noreferrer">
+  <Image
+    src="/assets/svg/linkedin.svg"
+    alt="linkedin-logo"
+    width={20}
+    height={20}
+  />
+</a>
+
         </div>
       </div>
     </div>
