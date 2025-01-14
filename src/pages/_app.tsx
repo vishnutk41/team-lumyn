@@ -10,6 +10,8 @@ import "@/styles/blog_details.scss";
 import "@/styles/privacy_policy.scss";
 import "@/styles/terms_conditions.scss";
 import "@/styles/products.scss";
+import "@/styles/payment_policy.scss";
+import "@/styles/cookies.scss";
 
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
