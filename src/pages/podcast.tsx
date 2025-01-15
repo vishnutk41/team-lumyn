@@ -45,7 +45,9 @@ export default function Podcast() {
 
                 <div className="card_container">
                   <div className="card">
-                    <div className="image_container"></div>
+                    <div className="image_container">
+                    {/* <img alt="shop icon" loading="lazy" width="100%" height="300" decoding="async" data-nimg="1" src="/assets/images/Echo Lite.webp"></img> */}
+                    </div>
                     <div className="bottom_container">
                       <h4 className="title">Echo Lite 
                       </h4>
@@ -187,7 +189,10 @@ export default function Podcast() {
                 </div>
               </div>
             </div>
-            <div className="part_two"></div>
+            <div className="part_two">
+
+              
+            </div>
           </div>
 
           <div className="section_three">

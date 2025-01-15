@@ -143,12 +143,17 @@
             box-shadow: 0px 0px 18px 0px #00ed85 inset;
     
     
-            /* .image_container {
+        .image_container {
               width: 100%;
               height: 100%;
-              margin: ;
-              background-color: var(--gray-200);
-            } */
+
+              .image{
+                width: 35%;
+                height: 60px;
+              }
+              // margin: ;
+              // background-color: var(--gray-200);
+            } 
     
             .bottom_container {
               margin-top: auto;
@@ -269,6 +274,10 @@
       width: 50%;
       height: 100%;
       background-color: var(--gray-200);
+      background-image: url("/assets/images/amplify.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
   }
 
@@ -333,6 +342,10 @@
       width: 50%;
       height: 100%;
       background-color: var(--gray-200);
+      background-image: url("/assets/images/Innovation.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
   
     .part_two {
@@ -479,6 +492,10 @@
       width: 50%;
       height: 100%;
       background-color: var(--gray-200);
+      background-image: url("/assets/images/Space to Create.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
   
   }
@@ -486,16 +503,21 @@
   .section_five {
     display: flex;
     flex-direction: column;
-    padding: 120px 60px;
+    padding: 45px 45px;
     width:100%;
     background: #212236;
     // background-color: var(--background_color_three);
+    
     align-items: center;
   .image{
     width: 400px;
     height: 400px;
     border-radius: 8px;
     background-color: var(--background_color_two);
+    background-image: url("/assets/images/Book Your Podcast.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .title{
     margin-top: 20px;
@@ -707,6 +729,7 @@
       width:100%;
       background-image: none;
       // background-image: url('/assets/images/podcast\ hero\ banner-01.webp');
+      
   
       .container{
         margin-left: auto;
@@ -826,6 +849,10 @@
             margin-top: 35px;
             border-radius: 8px;
             background: #565656;
+            background-image: url('/assets/images/Podcast\ sub\ image-01.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
 
             .title {
               margin: auto auto 20px auto;
@@ -1093,6 +1120,10 @@
         width: 100%;
         height: 350px;
         background: #565656;
+        background-image: url(/assets/images/amplify.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
       }
 
     }
