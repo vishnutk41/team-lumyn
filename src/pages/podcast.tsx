@@ -29,7 +29,7 @@ export default function Podcast() {
     Crystal-clear sound, flawless recordings – tell your story with impact.
   </p>
   <button 
-    className="primay_button" 
+    className="primay_button"
     onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
   >
     Book Today
@@ -286,7 +286,10 @@ export default function Podcast() {
               <span> Pick a Time Slot </span>
               <span> Confirm Your Booking </span>
             </div>
-            <button className="primay_button">Book Now</button>
+            <button className="primay_button"
+                onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
+
+            >Book Now</button>
           </div>
 
           <div className="section_six">

@@ -588,7 +588,7 @@ export default function Home() {
             >
 
 
-              <div className="image_container">
+              <div className="image_container image_container_1" >
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -606,7 +606,7 @@ export default function Home() {
               </div>
 
 
-              <div className="image_container">
+              <div className="image_container image_container_2">
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -624,7 +624,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="image_container">
+              <div className="image_container image_container_3">
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -642,7 +642,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="image_container">
+              <div className="image_container image_container_4">
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>

@@ -31,11 +31,16 @@ export default function BlogDetails() {
                                 </div>
 
                                 <div className="blog_image">
-
+                                <Image 
+    src="/assets/images/blog_images/Domain Privacy Protection.png"
+    alt="Domain Privacy Protection Banner"
+    layout="fill"
+    objectFit="cover"
+  />
                                 </div>
 
                                 <div className="blog_title_description">
-                                  <div className="comments">by Admin  | 42 comments</div>
+                                  <div className="comments">by Admin </div>
                                   <h3 className="title"> Domain Privacy Protection: Why It's Essential for Website Owners  </h3>
                                   <p className="description"> Domain privacy protection, also known as WHOIS privacy, is a service that shields your personal information from public view when you register a domain name. Without it, details like your name, address, phone number, and email are publicly accessible through WHOIS databases. </p>
                                 </div>
