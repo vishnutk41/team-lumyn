@@ -733,6 +733,8 @@
             text-align: left;
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
           }
           .sub_head{
             font-family: "Poppins", serif;
@@ -1710,7 +1712,8 @@ text-decoration-skip-ink: none;
       padding: 0px 20px;
       width:100%;
       max-width: 100%;
-    
+      padding-bottom: 10px;
+
       .top {
         margin-top: 45px;
         margin-bottom: 40px;
@@ -1895,11 +1898,11 @@ text-decoration-skip-ink: none;
     } 
   
     .section_six {
-      display: flex;
+      display: none;
       flex-direction: column;
       padding: 40px 20px;
       width: 100%;
-  
+
       .title {
         font-family: "Poppins", serif;
         font-size: 21px;

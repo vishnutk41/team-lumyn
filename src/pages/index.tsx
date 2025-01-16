@@ -634,10 +634,9 @@ export default function Home() {
                   <div className="wrapper">
                   <h3 className="title">LumaPanels</h3>
                   <p className="description">
-                  "Eye-Catching Displays That Demand Attention"
+                  "Vivid Displays That Captivate"
                     <br />
-                    Illuminate your brand with vibrant LED panels that captivate and engage.
-                  </p>
+                    Showcase your brand with vibrant, attention-grabbing LED panels.                  </p>
                   <p className="number">03</p>
                   </div>
                 </div>
@@ -732,10 +731,9 @@ export default function Home() {
                 <div className="wrapper">
                   <h3 className="title">LumaPanels</h3>
                   <p className="description">
-                    “Eye-Catching Displays That Demand Attention”
-                    <br />
-                    Illuminate your brand with vibrant LED panels that captivate and engage.
-                  </p>
+                  "Vivid Displays That Captivate"
+                  <br />
+                    Showcase your brand with vibrant, attention-grabbing LED panels.                  </p>
                   <p className="number">03</p>
                 </div>
               </div>
@@ -785,10 +783,10 @@ export default function Home() {
               <div className="container">
                 <div className="left"></div>
                 <div className="right">
-                  <h3 className="title">Code Crafted</h3>
+                  <h3 className="title">Code Crafted by Lumyn</h3>
                   <p className="sub_title">
-                    Create fully personalized websites that reflect your brand’s
-                    unique identity.
+                  Your digital presence, redefined with bespoke web solutions.
+
                   </p>
 
                   <div className="container">
@@ -802,10 +800,20 @@ export default function Home() {
                     <div className="item">Expert Support </div>
 
                   </div>
-                  <p className="mobile text_description">
+                  {/* <p className="mobile text_description">
                   Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
-                  </p>
-                    <p className="text"> Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.</p>
+                  </p> */}
+                    <h4>Why Choose Lumyn for Your Website?</h4> 
+
+                    <p className="text">At Lumyn, we understand that your website isn’t just a platform—it’s a cornerstone of your brand identity. 
+                      It’s the first impression many customers will have of your business, and it needs to combine aesthetics, performance, and 
+                      functionality to stand out in today’s competitive digital landscape.
+                    </p>
+                    <h4>Let’s Build Something Extraordinary!!</h4> 
+<p className="text">Your website should be as dynamic and forward-thinking as your business. 
+  At Lumyn, we merge creativity with technology to deliver websites that are more than just functional—they’re 
+  transformative.
+</p>
 <button
   className="primay_button"
   onClick={() => (window.location.href = 'http://localhost:3000/contact-us')}

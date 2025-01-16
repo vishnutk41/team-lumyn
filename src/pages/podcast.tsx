@@ -191,9 +191,9 @@ export default function Podcast() {
                   Create. Inspire. Amplify: Podcasting Reimagined
                 </h3>
                 <p className="sub_title">
-                  Podcasts are more than just audio; the space where your voice
-                  takes center stage. Professionally crafted podcast rooms
-                  designed to elevate your story.
+                We believe every story deserves to be heard. Lumyn Echo Pod is designed to provide creators with a 
+                professional, seamless, and inspiring environment to share their message. Whether you're a seasoned 
+                podcaster or just starting out, we’re here to elevate your content to new heights.
                 </p>
                 <div className="container">
                   <div className="item"></div>
@@ -214,13 +214,14 @@ export default function Podcast() {
                 Where Innovation Meets Creativity
                 </h3>
                 <p className="sub_title">
-                Our podcast rooms are designed for creators, by creators. 
-                Experience a seamless blend of advanced technology and creative freedom to produce content that stands out. 
-                Whether you’re a seasoned podcaster or just starting out, we’ve got everything you need to succeed.
+                Our podcast rooms are crafted for creators, by creators. With cutting-edge technology and a focus on
+                 creative freedom, these spaces enable you to produce exceptional content effortlessly. Whether you're
+                  a seasoned podcaster or just starting out, we provide everything you need to succeed.
                 </p>
                 <div className="container">
                   <div className="item">
-                    <div className="title">Professional Soundproofing</div>
+                    <div className="title">Professional Soundproofing
+                    </div>
                     <div className="percentage_container">
                       <span></span>
                       <span></span>
@@ -228,7 +229,8 @@ export default function Podcast() {
                     </div>
                   </div>
                   <div className="item">
-                    <div className="title">Professional Soundproofing</div>
+                    <div className="title">High-Quality Microphones
+                    </div>
                     <div className="percentage_container">
                       <span></span>
                       <span></span>
@@ -236,7 +238,7 @@ export default function Podcast() {
                     </div>
                   </div>
                   <div className="item">
-                    <div className="title">Professional Soundproofing</div>
+                    <div className="title">On-Demand Support</div>
                     <div className="percentage_container">
                       <span></span>
                       <span></span>
@@ -255,14 +257,31 @@ export default function Podcast() {
                 A Space to Create Without Limits
                 </h3>
                 <p className="sub_title">
-                From podcast enthusiasts to business professionals, we cater to all your needs with a range of flexible services.
-                </p>
-                <div className="container">
+                
+<strong>Solo Podcasters:</strong> Enjoy a quiet, distraction-free environment equipped with top-notch audio equipment, ensuring your voice comes through crisp and clear.
+</p>
+
+<p className="sub_title">
+<strong>Interview-Style Podcasts:</strong> Host engaging one-on-one conversations with ease, using our comfortable and fully equipped setup.
+</p>
+
+<p className="sub_title">
+<strong>Panel Discussions:</strong> Accommodate multiple speakers effortlessly with our spacious layout, multiple microphones, and advanced audio-mixing technology.
+</p>
+
+<p className="sub_title">
+<strong>Remote Guest Interviews:</strong> Seamlessly connect with guests from around the world using our high-speed internet and professional virtual setup tools.
+</p>
+
+<p className="sub_title">
+No matter your podcasting format, our studio is built to make your creative process smooth and your content stand out.
+</p>               
+                {/* <div className="container">
                   <div className="item"></div>
                   <div className="item"></div>
                   <div className="item"></div>
                   <div className="item"></div>
-                </div>
+                </div> */}
                 {/* <button className="primay_button">Book Today</button> */}
               </div>
             </div>
