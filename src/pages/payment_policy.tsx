@@ -70,9 +70,9 @@ export default function PaymentPolicy() {
                             <p>
                                 For any payment-related inquiries or concerns, please reach out to our support team at:
                                 <br />
-                                <strong>Email:</strong> <a href="mailto:support@lumyn.com" style={{ color: "#00ed85", textDecoration: "none" }}>support@lumyn.com</a>
+                                <strong>Email:</strong> <a href="mailto:hello@teamlumyn.com" style={{ color: "#00ed85", textDecoration: "none" }}>hello@teamlumyn.com</a>
                                 <br />
-                                <strong>Phone:</strong> +123 456 7890
+                                <strong>Phone:</strong> +971 58 586 7086
                             </p>
                         </div>
                     </div>
