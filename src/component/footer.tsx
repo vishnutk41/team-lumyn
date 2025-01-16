@@ -121,7 +121,7 @@ export const Footer = () =>(
       </div>
     </div>
     <div className="copyright">
-      <p>All Rights Reserved @alishantrading.com</p>
+      <p>@2025 All Rights Reserved Alishan Trading LLC</p>
     </div>
 </footer>
 
