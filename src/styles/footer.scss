@@ -149,13 +149,24 @@
 
         .subscribe_button {
           padding: 8px 16px;
-          background-color: #007BFF;
-          color: #fff;
+          // background-color: #007BFF;
+          color: #000000;
           border: none;
-          border-radius: 4px;
           font-size: 14px;
-          cursor: pointer;
           text-align: center;
+          cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 90, 85);
+    background: linear-gradient(270deg, rgb(0, 90, 85) 0%, rgb(0, 115, 93) 17%, rgb(0, 236, 132) 100%);
+    border-radius: 4px;
+    font-family: "Poppins", serif;
+    line-height: 19.36px;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
         }
       }
 
@@ -347,8 +358,7 @@
           outline: none;
           color: #939393;
         }
-
-        .subscribe_button {
+          .subscribe_button { 
           padding: 8px 16px;
           background-color: #007BFF;
           color: #fff;

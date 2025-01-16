@@ -34,11 +34,11 @@ export default function Home() {
             <div className="top">
               <h3> See how Lumyn transforms brands into industry leaders </h3>
               <p>
-                Watch now and ignite your success with bold strategies, creative
+                Ignite your success with bold strategies, creative
                 solutions, and unmatched passion!
               </p>
             </div>
-            <div className="image_container"></div>
+            {/* <div className="image_container"></div> */}
             <div className="bottom">
               <div className="container">
                 <div className="item">
@@ -63,7 +63,9 @@ export default function Home() {
                 posuere cubilia curae; Vestibulum dictum congue lorem vel
                 varius.
               </p> */}
-              <button className="primay_button">Get Connect</button>
+<a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+  <button className="primay_button">Get Connected</button>
+</a>
             </div>
           </div>
 
@@ -632,10 +634,9 @@ export default function Home() {
                   <div className="wrapper">
                   <h3 className="title">LumaPanels</h3>
                   <p className="description">
-                    “Eye-Catching Displays That Demand Attention”
+                  "Eye-Catching Displays That Demand Attention"
                     <br />
-                    Illuminate your brand with vibrant, high-quality LED panels
-                    designed to captivate and engage your audience.
+                    Illuminate your brand with vibrant LED panels that captivate and engage.
                   </p>
                   <p className="number">03</p>
                   </div>
@@ -652,9 +653,7 @@ export default function Home() {
                   <p className="description">
                     “E“Compelling Stories That Convert”
                     <br />
-                    Bring your brand’s message to life with dynamic, tailored
-                    content that connects with your audience and enhances your
-                    marketing strategy.
+                    Bring your brand to life with tailored content that connects and converts.
                   </p>
                   <p className="number">04</p>
                   </div>
@@ -735,8 +734,7 @@ export default function Home() {
                   <p className="description">
                     “Eye-Catching Displays That Demand Attention”
                     <br />
-                    Illuminate your brand with vibrant, high-quality LED panels
-                    designed to captivate and engage your audience.
+                    Illuminate your brand with vibrant LED panels that captivate and engage.
                   </p>
                   <p className="number">03</p>
                 </div>
@@ -757,9 +755,7 @@ export default function Home() {
                   <p className="description">
                     “E“Compelling Stories That Convert”
                     <br />
-                    Bring your brand’s message to life with dynamic, tailored
-                    content that connects with your audience and enhances your
-                    marketing strategy.
+                    Bring your brand to life with tailored content that connects and converts.
                   </p>
                   <p className="number">04</p>
                 </div>
@@ -780,7 +776,9 @@ export default function Home() {
                 campaign, and design we create is like a firefly’s
                 light—distinctive, purposeful, and unforgettable.
               </p>
-              <button className="primay_button">Get Connected</button>
+              <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+  <button className="primay_button">Get Connected</button>
+</a>
             </div>
 
             <div className="bottom">
@@ -955,11 +953,23 @@ export default function Home() {
             </h3>
 
             <div className="container">
-              <div className="item"></div>
-              <div className="item"></div>
-              <div className="item"></div>
-              <div className="item"></div>
-              <div className="item"></div>
+
+              <div className="item">
+                 <img src="/assets/images/UAE.png" alt="" />
+                 <h4>UAE</h4>
+              </div>
+              <div className="item">
+                 <img src="/assets/images/india.png" alt="" />
+                 <h4>INDIA</h4>
+              </div>
+              <div className="item">
+                 <img src="/assets/images/UK.png" alt="" />
+                 <h4>UK</h4>
+              </div>
+              <div className="item">
+                 <img src="/assets/images/USA.png" alt="" />
+                 <h4>USA</h4>
+              </div>
 
             </div>
           </div>
