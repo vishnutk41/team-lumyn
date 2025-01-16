@@ -120,6 +120,9 @@ export const Footer = () =>(
         </div>
       </div>
     </div>
+    <div className="copyright">
+      <p>All Rights Reserved @alishantrading.com</p>
+    </div>
 </footer>
 
 )
