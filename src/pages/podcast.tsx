@@ -190,8 +190,11 @@ export default function Podcast() {
                 <h3 className="title">
                   Create. Inspire. Amplify: Podcasting Reimagined
                 </h3>
+
                 <p className="sub_title">
-                We believe every story deserves to be heard. Lumyn Echo Pod is designed to provide creators with a 
+                Podcasts are more than just audio; the space where your voice takes center stage.
+                Professionally crafted podcast rooms designed to elevate your story.</p>
+                <p className="sub_title">  We believe every story deserves to be heard. Lumyn Echo Pod is designed to provide creators with a 
                 professional, seamless, and inspiring environment to share their message. Whether you're a seasoned 
                 podcaster or just starting out, we’re here to elevate your content to new heights.
                 </p>
