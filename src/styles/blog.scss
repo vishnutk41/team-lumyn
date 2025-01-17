@@ -26,10 +26,32 @@
                 width: 50%;
                 cursor: pointer;
 
-                .image {
+                .image_1 {
                     background-color: var(--background_color_three);
                     width: 100%;
                     height: 500px;
+                    background-image: url("/assets/images/blog_images/Domain Privacy Protection.png");
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .image_2 {
+                    background-color: var(--background_color_three);
+                    width: 100%;
+                    height: 500px;
+                    background-image: url("/assets/images/blog_images/Driving Organic Traffic.webp");
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .image_3 {
+                    background-color: var(--background_color_three);
+                    width: 100%;
+                    height: 500px;
+                    background-image: url("/assets/images/blog_images/Website Revamping.webp");
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
                 }
                 .comment {
                     margin-top: 30px;

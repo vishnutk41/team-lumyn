@@ -32,11 +32,11 @@ export default function BlogDetails() {
 
                                 <div className="blog_image">
                                 <Image 
-    src="/assets/images/blog_images/Domain Privacy Protection.png"
-    alt="Domain Privacy Protection Banner"
-    layout="fill"
-    objectFit="cover"
-  />
+                                src="/assets/images/blog_images/Domain Privacy Protection.png"
+                                alt="Domain Privacy Protection Banner"
+                                layout="fill"
+                                objectFit="cover"
+                                />
                                 </div>
 
                                 <div className="blog_title_description">

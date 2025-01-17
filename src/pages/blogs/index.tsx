@@ -27,7 +27,7 @@ export default function Blogs() {
 
                 <div className="container">
                     <Link  className="blog_item" href="/blogs/blog_details">
-                       <div className="image"></div>
+                       <div className="image_1"></div>
                        
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
@@ -38,7 +38,7 @@ export default function Blogs() {
                     
 
                     <Link  className="blog_item" href="/blogs/blog_details">
-                        <div className="image"></div>
+                        <div className="image_2"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                         Driving Organic Traffic: Essential Strategies for 2024
@@ -49,11 +49,10 @@ export default function Blogs() {
                 <div className="container">
 
                     <Link  className="blog_item" href="/blogs/blog_details">
-                        <div className="image"></div>
+                        <div className="image_3"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
+                        Website Revamping: A Strategic Approach to Business Growth
                         </p>
                     </Link>
 
