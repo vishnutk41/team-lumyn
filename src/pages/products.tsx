@@ -149,8 +149,8 @@ export default function Products() {
                     </div>
                   </div>
                   <div className="part_two">
-                    <h3 className="title">WebCommerce (website packages)</h3>
-                    <p className="sub_title">Create a Brand That Stands the Test of Time!</p>
+                    <h3 className="title">WebCommerce </h3>
+                    <p className="sub_title">Your Digital Gateway to Success!</p>
                     {/* <div className="icon_highlight">
                       <div className="wrapper">
                         <Image
@@ -202,7 +202,7 @@ export default function Products() {
                               <p>for basic websites </p>
                             </div>
                             <p className="price">
-                             AED 1625.00 
+                             AED 1625
                               <sub></sub>
                             </p>
                             <ul className="features">
@@ -240,7 +240,7 @@ export default function Products() {
                                 <strong>24/7</strong> support
                               </li> */}
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card standard">
                             <div className="heading">
@@ -248,7 +248,7 @@ export default function Products() {
                               <p>for medium-sized businesses </p>
                             </div>
                             <p className="price">
-                             AED 3250.00
+                             AED 3250
                               <sub></sub>
                             </p>
                             <ul className="features">
@@ -287,7 +287,7 @@ export default function Products() {
                                 <strong>24/7</strong> support
                               </li> */}
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -295,7 +295,7 @@ export default function Products() {
                               <p>for E-Commerce Websites</p>
                             </div>
                             <p className="price">
-                            AED 5410.00
+                            AED 5410
                               <sub></sub>
                             </p>
                             <ul className="features">
@@ -336,7 +336,7 @@ export default function Products() {
                                 <strong>Advanced</strong> security features
                               </li> */}
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                   </section>
                 </div>
@@ -353,7 +353,7 @@ export default function Products() {
                     </div>
                   </div>
                   <div className="part_two">
-                    <h3 className="title">OptiRank (SEO packages)</h3>
+                    <h3 className="title">OptiRank </h3>
                     <p className="sub_title">Climb Higher, Stay Visible!</p>
                     {/* <div className="icon_highlight">
                       <div className="wrapper">
@@ -443,7 +443,7 @@ export default function Products() {
                                 <strong>24/7</strong> support
                               </li> */}
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card standard">
                             <div className="heading">
@@ -478,7 +478,7 @@ export default function Products() {
                               </li>
                             
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -510,7 +510,7 @@ export default function Products() {
                               </li>
                               
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                   </section>
                 </div>
@@ -527,7 +527,7 @@ export default function Products() {
                     </div>
                   </div>
                   <div className="part_two">
-                    <h3 className="title">InsightMedia (Social media package)</h3>
+                    <h3 className="title">InsightMedia </h3>
                     <p className="sub_title">Turn Likes into Loyal Customers!</p>
                     {/* <div className="icon_highlight">
                       <div className="wrapper">
@@ -607,7 +607,7 @@ export default function Products() {
                               </li>
                               
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card standard">
                             <div className="heading">
@@ -649,7 +649,7 @@ export default function Products() {
                               </li>
                              
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -693,7 +693,7 @@ export default function Products() {
                               
                             
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -732,7 +732,7 @@ export default function Products() {
                               </li>
               
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -758,23 +758,30 @@ export default function Products() {
                                 <i className="fa-solid fa-check"></i>
                                 <strong>Event-Based</strong> Campaigns
                               </li>
-                              <p>Add on services</p>
+                              {/* <p>Add on services</p>
                               <li>
                                 <i className="fa-solid fa-check"></i>
                                 <strong>Social Media Ad</strong>Starting at AED 1,080/month
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Video/Reel Editing</strong>- AED 540.00/Video
+                                <strong>Video/Reel Editing</strong>- AED 540/Video
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
                                 <strong>Influencer Campaign</strong>Starting at AED 1,625/Project
                               </li>
-              
+               */}
                             </ul>
-                            <button className="cta-btn">SELECT</button>
+                            <button className="cta-btn">CHOOSE PLAN</button>
                           </div>
+                          <div className="pricing_section">
+                                                   <h3 className="pricing_title" style={{ color: "#00ed85"}}>Add-On Services</h3> 
+                                                   <div className="pricing_item">Social Media Ad Campaigns: Starting at AED 1,080/Monthly </div> 
+                                                   <div className="pricing_item">Video/Reel Editing: AED 540/Video</div> 
+                                                   <div className="pricing_item">Influencer Campaign Management: Starting at AED 1,625/Project</div>
+                                                   
+                                                    </div> 
                   </section>
                 </div>
 
@@ -788,7 +795,7 @@ export default function Products() {
                          <p className="content">Bring your brand to life with BrandForge. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
                          </div>
                           </div> <div className="part_two"> 
-                            <h3 className="title"> BrandForge (BrandKit package)</h3> 
+                            <h3 className="title"> BrandForge </h3> 
                             <p className="sub_title"> Forge a Brand That Stands Out! </p>
                              {/* <div className="icon_highlight">
                                <div className="wrapper">
@@ -869,7 +876,7 @@ export default function Products() {
                                         <strong>24/7</strong> support
                                       </li> */}
                                     </ul>
-                                    <button className="cta-btn">SELECT</button>
+                                    <button className="cta-btn">CHOOSE PLAN</button>
                                   </div>
                                   <div className="pricing-card standard">
                                     <div className="heading">
@@ -917,7 +924,7 @@ export default function Products() {
                                         <strong>24/7</strong> support
                                       </li> */}
                                     </ul>
-                                    <button className="cta-btn">SELECT</button>
+                                    <button className="cta-btn">CHOOSE PLAN</button>
                                   </div>
                                   <div className="pricing-card premium">
                                     <div className="heading">
@@ -963,7 +970,7 @@ export default function Products() {
                                       </li>
                                       
                                     </ul>
-                                    <button className="cta-btn">SELECT</button>
+                                    <button className="cta-btn">CHOOSE PLAN</button>
                                   </div>
                                   <div className="pricing-card premium">
                                     <div className="heading">
@@ -1014,8 +1021,16 @@ Messaging & Positioning)
 
                                       </li>
                                     </ul>
-                                    <button className="cta-btn">SELECT</button>
+                                    <button className="cta-btn">CHOOSE PLAN</button>
                                   </div>
+                                   <div className="pricing_section">
+                                                   <h3 className="pricing_title" style={{ color: "#00ed85"}}>Add-On Services</h3> 
+                                                   <div className="pricing_item">Packaging Design: Starting at AED 865/Design</div> 
+                                                   <div className="pricing_item">Merch Design (T-Shirts, Mugs, etc.): Starting at AED 750</div> 
+                                                   <div className="pricing_item">Social Media Launch Campaign: AED 1620</div>
+                                                   <div className="pricing_item">Website Branding Integration: AED 2160</div>
+                                                    </div> 
+
                                 </section>
                             </div>
                             </div> 
