@@ -344,7 +344,7 @@
       width: 100%;
 
       .input_container {
-        display: none;
+        // display: none;
         flex-direction: row;
         margin-top: 20px;
         background-color: #252525;
@@ -359,7 +359,7 @@
           color: #939393;
         }
           .subscribe_button { 
-          padding: 8px 16px;
+          padding: 5px 10px;
           background-color: #007BFF;
           color: #fff;
           border: none;
