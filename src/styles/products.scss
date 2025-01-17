@@ -1,441 +1,971 @@
 .products {
     background: #212236;
 
-    .react-multi-carousel-dot-list {
-            display: none;
-    }
+    // .react-multi-carousel-dot-list {
+    //         display: none;
+    // }
 
 
-    .products_section {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
+    // .products_section {
+    //     display: flex;
+    //     flex-direction: column;
+    //     min-height: 100vh;
         
-        padding: 0px 60px;
-        width: 100%;
+    //     padding: 0px 60px;
+    //     width: 100%;
 
-        .container{
+    //     .container{
+    //         // display: flex;
+    //         flex-direction: row;
+    //         margin: 40px 0px 60px 0px;
+    //         width: 100%;
+    //         gap: 40px;
+
+    //         .react-multiple-carousel__arrow--left{
+    //             margin-bottom: 220px;
+    //             transform: translateX(-50px);
+    //         }
+
+    //         .react-multiple-carousel__arrow--right{
+    //             margin-bottom: 220px;
+    //             transform: translateX(50px);
+    //         }
+
+    //         .react-multi-carousel-list  {
+    //             display: flex;
+    //             flex-direction: row;
+    //             width: 100%;
+    //             height: 800px;
+               
+    //             .slide_container{
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 width: 100%;
+    //                 height: 100%;
+    //             }
+    //         }
+
+    //         .part_one {
+    //             width: 50%;
+    //             height: 100%;
+            
+    //             .image_container {
+    //                 width: 100%;
+    //                 height: 600px;
+    //                 background: #565656;
+    //             }
+
+    //             .discription {
+    //                 width: 100%;
+    //                 height: 200px;
+    //                 padding: 15px;
+
+    //                 .content {
+    //                     font-size: 16px;
+    //                     font-weight: 400;
+    //                     line-height: 26px;
+    //                     text-align: left;
+    //                     text-underline-position: from-font;
+    //                     text-decoration-skip-ink: none;
+    //                     color: #C1C1C1;
+    //                 }
+    //             }
+    //         }
+
+    //         .part_two {
+    //             margin-left: 40px;
+    //             display: flex;
+    //             flex-direction: column;
+    //             width: 50%;
+    //             height: 100%;
+
+    //             .title {
+    //                 font-family: "Poppins", serif;
+    //                 font-size: 42px;
+    //                 font-weight: 700;
+    //                 line-height: 50.83px;
+    //                 text-align: left;
+    //                 text-underline-position: from-font;
+    //                 text-decoration-skip-ink: none;
+    //                 color: #FFFFFF;
+    //             }
+
+    //             .sub_title{
+    //                 font-family: "Poppins", serif;
+    //                 font-size: 16px;
+    //                 font-weight: 400;
+    //                 line-height: 26px;
+    //                 text-align: left;
+    //                 text-underline-position: from-font;
+    //                 text-decoration-skip-ink: none;
+    //                 color:  #C1C1C1;
+    //             }
+
+    //             .icon_highlight {
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 width: 100%;
+    //                 margin-top: 100px;
+    //                 gap:30px;
+                    
+    //                 .wrapper {
+    //                   display: flex;
+    //                   flex-direction: row;
+    //                   width: fit-content;
+    //                   align-items: center;
+    //                   font-family: "Poppins", serif;
+    //                   font-size: 14px;
+    //                   font-weight: 400;
+    //                   line-height: 16px;
+    //                   text-align: left;
+    //                   text-underline-position: from-font;
+    //                   text-decoration-skip-ink: none;
+    //                   color: #C1C1C1;
+        
+    //                   img{
+    //                     margin-right: 5px;
+    //                     width: fit-content;
+    //                   }
+    //                 }
+          
+    //               }
+
+    //             .container_text {
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 flex-wrap: wrap;
+    //                 height: fit-content;
+    //                 width: 100%;
+    //                 margin-top: 30px;
+
+        
+    //             .item {
+    //                 margin-right: 20px;
+    //                 margin-bottom: 10px;
+    //                 width: fit-content;
+    //                 height: fit-content;
+    //                 font-family: "Poppins", serif;
+    //                 padding: 8px 18px;
+    //                 font-size: 16px;
+    //                 font-weight: 500;
+    //                 line-height: 20px;
+    //                 text-align: center;
+    //                 text-underline-position: from-font;
+    //                 text-decoration-skip-ink: none;
+    //                 color: var(--white);
+    //                 background-color: var(--gray-300);
+    //                 border-radius: 20px;
+    //                 box-shadow: 0px 0px 30px 0px #00000033;
+    //                 text-wrap: nowrap;
+    //             }
+    //             }
+
+    //             .primay_button{
+    //                 margin-top: 80px;
+    //             }
+          
+
+    //         }
+          
+
+    //     }
+        
+    // }
+
+    // .react-multi-carousel-dot-list {
+    //     display: none;
+    //   }
+      
+    //   .products_section {
+    //     display: flex;
+    //     flex-direction: column;
+    //     min-height: 100vh;
+    //     padding: 0px 60px;
+    //     width: 100%;
+      
+    //     .container {
+    //       flex-direction: row;
+    //       margin: 40px 0px 60px 0px;
+    //       width: 100%;
+    //       gap: 40px;
+      
+    //       .react-multiple-carousel__arrow--left {
+    //         margin-bottom: 220px;
+    //         transform: translateX(-50px);
+    //       }
+      
+    //       .react-multiple-carousel__arrow--right {
+    //         margin-bottom: 220px;
+    //         transform: translateX(50px);
+    //       }
+      
+    //       .react-multi-carousel-list {
+    //         display: flex;
+    //         flex-direction: row;
+    //         width: 100%;
+    //         height: 800px;
+      
+    //         .slide_container {
+    //           display: flex;
+    //           flex-direction: column;
+    //           width: 100%;
+    //           height: 100%;
+      
+    //           .content_row {
+    //             display: flex;
+    //             flex-direction: row;
+    //             width: 100%;
+    //             height: 100%;
+      
+    //             .part_one {
+    //               width: 50%;
+    //               height: 100%;
+      
+    //               .image_container {
+    //                 width: 100%;
+    //                 height: 600px;
+    //                 background: #565656;
+    //               }
+      
+    //               .description {
+    //                 width: 100%;
+    //                 height: 200px;
+    //                 padding: 15px;
+      
+    //                 .content {
+    //                   font-size: 16px;
+    //                   font-weight: 400;
+    //                   line-height: 26px;
+    //                   text-align: left;
+    //                   text-underline-position: from-font;
+    //                   text-decoration-skip-ink: none;
+    //                   color: #c1c1c1;
+    //                 }
+    //               }
+    //             }
+      
+    //             .part_two {
+    //               margin-left: 40px;
+    //               display: flex;
+    //               flex-direction: column;
+    //               width: 50%;
+    //               height: 100%;
+      
+    //               .title {
+    //                 font-family: "Poppins", serif;
+    //                 font-size: 42px;
+    //                 font-weight: 700;
+    //                 line-height: 50.83px;
+    //                 text-align: left;
+    //                 text-underline-position: from-font;
+    //                 text-decoration-skip-ink: none;
+    //                 color: #ffffff;
+    //               }
+      
+    //               .sub_title {
+    //                 font-family: "Poppins", serif;
+    //                 font-size: 16px;
+    //                 font-weight: 400;
+    //                 line-height: 26px;
+    //                 text-align: left;
+    //                 text-underline-position: from-font;
+    //                 text-decoration-skip-ink: none;
+    //                 color: #c1c1c1;
+    //               }
+      
+    //               .icon_highlight {
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 width: 100%;
+    //                 margin-top: 100px;
+    //                 gap: 30px;
+      
+    //                 .wrapper {
+    //                   display: flex;
+    //                   flex-direction: row;
+    //                   width: fit-content;
+    //                   align-items: center;
+    //                   font-family: "Poppins", serif;
+    //                   font-size: 14px;
+    //                   font-weight: 400;
+    //                   line-height: 16px;
+    //                   text-align: left;
+    //                   text-underline-position: from-font;
+    //                   text-decoration-skip-ink: none;
+    //                   color: #c1c1c1;
+      
+    //                   img {
+    //                     margin-right: 5px;
+    //                     width: fit-content;
+    //                   }
+    //                 }
+    //               }
+      
+    //               .container_text {
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 flex-wrap: wrap;
+    //                 height: fit-content;
+    //                 width: 100%;
+    //                 margin-top: 30px;
+      
+    //                 .item {
+    //                   margin-right: 20px;
+    //                   margin-bottom: 10px;
+    //                   width: fit-content;
+    //                   height: fit-content;
+    //                   font-family: "Poppins", serif;
+    //                   padding: 8px 18px;
+    //                   font-size: 16px;
+    //                   font-weight: 500;
+    //                   line-height: 20px;
+    //                   text-align: center;
+    //                   text-underline-position: from-font;
+    //                   text-decoration-skip-ink: none;
+    //                   color: var(--white);
+    //                   background-color: var(--gray-300);
+    //                   border-radius: 20px;
+    //                   box-shadow: 0px 0px 30px 0px #00000033;
+    //                   text-wrap: nowrap;
+    //                 }
+    //               }
+      
+    //               .primary_button {
+    //                 margin-top: 80px;
+    //               }
+    //             }
+    //           }
+      
+    //           .pricing_section {
+    //             margin-top: 40px;
+    //             width: 100%;
+    //             background-color: #333;
+    //             padding: 20px;
+    //             border-radius: 10px;
+    //             color: #fff;
+      
+    //             .pricing_title {
+    //               font-family: "Poppins", serif;
+    //               font-size: 24px;
+    //               font-weight: 700;
+    //               color: #fff;
+    //               margin-bottom: 20px;
+    //             }
+      
+    //             .pricing_item {
+    //               font-family: "Poppins", serif;
+    //               font-size: 18px;
+    //               font-weight: 500;
+    //               color: #c1c1c1;
+    //               margin-bottom: 10px;
+    //             }
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+
+   // .react-multi-carousel-dot-list { display: none; } .products_section { display: flex; flex-direction: column; min-height: 100vh; padding: 0px 60px; width: 100%; .container { flex-direction: row; margin: 40px 0px 60px 0px; width: 100%; gap: 40px; .react-multiple-carousel__arrow--left { margin-bottom: 220px; transform: translateX(-50px); } .react-multiple-carousel__arrow--right { margin-bottom: 220px; transform: translateX(50px); } .react-multi-carousel-list { display: flex; flex-direction: row; width: 100%; height: auto; .slide_container { display: flex; flex-direction: column; width: 100%; height: 100%; .content_row { display: flex; flex-direction: row; width: 100%; height: auto; flex-grow: 1; .part_one { width: 50%; height: auto; .image_container { width: 100%; height: 600px; background: #565656; } .description { width: 100%; height: 200px; padding: 15px; .content { font-size: 16px; font-weight: 400; line-height: 26px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none; color: #c1c1c1; } } } .part_two { margin-left: 40px; display: flex; flex-direction: column; width: 50%; height: auto; .title { font-family: "Poppins", serif; font-size: 42px; font-weight: 700; line-height: 50.83px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none; color: #ffffff; } .sub_title { font-family: "Poppins", serif; font-size: 16px; font-weight: 400; line-height: 26px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none; color: #c1c1c1; } .icon_highlight { display: flex; flex-direction: row; width: 100%; margin-top: 100px; gap: 30px; .wrapper { display: flex; flex-direction: row; width: fit-content; align-items: center; font-family: "Poppins", serif; font-size: 14px; font-weight: 400; line-height: 16px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none; color: #c1c1c1; img { margin-right: 5px; width: fit-content; } } } .container_text { display: flex; flex-direction: row; flex-wrap: wrap; height: fit-content; width: 100%; margin-top: 30px; .item { margin-right: 20px; margin-bottom: 10px; width: fit-content; height: fit-content; font-family: "Poppins", serif; padding: 8px 18px; font-size: 16px; font-weight: 500; line-height: 20px; text-align: center; text-underline-position: from-font; text-decoration-skip-ink: none; color: var(--white); background-color: var(--gray-300); border-radius: 20px; box-shadow: 0px 0px 30px 0px #00000033; text-wrap: nowrap; } } .primary_button { margin-top: 80px; } } } .pricing_section { margin-top: 40px; width: 100%; background-color: #333; padding: 20px; border-radius: 10px; color: #fff; .pricing_title { font-family: "Poppins", serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 20px; } .pricing_item { font-family: "Poppins", serif; font-size: 18px; font-weight: 500; color: #c1c1c1; margin-bottom: 10px; } } } } } }
+   .react-multi-carousel-dot-list {
+    display: none;
+  }
+  
+  .products_section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px 60px;
+    width: 100%;
+  
+    .container {
+      flex-direction: row;
+      margin: 40px 0px 60px 0px;
+      width: 100%;
+      gap: 40px;
+  
+      .react-multiple-carousel__arrow--left {
+        margin-bottom: 220px;
+        transform: translateX(-50px);
+      }
+  
+      .react-multiple-carousel__arrow--right {
+        margin-bottom: 220px;
+        transform: translateX(50px);
+      }
+  
+      .react-multi-carousel-list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+  
+        .slide_container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+  
+          .content_row {
             display: flex;
             flex-direction: row;
-            margin: 40px 0px 60px 0px;
             width: 100%;
-            gap: 40px;
-
-            .react-multiple-carousel__arrow--left{
-                margin-bottom: 220px;
-                transform: translateX(-50px);
-            }
-
-            .react-multiple-carousel__arrow--right{
-                margin-bottom: 220px;
-                transform: translateX(50px);
-            }
-
-            .react-multi-carousel-list  {
-                display: flex;
-                flex-direction: row;
-                width: 100%;
-                height: 800px;
-
-                .slide_container{
-                    display: flex;
-                    flex-direction: row;
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-
+            height: auto;
+            // flex-grow: 1;
+  
             .part_one {
-                width: 50%;
-                height: 100%;
-            
-                .image_container {
-                    width: 100%;
-                    height: 600px;
-                    background: #565656;
+              width: 50%;
+              height: auto;
+  
+              .image_container {
+                width: 100%;
+                height: 600px;
+                background: #565656;
+              }
+  
+              .description {
+                width: 100%;
+                height: 200px;
+                padding: 15px;
+  
+                .content {
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 26px;
+                  text-align: left;
+                  text-underline-position: from-font;
+                  text-decoration-skip-ink: none;
+                  color: #c1c1c1;
                 }
-
-                .discription {
-                    width: 100%;
-                    height: 200px;
-                    padding: 15px;
-
-                    .content {
-                        font-size: 16px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
-                        color: #C1C1C1;
-                    }
-                }
+              }
             }
-
+  
             .part_two {
-                margin-left: 40px;
-                display: flex;
-                flex-direction: column;
-                width: 50%;
-                height: 100%;
-
-                .title {
-                    font-family: "Poppins", serif;
-                    font-size: 42px;
-                    font-weight: 700;
-                    line-height: 50.83px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF;
-                }
-
-                .sub_title{
-                    font-family: "Poppins", serif;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 26px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color:  #C1C1C1;
-                }
-
-                .icon_highlight {
-                    display: flex;
-                    flex-direction: row;
-                    width: 100%;
-                    margin-top: 100px;
-                    gap:30px;
-                    
-                    .wrapper {
-                      display: flex;
-                      flex-direction: row;
-                      width: fit-content;
-                      align-items: center;
-                      font-family: "Poppins", serif;
-                      font-size: 14px;
-                      font-weight: 400;
-                      line-height: 16px;
-                      text-align: left;
-                      text-underline-position: from-font;
-                      text-decoration-skip-ink: none;
-                      color: #C1C1C1;
-        
-                      img{
-                        margin-right: 5px;
-                        width: fit-content;
-                      }
-                    }
-          
-                  }
-
-                .container_text {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    height: fit-content;
-                    width: 100%;
-                    margin-top: 30px;
-
-        
-                .item {
-                    margin-right: 20px;
-                    margin-bottom: 10px;
-                    width: fit-content;
-                    height: fit-content;
-                    font-family: "Poppins", serif;
-                    padding: 8px 18px;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 20px;
-                    text-align: center;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: var(--white);
-                    background-color: var(--gray-300);
-                    border-radius: 20px;
-                    box-shadow: 0px 0px 30px 0px #00000033;
-                    text-wrap: nowrap;
-                }
-                }
-
-                .primay_button{
-                    margin-top: 80px;
-                }
-          
-
-            }
-        }
-
-
-
-    }
-}
-
-@media (max-width: 768px) {
-    /* Styles for phones */
-    .products {
-
-        background: #181A28;
-
-        .react-multi-carousel-dot-list {
-            display: flex;
-           margin-bottom: 470px;
-        }
-
-
-        .products_section {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            
-            padding: 0px 20px;
-            width: 100%;
-    
-            .container{
+              margin-left: 40px;
+              display: flex;
+              flex-direction: column;
+              width: 50%;
+              height: auto;
+  
+              .title {
+                font-family: "Poppins", serif;
+                font-size: 42px;
+                font-weight: 700;
+                line-height: 50.83px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #ffffff;
+              }
+  
+              .sub_title {
+                font-family: "Poppins", serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #c1c1c1;
+              }
+  
+              .icon_highlight {
                 display: flex;
                 flex-direction: row;
-                margin: 0px 0px 0px 0px;
                 width: 100%;
-                gap: 40px;
-    
-                .react-multiple-carousel__arrow--left{
-                    margin-bottom: 220px;
-                    transform: translateX(-50px);
-                    display: none;
+                margin-top: 100px;
+                gap: 30px;
+  
+                .wrapper {
+                  display: flex;
+                  flex-direction: row;
+                  width: fit-content;
+                  align-items: center;
+                  font-family: "Poppins", serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 16px;
+                  text-align: left;
+                  text-underline-position: from-font;
+                  text-decoration-skip-ink: none;
+                  color: #c1c1c1;
+  
+                  img {
+                    margin-right: 5px;
+                    width: fit-content;
+                  }
                 }
-    
-                .react-multiple-carousel__arrow--right{
-                    margin-bottom: 220px;
-                    transform: translateX(50px);
-                    display: none;
+              }
+  
+              .container_text {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: fit-content;
+                width: 100%;
+                margin-top: 30px;
+  
+                .item {
+                  margin-right: 20px;
+                  margin-bottom: 10px;
+                  width: fit-content;
+                  height: fit-content;
+                  font-family: "Poppins", serif;
+                  padding: 8px 18px;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 20px;
+                  text-align: center;
+                  text-underline-position: from-font;
+                  text-decoration-skip-ink: none;
+                  color: var(--white);
+                  background-color: var(--gray-300);
+                  border-radius: 20px;
+                  box-shadow: 0px 0px 30px 0px #00000033;
+                  text-wrap: nowrap;
                 }
+              }
+  
+              .primary_button {
+                margin-top: 80px;
+              }
+            }
+          }
+  
+          .pricing_section {
+            margin-top: 40px;
+            width: 100%;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+  
+            .pricing_title {
+              font-family: "Poppins", serif;
+              font-size: 24px;
+              font-weight: 700;
+              color: #fff;
+              margin-bottom: 20px;
+            }
+  
+            .pricing_item {
+              font-family: "Poppins", serif;
+              font-size: 18px;
+              font-weight: 500;
+              color: #c1c1c1;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+   
+       
+        .pricing-body {  display: grid;
+            place-items: center;
+            min-height: 80vh;
+            // background-color: #171717;
+         }
+    .pricing-plans { gap: 32px; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; width: 100%; padding: 14px; } 
+    .pricing-card { --col: #e4e4e7; position: relative; min-width: 360px; padding: 32px;  padding-bottom: 96px; border-radius: 4px; border: 1px solid #262626; background-color: #26262620; box-shadow: 0 0 32px transparent; text-align: center; }
+    .pricing-card.basic { --col: #0891b2; }
+     .pricing-card.standard { --col: #059669; }
+      .pricing-card.premium { --col: #c026d3; }
+       .pricing-card:hover { border-color: var(--col); background-color: #26262680; box-shadow: 0 0 32px #171717; transform: translateY(-16px) scale(1.02); transition: all 0.5s ease; } .pricing-card > *:not(:last-child) { margin-bottom: 32px; }
+        .pricing-card .heading h4 { padding-bottom: 12px; color: var(--col); font-size: 24px; font-weight: normal; }
+         .pricing-card .heading p { color: #a3a3a3; font-size: 14px; font-weight: lighter; }
+          .pricing-card .price { position: relative; color: var(--col); font-size: 30px; font-weight: bold; }
+           .pricing-card .price sub { position: absolute; bottom: 14px; color: #a3a3a3; font-size: 14px; font-weight: lighter; }
+            .pricing-card .features li { padding-bottom: 16px; color: #a3a3a3; font-size: 16px; font-weight: lighter; text-align: left; }
+             .pricing-card .features li i, .pricing-card .features li strong { color: #e4e4e7; font-size: 16px; text-align: left; }
+              .pricing-card .features li strong { padding-left: 24px; } .pricing-card .cta-btn { position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); width: 200px; padding: 12px; border-radius: 4px; border: 1px solid var(--col); background-color: var(--col); color: #e4e4e7; font-size: 20px; font-weight: bold; }
+               .pricing-card .cta-btn:active { background-color: transparent; color: var(--col); transition: all 0.3s ease; } 
+     
+ }
+
+// @media (max-width: 768px) {
+//     /* Styles for phones */
+//     .products {
+
+//         background: #181A28;
+
+//         .react-multi-carousel-dot-list {
+//             display: flex;
+//            margin-bottom: 470px;
+//         }
+
+
+//         .products_section {
+//             display: flex;
+//             flex-direction: column;
+//             min-height: 100vh;
+            
+//             padding: 0px 20px;
+//             width: 100%;
     
-                .react-multi-carousel-list  {
-                    display: flex;
-                    flex-direction: row;
-                    width: 100%;
-                    height: 1500px;
+//             .container{
+//                 display: flex;
+//                 flex-direction: row;
+//                 margin: 0px 0px 0px 0px;
+//                 width: 100%;
+//                 gap: 40px;
     
-                    .slide_container{
-                        display: flex;
-                        flex-direction: column;
-                        width: 100%;
-                        height: 100%;
+//                 .react-multiple-carousel__arrow--left{
+//                     margin-bottom: 220px;
+//                     transform: translateX(-50px);
+//                     display: none;
+//                 }
+    
+//                 .react-multiple-carousel__arrow--right{
+//                     margin-bottom: 220px;
+//                     transform: translateX(50px);
+//                     display: none;
+//                 }
+    
+//                 .react-multi-carousel-list  {
+//                     display: flex;
+//                     flex-direction: row;
+//                     width: 100%;
+//                     height: 1500px;
+     
+//                     .slide_container{
+//                         display: flex;
+//                         flex-direction: column;
+//                         width: 100%;
+//                         height: 100%;
                     
-                    }
-                }
+//                     }
+//                 }
     
-                .part_one {
-                    width: 100%;
-                    height: 100%;
-                    background-color: #FFFFFF;
-                    box-shadow: 0px 0px 30px 0px #00000033;
+//                 .part_one {
+//                     width: 100%;
+//                     height: 100%;
+//                     background-color: #FFFFFF;
+//                     box-shadow: 0px 0px 30px 0px #00000033;
 
-                    .image_container {
-                        width: 100%;
-                        height: 400px;
-                        background: #565656;
-                    }
+//                     .image_container {
+//                         width: 100%;
+//                         height: 400px;
+//                         background: #565656;
+//                     }
     
-                    .discription {
-                        display: none;
-                        width: 100%;
-                        height: 200px;
-                        padding: 15px;
+//                     .discription {
+//                         display: none;
+//                         width: 100%;
+//                         height: 200px;
+//                         padding: 15px;
     
-                        .content {
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 26px;
-                            text-align: left;
-                            text-underline-position: from-font;
-                            text-decoration-skip-ink: none;
-                            color: #C1C1C1;
-                        }
-                    }
-                }
+//                         .content {
+//                             font-size: 16px;
+//                             font-weight: 400;
+//                             line-height: 26px;
+//                             text-align: left;
+//                             text-underline-position: from-font;
+//                             text-decoration-skip-ink: none;
+//                             color: #C1C1C1;
+//                         }
+//                     }
+//                 }
     
-                .part_two {
-                    margin-left: 0px;
-                    padding: 40px 20px 40px 20px;
-                    display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                    height: fit-content;
-                    background: #212236;
+//                 .part_two {
+//                     margin-left: 0px;
+//                     padding: 40px 20px 40px 20px;
+//                     display: flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     height: fit-content;
+//                     background: #212236;
 
     
-                    .title {
-                        font-family: "Poppins", serif;
-                        font-family: Inter;
-                        font-size: 16px;
-                        font-weight: 700;
-                        line-height: 19.36px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
+//                     .title {
+//                         font-family: "Poppins", serif;
+//                         font-family: Inter;
+//                         font-size: 16px;
+//                         font-weight: 700;
+//                         line-height: 19.36px;
+//                         text-align: left;
+//                         text-underline-position: from-font;
+//                         text-decoration-skip-ink: none;
                         
-                        color: #FFFFFF;
-                    }
+//                         color: #FFFFFF;
+//                     }
     
-                    .sub_title{
-                        font-family: "Poppins", serif;
-                        font-family: Inter;
-                        font-size: 12px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
+//                     .sub_title{
+//                         font-family: "Poppins", serif;
+//                         font-family: Inter;
+//                         font-size: 12px;
+//                         font-weight: 400;
+//                         line-height: 26px;
+//                         text-align: left;
+//                         text-underline-position: from-font;
+//                         text-decoration-skip-ink: none;
                         
-                        color:  #C1C1C1;
-                    }
+//                         color:  #C1C1C1;
+//                     }
     
-                    .icon_highlight {
+//                     .icon_highlight {
                        
-                        display: flex;
-                        flex-direction: row;
-                        width: 100%;
-                        margin-top: 30px;
-                        gap:20px;
+//                         display: flex;
+//                         flex-direction: row;
+//                         width: 100%;
+//                         margin-top: 30px;
+//                         gap:20px;
                         
-                        .wrapper {
-                          display: flex;
-                          flex-direction: row;
-                          width: fit-content;
-                          align-items: center;
-                          font-family: "Poppins", serif;
-                          font-family: Inter;
-                          font-size: 10px;
-                          font-weight: 400;
-                          line-height: 15px;
-                          text-align: left;
-                          text-underline-position: from-font;
-                          text-decoration-skip-ink: none;
+//                         .wrapper {
+//                           display: flex;
+//                           flex-direction: row;
+//                           width: fit-content;
+//                           align-items: center;
+//                           font-family: "Poppins", serif;
+//                           font-family: Inter;
+//                           font-size: 10px;
+//                           font-weight: 400;
+//                           line-height: 15px;
+//                           text-align: left;
+//                           text-underline-position: from-font;
+//                           text-decoration-skip-ink: none;
                           
-                          color: #C1C1C1;
+//                           color: #C1C1C1;
                 
             
-                          img{
-                            margin-right: 5px;
-                            width: fit-content;
-                          }
-                        }
+//                           img{
+//                             margin-right: 5px;
+//                             width: fit-content;
+//                           }
+//                         }
               
-                      }
+//                       }
     
-                    .container_text {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        height: fit-content;
-                        width: 100%;
-                        margin-top: 30px;
+//                     .container_text {
+//                         display: flex;
+//                         flex-direction: row;
+//                         flex-wrap: wrap;
+//                         height: fit-content;
+//                         width: 100%;
+//                         margin-top: 30px;
     
             
-                    .item {
-                        margin-right: 20px;
-                        margin-bottom: 10px;
-                        width: fit-content;
-                        height: fit-content;
-                        font-family: "Poppins", serif;
-                        padding: 8px 18px;
-                        font-size: 10px;
-                        font-weight: 500;
-                        line-height: 26px;
-                        text-align: center;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
+//                     .item {
+//                         margin-right: 20px;
+//                         margin-bottom: 10px;
+//                         width: fit-content;
+//                         height: fit-content;
+//                         font-family: "Poppins", serif;
+//                         padding: 8px 18px;
+//                         font-size: 10px;
+//                         font-weight: 500;
+//                         line-height: 26px;
+//                         text-align: center;
+//                         text-underline-position: from-font;
+//                         text-decoration-skip-ink: none;
 
-                        color: var(--white);
-                        background-color: #1B1B1B;
+//                         color: var(--white);
+//                         background-color: #1B1B1B;
 
-                        border-radius: 20px;
-                        box-shadow: 0px 0px 30px 0px #00000033;
-                        text-wrap: nowrap;
-                    }
-                    }
+//                         border-radius: 20px;
+//                         box-shadow: 0px 0px 30px 0px #00000033;
+//                         text-wrap: nowrap;
+//                     }
+//                     }
 
-                    .extra_descirption{
-                            padding-top: 30px;
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 26px;
-                            text-align: center;
-                            text-underline-position: from-font;
-                            text-decoration-skip-ink: none;
-                            color: #C1C1C1;
+//                     .extra_descirption{
+//                             padding-top: 30px;
+//                             font-size: 16px;
+//                             font-weight: 400;
+//                             line-height: 26px;
+//                             text-align: center;
+//                             text-underline-position: from-font;
+//                             text-decoration-skip-ink: none;
+//                             color: #C1C1C1;
 
-                    }
+//                     }
     
-                    .primay_button{
-                        margin-top: 30px;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                }
+//                     .primay_button{
+//                         margin-top: 30px;
+//                         margin-left: auto;
+//                         margin-right: auto;
+//                     }
+//                 }
 
-                .discription_mobile{
-                    padding-top: 60px;
-                    width: 100%;
-                    display: flex;
-                    flex-direction: column;
+//                 .discription_mobile{
+//                     padding-top: 60px;
+//                     width: 100%;
+//                     display: flex;
+//                     flex-direction: column;
 
-                    .title {
-                        font-size: 21px;
-                        font-weight: 700;
-                        line-height: 25.41px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
+//                     .title {
+//                         font-size: 21px;
+//                         font-weight: 700;
+//                         line-height: 25.41px;
+//                         text-align: left;
+//                         text-underline-position: from-font;
+//                         text-decoration-skip-ink: none;
 
-                    }
+//                     }
 
-                    .content {
-                        padding-top: 15px;
-                        font-size: 14px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
-                    }
+//                     .content {
+//                         padding-top: 15px;
+//                         font-size: 14px;
+//                         font-weight: 400;
+//                         line-height: 26px;
+//                         text-align: left;
+//                         text-underline-position: from-font;
+//                         text-decoration-skip-ink: none;
+//                     }
 
-                    .bottom {
-                        display: flex;
-                        flex-direction: row;
-                        font-family: Inter;
-                        font-size: 16px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
-                        flex-wrap: wrap;
-                        gap: 30px;
+//                     .bottom {
+//                         display: flex;
+//                         flex-direction: row;
+//                         font-family: Inter;
+//                         font-size: 16px;
+//                         font-weight: 400;
+//                         line-height: 26px;
+//                         text-align: left;
+//                         text-underline-position: from-font;
+//                         text-decoration-skip-ink: none;
+//                         flex-wrap: wrap;
+//                         gap: 30px;
 
-                        justify-content: center;
-                        .wrapper{
-                            display: flex;
-                            flex-direction: row;
-                            svg {
-                                margin: auto;
+//                         justify-content: center;
+//                         .wrapper{
+//                             display: flex;
+//                             flex-direction: row;
+//                             svg {
+//                                 margin: auto;
 
-                            }
-                            .text{
-                                margin: auto;
-                                padding-left: 10px;
-                            }
-                        }
-                    }
-                }
-            }
+//                             }
+//                             .text{
+//                                 margin: auto;
+//                                 padding-left: 10px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
     
     
     
+//         }
+//     }
+    
+ 
+
+@media (max-width: 1024px) {
+    .products_section {
+      padding: 0px 20px;
+  
+      .container {
+        flex-direction: column;
+        gap: 20px;
+  
+        .react-multiple-carousel__arrow--left,
+        .react-multiple-carousel__arrow--right {
+          transform: translateX(0);
         }
+  
+      .react-multi-carousel-list.slide_container {
+          .content_row {
+            display: flex;
+            flex-direction: column;
+  
+            .part_one,
+            .part_two {
+              width: 100%;
+            }
+  
+            .part_two {
+              margin-left: 0;
+            }
+          }
+  
+          .pricing_section {
+            padding: 15px;
+          }
+        }
+      }
     }
-    
-}
+  }
+  
+  @media (max-width: 768px) {
+    .products_section {
+      padding: 0px 10px;
+  
+      .container {
+        margin: 20px 0px 30px 0px;
+  
+        .slide_container {
+          .content_row {
+            .part_one .image_container {
+              height: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .products_section {
+      .container {
+        margin: 10px 0px 20px 0px;
+  
+        .slide_container {
+          .content_row {
+          flex-direction: column !important;
+            .part_one .image_container {
+              height: 300px;
+            }
+  
+            .part_one{
+              width: 100% !important;
+
+            }
+            .part_two {
+              width: 100% !important;
+              margin-top:20px;
+              .title {
+                font-size: 32px;
+                line-height: 40px;
+              }
+  
+              .sub_title {
+                font-size: 14px;
+                line-height: 22px;
+              }
+  
+              .icon_highlight {
+                margin-top: 50px;
+  
+                .wrapper {
+                  font-size: 12px;
+                }
+              }
+  
+              .container_text .item {
+                font-size: 14px;
+                padding: 6px 14px;
+              }
+  
+              .primary_button {
+                margin-top: 40px;
+              }
+            }
+          }
+  
+          .pricing_section {
+            padding: 10px;
+  
+            .pricing_title {
+              font-size: 20px;
+              margin-bottom: 15px;
+            }
+  
+            .pricing_item {
+              font-size: 16px;
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }

@@ -95,7 +95,7 @@ export default function Home() {
 
             {/* <div className="card_container">
 
-  </div> */}
+                     </div> */}
 
             <Carousel
               additionalTransfrom={0}
@@ -115,18 +115,44 @@ export default function Home() {
               renderArrowsWhenDisabled={false}
               renderButtonGroupOutside={false}
               renderDotsOutside={true}
+              // responsive={{
+              //   desktop: {
+              //     breakpoint: {
+              //       max: 3000,
+              //       min: 1024,
+              //     },
+              //     items: 3,
+              //     partialVisibilityGutter: 30,
+              //   },
+              //   mobile: {
+              //     breakpoint: {
+              //       max: 768,
+              //       min: 0,
+              //     },
+              //     items: 1,
+              //     partialVisibilityGutter: 25,
+              //   },
+              //   tablet: {
+              //     breakpoint: {
+              //       max: 1024,
+              //       min: 768,
+              //     },
+              //     items: 2,
+              //     partialVisibilityGutter: 20,
+              //   },
+              // }}
               responsive={{
                 desktop: {
                   breakpoint: {
                     max: 3000,
-                    min: 1024,
+                    min: 1025, // Starts from 1025 to avoid overlap with tablet
                   },
                   items: 3,
                   partialVisibilityGutter: 30,
                 },
                 mobile: {
                   breakpoint: {
-                    max: 768,
+                    max: 767, // Ends at 767 to avoid overlap with tablet
                     min: 0,
                   },
                   items: 1,
@@ -134,13 +160,14 @@ export default function Home() {
                 },
                 tablet: {
                   breakpoint: {
-                    max: 1024,
-                    min: 768,
+                    max: 1024, // Ends at 1024 to avoid overlap with desktop
+                    min: 768, // Starts from 768 to avoid overlap with mobile
                   },
                   items: 2,
                   partialVisibilityGutter: 20,
                 },
               }}
+              
               rewind={false}
               rewindWithAnimation={false}
               rtl={false}
