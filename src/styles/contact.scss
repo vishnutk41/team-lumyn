@@ -140,7 +140,9 @@
         .touching_with_section {
             .container {
                 .wrapper {
+                    flex-direction: column;
                     .part_one {
+                        width: 100%;
                         input {
                             color: #ffffff;
                             &::placeholder {
@@ -150,6 +152,7 @@
                     }
                     
                     .part_two {
+                        width: 100%;
                         textarea {
                             color: #ffffff;
                             &::placeholder {
