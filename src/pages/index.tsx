@@ -27,8 +27,8 @@ export default function Home() {
         </div>
 
       <h2 className="title_two">FINDS <span>LIGHT</span></h2> */}
-            <button className="primay_button"   onClick={() => (window.location.href = '/products')}
-            >Learn More</button>
+            <button className="primay_button"   onClick={() => (window.location.href = '/contact-us')}
+            >Contact Us</button>
           </div>
 
           <div className="section_one">

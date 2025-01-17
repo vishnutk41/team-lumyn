@@ -363,7 +363,7 @@ No matter your podcasting format, our studio is built to make your creative proc
               </div>
 
               <div className="part_two">
-                <h3 className="title">Follow Us @Teamlumyn</h3>
+                <h3 className="title">Follow Us @wearelumyn</h3>
                 {/* <div className="team mobile"> */}
                 {/* <p className="lumyn_text">@Team Lumyn</p> */}
                 {/* </div> */}

@@ -26,7 +26,9 @@ export default function Blogs() {
                 </div>
 
                 <div className="container">
-                    <Link  className="blog_item" href="/blogs/need-for-domain-privacy-protection">
+                    {/* <Link  className="blog_item" href="/blogs/need-for-domain-privacy-protection"> */}
+                    <Link  className="blog_item" href="#">
+
                        <div className="image_1"></div>
                        
                         <p className="comment"> by Admin |   </p>
@@ -36,7 +38,9 @@ export default function Blogs() {
                     </Link>
                     
 
-                    <Link  className="blog_item" href="/blogs/driving-organic-traffic-strategies">
+                    {/* <Link  className="blog_item" href="/blogs/driving-organic-traffic-strategies">
+                     */}
+                     <Link  className="blog_item" href="#">
                         <div className="image_2"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
@@ -47,7 +51,8 @@ export default function Blogs() {
 
                 <div className="container">
 
-                    <Link  className="blog_item" href="/blogs/blog_details">
+                    {/* <Link  className="blog_item" href="/blogs/blog_details"> */}
+                    <Link  className="blog_item" href="#">
                         <div className="image_3"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
