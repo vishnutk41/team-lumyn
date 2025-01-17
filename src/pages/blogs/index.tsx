@@ -44,7 +44,7 @@ export default function Blogs() {
                         <div className="image_2"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
-                        Driving Organic Traffic: Essential Strategies for 2024
+                        Driving Organic Traffic: Essential Strategies for 2025
                         </p>
                     </Link>
                 </div>

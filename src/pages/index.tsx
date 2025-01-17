@@ -944,11 +944,11 @@ export default function Home() {
               slidesToSlide={1}
               swipeable
             >
-              <div className="card">
+              <div className="card .blog_image_1">
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                  Driving Organic Traffic: Essential Strategies for 2024
+                  Driving Organic Traffic: Essential Strategies for 2025
 
                   </h4>
                   <a className="view_more"> View more </a>

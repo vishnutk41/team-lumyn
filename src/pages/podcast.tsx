@@ -61,7 +61,7 @@ export default function Podcast() {
                     </div>
                     <div className="bottom_container">
                       <h4 className="title">Perfect sound </h4>
-                      <h4 className="title">Every timess </h4>
+                      <h4 className="title">Every times </h4>
                     </div>
                   </div>
                   <div className="card_resonance_pro">
