@@ -27,7 +27,8 @@ export default function Home() {
         </div>
 
       <h2 className="title_two">FINDS <span>LIGHT</span></h2> */}
-            <button className="primay_button">Learn More</button>
+            <button className="primay_button"   onClick={() => (window.location.href = '/products')}
+            >Learn More</button>
           </div>
 
           <div className="section_one">
@@ -843,7 +844,7 @@ export default function Home() {
 </p>
 <button
   className="primay_button"
-  onClick={() => (window.location.href = 'http://localhost:3000/contact-us')}
+  onClick={() => (window.location.href = '/contact-us')}
 >
   Contact Us
 </button>
@@ -870,7 +871,7 @@ export default function Home() {
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                  Driving Organic Traffic: Essential Strategies for 2024
+                  Driving Organic Traffic: Essential Strategies for 2025
 
                   </h4>
                 </div>
