@@ -55,7 +55,7 @@ export default function Podcast() {
                 </div>
 
                 <div className="card_container">
-                  <div className="card">
+                  <div className="card_echolite">
                     <div className="image_container">
                     {/* <img alt="shop icon" loading="lazy" width="100%" height="300" decoding="async" data-nimg="1" src="/assets/images/Echo Lite.webp"></img> */}
                     </div>
@@ -64,14 +64,14 @@ export default function Podcast() {
                       </h4>
                     </div>
                   </div>
-                  <div className="card">
+                  <div className="card_resonance_pro">
                     <div className="image_container"></div>
                     <div className="bottom_container">
                       <h4 className="title">Resonance Pro 
                       </h4>
                     </div>
                   </div>
-                  <div className="card">
+                  <div className="card_sonic_max">
                     <div className="image_container"></div>
                     <div className="bottom_container">
                       <h4 className="title">Sonic Max</h4>
@@ -132,20 +132,20 @@ export default function Podcast() {
                   slidesToSlide={1}
                   swipeable
                 >
-                  <div className="item">
+                  <div className="item_1">
                     <div className="bottom">
                       <span>Echo Lite 
                       </span>
                     </div>
 
                   </div>
-                  <div className="item" >
+                  <div className="item_2" >
                   <div className="bottom">
                       <span>Resonance Pro 
                       </span>
                     </div>
                   </div>
-                  <div className="item" >
+                  <div className="item_3" >
                   <div className="bottom">
                       <span>Sonic Max</span>
                     </div>
@@ -160,7 +160,7 @@ export default function Podcast() {
             </div>
 
             <div className="offer_container">
-              <span> Grab this limited time deal :</span>
+              <span> Grab this limited time deal :Book 5, Get 1 on Us!</span>
             </div>
           </div>
 
