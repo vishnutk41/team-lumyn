@@ -20,10 +20,21 @@ export default function Podcast() {
             <NavMenuBar />
 
             <div className="container">
-              <h3 className="title">YOUR VOICE , <span>YOUR STORY</span> <br/> <span>WITH LUMYN </span>PODCAST ROOMS</h3>
-              <p className="sub_title">Step into our state-of-the-art studios and produce podcasts that captivate. Crystal-clear sound, flawless recordings – tell your story with impact.</p>
-              <button className="primay_button">Book Today</button>
-            </div>
+  <h3 className="title">
+    YOUR VOICE, <span>YOUR STORY</span> <br />
+    <span>WITH LUMYN </span>PODCAST ROOMS
+  </h3>
+  <p className="sub_title">
+    Step into our state-of-the-art studios and produce podcasts that captivate. 
+    Crystal-clear sound, flawless recordings – tell your story with impact.
+  </p>
+  <button 
+    className="primay_button"
+    onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
+  >
+    Book Today
+  </button>
+</div>
           </div>
 
           <div className="section_one">
@@ -44,21 +55,23 @@ export default function Podcast() {
                 </div>
 
                 <div className="card_container">
-                  <div className="card">
-                    <div className="image_container"></div>
+                  <div className="card_echolite">
+                    <div className="image_container">
+                    {/* <img alt="shop icon" loading="lazy" width="100%" height="300" decoding="async" data-nimg="1" src="/assets/images/Echo Lite.webp"></img> */}
+                    </div>
                     <div className="bottom_container">
                       <h4 className="title">Echo Lite 
                       </h4>
                     </div>
                   </div>
-                  <div className="card">
+                  <div className="card_resonance_pro">
                     <div className="image_container"></div>
                     <div className="bottom_container">
                       <h4 className="title">Resonance Pro 
                       </h4>
                     </div>
                   </div>
-                  <div className="card">
+                  <div className="card_sonic_max">
                     <div className="image_container"></div>
                     <div className="bottom_container">
                       <h4 className="title">Sonic Max</h4>
@@ -119,20 +132,20 @@ export default function Podcast() {
                   slidesToSlide={1}
                   swipeable
                 >
-                  <div className="item">
+                  <div className="item_1">
                     <div className="bottom">
                       <span>Echo Lite 
                       </span>
                     </div>
 
                   </div>
-                  <div className="item" >
+                  <div className="item_2" >
                   <div className="bottom">
                       <span>Resonance Pro 
                       </span>
                     </div>
                   </div>
-                  <div className="item" >
+                  <div className="item_3" >
                   <div className="bottom">
                       <span>Sonic Max</span>
                     </div>
@@ -147,7 +160,7 @@ export default function Podcast() {
             </div>
 
             <div className="offer_container">
-              <span> Grab this limited time deal :</span>
+              <span> Grab this limited time deal :Book 5, Get 1 on Us!</span>
             </div>
           </div>
 
@@ -178,16 +191,19 @@ export default function Podcast() {
                   Create. Inspire. Amplify: Podcasting Reimagined
                 </h3>
                 <p className="sub_title">
-                  Podcasts are more than just audio; the space where your voice
-                  takes center stage. Professionally crafted podcast rooms
-                  designed to elevate your story.
+                We believe every story deserves to be heard. Lumyn Echo Pod is designed to provide creators with a 
+                professional, seamless, and inspiring environment to share their message. Whether you're a seasoned 
+                podcaster or just starting out, we’re here to elevate your content to new heights.
                 </p>
                 <div className="container">
                   <div className="item"></div>
                 </div>
               </div>
             </div>
-            <div className="part_two"></div>
+            <div className="part_two">
+
+              
+            </div>
           </div>
 
           <div className="section_three">
@@ -198,13 +214,14 @@ export default function Podcast() {
                 Where Innovation Meets Creativity
                 </h3>
                 <p className="sub_title">
-                Our podcast rooms are designed for creators, by creators. 
-                Experience a seamless blend of advanced technology and creative freedom to produce content that stands out. 
-                Whether you’re a seasoned podcaster or just starting out, we’ve got everything you need to succeed.
+                Our podcast rooms are crafted for creators, by creators. With cutting-edge technology and a focus on
+                 creative freedom, these spaces enable you to produce exceptional content effortlessly. Whether you're
+                  a seasoned podcaster or just starting out, we provide everything you need to succeed.
                 </p>
                 <div className="container">
                   <div className="item">
-                    <div className="title">Professional Soundproofing</div>
+                    <div className="title">Professional Soundproofing
+                    </div>
                     <div className="percentage_container">
                       <span></span>
                       <span></span>
@@ -212,7 +229,8 @@ export default function Podcast() {
                     </div>
                   </div>
                   <div className="item">
-                    <div className="title">Professional Soundproofing</div>
+                    <div className="title">High-Quality Microphones
+                    </div>
                     <div className="percentage_container">
                       <span></span>
                       <span></span>
@@ -220,7 +238,7 @@ export default function Podcast() {
                     </div>
                   </div>
                   <div className="item">
-                    <div className="title">Professional Soundproofing</div>
+                    <div className="title">On-Demand Support</div>
                     <div className="percentage_container">
                       <span></span>
                       <span></span>
@@ -239,15 +257,32 @@ export default function Podcast() {
                 A Space to Create Without Limits
                 </h3>
                 <p className="sub_title">
-                From podcast enthusiasts to business professionals, we cater to all your needs with a range of flexible services.
-                </p>
-                <div className="container">
+                
+<strong>Solo Podcasters:</strong> Enjoy a quiet, distraction-free environment equipped with top-notch audio equipment, ensuring your voice comes through crisp and clear.
+</p>
+
+<p className="sub_title">
+<strong>Interview-Style Podcasts:</strong> Host engaging one-on-one conversations with ease, using our comfortable and fully equipped setup.
+</p>
+
+<p className="sub_title">
+<strong>Panel Discussions:</strong> Accommodate multiple speakers effortlessly with our spacious layout, multiple microphones, and advanced audio-mixing technology.
+</p>
+
+<p className="sub_title">
+<strong>Remote Guest Interviews:</strong> Seamlessly connect with guests from around the world using our high-speed internet and professional virtual setup tools.
+</p>
+
+<p className="sub_title">
+No matter your podcasting format, our studio is built to make your creative process smooth and your content stand out.
+</p>               
+                {/* <div className="container">
                   <div className="item"></div>
                   <div className="item"></div>
                   <div className="item"></div>
                   <div className="item"></div>
-                </div>
-                <button className="primay_button">Book Today</button>
+                </div> */}
+                {/* <button className="primay_button">Book Today</button> */}
               </div>
             </div>
 
@@ -270,7 +305,10 @@ export default function Podcast() {
               <span> Pick a Time Slot </span>
               <span> Confirm Your Booking </span>
             </div>
-            <button className="primay_button">Book Now</button>
+            <button className="primay_button"
+                onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
+
+            >Book Now</button>
           </div>
 
           <div className="section_six">
@@ -322,22 +360,9 @@ export default function Podcast() {
 
               <div className="part_two">
                 <h3 className="title">Follow Us @Teamlumyn</h3>
-                <div className="team mobile">
-                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clipPath="url(#clip0_4168_216)">
-<path d="M15.8964 32.9288H7.82349C7.82349 28.4441 4.25662 24.7927 -0.131226 24.7927V16.5356C8.70666 16.5356 15.8964 23.8894 15.8964 32.9288Z" fill="#00EC84"/>
-<path d="M23.8542 32.9288H15.7813C15.7813 23.8894 22.971 16.5356 31.8089 16.5356V24.7927C27.4242 24.7927 23.8542 28.4409 23.8542 32.9288Z" fill="#00EC84"/>
-<path d="M31.8089 16.6691C22.971 16.6691 15.7813 9.31534 15.7813 0.275879H23.8542C23.8542 4.76062 27.4211 8.41203 31.8089 8.41203V16.6691Z" fill="#00EC84"/>
-<path d="M-0.131226 16.6691V8.41203C4.25351 8.41203 7.82349 4.7638 7.82349 0.275879H15.8964C15.8964 9.31534 8.70666 16.6691 -0.131226 16.6691Z" fill="#00EC84"/>
-</g>
-<defs>
-<clipPath id="clip0_4168_216">
-<rect width="32" height="33" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-<p className="lumyn_text">@Team Lumyn</p>
-                </div>
+                {/* <div className="team mobile"> */}
+                {/* <p className="lumyn_text">@Team Lumyn</p> */}
+                {/* </div> */}
               </div>
             </div>
           </div>

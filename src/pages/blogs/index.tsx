@@ -28,10 +28,11 @@ export default function Blogs() {
                 <div className="container">
                     <Link  className="blog_item" href="/blogs/blog_details">
                        <div className="image"></div>
+                       
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
+                        Domain Privacy Protection: Why It's Essential for Website Owners
+
                         </p>
                     </Link>
                     
@@ -40,8 +41,7 @@ export default function Blogs() {
                         <div className="image"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
+                        Driving Organic Traffic: Essential Strategies for 2024
                         </p>
                     </Link>
                 </div>
@@ -57,43 +57,23 @@ export default function Blogs() {
                         </p>
                     </Link>
 
-                    <Link  className="blog_item" href="/blogs/blog_details">
+                    {/* <Link  className="blog_item" href="/blogs/blog_details">
                         <div className="image"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                             Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
                             Sed eget finibus metus. Sed arcu leibero.
                         </p>
-                    </Link>
+                    </Link> */}
                 </div>
 
-                <div className="container">
-
-                      <Link  className="blog_item" href="/blogs/blog_details">
-                        <div className="image"></div>
-                        <p className="comment"> by Admin |   </p>
-                        <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
-                        </p>
-                    </Link>
-
-                    <Link  className="blog_item" href="/blogs/blog_details">
-                        <div className="image"></div>
-                        <p className="comment"> by Admin |   </p>
-                        <p className="title">
-                            Nulla facilisi. Vivamus convallis lacinia ipsum sed varius.
-                            Sed eget finibus metus. Sed arcu leibero.
-                        </p>
-                    </Link>
-                </div>
             </div>
-            <div className="pagination_section">
+            {/* <div className="pagination_section">
                 <span className="active">1</span>
                 <span>2</span>
                 <span>3</span>
                 <span className="next">Next</span>
-            </div>
+            </div> */}
         </main>
 
             <Footer/>

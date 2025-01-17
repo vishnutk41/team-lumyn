@@ -60,7 +60,7 @@ export const Footer = () =>(
           </div>
 
           <div className="useful_links">
-            <h4>other Links</h4>
+            <h4>Other Links</h4>
             <Link href={'/cookies'}>Cookies</Link>
             <Link href={'/privacy_policy'}>Privacy policy</Link>
             <Link href={'/payment_policy'}>Payment policy</Link>
@@ -119,6 +119,9 @@ export const Footer = () =>(
 
         </div>
       </div>
+    </div>
+    <div className="copyright">
+    <p>@2025 All Rights Reserved <a href="https://alishantrading.com/" target="_blank" rel="noopener noreferrer">Alishan Trading LLC</a></p>
     </div>
 </footer>
 

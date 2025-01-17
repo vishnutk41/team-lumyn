@@ -74,11 +74,11 @@ export default function PrivacyPolicy() {
                             <p>
                                 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
                                 <br />
-                                <strong>Email:</strong><a href="mailto:support@lumyn.com" style={{ color: "#00ed85", textDecoration: 'none' }}> support@lumyn.com</a>
+                                <strong>Email:</strong><a href="mailto:hello@teamlumyn.com" style={{ color: "#00ed85", textDecoration: 'none' }}> hello@teamlumyn.com</a>
                                 <br />
-                                <strong>Phone:</strong> +123 456 7890
+                                <strong>Phone:</strong> +971 58 586 7086
                                 <br />
-                                <strong>Address:</strong> 123 IT Solutions Ave, Tech City, UAE
+                                <strong>Address:</strong> New Alsafiyah Building, office SM18B4, Abu Hail, Dubai UAE
                             </p>
                         </div>
                     </div>

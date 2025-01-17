@@ -6,18 +6,6 @@ import NavMenuBar from "@/component/menu";
 
 import Carousel from "react-multi-carousel";
 
-// import { Geist, Geist_Mono } from "next/font/google";
-// import style from "@/styles/home.module.css";
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export default function Home() {
   return (
@@ -46,11 +34,11 @@ export default function Home() {
             <div className="top">
               <h3> See how Lumyn transforms brands into industry leaders </h3>
               <p>
-                Watch now and ignite your success with bold strategies, creative
+                Ignite your success with bold strategies, creative
                 solutions, and unmatched passion!
               </p>
             </div>
-            <div className="image_container"></div>
+            {/* <div className="image_container"></div> */}
             <div className="bottom">
               <div className="container">
                 <div className="item">
@@ -75,7 +63,9 @@ export default function Home() {
                 posuere cubilia curae; Vestibulum dictum congue lorem vel
                 varius.
               </p> */}
-              <button className="primay_button">Get Connect</button>
+<a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+  <button className="primay_button">Get Connected</button>
+</a>
             </div>
           </div>
 
@@ -90,7 +80,6 @@ export default function Home() {
             <div className="top">
               <h3> What We Offer </h3>
               <p>Services Designed to Make Your Brand Unforgettable</p>
-              <p>View More</p>
             </div>
 
             {/* <div className="card_container">
@@ -628,7 +617,7 @@ export default function Home() {
             >
 
 
-              <div className="image_container">
+              <div className="image_container image_container_1" >
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -646,7 +635,7 @@ export default function Home() {
               </div>
 
 
-              <div className="image_container">
+              <div className="image_container image_container_2">
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -664,7 +653,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="image_container">
+              <div className="image_container image_container_3">
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -672,17 +661,15 @@ export default function Home() {
                   <div className="wrapper">
                   <h3 className="title">LumaPanels</h3>
                   <p className="description">
-                    “Eye-Catching Displays That Demand Attention”
+                  "Vivid Displays That Captivate"
                     <br />
-                    Illuminate your brand with vibrant, high-quality LED panels
-                    designed to captivate and engage your audience.
-                  </p>
+                    Showcase your brand with vibrant, attention-grabbing LED panels.                  </p>
                   <p className="number">03</p>
                   </div>
                 </div>
               </div>
 
-              <div className="image_container">
+              <div className="image_container image_container_4">
                 <div className="text_container">
                   <div className="bar">
                     <div className="inner_bar"></div>
@@ -692,9 +679,7 @@ export default function Home() {
                   <p className="description">
                     “E“Compelling Stories That Convert”
                     <br />
-                    Bring your brand’s message to life with dynamic, tailored
-                    content that connects with your audience and enhances your
-                    marketing strategy.
+                    Bring your brand to life with tailored content that connects and converts.
                   </p>
                   <p className="number">04</p>
                   </div>
@@ -704,20 +689,7 @@ export default function Home() {
 
             </Carousel>
 
-            {/* <div className="image_container">
-  <div className="text_container">
-    <div className="bar">
-      <div className="inner_bar"></div>
-    </div>
-    <div className="wrapper">
-      <h4 className="title">Anti-Theft Measures</h4>
-      <p className="sub_title">Nam aliquet ante ac nulla dignissim, nec
-      tempus mi auctor. Aliqcc umsan eu.</p>
-      <p className="number">01</p>
-    </div>
 
-  </div>
-</div> */}
           </div>
 
           <div className="section_three">
@@ -786,11 +758,9 @@ export default function Home() {
                 <div className="wrapper">
                   <h3 className="title">LumaPanels</h3>
                   <p className="description">
-                    “Eye-Catching Displays That Demand Attention”
-                    <br />
-                    Illuminate your brand with vibrant, high-quality LED panels
-                    designed to captivate and engage your audience.
-                  </p>
+                  "Vivid Displays That Captivate"
+                  <br />
+                    Showcase your brand with vibrant, attention-grabbing LED panels.                  </p>
                   <p className="number">03</p>
                 </div>
               </div>
@@ -810,9 +780,7 @@ export default function Home() {
                   <p className="description">
                     “E“Compelling Stories That Convert”
                     <br />
-                    Bring your brand’s message to life with dynamic, tailored
-                    content that connects with your audience and enhances your
-                    marketing strategy.
+                    Bring your brand to life with tailored content that connects and converts.
                   </p>
                   <p className="number">04</p>
                 </div>
@@ -833,17 +801,19 @@ export default function Home() {
                 campaign, and design we create is like a firefly’s
                 light—distinctive, purposeful, and unforgettable.
               </p>
-              <button className="primay_button">Get Connected</button>
+              <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+  <button className="primay_button">Get Connected</button>
+</a>
             </div>
 
             <div className="bottom">
               <div className="container">
                 <div className="left"></div>
                 <div className="right">
-                  <h3 className="title">Code Crafted</h3>
+                  <h3 className="title">Code Crafted by Lumyn</h3>
                   <p className="sub_title">
-                    Create fully personalized websites that reflect your brand’s
-                    unique identity.
+                  Your digital presence, redefined with bespoke web solutions.
+
                   </p>
 
                   <div className="container">
@@ -857,19 +827,20 @@ export default function Home() {
                     <div className="item">Expert Support </div>
 
                   </div>
-                  <p className="mobile text_description">
+                  {/* <p className="mobile text_description">
                   Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
-                  </p>
-                    <p className="text"> Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.</p>
-                    {/* <p className="sub_head"> What us make different</p> */}
-                    {/* <p className="text">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia curae.
-                    <br/>
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia curae; Vestibulum dictum congue
-                    lorem vel varius.
-                    </p> */}
+                  </p> */}
+                    <h4>Why Choose Lumyn for Your Website?</h4> 
+
+                    <p className="text">At Lumyn, we understand that your website isn’t just a platform—it’s a cornerstone of your brand identity. 
+                      It’s the first impression many customers will have of your business, and it needs to combine aesthetics, performance, and 
+                      functionality to stand out in today’s competitive digital landscape.
+                    </p>
+                    <h4>Let’s Build Something Extraordinary!!</h4> 
+<p className="text">Your website should be as dynamic and forward-thinking as your business. 
+  At Lumyn, we merge creativity with technology to deliver websites that are more than just functional—they’re 
+  transformative.
+</p>
 <button
   className="primay_button"
   onClick={() => (window.location.href = 'http://localhost:3000/contact-us')}
@@ -1017,11 +988,23 @@ export default function Home() {
             </h3>
 
             <div className="container">
-              <div className="item"></div>
-              <div className="item"></div>
-              <div className="item"></div>
-              <div className="item"></div>
-              <div className="item"></div>
+
+              <div className="item">
+                 <img src="/assets/images/UAE.png" alt="" />
+                 <h4>UAE</h4>
+              </div>
+              <div className="item">
+                 <img src="/assets/images/india.png" alt="" />
+                 <h4>INDIA</h4>
+              </div>
+              <div className="item">
+                 <img src="/assets/images/UK.png" alt="" />
+                 <h4>UK</h4>
+              </div>
+              <div className="item">
+                 <img src="/assets/images/USA.png" alt="" />
+                 <h4>USA</h4>
+              </div>
 
             </div>
           </div>
@@ -1033,286 +1016,5 @@ export default function Home() {
 }
 
 {
-  /* <div className={style.banner_section}>
-<NavMenuBar/>
-<h2 className={style.title_one}>LUMYN: WHERE YOUR</h2>
-<h2 className={style.title_two}>FINDS ITS LIGHT</h2>
-<button className="primay_button">
-Learn More
-</button>
-</div>
 
-<div className={style.section_one}>
-<div className={style.top}>
-  <h3> See how Lumyn transforms brands into industry leaders </h3>
-  <p>
-    Watch now and ignite your success with bold strategies, creative
-    solutions, and unmatched passion!
-  </p>
-</div>
-<div className={style.image_container}>
-
-</div>
-<div className={style.bottom}>
-  <div className={style.container}>
-    <div className={style.item}>
-      <h3>100+</h3>
-      <p>Projects Completed</p>
-    </div>
-    <div className={style.item}>
-      <h3>50+</h3>
-      <p>Total Customers</p>
-    </div>
-    <div className={style.item}>
-      <h3>50K+</h3>
-      <p>Dedicated Hours</p>
-    </div>
-    <div className={style.item}>
-      <h3>4.8/5</h3>
-      <p>Customer Satisfaction</p>
-    </div>
-  </div>
-  <button className="primay_button">
-  Get Connect
-  </button>
-</div>
-</div>
-
-<div className={style.inter_mediate_section}> 
-<span>*  Silent Speed, Green Adventure   *  Silent Speed, Green Adventure   *  Silent Speed, Green Adventure   *</span>
-
-<div className={style.section_two}>
-<div className={style.top}>
-  <h3> What We Offer </h3>
-  <p>
-  Services Designed to Make Your Brand Unforgettable
-  </p>
-</div>
-<div className={style.card_container}>
-
-  <div className={style.card}>
-
-    <div className={style.bottom}>
-      <h4 className={style.title}>Project Management</h4>
-      <p className={style.sub_title}>We ensure your projects are executed with precision and efficiency, achieving optimal outcomes every time.</p>
-      <div className={style.icon_highlight}>
-
-        <div className={style.wrapper} >
-          <Image src="/assets/svg/map-point.svg"  width={35} height={35} alt="map-point" />
-          Streamline
-        </div>
-
-        <div className={style.wrapper}>
-          <Image src="/assets/svg/map-point.svg" width={35} height={35} alt="map-point" />
-          Optimize
-        </div>
-
-        <div className={style.wrapper}>
-          <Image src="/assets/svg/map-point.svg" width={35} height={35} alt="map-point" />
-          Deliver
-        </div>
-      
-      </div>
-    </div>
-  </div>
-
-  <div className={style.card}>
-
-  <div className={style.bottom}>
-      <h4 className={style.title}>Ecommerce & Bespoke Website</h4>
-      <p className={style.sub_title}>Tailored websites designed to reflect your unique brand identity and deliver exceptional user experiences.</p>
-      <div className={style.icon_highlight}>
-
-        <div className={style.wrapper} >
-          <Image src="/assets/svg/map-point.svg"  width={35} height={35} alt="map-point" />
-          Your Vision
-        </div>
-
-        <div className={style.wrapper}>
-          <Image src="/assets/svg/map-point.svg" width={35} height={35} alt="map-point" />
-          Our Craft
-        </div>
-      
-      </div>
-    </div>
-
-  </div>
-  <div className={style.card}>
-
-  <div className={style.bottom}>
-      <h4 className={style.title}>Branding & Logo Creation</h4>
-      <p className={style.sub_title}>Create a memorable and impactful identity that resonates deeply with your audience</p>
-      <div className={style.icon_highlight}>
-
-        <div className={style.wrapper} >
-          <Image src="/assets/svg/map-point.svg"  width={35} height={35} alt="map-point" />
-          Your Vision
-        </div>
-
-        <div className={style.wrapper}>
-          <Image src="/assets/svg/map-point.svg" width={35} height={35} alt="map-point" />
-          Our Craft
-        </div>
-
-        <div className={style.wrapper}>
-          <Image src="/assets/svg/map-point.svg" width={35} height={35} alt="map-point" />
-          Deliver
-        </div>
-      
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div className={style.section_three}>
-
-</div> */
-}
-
-{
-  /* <div className={style.section_description}>
-
-<div className={style.item}>
-<div className={style.strip}>
-
-</div>
-<div className={style.wrapper}>
-<h3 className={style.title}>Podcast Room</h3>
-<p className={style.description}>“Professional Space for Creative Voices”
-<br/>
-A state-of-the-art facility designed to produce polished and impactful podcasts.</p>
-<p className={style.number}>01</p>
-</div>
-</div>
-
-<div className={style.item}>
-<div className={style.strip}>
-
-</div>
-<div className={style.wrapper}>
-<h3 className={style.title}>SEO Services</h3>
-<p className={style.description}>
-“Rank Higher, Shine Brighter.”
-<br/>
-Boost your search engine visibility with proven strategies that drive organic traffic.
-</p>
-<p className={style.number}>01</p>
-</div>
-</div>
-
-<div className={style.item}>
-<div className={style.strip}>
-
-</div>
-<div className={style.wrapper}>
-<h3 className={style.title}>LED Panels</h3>
-<p className={style.description}>
-“Eye-Catching Displays That Demand Attention”
-<br/>
-Illuminate your brand with vibrant, high-quality LED panels designed to captivate and engage your audience.
-</p>
-<p className={style.number}>01</p>
-</div>
-</div>
-
-<div className={style.item}>
-<div className={style.strip}>
-
-</div>
-<div className={style.wrapper}>
-<h3 className={style.title}>Content Creation</h3>
-<p className={style.description}>
-“E“Compelling Stories That Convert”
-<br/>
-Bring your brand’s message to life with dynamic, tailored content that connects with your audience and enhances your marketing strategy.
-</p>
-<p className={style.number}>01</p>
-</div>
-</div>
-
-</div>
-
-<div className={style.section_four}>
-
-
-
-  <div className={style.middle}>
-    <h3 className={style.title}>About Lumyn</h3>
-    <p className={style.description}>We believe that every brand has its own light, waiting to shine. Our mission is to help you find that glow, amplify it, and let it illuminate the world. Just as fireflies illuminate their surroundings with effortless grace, Lumyn ignites the spark within brands, helping them shine brighter, reach farther, and captivate audiences with their unique stories. Every strategy, campaign, and design we create is like a firefly’s light—distinctive, purposeful, and unforgettable.</p>
-    <button className="primay_button">
-    Get Connect
-    </button>
-  </div>
-
-  <div className={style.bottom}>
-
-    <div className={style.container}>
-      <div className={style.left}>
-
-      </div>
-      <div className={style.right}>
-        <h3 className={style.title}>Corporate Branding</h3>
-        <p className={style.sub_title}>Create a Brand That Stands the Test of Time!</p>
-
-        <div className={style.container}>
-          <div className={style.item}>Mastermind Team</div>
-          <div className={style.item}>Strategic Vision</div>
-          <div className={style.item}>Innovative Techniques</div>
-          <div className={style.item}>Future-Proof Solutions</div>
-          <div className={style.item}>Real-Time Monitoring</div>
-          <div className={style.item}>Goal-Crushing Focus</div>
-        </div>
-        <button className="primay_button">
-        Contact Us
-        </button>
-
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
-<div className={style.section_five}>
-  <div className={style.top}>
-    <h3> What's New? 
-      <br/>
-      Check Out Our Blog
-    </h3>
-    <p>
-    From fresh ideas to trending topics, our blog covers it all.
-    </p>
-  </div>
-  <div className={style.card_container}>
-
-    <div className={style.card}>
-
-      <div className={style.bottom}>
-      <p className={style.sub_title}>By Admin |  </p>
-        <h4 className={style.title}>Etiam semper nibh et pellentesque
-        vulputate. Phasellua ut lacinia.</h4>
-      </div>
-    </div>
-
-    <div className={style.card}>
-
-    <div className={style.bottom}>
-    <p className={style.sub_title}>By Admin |  </p>
-        <h4 className={style.title}>Etiam semper nibh et pellentesque
-        vulputate. Phasellua ut lacinia.</h4>
-      </div>
-
-    </div>
-
-    <div className={style.card}>
-
-    <div className={style.bottom}>
-        <p className={style.sub_title}>By Admin |  </p>
-        <h4 className={style.title}>Etiam semper nibh et pellentesque
-        vulputate. Phasellua ut lacinia.</h4>
-      </div>
-    </div>
-  </div>
-</div> */
 }
