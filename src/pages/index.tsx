@@ -944,9 +944,9 @@ export default function Home() {
               slidesToSlide={1}
               swipeable
             >
-              <div className="card .blog_image_1">
+              <div className="card_1">
                 <div className="bottom">
-                  <p className="sub_title">By Admin   </p>
+                  <p className="sub_title">By Admin  </p>
                   <h4 className="title">
                   Driving Organic Traffic: Essential Strategies for 2025
 
@@ -955,7 +955,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="card">
+              <div className="card_2">
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
@@ -966,7 +966,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="card">
+              <div className="card_3">
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
