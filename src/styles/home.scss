@@ -799,6 +799,16 @@
       margin-bottom: 60px;
       height: 524px;
       width: 100%;
+      .blog_image_1{
+        background-image: url("/assets/images/blog_images/Domain Privacy Protection.png");
+      } 
+      .blog_image_2{
+        background-image: url("/assets/images/blog_images/Driving Organic Traffic.webp");
+
+      }
+      .blog_image_3{
+        background-image: url("/assets/images/blog_images/Website Revamping.webp");
+      }
   
       .card {
         display: flex;
@@ -810,19 +820,6 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-
-      .blog_image_1{
-        background-image: url("/assets/images/blog_images/Domain Privacy Protection.png");
-
-      } 
-      .blog_image_2{
-        background-image: url("/assets/images/blog_images/Driving Organic Traffic.webp");
-
-      }
-      .blog_image_3{
-        background-image: url("/assets/images/blog_images/Website Revamping.webp");
-
-      }
 
         .bottom {
           display: flex;
