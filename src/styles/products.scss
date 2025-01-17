@@ -912,6 +912,7 @@
         .slide_container {
           .content_row {
             .part_one .image_container {
+              display: none !important ;
               height: 400px;
               // width:500px;
             }
@@ -938,6 +939,7 @@
           .content_row {
           flex-direction: column !important;
             .part_one .image_container {
+              display: none !important;
               height: 300px;
             }
   
