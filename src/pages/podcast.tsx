@@ -26,7 +26,7 @@ export default function Podcast() {
   </h3>
   <p className="sub_title">
     Step into our state-of-the-art studios and produce podcasts that captivate. 
-    Crystal-clear sound, flawless recordings – tell your story with impact.
+    Crystal clear sound, flawless recordings – tell your story with impact.
   </p>
   <button 
     className="primay_button"
