@@ -83,10 +83,6 @@ export default function Home() {
               <p>Services Designed to Make Your Brand Unforgettable</p>
             </div>
 
-            {/* <div className="card_container">
-
-                     </div> */}
-
             <Carousel
               additionalTransfrom={0}
               arrows
@@ -867,7 +863,7 @@ export default function Home() {
             </div>
 
             <div className="card_container">
-              <div className="card">
+              <div className="card blog_image_1">
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
