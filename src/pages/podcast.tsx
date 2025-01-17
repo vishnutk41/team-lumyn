@@ -60,21 +60,22 @@ export default function Podcast() {
                     {/* <img alt="shop icon" loading="lazy" width="100%" height="300" decoding="async" data-nimg="1" src="/assets/images/Echo Lite.webp"></img> */}
                     </div>
                     <div className="bottom_container">
-                      <h4 className="title">Perfect sound. Every time
-                      </h4>
+                      <h4 className="title">Perfect sound </h4>
+                      <h4 className="title">Every timess </h4>
                     </div>
                   </div>
                   <div className="card_resonance_pro">
                     <div className="image_container"></div>
                     <div className="bottom_container">
-                      <h4 className="title">Speak up. Your voice matters
-                      </h4>
+                      <h4 className="title">Speak up </h4>
+                      <h4 className="title">Your voice matters </h4>
                     </div>
                   </div>
                   <div className="card_sonic_max">
                     <div className="image_container"></div>
                     <div className="bottom_container">
-                      <h4 className="title">Your space to shine</h4>
+                      <h4 className="title">Your space </h4>
+                      <h4 className="title">Time to shine </h4>
                     </div>
                   </div>
                 </div>
@@ -134,7 +135,8 @@ export default function Podcast() {
                 >
                   <div className="item_1">
                     <div className="bottom">
-                      <span>Perfect sound. Every time 
+                      <span>Perfect sound 
+                        <br /> Every time 
                       </span>
 
                     </div>
@@ -142,13 +144,15 @@ export default function Podcast() {
                   </div>
                   <div className="item_2" >
                   <div className="bottom">
-                      <span>Speak up. Your voice matters
+                      <span>Speak up
+                        <br />Your voice matters
                       </span>
                     </div>
                   </div>
                   <div className="item_3" >
                   <div className="bottom">
-                      <span>Your space to shine</span>
+                      <span>Your space
+                        <br /> Time to shine</span>
                     </div>
                   </div>
 
