@@ -142,11 +142,11 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                     <div className="image_container"></div>
-                    <div className="description">
+                    {/* <div className="description">
                       <p className="content">
                       Build a stunning and functional online presence with WebCommerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="part_two">
                     <h3 className="title">WebCommerce </h3>
@@ -188,9 +188,14 @@ export default function Products() {
                       <div className="item">ResponsiveDesign</div>
                       {/* <div className="item">Goal-Crushing Focus</div> */}
                     </div>
-                    <p className="extra_description mobile">
-                      {/* Vestibulum ante ipsum primis in faucibus orci luctus... */}
-                    </p>
+                    {/* <p className="extra_description mobile">
+                    Build a stunning and functional online presence with WebCommerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
+                    </p> */}
+                     <div className="description">
+                      <p className="content">
+                      Build a stunning and functional online presence with WebCommerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
+                      </p>
+                    </div>
                     <button className="primay_button">Contact Us</button>
                   </div>
                 </div>
@@ -346,11 +351,11 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                     <div className="image_container"></div>
-                    <div className="description">
+                    {/* <div className="description">
                       <p className="content">
                       Dominate search engines with OptiRank. Our expert SEO packages boost your website’s rankings, increase organic traffic, and enhance visibility to ensure your business stays ahead in the digital landscape.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="part_two">
                     <h3 className="title">OptiRank </h3>
@@ -395,6 +400,11 @@ export default function Products() {
                     <p className="extra_description mobile">
                       {/* Vestibulum ante ipsum primis in faucibus orci luctus... */}
                     </p>
+                    <div className="description">
+                      <p className="content">
+                      Dominate search engines with OptiRank. Our expert SEO packages boost your website’s rankings, increase organic traffic, and enhance visibility to ensure your business stays ahead in the digital landscape.
+                      </p>
+                    </div>
                     <button className="primay_button">Contact Us</button>
                   </div>
                 </div>
@@ -520,11 +530,7 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                     <div className="image_container"></div>
-                    <div className="description">
-                      <p className="content">
-                        Transform your social media channels into powerful marketing tools with InsightMedia. From engaging content creation to brand awareness strategies, our packages are designed to drive meaningful connections and measurable growth.
-                      </p>
-                    </div>
+                    
                   </div>
                   <div className="part_two">
                     <h3 className="title">InsightMedia </h3>
@@ -569,6 +575,11 @@ export default function Products() {
                     <p className="extra_description mobile">
                       {/* Vestibulum ante ipsum primis in faucibus orci luctus... */}
                     </p>
+                    <div className="description">
+                      <p className="content">
+                        Transform your social media channels into powerful marketing tools with InsightMedia. From engaging content creation to brand awareness strategies, our packages are designed to drive meaningful connections and measurable growth.
+                      </p>
+                    </div>
                     <button className="primay_button">Contact Us</button>
                   </div>
                 </div>
@@ -791,9 +802,7 @@ export default function Products() {
                 <div className="content_row"> 
                   <div className="part_one"> 
                     <div className="image_container">
-                      </div> <div className="description">
-                         <p className="content">Bring your brand to life with BrandForge. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
-                         </div>
+                      </div>
                           </div> <div className="part_two"> 
                             <h3 className="title"> BrandForge </h3> 
                             <p className="sub_title"> Forge a Brand That Stands Out! </p>
@@ -815,7 +824,11 @@ export default function Products() {
                                             <div className="item">CreativeDesign</div> 
                                             {/* <div className="item">Goal-Crushing Focus</div>  */}
                                             </div>
+                                            
                                              {/* <p className="extra_description mobile"> Vestibulum ante ipsum primis in faucibus orci luctus... </p> */}
+                                             <div className="description">
+                         <p className="content">Bring your brand to life with BrandForge. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
+                         </div>
                                               <button className="primay_button">Contact Us</button>
                                                </div> 
                                                </div>
