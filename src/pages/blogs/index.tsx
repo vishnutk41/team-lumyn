@@ -26,18 +26,17 @@ export default function Blogs() {
                 </div>
 
                 <div className="container">
-                    <Link  className="blog_item" href="/blogs/blog_details">
+                    <Link  className="blog_item" href="/blogs/need-for-domain-privacy-protection">
                        <div className="image_1"></div>
                        
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                         Domain Privacy Protection: Why It's Essential for Website Owners
-
                         </p>
                     </Link>
                     
 
-                    <Link  className="blog_item" href="/blogs/blog_details">
+                    <Link  className="blog_item" href="/blogs/driving-organic-traffic-strategies">
                         <div className="image_2"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
