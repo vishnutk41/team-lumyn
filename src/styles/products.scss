@@ -548,7 +548,7 @@
           .pricing_section {
             margin-top: 40px;
             width: 100%;
-            background-color: #333;
+            background-color: #222222;
             padding: 20px;
             border-radius: 10px;
             color: #fff;
@@ -578,6 +578,7 @@
         .pricing-body {  display: grid;
             place-items: center;
             min-height: 80vh;
+            margin-top: 50px;
             // background-color: #171717;
          }
     .pricing-plans { gap: 32px; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; width: 100%; padding: 14px; } 
@@ -911,6 +912,13 @@
           .content_row {
             .part_one .image_container {
               height: 400px;
+              // width:500px;
+            }
+            .primay_button{
+              margin-top: 62px !important;
+            }
+            .title{
+              font-size: 30px !important;
             }
           }
         }
@@ -918,7 +926,9 @@
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 680px) {
+    .features strong{ display: block !important;}
+    .features i{ display: none !important;}
     .products_section {
       .container {
         margin: 10px 0px 20px 0px;
@@ -932,11 +942,12 @@
   
             .part_one{
               width: 100% !important;
-
+           
             }
             .part_two {
               width: 100% !important;
               margin-top:20px;
+              margin-left: 0px !important;
               .title {
                 font-size: 32px;
                 line-height: 40px;
@@ -959,13 +970,9 @@
                 font-size: 14px;
                 padding: 6px 14px;
               }
-  
-              .primary_button {
-                margin-top: 40px;
-              }
             }
           }
-  
+          .pricing-plans { gap: 52px !important;}
           .pricing_section {
             padding: 10px;
   

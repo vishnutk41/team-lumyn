@@ -141,7 +141,11 @@ export default function Products() {
               <div className="slide_container">
                 <div className="content_row">
                   <div className="part_one">
-                    <div className="image_container"></div>
+                  <div className="image_container">
+  <Image src="/assets/images/product_images/WebCommerce.webp" alt="Description of the image"  width="700" height="600" />
+</div>
+
+
                     {/* <div className="description">
                       <p className="content">
                       Build a stunning and functional online presence with WebCommerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
@@ -350,7 +354,9 @@ export default function Products() {
               <div className="slide_container">
                 <div className="content_row">
                   <div className="part_one">
-                    <div className="image_container"></div>
+                    <div className="image_container">
+                    <Image src="/assets/images/product_images/MarketBlaze.webp" alt="product_image_2" height="600" width="700"/>
+                    </div>
                     {/* <div className="description">
                       <p className="content">
                       Dominate search engines with OptiRank. Our expert SEO packages boost your website’s rankings, increase organic traffic, and enhance visibility to ensure your business stays ahead in the digital landscape.
@@ -529,7 +535,9 @@ export default function Products() {
               <div className="slide_container">
                 <div className="content_row">
                   <div className="part_one">
-                    <div className="image_container"></div>
+                    <div className="image_container">
+                      <Image src="/assets/images/product_images/InsightMedia.webp" alt="product_image_3" width="700" height="600"/>
+                    </div>
                     
                   </div>
                   <div className="part_two">
@@ -802,6 +810,7 @@ export default function Products() {
                 <div className="content_row"> 
                   <div className="part_one"> 
                     <div className="image_container">
+                    <Image src="/assets/images/product_images/BrandForge.webp" alt="product_image_4" width="700" height="600"/>
                       </div>
                           </div> <div className="part_two"> 
                             <h3 className="title"> BrandForge </h3> 
@@ -843,7 +852,7 @@ export default function Products() {
                                                     
 
 
-                <div className="pricing-body">
+                <div className="pricing_section">
                                   <section className="pricing-plans">
                                   <div className="pricing-card basic">
                                     <div className="heading">
