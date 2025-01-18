@@ -203,7 +203,7 @@ export default function Products() {
                     <button className="primay_button">Contact Us</button>
                   </div>
                 </div>
-                <div className="pricing-body">
+                <div className="pricing_section">
                   <section className="pricing-plans">
                           <div className="pricing-card basic">
                             <div className="heading">
@@ -414,7 +414,7 @@ export default function Products() {
                     <button className="primay_button">Contact Us</button>
                   </div>
                 </div>
-                <div className="pricing-body">
+                <div className="pricing_section">
                   <section className="pricing-plans">
                           <div className="pricing-card basic">
                             <div className="heading">
@@ -591,7 +591,7 @@ export default function Products() {
                     <button className="primay_button">Contact Us</button>
                   </div>
                 </div>
-                <div className="pricing-body">
+                <div className="pricing_section">
                   <section className="pricing-plans">
                           <div className="pricing-card basic">
                             <div className="heading">
@@ -852,7 +852,7 @@ export default function Products() {
                                                     
 
 
-                <div className="pricing-body">
+                <div className="pricing_section">
                                   <section className="pricing-plans">
                                   <div className="pricing-card basic">
                                     <div className="heading">
