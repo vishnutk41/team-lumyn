@@ -61,7 +61,7 @@ export const NavMenuBar = () =>{
         <div className="menu_content">
           <div className="menu_nav">
             <Link href={'/'}  className={`${active == '/' ? 'active':''}`}> Home</Link>
-            <Link href={'/podcast'}  className={`${active ==  '/podcast' ? 'active':''}`}> Podcast</Link>
+            <Link href={'/podcast'}  className={`${active ==  '/podcast' ? 'active':''}`}> EchoPod </Link>
             <Link href={'/contact-us'}  className={`${active ==  '/contact-us' ? 'active':''}`}> Contact Us </Link>
             <Link href={'/blogs'}  className={`${active ==  '/blogs' ? 'active':''}`}> Blog </Link>
           </div>

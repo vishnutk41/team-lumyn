@@ -1,135 +1,156 @@
 .contact_us {
     background-color: #181a27;
+    padding: 0 25px;
 
-    .banner_section {
+    .content_section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        gap: 30px;
         min-height: 80vh;
-        height:70vh;
-        padding: 0px 25px;
-        width:100%;
-    
-        .container {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-    
-            .map {
+        padding: 30px 0;
+        width: 100%;
+
+        .map {
+            width: 50%;
+            height: 700px;
+            iframe {
                 width: 100%;
-                height: 500px;
-                iframe {
-                  width: 100%;
-                  height: 100%;
-                }
+                height: 100%;
             }
         }
-    }
-    
-    .touching_with_section {
-        display: flex;
-        flex-direction: column;
-        padding: 10px 25px;
-        width:100%;
-    
-        .title {
-            font-family: "Poppins", serif;
-            font-size: 42px;
-            font-weight: 700;
-            line-height: 50.83px;
-            text-align: center;
-            text-underline-position: from-font;
-            text-decoration-skip-ink: none;
-        }
-        .sub_title{
-            font-family: "Poppins", serif;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
-            text-align: center;
-            text-underline-position: from-font;
-            text-decoration-skip-ink: none;
-            color: var(--text_color_two);
-        }
-    
-        .container {
+
+        .contact_form {
+            width: 50%;
             display: flex;
-            flex-direction: column;  
-            width: 100%;
-            padding: 40px;
-            margin-top: 60px;
-            height: fit-content;
-            height: 350px;
-            background-color: #212236;
-            box-shadow: 0px 0px 30px 0px #00000033;
-            align-items: center;
-    
-            .wrapper{
-                display: flex;
-                flex-direction: row;
-                height: 100%;
-                width: 100%;
-                gap: 20px;
-    
-                .part_one{
+            flex-direction: column;
+
+            .title {
+                font-family: "Poppins", serif;
+                font-size: 42px;
+                font-weight: 700;
+                line-height: 50.83px;
+                text-align: left;
+            }
+
+            .sub_title {
+                font-family: "Poppins", serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: left;
+                color: var(--text_color_two);
+                margin-bottom: 30px;
+            }
+
+            .container {
+                background-color: #212236;
+                padding: 30px;
+                box-shadow: 0px 0px 30px 0px #00000033;
+
+                .wrapper {
                     display: flex;
                     flex-direction: column;
-                    width: 50%;
-                    height: 100%;
-                    gap:20px;
-        
-                    input {
-                        padding-left: 20px;
-                        outline: none;
-                        border-style: none;
-                        background-color: #676767;
-                        box-shadow: 0px 0px 30px 0px #00000033;
-                        width: 100%;
-                        height: 100%;
-                        font-family: "Poppins", serif;
-                        font-size: 16px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
-                        color: #ffffff;
-                        &::placeholder {
-                            color: rgba(255, 255, 255, 0.7);
+                    gap: 20px;
+
+                    .part_one {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        input {
+                            padding: 15px 20px;
+                            outline: none;
+                            border: none;
+                            background-color: #676767;
+                            box-shadow: 0px 0px 30px 0px #00000033;
+                            font-family: "Poppins", serif;
+                            font-size: 16px;
+                            color: #ffffff;
+
+                            &::placeholder {
+                                color: rgba(255, 255, 255, 0.7);
+                            }
+                        }
+
+                        .phone_input {
+                            display: flex;
+                            gap: 10px;
+    
+                            .country_code {
+                                position: relative;
+                                background-color: #676767;
+                                color: #ffffff;
+                                padding: 15px;
+                                min-width: 70px;
+                                text-align: center;
+                                cursor: pointer;
+                                box-shadow: 0px 0px 30px 0px #00000033;
+    
+                                .dropdown {
+                                    position: absolute;
+                                    top: 100%;
+                                    left: 0;
+                                    background-color: #212236;
+                                    width: 200px;
+                                    z-index: 10;
+                                    border: 1px solid #676767;
+                                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+                                    .option {
+                                        padding: 10px;
+                                        transition: background-color 0.2s ease;
+                                        
+                                        &:hover {
+                                            background-color: #676767;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            input {
+                                flex: 1;
+                            }
+                        }
+                    }
+
+                    .part_two {
+                        textarea {
+                            width: 100%;
+                            height: 150px;
+                            padding: 20px;
+                            outline: none;
+                            border: none;
+                            background-color: #676767;
+                            font-family: "Poppins", serif;
+                            font-size: 16px;
+                            color: #ffffff;
+                            resize: none;
+                            box-shadow: 0px 0px 30px 0px #00000033;
+
+                            &::placeholder {
+                                color: rgba(255, 255, 255, 0.7);
+                            }
                         }
                     }
                 }
-    
-                .part_two{
-                    width: 50%;
-                    background-color: #676767;
-                    height: 100%;
-    
-                    textarea {
-                        outline: none;
-                        border-style: none;
-                        padding: 20px;
-                        width: 100%;
-                        height: 100%;
-                        background-color: inherit;
-                        font-family: "Poppins", serif;
-                        font-size: 16px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
-                        color: #ffffff;
-                        &::placeholder {
-                            color: rgba(255, 255, 255, 0.7);
-                        }
+
+                button {
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 15px;
+                    background-color: var(--primary-color, #4a90e2);
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    font-family: "Poppins", serif;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: background-color 0.2s ease;
+
+                    &:hover {
+                        opacity: 0.9;
                     }
                 }
-            }
-    
-            button {
-                margin-top: 10px;
             }
         }
     }
@@ -137,26 +158,34 @@
 
 @media (max-width: 768px) {
     .contact_us {
-        .touching_with_section {
-            .container {
-                .wrapper {
-                    flex-direction: column;
-                    .part_one {
-                        width: 100%;
-                        input {
-                            color: #ffffff;
-                            &::placeholder {
-                                color: rgba(255, 255, 255, 0.7);
-                            }
-                        }
-                    }
-                    
-                    .part_two {
-                        width: 100%;
-                        textarea {
-                            color: #ffffff;
-                            &::placeholder {
-                                color: rgba(255, 255, 255, 0.7);
+        .content_section {
+            flex-direction: column;
+
+            .map,
+            .contact_form {
+                width: 100%;
+            }
+
+            .map {
+                height: 400px;
+            }
+
+            .contact_form {
+                .title {
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+
+                .container {
+                    padding: 20px;
+
+                    .wrapper {
+                        gap: 15px;
+
+                        .phone_input {
+                            .country_code {
+                                min-width: 60px;
+                                padding: 12px;
                             }
                         }
                     }

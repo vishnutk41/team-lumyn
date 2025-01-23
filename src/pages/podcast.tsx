@@ -20,9 +20,13 @@ export default function Podcast() {
             <NavMenuBar />
 
             <div className="container">
-  <h3 className="title">
+  {/* <h3 className="title">
     YOUR VOICE, <span>YOUR STORY</span> <br />
     <span>WITH LUMYN </span>PODCAST ROOMS
+  </h3> */}
+    <h3 className="title">
+    YOUR VOICE, <span>YOUR STORY</span> <br />
+    WITH <span>ECHOPOD </span>
   </h3>
   <p className="sub_title">
     Step into our state-of-the-art studios and produce podcasts that captivate. 
@@ -32,32 +36,39 @@ export default function Podcast() {
     className="primay_button"
     onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
   >
-    Book Today
+    Book Now 🎙️
   </button>
 </div>
           </div>
 
           <div className="section_one">
             <div className="wrapper">
-
+{/* 
               <div className="amplify_your_voice">
                 <h3 className="title">Ready to <span>Amplify</span> Your Voice?</h3>
-              </div>
+              </div> */}
 
               <div className="container">
-                <h3 className="title">Your Story Deserves the Best</h3>
+                <h3 className="title">Create. Inspire. Amplify: Podcasting Reimagined</h3>
                 <p className="sub_title">
                   Book & start creating content that makes an impact
                 </p>
 
-                <div className="amplify_your_voice_mobile mobile">
+                {/* <div className="amplify_your_voice_mobile mobile">
                 <h3 className="title">Ready to <span>Amplify</span> Your Voice?</h3>
-                </div>
+                </div> */}
 
                 <div className="card_container">
+                <div className="card_echolite">
+                    <div className="image_container">
+                    </div>
+                    <div className="bottom_container">
+                      <h4 className="title">Perfect sound </h4>
+                      <h4 className="title">Every times </h4>
+                    </div>
+                  </div>
                   <div className="card_echolite">
                     <div className="image_container">
-                    {/* <img alt="shop icon" loading="lazy" width="100%" height="300" decoding="async" data-nimg="1" src="/assets/images/Echo Lite.webp"></img> */}
                     </div>
                     <div className="bottom_container">
                       <h4 className="title">Perfect sound </h4>
@@ -155,6 +166,12 @@ export default function Podcast() {
                         <br /> Time to shine</span>
                     </div>
                   </div>
+                  <div className="item_4" >
+                  <div className="bottom">
+                      <span>Your space
+                        <br /> Time to shine</span>
+                    </div>
+                  </div>
 
 
                 </Carousel>
@@ -164,9 +181,9 @@ export default function Podcast() {
 
             </div>
 
-            <div className="offer_container">
+            {/* <div className="offer_container">
               <span> Grab this limited time deal : Book 5, Get 1 on Us!</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="section_section">
@@ -232,8 +249,6 @@ export default function Podcast() {
                     </div>
                     <div className="percentage_container">
                       <span></span>
-                      <span></span>
-                      <span></span>
                     </div>
                   </div>
                   <div className="item">
@@ -241,16 +256,13 @@ export default function Podcast() {
                     </div>
                     <div className="percentage_container">
                       <span></span>
-                      <span></span>
-                      <span></span>
                     </div>
                   </div>
                   <div className="item">
                     <div className="title">On-Demand Support</div>
                     <div className="percentage_container">
                       <span></span>
-                      <span></span>
-                      <span></span>
+
                     </div>
                   </div>
                 </div>
@@ -319,7 +331,7 @@ No matter your podcasting format, our studio is built to make your creative proc
             >Book Now</button>
           </div>
 
-          <div className="section_six">
+          {/* <div className="section_six">
             <h4 className="title">Transforming Ideas into Impactful Podcasts</h4>
 
             <div className="container">
@@ -352,7 +364,7 @@ No matter your podcasting format, our studio is built to make your creative proc
                 />
               </svg>
             </div>
-          </div>
+          </div> */}
 
           <div className="section_seven">
             <div className="container">

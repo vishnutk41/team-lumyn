@@ -53,7 +53,7 @@ export const Footer = () =>(
         <div className="link_container">
           <div className="main_menu">
             <h4>Learn More</h4>
-            <Link href={'/podcast'}>Podcast</Link>
+            <Link href={'/podcast'}>Echopod</Link>
             {/* <Link href={'/products'}>Shop</Link> */}
             <Link href={'/blogs'}>Blog</Link>
             <Link href={'/frequently-asked-questions'}>FAQ</Link>
