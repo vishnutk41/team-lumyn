@@ -30,8 +30,8 @@ export default function Home() {
             <button className="primay_button"   onClick={() => (window.location.href = '/contact-us')}
             >Contact Us</button>
           </div>
-
-          <div className="section_one">
+{/* --------------remove section------------------------------------- */}
+          {/* <div className="section_one">
             <div className="top">
               <h3> See how Lumyn transforms brands into industry leaders </h3>
               <p>
@@ -40,7 +40,7 @@ export default function Home() {
               </p>
             </div>
             {/* <div className="image_container"></div> */}
-            <div className="bottom">
+            {/* <div className="bottom">
               <div className="container">
                 <div className="item">
                   <h3>100+</h3>
@@ -58,18 +58,18 @@ export default function Home() {
                   <h3>4.8/5</h3>
                   <p>Customer Satisfaction</p>
                 </div>
-              </div>
+              </div> */}
               {/* <p className="mobile text_description">
                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
                 posuere cubilia curae; Vestibulum dictum congue lorem vel
                 varius.
               </p> */}
-<a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+{/* <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
   <button className="primay_button">Get Connected</button>
 </a>
             </div>
-          </div>
-
+          </div> */} 
+{/* -------------------------------remove section-end--------- */}
           <div className="inter_mediate_section">
             <span>
               * Silent Speed, Green Adventure * Silent Speed, Green Adventure *
@@ -79,11 +79,11 @@ export default function Home() {
 
           <div className="section_two">
             <div className="top">
-              <h3> What We Offer </h3>
-              <p>Services Designed to Make Your Brand Unforgettable</p>
+              <h3> The Vibe We Bring </h3>
+              <p>Services That Make Your Brand Stand Out & Stay Memorable.</p>
             </div>
 
-            <Carousel
+            {/* <Carousel
               additionalTransfrom={0}
               arrows
               autoPlaySpeed={3000}
@@ -100,7 +100,8 @@ export default function Home() {
               pauseOnHover
               renderArrowsWhenDisabled={false}
               renderButtonGroupOutside={false}
-              renderDotsOutside={true}
+              renderDotsOutside={true} */}
+{/* ------------------------------------------------------
               // responsive={{
               //   desktop: {
               //     breakpoint: {
@@ -126,7 +127,8 @@ export default function Home() {
               //     items: 2,
               //     partialVisibilityGutter: 20,
               //   },
-              // }}
+              // }} */}
+              {/* -------------------------------------
               responsive={{
                 desktop: {
                   breakpoint: {
@@ -162,7 +164,8 @@ export default function Home() {
               sliderClass=""
               slidesToSlide={1}
               swipeable
-            >
+            > */}
+            <div className="offer_section">
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_1">
                   {/* <div className="star_container">
@@ -488,7 +491,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </Carousel>
+            {/* </Carousel> */} </div>
 
             {/* 
   <div className="card_container_mobile">
@@ -554,8 +557,8 @@ export default function Home() {
 
   </div> */}
           </div>
-
-          <div className="section_three_mobile mobile">
+{/* --------------------remove section------------------------------------ */}
+          {/* <div className="section_three_mobile mobile">
             <h3 className="title">Exclusive Highlight</h3>
             <p className="sub_title">Experience innovation at its finest.</p>
 
@@ -687,9 +690,9 @@ export default function Home() {
             </Carousel>
 
 
-          </div>
+          </div> */}
 
-          <div className="section_three">
+          {/* <div className="section_three">
             <div className="high_light">
               <h3 className="title">Exclusive Highlights</h3>
               <div className="bar"></div>
@@ -783,11 +786,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-
+          </div> */}
+{/* ---------------------------remove section-end------- */}
           <div className="section_four">
-            <div className="middle">
-              <h3 className="title">About Lumyn</h3>
+            {/* <div className="middle">
+              <h3 className="title">Vibe Check</h3>
               <p className="description">
                 We believe that every brand has its own light, waiting to shine.
                 Our mission is to help you find that glow, amplify it, and let
@@ -799,9 +802,32 @@ export default function Home() {
                 light—distinctive, purposeful, and unforgettable.
               </p>
               <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
-  <button className="primay_button">Get Connected</button>
+  <button className="primay_button">Say hello!</button>
 </a>
-            </div>
+            </div> */}
+              <div className="middle">
+              
+  <div className="text_content">
+    <h3 className="title">Vibe Check</h3>
+    <p className="description">
+      We believe that every brand has its own light, waiting to shine.
+      Our mission is to help you find that glow, amplify it, and let
+      it illuminate the world. Just as fireflies illuminate their
+      surroundings with effortless grace, Lumyn ignites the spark
+      within brands, helping them shine brighter, reach farther, and
+      captivate audiences with their unique stories. Every strategy,
+      campaign, and design we create is like a firefly’s
+      light—distinctive, purposeful, and unforgettable.
+    </p>
+    <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+      <button className="primay_button">Say hello!</button>
+    </a>
+  </div>
+  <div className="image_content">
+ 
+    <div className="circle_image"></div>
+  </div>
+</div>
 
             <div className="bottom">
               <div className="container">
