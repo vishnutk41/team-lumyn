@@ -10,9 +10,66 @@ const countryCodes = [
   { code: "+44", country: "UK" }
 ];
 
+type FormErrors = {
+  fullName?: string;
+  email?: string;
+  phoneNumber?: string;
+  additionalMessage?: string;
+};
+
 export default function ContactUs() {
   const [showCodes, setShowCodes] = useState(false);
   const [selectedCode, setSelectedCode] = useState(countryCodes[0]);
+  
+  // Form state
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [additionalMessage, setAdditionalMessage] = useState("");
+  
+  // Validation state
+  const [errors, setErrors] = useState<FormErrors>({});
+
+  const validateForm = () => {
+    const newErrors: FormErrors = {};
+
+    // Full Name validation
+    if (!fullName.trim()) {
+      newErrors.fullName = "Full Name is required";
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.trim()) {
+      newErrors.email = "Email address is required";
+    } else if (!emailRegex.test(email)) {
+      newErrors.email = "Invalid email format";
+    }
+
+    // Phone Number validation
+    const phoneRegex = /^[0-9]{9,15}$/;
+    if (!phoneNumber.trim()) {
+      newErrors.phoneNumber = "Mobile number is required";
+    } else if (!phoneRegex.test(phoneNumber)) {
+      newErrors.phoneNumber = "Invalid phone number";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (validateForm()) {
+      console.log("Form submitted", {
+        fullName,
+        email,
+        phone: `${selectedCode.code}${phoneNumber}`,
+        additionalMessage
+      });
+      // Reset form or show success message
+    }
+  };
 
   return (
     <>
@@ -42,11 +99,23 @@ export default function ContactUs() {
               <p className="sub_title">
                 Tailoring each moment to your furry companion's individual needs.
               </p>
-              <div className="container">
+              <form onSubmit={handleSubmit} className="container">
                 <div className="wrapper">
                   <div className="part_one">
-                    <input placeholder="Full Name" />
-                    <input placeholder="Email address" />
+                    <input 
+                      placeholder="Full Name" 
+                      value={fullName}
+                      onChange={(e) => setFullName(e.target.value)}
+                    />
+                    {errors.fullName && <div style={{color: 'red', fontSize: '0.8rem'}}>{errors.fullName}</div>}
+                    
+                    <input 
+                      placeholder="Email address" 
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                    {errors.email && <div style={{color: 'red', fontSize: '0.8rem'}}>{errors.email}</div>}
+                    
                     <div className="phone_input">
                       <div className="country_code" onClick={() => setShowCodes(!showCodes)}>
                         {selectedCode.code}
@@ -68,15 +137,24 @@ export default function ContactUs() {
                           </div>
                         )}
                       </div>
-                      <input placeholder="Mobile number" />
+                      <input 
+                        placeholder="Mobile number" 
+                        value={phoneNumber}
+                        onChange={(e) => setPhoneNumber(e.target.value)}
+                      />
                     </div>
+                    {errors.phoneNumber && <div style={{color: 'red', fontSize: '0.8rem'}}>{errors.phoneNumber}</div>}
                   </div>
                   <div className="part_two">
-                    <textarea placeholder="Additional Message" />
+                    <textarea 
+                      placeholder="Additional Message" 
+                      value={additionalMessage}
+                      onChange={(e) => setAdditionalMessage(e.target.value)}
+                    />
                   </div>
                 </div>
-                <button className="primay_button">Submit</button>
-              </div>
+                <button type="submit" className="primay_button">Submit</button>
+              </form>
             </div>
           </div>
         </main>
