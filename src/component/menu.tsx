@@ -49,6 +49,7 @@ export const NavMenuBar = () =>{
 
     return (
       <div className="menu_bar">
+       
         <div className="logo_container">
           <Image
             src="/assets/svg/Lumyn Logo White.svg"

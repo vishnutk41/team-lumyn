@@ -76,7 +76,54 @@ export default function Home() {
               Silent Speed, Green Adventure *
             </span>
           </div>
+          {/* ---------------------------added section-------------------------------------- */}
+          <div className="added_section_1">
+         <div className="bottom">
+              <div className="container">
+                <div className="left"></div>
+                <div className="right">
+                  <h3 className="title">Luma Code</h3>
+                  <p className="sub_title">
+                  Your digital presence, redefined with bespoke web solutions.
 
+                  </p>
+
+                  <div className="container">
+                  <div className="item" >Responsive Development</div>
+
+                    <div className="item">Custom Designs</div>
+                    <div className="item">SEO Optimization</div>
+                    <div className="item">Fast Loading Speed </div>
+                    <div className="item">Security First </div>
+                    <div className="item">Scalable Solutions</div>
+                    <div className="item">Expert Support </div>
+
+                  </div>
+                  {/* <p className="mobile text_description">
+                  Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
+                  </p> */}
+                    <h4>Why Choose Lumyn for Your Website?</h4> 
+
+                    <p className="text">At Lumyn, we understand that your website isn’t just a platform—it’s a cornerstone of your brand identity. 
+                      It’s the first impression many customers will have of your business, and it needs to combine aesthetics, performance, and 
+                      functionality to stand out in today’s competitive digital landscape.
+                    </p>
+                    <h4>Let’s Build Something Extraordinary!!</h4> 
+<p className="text">Your website should be as dynamic and forward-thinking as your business. 
+  At Lumyn, we merge creativity with technology to deliver websites that are more than just functional—they’re 
+  transformative.
+</p>
+<button
+  className="primay_button"
+  onClick={() => (window.location.href = '/contact-us')}
+>
+  Contact Us
+</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            {/* --------------------------------added section-ends------------------ */}
           <div className="section_two">
             <div className="top">
               <h3> The Vibe We Bring </h3>
@@ -412,7 +459,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="item" style={{ width: "100%" }}>
+              {/* <div className="item" style={{ width: "100%" }}>
                 <div className="img img_7"></div>
                 <div className="bottom">
                   <h4 className="title">SocialMuse</h4>
@@ -450,9 +497,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="item" style={{ width: "100%" }}>
+              {/* <div className="item" style={{ width: "100%" }}>
                 <div className="img img_8"></div>
                 <div className="bottom">
                   <h4 className="title">InsightMedia</h4>
@@ -490,7 +537,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             {/* </Carousel> */} </div>
 
             {/* 
@@ -788,6 +835,7 @@ export default function Home() {
             </div>
           </div> */}
 {/* ---------------------------remove section-end------- */}
+
           <div className="section_four">
             {/* <div className="middle">
               <h3 className="title">Vibe Check</h3>
@@ -805,84 +853,124 @@ export default function Home() {
   <button className="primay_button">Say hello!</button>
 </a>
             </div> */}
-              <div className="middle">
+{/* <div className="middle">
               
-  <div className="text_content">
-    <h3 className="title">Vibe Check</h3>
-    <p className="description">
-      We believe that every brand has its own light, waiting to shine.
-      Our mission is to help you find that glow, amplify it, and let
-      it illuminate the world. Just as fireflies illuminate their
-      surroundings with effortless grace, Lumyn ignites the spark
-      within brands, helping them shine brighter, reach farther, and
-      captivate audiences with their unique stories. Every strategy,
-      campaign, and design we create is like a firefly’s
-      light—distinctive, purposeful, and unforgettable.
-    </p>
-    <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
-      <button className="primay_button">Say hello!</button>
-    </a>
-  </div>
-  <div className="image_content">
- 
-    <div className="circle_image"></div>
-  </div>
-</div>
+    <div className="text_content">
+      <h3 className="title">Vibe Check</h3>
+      <p className="description">
+        We believe that every brand has its own light, waiting to shine.
+        Our mission is to help you find that glow, amplify it, and let
+        it illuminate the world. Just as fireflies illuminate their
+        surroundings with effortless grace, Lumyn ignites the spark
+        within brands, helping them shine brighter, reach farther, and
+        captivate audiences with their unique stories. Every strategy,
+        campaign, and design we create is like a firefly’s
+        light—distinctive, purposeful, and unforgettable.
+      </p>
+      <a href="https://wa.me/message/UQCKZRNUKEGRL1" target="_blank" rel="noopener noreferrer">
+        <button className="primay_button">Say hello!</button>
+      </a>
+    </div>
+    <div className="image_content">
 
-            <div className="bottom">
-              <div className="container">
-                <div className="left"></div>
-                <div className="right">
-                  <h3 className="title">Code Crafted by Lumyn</h3>
-                  <p className="sub_title">
-                  Your digital presence, redefined with bespoke web solutions.
+      <div className="circle_image"></div>
+    </div>
+          <Carousel
+                additionalTransfrom={0}
+                arrows
+                autoPlaySpeed={3000}
+                centerMode={false}
+                className=""
+                containerClass=""
+                dotListClass="slide_dot"
+                draggable
+                focusOnSelect={false}
+                infinite={true}
+                itemClass=""
+                keyBoardControl
+                minimumTouchDrag={80}
+                pauseOnHover
+                renderArrowsWhenDisabled={false}
+                renderButtonGroupOutside={true}
+                renderDotsOutside={true}
+                responsive={{
+                  desktop: {
+                    breakpoint: {
+                      max: 3000,
+                      min: 1024,
+                    },
+                    items: 1,
+                    partialVisibilityGutter: 30,
+                  },
+                  mobile: {
+                    breakpoint: {
+                      max: 464,
+                      min: 0,
+                    },
+                    items: 1,
+                    partialVisibilityGutter: 25,
+                  },
+                  tablet: {
+                    breakpoint: {
+                      max: 1024,
+                      min: 464,
+                    },
+                    items: 1,
+                    partialVisibilityGutter: 20,
+                  },
+                }}
+                rewind={false}
+                rewindWithAnimation={false}
+                rtl={false}
+                shouldResetAutoplay
+                showDots={true}
+                sliderClass=""
+                slidesToSlide={1}
+                swipeable
+              >
+                <div className="card_1">
+                  <div className="bottom">
+                    <p className="sub_title">By Admin  </p>
+                    <h4 className="title">
+                    Driving Organic Traffic: Essential Strategies for 2025
 
-                  </p>
-
-                  <div className="container">
-                  <div className="item">Responsive Development</div>
-
-                    <div className="item">Custom Designs</div>
-                    <div className="item">SEO Optimization</div>
-                    <div className="item">Fast Loading Speed </div>
-                    <div className="item">Security First </div>
-                    <div className="item">Scalable Solutions</div>
-                    <div className="item">Expert Support </div>
-
+                    </h4>
+                    <a className="view_more"> View more </a>
                   </div>
-                  {/* <p className="mobile text_description">
-                  Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
-                  </p> */}
-                    <h4>Why Choose Lumyn for Your Website?</h4> 
-
-                    <p className="text">At Lumyn, we understand that your website isn’t just a platform—it’s a cornerstone of your brand identity. 
-                      It’s the first impression many customers will have of your business, and it needs to combine aesthetics, performance, and 
-                      functionality to stand out in today’s competitive digital landscape.
-                    </p>
-                    <h4>Let’s Build Something Extraordinary!!</h4> 
-<p className="text">Your website should be as dynamic and forward-thinking as your business. 
-  At Lumyn, we merge creativity with technology to deliver websites that are more than just functional—they’re 
-  transformative.
-</p>
-<button
-  className="primay_button"
-  onClick={() => (window.location.href = '/contact-us')}
->
-  Contact Us
-</button>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="section_five">
+                <div className="card_2">
+                  <div className="bottom">
+                    <p className="sub_title">By Admin   </p>
+                    <h4 className="title">
+                    Domain Privacy Protection: Why It's Essential for Website Owners
+
+                    </h4>
+                    <a className="view_more"> View more </a>
+                  </div>
+                </div>
+
+                <div className="card_3">
+                  <div className="bottom">
+                    <p className="sub_title">By Admin   </p>
+                    <h4 className="title">
+                    Website Revamping: A Strategic Approach to Business Growth
+
+                    </h4>
+                    <a className="view_more"> View more </a>
+                  </div>
+                </div>
+          </Carousel> 
+</div> */}
+     <div className="section_five">
             <div className="top">
-              <h3>
+              {/* <h3>
                 {" "}
                 What's New?
                 <br />
                 Check Out Our Blog
-              </h3>
+              </h3> */}
+              <h3>LumaVoice</h3>
               <p>
                 From fresh ideas to trending topics, our blog covers it all.
               </p>
@@ -891,7 +979,7 @@ export default function Home() {
             <div className="card_container">
               <div className="card blog_image_1">
                 <div className="bottom">
-                  <p className="sub_title">By Admin   </p>
+                  <p className="sub_title">Upcoming </p>
                   <h4 className="title"> 
                   Driving Organic Traffic: Essential Strategies for 2025
 
@@ -1004,6 +1092,37 @@ export default function Home() {
               </div>
             </Carousel>
           </div>
+
+          
+
+           </div>
+                  {/* <p className="mobile text_description">
+                  Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
+                  </p> */}
+                    {/* <h4>Why Choose Lumyn for Your Website?</h4> 
+
+                    <p className="text">At Lumyn, we understand that your website isn’t just a platform—it’s a cornerstone of your brand identity. 
+                      It’s the first impression many customers will have of your business, and it needs to combine aesthetics, performance, and 
+                      functionality to stand out in today’s competitive digital landscape.
+                    </p>
+                    <h4>Let’s Build Something Extraordinary!!</h4> 
+<p className="text">Your website should be as dynamic and forward-thinking as your business. 
+  At Lumyn, we merge creativity with technology to deliver websites that are more than just functional—they’re 
+  transformative.
+</p>
+<button
+  className="primay_button"
+  onClick={() => (window.location.href = '/contact-us')}
+>
+  Contact Us
+</button>
+                </div>
+              </div>
+            </div> */}
+             
+          {/* </div> */}
+
+         
 
           <div className="section_six">
             <h3 className="title">
