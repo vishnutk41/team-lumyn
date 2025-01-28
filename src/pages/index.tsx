@@ -221,9 +221,9 @@ export default function Home() {
                 </div>
 
                 <div className="bottom">
-                  <h4 className="title">BrandForge</h4>
+                  <h4 className="title">LumaBrands</h4>
                   <p className="sub_title">
-                    Create a memorable brand that resonates.
+                  Illuminate brands that resonate
                   </p>
                   <div className="icon_highlight">
                     <div className="wrapper">
@@ -242,9 +242,8 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Identity Design
-                    </div>
-                    <div className="wrapper">
+                    Brand Design                    </div>
+                    {/* <div className="wrapper">
                       <Image
                         src="/assets/svg/WWO Icons-03.svg"
                         width={36}
@@ -252,7 +251,7 @@ export default function Home() {
                         alt="map-point"
                       />
                       Strategic Positioning
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -260,7 +259,7 @@ export default function Home() {
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_2"></div>
                 <div className="bottom">
-                  <h4 className="title">WebCommerce</h4>
+                  <h4 className="title">LumaCommerce</h4>
                   <p className="sub_title">
                     Professional visuals that beautifully narrate your brand’s
                     story.
@@ -300,7 +299,7 @@ export default function Home() {
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_3"></div>
                 <div className="bottom">
-                  <h4 className="title">ProjeXpert</h4>
+                  <h4 className="title">LumaPanels</h4>
                   <p className="sub_title">
                     Streamline projects with optimized workflows and expert
                     management.
@@ -342,10 +341,10 @@ export default function Home() {
                   
                 </div>
                 <div className="bottom">
-                  <h4 className="title">CutCraft Studios</h4>
+                  <h4 className="title">Echopod Studios</h4>
                   <p className="sub_title">
-                    Turn ideas into engaging, impactful videos with expert
-                    editing.
+                  Where Your Ideas Come to Life as Killer Podcasts and Videos that Hit Hard.
+
                   </p>
                   <div className="icon_highlight">
                     <div className="wrapper">
@@ -382,7 +381,7 @@ export default function Home() {
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_5"></div>
                 <div className="bottom">
-                  <h4 className="title">MarketBlaze</h4>
+                  <h4 className="title">Lumaspark</h4>
                   <p className="sub_title">
                     Fuel business growth with targeted marketing and data-driven
                     campaigns.
@@ -422,7 +421,7 @@ export default function Home() {
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_6"></div>
                 <div className="bottom">
-                  <h4 className="title">Customease</h4>
+                  <h4 className="title">LumaSocial</h4>
                   <p className="sub_title">
                     Experience personalized solutions with client-first
                     innovation and support.
@@ -972,8 +971,7 @@ export default function Home() {
               </h3> */}
               <h3>LumaVoice</h3>
               <p>
-                From fresh ideas to trending topics, our blog covers it all.
-              </p>
+              Our Thoughts on Trending Ideas              </p>
             </div>
 
             <div className="card_container">
@@ -1126,7 +1124,9 @@ export default function Home() {
 
           <div className="section_six">
             <h3 className="title">
-              We've made our presence <br /> known across the globe{" "}
+              {/* We've made our presence <br /> known across the globe{" "}
+               */}
+               UAE BORN AND BRED
             </h3>
 
             <div className="container">

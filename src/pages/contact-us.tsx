@@ -153,7 +153,7 @@ export default function ContactUs() {
                     />
                   </div>
                 </div>
-                <button type="submit" className="primay_button">Submit</button>
+                <button type="submit" className="primay_button">Let's Illuminate</button>
               </form>
             </div>
           </div>

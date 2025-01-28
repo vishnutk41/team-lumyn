@@ -29,8 +29,10 @@ export default function Podcast() {
     WITH <span>ECHOPOD </span>
   </h3>
   <p className="sub_title">
-    Step into our state-of-the-art studios and produce podcasts that captivate. 
-    Crystal clear sound, flawless recordings – tell your story with impact.
+    {/* Step into our state-of-the-art studios and produce podcasts that captivate. 
+    Crystal clear sound, flawless recordings – tell your story with impact. */}
+    Step into our comfy studio - produce podcasts that captivate. 
+    Crystal clear & flawless. 
   </p>
   <button 
     className="primay_button"

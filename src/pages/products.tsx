@@ -153,7 +153,7 @@ export default function Products() {
                     </div> */}
                   </div>
                   <div className="part_two">
-                    <h3 className="title">WebCommerce </h3>
+                    <h3 className="title">Luma Commerce </h3>
                     <p className="sub_title">Your Digital Gateway to Success!</p>
                     {/* <div className="icon_highlight">
                       <div className="wrapper">
@@ -197,7 +197,7 @@ export default function Products() {
                     </p> */}
                      <div className="description">
                       <p className="content">
-                      Build a stunning and functional online presence with WebCommerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
+                      Build a stunning and functional online presence with Luma Commerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
                       </p>
                     </div>
                     <button className="primay_button">Contact Us</button>
@@ -869,7 +869,7 @@ export default function Products() {
                     <Image src="/assets/images/product_images/BrandForge.webp" alt="product_image_4" width="700" height="600"/>
                       </div>
                           </div> <div className="part_two"> 
-                            <h3 className="title"> BrandForge </h3> 
+                            <h3 className="title"> Luma Brands </h3> 
                             <p className="sub_title"> Forge a Brand That Stands Out! </p>
                              {/* <div className="icon_highlight">
                                <div className="wrapper">
@@ -892,7 +892,7 @@ export default function Products() {
                                             
                                              {/* <p className="extra_description mobile"> Vestibulum ante ipsum primis in faucibus orci luctus... </p> */}
                                              <div className="description">
-                         <p className="content">Bring your brand to life with BrandForge. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
+                         <p className="content">Bring your brand to life with Luma Brands. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
                          </div>
                                               <button className="primay_button">Contact Us</button>
                                                </div> 
