@@ -28,7 +28,7 @@ export default function Products() {
             <div className="container">
 
 
-              <Carousel
+              {/* <Carousel
                 additionalTransfrom={0}
                 arrows
                 autoPlaySpeed={3000}
@@ -80,7 +80,7 @@ export default function Products() {
                 sliderClass=""
                 slidesToSlide={1}
                 swipeable
-              >
+              > */}
 
 
                 {/* <div className="slide_container">
@@ -146,44 +146,12 @@ export default function Products() {
 </div>
 
 
-                    {/* <div className="description">
-                      <p className="content">
-                      Build a stunning and functional online presence with WebCommerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
-                      </p>
-                    </div> */}
+                    
                   </div>
                   <div className="part_two">
                     <h3 className="title">Luma Commerce </h3>
                     <p className="sub_title">Your Digital Gateway to Success!</p>
-                    {/* <div className="icon_highlight">
-                      <div className="wrapper">
-                        <Image
-                          src="/assets/svg/WWO Icons-01.svg"
-                          width={36}
-                          height={35}
-                          alt="map-point"
-                        />
-                        Brand Development
-                      </div>
-                      <div className="wrapper">
-                        <Image
-                          src="/assets/svg/WWO Icons-02.svg"
-                          width={36}
-                          height={35}
-                          alt="map-point"
-                        />
-                        Identity Design
-                      </div>
-                      <div className="wrapper">
-                        <Image
-                          src="/assets/svg/WWO Icons-03.svg"
-                          width={36}
-                          height={35}
-                          alt="map-point"
-                        />
-                        Strategic Positioning
-                      </div>
-                    </div> */}
+                   
                     <div className="container_text">
                       <div className="item">WebsiteDevelopment</div>
                       <div className="item">WebDesign</div>
@@ -529,19 +497,20 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> Keyword</strong> Research & <strong> Competitor</strong> Analysis
+                                <strong>Keyword</strong> Research &<strong>Competitor</strong> Analysis
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> On-Page </strong> Optimization (10 Pages)
+                                <strong> On-Page </strong>Optimization (10 Pages)
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Off-Page </strong>Optimization (Link Building, Directory Submissions)
+                               <strong>Off-Page </strong>Optimization(Link Building, Directory Submissions)
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Technical SEO </strong>(Site Speed, Mobile Optimization)
+                                <strong>Technical SEO </strong>
+                                (Site Speed, Mobile Optimization)
 
                               </li>
                               <li>
@@ -1239,7 +1208,7 @@ Messaging & Positioning)
 
                         </div> */}
 
-              </Carousel>
+              {/* </Carousel> */}
 
 
 
