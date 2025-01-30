@@ -783,10 +783,10 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
       padding: 100px 0px;
-      gap: 70px;
+      gap: 8px;
 
       
 
@@ -825,219 +825,250 @@
           margin: auto auto 0 0; // Align button to the left
         }
       }
-      .image_content {
-        flex: 1;
-        display: flex;
-        justify-content: center;
+      /* Swiper container */
+  .slider_container {
+    width: 440px;
+    flex-shrink: 0; /* Prevents shrinking */
+  }
+
+  /* Circular image styling */
+  .circle {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    background-color: #212236;
+    border: 3px solid #00ed85;
+    box-shadow: 0px 0px 20px 0px #00ed85 inset;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+      // .image_content {
+      //   flex: 1;
+      //   display: flex;
+      //   justify-content: center;
     
-        // .circle_image {
-        //   width: 200px;
-        //   height: 200px;
-        //   border-radius: 50%;
-        //   background-image: url('/assets/images/product_images/BrandForge.webp'); // Replace with your image URL
-        //   background-size: cover;
-        //   background-position: center;
+      //   // .circle_image {
+      //   //   width: 200px;
+      //   //   height: 200px;
+      //   //   border-radius: 50%;
+      //   //   background-image: url('/assets/images/product_images/BrandForge.webp'); // Replace with your image URL
+      //   //   background-size: cover;
+      //   //   background-position: center;
           
-        // }
-        .react-multi-carousel-list {
-          display: flex;
+      //   // }
+      //   .react-multi-carousel-list {
+      //     display: flex;
   
-          .card_1 {
-            display: flex;
-            flex-direction: column;
-            background-color: var(--gray-200);
-            width: 100%;
-            height: 500px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+      //     .card_1 {
+      //       display: flex;
+      //       flex-direction: column;
+      //       background-color: var(--gray-200);
+      //       width: 100%;
+      //       height: 500px;
+      //       background-repeat: no-repeat;
+      //       background-size: cover;
+      //       background-position: center;
   
-            background-image: url("/assets/images/blog_images/Domain Privacy Protection.png");
-            .bottom {
-              display: flex;
-              flex-direction: column;
-              margin-top: auto;
-              width: 100%;
-              padding: 20px;
-              height: fit-content;
-              background-color: #212236;
+      //       background-image: url("/assets/images/blog_images/Domain Privacy Protection.png");
+      //       .bottom {
+      //         display: flex;
+      //         flex-direction: column;
+      //         margin-top: auto;
+      //         width: 100%;
+      //         padding: 20px;
+      //         height: fit-content;
+      //         background-color: #212236;
          
-              .title {
-                 font-family: "Poppins", serif;
-                 font-size: 16px;
-                 font-weight: 700;
-                 line-height: 19.36px;
-                 text-align: left;
-                 text-underline-position: from-font;
-                 text-decoration-skip-ink: none;
+      //         .title {
+      //            font-family: "Poppins", serif;
+      //            font-size: 16px;
+      //            font-weight: 700;
+      //            line-height: 19.36px;
+      //            text-align: left;
+      //            text-underline-position: from-font;
+      //            text-decoration-skip-ink: none;
                  
-                 text-decoration-skip-ink: none;               
-                 color: var(--white);
-              }
+      //            text-decoration-skip-ink: none;               
+      //            color: var(--white);
+      //         }
       
-              .sub_title {
-                 font-family: "Poppins", serif;
+      //         .sub_title {
+      //            font-family: "Poppins", serif;
   
-                 font-size: 12px;
-                 font-weight: 400;
-                 line-height: 26px;
-                 text-align: left;
-                 text-underline-position: from-font;
-                 text-decoration-skip-ink: none;
+      //            font-size: 12px;
+      //            font-weight: 400;
+      //            line-height: 26px;
+      //            text-align: left;
+      //            text-underline-position: from-font;
+      //            text-decoration-skip-ink: none;
                  
-                 text-wrap: nowrap;              
-                padding-bottom: 10px;
-                color: var(--gray-100)
-              }
+      //            text-wrap: nowrap;              
+      //           padding-bottom: 10px;
+      //           color: var(--gray-100)
+      //         }
   
-              .view_more{
-                font-size: 12px;
-                font-weight: 500;
-                line-height: 26px;
-                text-align: right;
-                text-decoration-line: underline;
-                text-decoration-style: solid;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
+      //         .view_more{
+      //           font-size: 12px;
+      //           font-weight: 500;
+      //           line-height: 26px;
+      //           text-align: right;
+      //           text-decoration-line: underline;
+      //           text-decoration-style: solid;
+      //           text-underline-position: from-font;
+      //           text-decoration-skip-ink: none;
   
-              }
+      //         }
       
-            }
-          }
-          .card_2 {
-            display: flex;
-            flex-direction: column;
-            background-color: var(--gray-200);
-            width: 100%;
-            height: 500px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+      //       }
+      //     }
+      //     .card_2 {
+      //       display: flex;
+      //       flex-direction: column;
+      //       background-color: var(--gray-200);
+      //       width: 100%;
+      //       height: 500px;
+      //       background-repeat: no-repeat;
+      //       background-size: cover;
+      //       background-position: center;
   
-            background-image: url("/assets/images/blog_images/Driving Organic Traffic.webp");
-            .bottom {
-              display: flex;
-              flex-direction: column;
-              margin-top: auto;
-              width: 100%;
-              padding: 20px;
-              height: fit-content;
-              background-color: #212236;
+      //       background-image: url("/assets/images/blog_images/Driving Organic Traffic.webp");
+      //       .bottom {
+      //         display: flex;
+      //         flex-direction: column;
+      //         margin-top: auto;
+      //         width: 100%;
+      //         padding: 20px;
+      //         height: fit-content;
+      //         background-color: #212236;
          
-              .title {
-                 font-family: "Poppins", serif;
-                 font-size: 16px;
-                 font-weight: 700;
-                 line-height: 19.36px;
-                 text-align: left;
-                 text-underline-position: from-font;
-                 text-decoration-skip-ink: none;
+      //         .title {
+      //            font-family: "Poppins", serif;
+      //            font-size: 16px;
+      //            font-weight: 700;
+      //            line-height: 19.36px;
+      //            text-align: left;
+      //            text-underline-position: from-font;
+      //            text-decoration-skip-ink: none;
                  
-                 text-decoration-skip-ink: none;               
-                 color: var(--white);
-              }
+      //            text-decoration-skip-ink: none;               
+      //            color: var(--white);
+      //         }
       
-              .sub_title {
-                 font-family: "Poppins", serif;
+      //         .sub_title {
+      //            font-family: "Poppins", serif;
   
-                 font-size: 12px;
-                 font-weight: 400;
-                 line-height: 26px;
-                 text-align: left;
-                 text-underline-position: from-font;
-                 text-decoration-skip-ink: none;
+      //            font-size: 12px;
+      //            font-weight: 400;
+      //            line-height: 26px;
+      //            text-align: left;
+      //            text-underline-position: from-font;
+      //            text-decoration-skip-ink: none;
                  
-                 text-wrap: nowrap;              
-                padding-bottom: 10px;
-                color: var(--gray-100)
-              }
+      //            text-wrap: nowrap;              
+      //           padding-bottom: 10px;
+      //           color: var(--gray-100)
+      //         }
   
-              .view_more{
-                font-size: 12px;
-                font-weight: 500;
-                line-height: 26px;
-                text-align: right;
-                text-decoration-line: underline;
-                text-decoration-style: solid;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
+      //         .view_more{
+      //           font-size: 12px;
+      //           font-weight: 500;
+      //           line-height: 26px;
+      //           text-align: right;
+      //           text-decoration-line: underline;
+      //           text-decoration-style: solid;
+      //           text-underline-position: from-font;
+      //           text-decoration-skip-ink: none;
   
-              }
+      //         }
       
-            }
-          }
-          .card_3 {
-            display: flex;
-            flex-direction: column;
-            background-color: var(--gray-200);
-            width: 100%;
-            height: 500px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+      //       }
+      //     }
+      //     .card_3 {
+      //       display: flex;
+      //       flex-direction: column;
+      //       background-color: var(--gray-200);
+      //       width: 100%;
+      //       height: 500px;
+      //       background-repeat: no-repeat;
+      //       background-size: cover;
+      //       background-position: center;
   
-            background-image: url("/assets/images/blog_images/Website Revamping.webp");
-            .bottom {
-              display: flex;
-              flex-direction: column;
-              margin-top: auto;
-              width: 100%;
-              padding: 20px;
-              height: fit-content;
-              background-color: #212236;
+      //       background-image: url("/assets/images/blog_images/Website Revamping.webp");
+      //       .bottom {
+      //         display: flex;
+      //         flex-direction: column;
+      //         margin-top: auto;
+      //         width: 100%;
+      //         padding: 20px;
+      //         height: fit-content;
+      //         background-color: #212236;
          
-              .title {
-                 font-family: "Poppins", serif;
-                 font-size: 16px;
-                 font-weight: 700;
-                 line-height: 19.36px;
-                 text-align: left;
-                 text-underline-position: from-font;
-                 text-decoration-skip-ink: none;
+      //         .title {
+      //            font-family: "Poppins", serif;
+      //            font-size: 16px;
+      //            font-weight: 700;
+      //            line-height: 19.36px;
+      //            text-align: left;
+      //            text-underline-position: from-font;
+      //            text-decoration-skip-ink: none;
                  
-                 text-decoration-skip-ink: none;               
-                 color: var(--white);
-              }
+      //            text-decoration-skip-ink: none;               
+      //            color: var(--white);
+      //         }
       
-              .sub_title {
-                 font-family: "Poppins", serif;
+      //         .sub_title {
+      //            font-family: "Poppins", serif;
   
-                 font-size: 12px;
-                 font-weight: 400;
-                 line-height: 26px;
-                 text-align: left;
-                 text-underline-position: from-font;
-                 text-decoration-skip-ink: none;
+      //            font-size: 12px;
+      //            font-weight: 400;
+      //            line-height: 26px;
+      //            text-align: left;
+      //            text-underline-position: from-font;
+      //            text-decoration-skip-ink: none;
                  
-                 text-wrap: nowrap;              
-                padding-bottom: 10px;
-                color: var(--gray-100)
-              }
+      //            text-wrap: nowrap;              
+      //           padding-bottom: 10px;
+      //           color: var(--gray-100)
+      //         }
   
-              .view_more{
-                font-size: 12px;
-                font-weight: 500;
-                line-height: 26px;
-                text-align: right;
-                text-decoration-line: underline;
-                text-decoration-style: solid;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
+      //         .view_more{
+      //           font-size: 12px;
+      //           font-weight: 500;
+      //           line-height: 26px;
+      //           text-align: right;
+      //           text-decoration-line: underline;
+      //           text-decoration-style: solid;
+      //           text-underline-position: from-font;
+      //           text-decoration-skip-ink: none;
   
-              }
+      //         }
       
-            }
-          }
-        }
+      //       }
+      //     }
+      //   }
   
-        .react-multi-carousel-dot-list{
-          position: relative !important;
-        }
+      //   .react-multi-carousel-dot-list{
+      //     position: relative !important;
+      //   }
   
-        .react-multiple-carousel__arrow{
-          display: none;
-        }
-      }
+      //   .react-multiple-carousel__arrow{
+      //     display: none;
+      //   }
+      // }
+      
       // .image_content {
       //   flex: 1;
       //   display: flex;
@@ -2094,6 +2125,14 @@
        button { 
         margin: auto; 
       } 
+      .slider_container{
+      width: 400px !important;
+      margin-top: 30px;
+      .img{
+        height: 350px !important;
+        width: 350px !important;
+      }
+    }
     } 
     .bottom {
        display: flex; 

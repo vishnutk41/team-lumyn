@@ -6,6 +6,17 @@ import NavMenuBar from "@/component/menu";
 
 import Carousel from "react-multi-carousel";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+
+const images = [
+  "/assets/images/Code Crafted-01.webp",
+  "/assets/images/Code Crafted-01.webp",
+  "/assets/images/Code Crafted-01.webp",
+  "/assets/images/Code Crafted-01.webp",
+];
 
 export default function Home() {
   return (
@@ -835,8 +846,8 @@ export default function Home() {
           </div> */}
 {/* ---------------------------remove section-end------- */}
 
-          <div className="section_four">
-            {/* <div className="middle">
+          {/* <div className="section_four">
+            <div className="middle">
               <h3 className="title">Vibe Check</h3>
               <p className="description">
                 We believe that every brand has its own light, waiting to shine.
@@ -852,7 +863,8 @@ export default function Home() {
   <button className="primay_button">Say hello!</button>
 </a>
             </div> */}
-{/* <div className="middle">
+  <div className="section_four">
+  <div className="middle">
               
     <div className="text_content">
       <h3 className="title">Vibe Check</h3>
@@ -870,97 +882,29 @@ export default function Home() {
         <button className="primay_button">Say hello!</button>
       </a>
     </div>
-    <div className="image_content">
+    <div className="slider_container">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={20}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
+        >
+          {images.map((src, index) => (
+            <SwiperSlide key={index}>
+              <div className="circle">
+                <img src={src} alt={`Slide ${index + 1}`} />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    {/* <div className="image_content">
 
       <div className="circle_image"></div>
-    </div>
-          <Carousel
-                additionalTransfrom={0}
-                arrows
-                autoPlaySpeed={3000}
-                centerMode={false}
-                className=""
-                containerClass=""
-                dotListClass="slide_dot"
-                draggable
-                focusOnSelect={false}
-                infinite={true}
-                itemClass=""
-                keyBoardControl
-                minimumTouchDrag={80}
-                pauseOnHover
-                renderArrowsWhenDisabled={false}
-                renderButtonGroupOutside={true}
-                renderDotsOutside={true}
-                responsive={{
-                  desktop: {
-                    breakpoint: {
-                      max: 3000,
-                      min: 1024,
-                    },
-                    items: 1,
-                    partialVisibilityGutter: 30,
-                  },
-                  mobile: {
-                    breakpoint: {
-                      max: 464,
-                      min: 0,
-                    },
-                    items: 1,
-                    partialVisibilityGutter: 25,
-                  },
-                  tablet: {
-                    breakpoint: {
-                      max: 1024,
-                      min: 464,
-                    },
-                    items: 1,
-                    partialVisibilityGutter: 20,
-                  },
-                }}
-                rewind={false}
-                rewindWithAnimation={false}
-                rtl={false}
-                shouldResetAutoplay
-                showDots={true}
-                sliderClass=""
-                slidesToSlide={1}
-                swipeable
-              >
-                <div className="card_1">
-                  <div className="bottom">
-                    <p className="sub_title">By Admin  </p>
-                    <h4 className="title">
-                    Driving Organic Traffic: Essential Strategies for 2025
-
-                    </h4>
-                    <a className="view_more"> View more </a>
-                  </div>
-                </div>
-
-                <div className="card_2">
-                  <div className="bottom">
-                    <p className="sub_title">By Admin   </p>
-                    <h4 className="title">
-                    Domain Privacy Protection: Why It's Essential for Website Owners
-
-                    </h4>
-                    <a className="view_more"> View more </a>
-                  </div>
-                </div>
-
-                <div className="card_3">
-                  <div className="bottom">
-                    <p className="sub_title">By Admin   </p>
-                    <h4 className="title">
-                    Website Revamping: A Strategic Approach to Business Growth
-
-                    </h4>
-                    <a className="view_more"> View more </a>
-                  </div>
-                </div>
-          </Carousel> 
-</div> */}
+    </div> */}
+        
+</div>
      <div className="section_five">
             <div className="top">
               {/* <h3>
