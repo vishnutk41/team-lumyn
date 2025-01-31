@@ -21,64 +21,72 @@ export default function PrivacyPolicy() {
                         <div className="container">
                             <h1 className="title">Privacy Policy</h1>
                             <p>
-                                At <strong>Lumyn</strong>, your privacy is of paramount importance to us. This Privacy Policy outlines how we collect, use, store, and protect your personal data when you visit our website or use our services. By accessing our website, you agree to the terms and practices described in this policy.
-                            </p>
+    We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://teamlumyn.com/"><strong>https://teamlumyn.com/</strong></a> and use our services, in compliance with the UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL).
+</p>
+
 
                             <h2>Information We Collect</h2>
                             <div>
-                                <p>We may collect the following types of information when you visit our website or interact with our services:</p>
+                                <p>We may collect the following types of information:</p>
                                 <ul>
-                                    <li>Personal Information: Name, email address, phone number, and other contact details.</li>
-                                    <li>Usage Data: Information about how you access and use our website, including IP address, browser type, device type, and browsing behavior.</li>
-                                    <li>Cookies and Tracking Technologies: We use cookies to enhance your experience on our website.</li>
+                                    <li><strong>Personal Information:</strong> Name, email address, phone number, billing address, and payment details.
+                                    </li>
+                                    <li><strong>Non-Personal Information:</strong> Browser type, IP address, cookies, and usage data.</li>
+                                    <li><strong>Media Content:</strong> Images, videos, or other media shared with us for service purposes.</li>
                                 </ul>
                             </div>
                             <h2>How We Use Your Information</h2>
                             <div>
-                                <p>We use the information we collect for the following purposes:</p>
+                                <p>We use the collected data to:</p>
                                 <ul>
-                                    <li>To provide and improve our services.</li>
-                                    <li>To respond to inquiries and support requests.</li>
-                                    <li>To send updates, newsletters, and marketing materials (with your consent).</li>
-                                    <li>To analyze website performance and user behavior.</li>
-                                    <li>To comply with legal obligations and resolve disputes.</li>
+                                    <li>Provide, improve, and personalize our services.</li>
+                                    <li>Process payments and issue invoices.</li>
+                                    <li>Communicate updates, offers, or changes to our services.</li>
+                                    <li>Comply with legal obligations and protect against fraud.</li>
+                                
                                 </ul>
                             </div>
-                            <h2>Data Security</h2>
-                            <p>
-                                We implement reasonable security measures to protect your personal data. However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee its absolute security.
-                            </p>
 
-                            <h2>Your Rights and Choices</h2>
+                            <h2>Sharing Your Information</h2>
                             <div>
-                                <p>You have the following rights regarding your personal data:</p>
+                                <p>We do not sell your personal information. However, we may share it with:
+                                </p>
                                 <ul>
-                                    <li>Access: Request access to the personal information we hold about you.</li>
-                                    <li>Correction: Update or correct your personal data if it is inaccurate or incomplete.</li>
-                                    <li>Deletion: Request the deletion of your personal information.</li>
-                                    <li>Opt-Out: Opt-out of receiving marketing communications from us at any time.</li>
+                                    <li>Third-party service providers for payment processing or IT support.</li>
+                                    <li>Authorities when required by UAE law.</li>
+                                    <li>Partners or affiliates under strict confidentiality agreements.</li>
+                                    
+                                
                                 </ul>
                             </div>
 
-                            <h2>Cookies and Tracking Technologies</h2>
-                            <p>
-                                We use cookies and similar technologies to track the activity on our website. Cookies help us analyze website traffic and improve user experience by remembering preferences and settings.
-                            </p>
 
-                            <h2>Changes to This Privacy Policy</h2>
+                            <h2>Data Retention</h2>
                             <p>
-                                We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this page periodically to stay informed about how we are protecting your data.
-                            </p>
+                            We retain personal data only as long as necessary to fulfill the purposes outlined or comply with legal obligations.</p>
+
+                            <h2>Your Rights</h2>
+                            <div>
+                                <p>You have the right to:</p>
+                                <ul>
+                                    <li>Access and correct your personal data.</li>
+                                    <li>Request deletion of your data (subject to UAE legal requirements).</li>
+                                    <li>Withdraw consent for data processing.</li>
+                                </ul>
+                            </div>
+
+                            <h2>Security Measures</h2>
+                            <p>
+                            We implement robust security measures to safeguard your data, including encryption and secure servers.                            </p>
 
                             <h2>Contact Us</h2>
                             <p>
-                                If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
-                                <br />
-                                <strong>Email:</strong><a href="mailto:hello@teamlumyn.com" style={{ color: "#00ed85", textDecoration: 'none' }}> hello@teamlumyn.com</a>
-                                <br />
+                            For questions about this Privacy Policy, contact us at    
+                                <a href="mailto:hello@teamlumyn.com" style={{ color: "#00ed85", textDecoration: 'none' }}> info@teamlumyn.com</a>
+                                {/* <br />
                                 <strong>Phone:</strong> +971 58 586 7086
                                 <br />
-                                <strong>Address:</strong> New Alsafiyah Building, office SM18B4, Abu Hail, Dubai UAE
+                                <strong>Address:</strong> New Alsafiyah Building, office SM18B4, Abu Hail, Dubai UAE */}
                             </p>
                         </div>
                     </div>

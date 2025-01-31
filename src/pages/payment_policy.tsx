@@ -6,8 +6,8 @@ export default function PaymentPolicy() {
     return (
         <>
             <Head>
-                <title>Lumyn | Payment Policy</title>
-                <meta name="description" content="Learn about Lumyn's payment policies, including accepted methods, refund guidelines, and payment security." />
+                <title>Lumyn | Payment Policy & Terms</title>
+                <meta name="description" content="Lumyn's payment policies and terms of service including payment methods, refund conditions, and service terms." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -19,61 +19,37 @@ export default function PaymentPolicy() {
                     <div className="content_section">
                         <div className="container">
                             <h1 className="title">Payment Policy</h1>
-                            <p>
-                                At <strong>Lumyn</strong>, we strive to provide a transparent and secure payment process for all our customers. Please read our payment policy carefully to understand the terms and conditions related to payments.
-                            </p>
-
-                            <h2>Accepted Payment Methods</h2>
-                            <p>
-                                We accept the following payment methods:
-                            </p>
+                            
+                            <h2>1. Accepted Payment Methods</h2>
                             <ul>
-                                <li>Credit Cards (Visa, MasterCard, American Express)</li>
-                                <li>Debit Cards</li>
-                                <li>Bank Transfers</li>
-                                <li>Online Payment Gateways (e.g., PayPal, Stripe)</li>
+                                <li>Credit/Debit Cards (Visa, MasterCard, etc.)</li>
+                                <li>Bank Transfers (details provided upon request)</li>
+                                <li>Cash payments (for select services)</li>
                             </ul>
 
-                            <h2>Payment Terms</h2>
+                            <h2>2. Payment Terms</h2>
                             <ul>
-                                <li>All payments must be made in full at the time of purchase.</li>
-                                <li>Partial payments or installment options may be available for specific products or services. Please contact us for details.</li>
-                                <li>Prices displayed on our website are in AED (United Arab Emirates Dirham) and include applicable taxes unless stated otherwise.</li>
+                                <li>All payments must be made in AED unless otherwise agreed</li>
+                                <li>Payments are due in full upon receipt of the invoice unless installment arrangements are pre-approved</li>
                             </ul>
 
-                            <h2>Payment Security</h2>
-                            <p>
-                                We prioritize your payment security by utilizing industry-standard encryption and secure payment gateways. Your payment details are processed securely, and we do not store sensitive payment information on our servers.
-                            </p>
-
-                            <h2>Refunds and Cancellations</h2>
+                            <h2>3. Refunds and Cancellations</h2>
                             <ul>
-                                <li>Refunds are subject to our <a href="/refund-policy" style={{ color: "#f7f1f1", textDecoration: "none" }}>Refund Policy</a>.</li>
-                                <li>For cancellations, please contact our support team at least 24 hours before the scheduled service or order processing.</li>
+                                <li>Refunds: Issued only for cancellations made within 15-30 working days prior to the service date, minus administrative fees</li>
+                                <li>Cancellations: 50% fee applies if canceled less than 24 hours before service</li>
+                                <li>Non-Refundable Services: Custom content creation, LED signage rentals, and other specialized services</li>
                             </ul>
 
-                            <h2>Disputed Payments</h2>
-                            <p>
-                                If you believe a payment was made in error, please contact us immediately at:
-                                <br />
-                                <strong>Email:</strong> <a href="mailto:support@lumyn.com" style={{ color: "#f7f1f1", textDecoration: "none" }}>support@lumyn.com</a>
-                                <br />
-                                <strong>Phone:</strong> +123 456 7890
-                            </p>
+                            <h2>4. Late Payments</h2>
+                            <ul>
+                                <li>A late payment fee of 100 AED per day applies to overdue invoices</li>
+                                <li>Services may be suspended until outstanding payments are cleared</li>
+                            </ul>
 
-                            <h2>Changes to Payment Policy</h2>
-                            <p>
-                                Lumyn reserves the right to update this payment policy at any time. Changes will be effective immediately upon posting. Please review this page periodically for updates.
-                            </p>
+                            <h2>5. Dispute Resolution</h2>
+                            <p>Payment disputes must be raised in writing within 7 business days of the invoice date.</p>
 
-                            <h2>Contact Us</h2>
-                            <p>
-                                For any payment-related inquiries or concerns, please reach out to our support team at:
-                                <br />
-                                <strong>Email:</strong> <a href="mailto:hello@teamlumyn.com" style={{ color: "#00ed85", textDecoration: "none" }}>hello@teamlumyn.com</a>
-                                <br />
-                                <strong>Phone:</strong> +971 58 586 7086
-                            </p>
+                          
                         </div>
                     </div>
                 </main>
