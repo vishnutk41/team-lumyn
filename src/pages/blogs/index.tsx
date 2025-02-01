@@ -55,9 +55,9 @@ export default function Blogs() {
     </div> 
     </div>
 
-                <div className="container">
+                {/* <div className="container"> */}
                     {/* <Link  className="blog_item" href="/blogs/need-for-domain-privacy-protection"> */}
-                    <Link  className="blog_item" href="#">
+                    {/* <Link  className="blog_item" href="#">
 
                        <div className="image_1"></div>
                        
@@ -65,30 +65,30 @@ export default function Blogs() {
                         <p className="title">
                         Domain Privacy Protection: Why It's Essential for Website Owners
                         </p>
-                    </Link>
+                    </Link> */}
                     
 
                     {/* <Link  className="blog_item" href="/blogs/driving-organic-traffic-strategies">
                      */}
-                     <Link  className="blog_item" href="#">
+                     {/* <Link  className="blog_item" href="#">
                         <div className="image_2"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                         Driving Organic Traffic: Essential Strategies for 2025
                         </p>
-                    </Link>
+                    </Link> */}
                 </div>
 
-                <div className="container">
+                {/* <div className="container"> */}
 
                     {/* <Link  className="blog_item" href="/blogs/blog_details"> */}
-                    <Link  className="blog_item" href="#">
+                    {/* <Link  className="blog_item" href="#">
                         <div className="image_3"></div>
                         <p className="comment"> by Admin |   </p>
                         <p className="title">
                         Website Revamping: A Strategic Approach to Business Growth
                         </p>
-                    </Link>
+                    </Link> */}
 
                     {/* <Link  className="blog_item" href="/blogs/blog_details">
                         <div className="image"></div>
@@ -98,9 +98,9 @@ export default function Blogs() {
                             Sed eget finibus metus. Sed arcu leibero.
                         </p>
                     </Link> */}
-                </div>
+                {/* </div> */}
 
-            </div>
+            {/* </div> */}
             {/* <div className="pagination_section">
                 <span className="active">1</span>
                 <span>2</span>

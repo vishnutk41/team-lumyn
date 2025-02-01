@@ -142,7 +142,7 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                   <div className="image_container">
-  <Image src="/assets/images/product_images/WebCommerce.webp" alt="Description of the image"  width="700" height="600" />
+  <Image src="/assets/images/product_images/WebCommerce.webp" alt="Description of the image"  width="500" height="500" />
 </div>
 
 
