@@ -11,7 +11,289 @@
         padding: 0px 60px;
         width:100%;
         min-height: 100vh;
-        
+        .tree_section{
+            .treeContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin: 40px 0;
+              }
+              
+              .treeTitle {
+                font-size: 24px;
+                font-weight: bold;
+                background-color: #47b475;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 20px;
+              }
+              
+              .tree {
+                position: relative;
+                width: 80%;
+                margin-top: 40px;
+              }
+              
+              .tree::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                width: 4px;
+                height: 100%;
+                background-color: #47b475;
+                transform: translateX(-50%);
+              }
+              
+              .branch {
+                position: relative;
+                width: 50%;
+                padding: 20px;
+              }
+              
+              .left {
+                text-align: right;
+                padding-right: 40px;
+              }
+              
+              .right {
+                text-align: left;
+                padding-left: 40px;
+                left: 50%;
+              }
+              
+              .branch::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                width: 30px;
+                height: 4px;
+                background-color: #47b475;
+              }
+              
+              .left::before {
+                right: 0;
+              }
+              
+              .right::before {
+                left: 0;
+              }
+              
+              .content {
+                background: white;
+                padding: 35px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                position: relative;
+              }
+              
+              .content h3 {
+                margin: 5px 0;
+                font-size: 18px;
+                font-weight: bold;
+              }
+              
+              .content p {
+                font-size: 14px;
+                color: #666;
+              }
+              
+              .content .year {
+                display: block;
+                font-size: 12px;
+                font-weight: bold;
+                color: white;
+                background-color: #47b475;
+                padding: 5px 10px;
+                border-radius: 10px;
+                margin-top: 5px;
+              }
+              
+//               .content .icon {
+//                 font-size: 20px;
+//                 background: #47b475;
+//                 color: white;
+//                 width: 30px;
+//                 height: 220px;
+//                 width:220px;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 border-radius: 50%;
+//                 position: absolute;
+//                 top: -175px;
+//                 left: 50%;
+//                 transform: translateX(-50%);
+//               }
+//              .content .icon img {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover; /* Ensures the image scales properly */
+//     border-radius: 50%; /* Keeps the circular shape */
+// } 
+.content .icon {
+  width: 220px;
+  height: 220px;
+  background: #47b475;
+  border: 1px solid #00ed85;
+  box-shadow: 0px 0px 18px 0px #00ed85 ;
+  border-radius: 50%;
+  position: absolute;
+  top: -175px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; // Ensures the image stays within the circle
+}
+
+.content .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; // Makes the image cover the entire circle
+  border-radius: 50%;
+}
+         
+        }
+        // .tree_section{
+        //     .treeContainer {
+        //         display: flex;
+        //         flex-direction: column;
+        //         align-items: center;
+        //         text-align: center;
+        //         margin: 40px 0;
+        //         position: relative;
+        //       }
+              
+        //       .tree {
+        //         position: relative;
+        //         width: 80%;
+        //         margin-top: 40px;
+        //       }
+              
+        //       /* Main Vertical Timeline */
+        //       .tree::before {
+        //         content: "";
+        //         position: absolute;
+        //         top: 0;
+        //         left: 50%;
+        //         width: 4px;
+        //         height: 100%;
+        //         background-color: #47b475;
+        //         transform: translateX(-50%);
+        //       }
+              
+        //       .branch {
+        //         position: relative;
+        //         width: 50%;
+        //         padding: 40px 0;
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: flex-end; /* Left alignment */
+        //       }
+              
+        //       .right {
+        //         justify-content: flex-start; /* Right alignment */
+        //         left: 50%;
+        //       }
+              
+        //       /* 🎯 Horizontal Connector */
+        //       .branch::before {
+        //         content: "";
+        //         position: absolute;
+        //         top: 50%;
+        //         width: 40px;
+        //         height: 4px;
+        //         background-color: #47b475;
+        //       }
+              
+        //       /* Left Connector */
+        //       .left::before {
+        //         right: -30px; /* Adjust spacing */
+        //       }
+              
+        //       /* Right Connector */
+        //       .right::before {
+        //         left: -30px;
+        //       }
+              
+        //       /* 🎯 Small Branch (Vertical Line Between Circle & Connector) */
+        //       .branch::after {
+        //         content: "";
+        //         position: absolute;
+        //         top: 50%;
+        //         width: 4px;
+        //         height: 15px; /* Length of the branch */
+        //         background-color: #47b475;
+        //       }
+              
+        //       /* Left Branch */
+        //       .left::after {
+        //         right: -34px; /* Adjust spacing */
+        //         transform: translateY(-50%);
+        //       }
+              
+        //       /* Right Branch */
+        //       .right::after {
+        //         left: -34px;
+        //         transform: translateY(-50%);
+        //       }
+              
+        //       /* 🎯 Circular Content */
+        //       .content {
+        //         background: white;
+        //         padding: 20px;
+        //         border-radius: 50%;
+        //         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        //         position: relative;
+        //         width: 130px;
+        //         height: 130px;
+        //         display: flex;
+        //         flex-direction: column;
+        //         align-items: center;
+        //         justify-content: center;
+        //         text-align: center;
+        //         border: 3px solid #47b475;
+        //       }
+              
+        //       /* 🎯 Ensure Connectors Touch the Circle */
+        //       .left .content {
+        //         margin-right: -40px; /* Move closer to the branch */
+        //       }
+              
+        //       .right .content {
+        //         margin-left: -40px; /* Move closer to the branch */
+        //       }
+              
+        //       /* 🎯 Positioning Icons */
+        //       .content .icon {
+        //         font-size: 26px;
+        //         position: absolute;
+        //         top: -18px;
+        //         left: 50%;
+        //         transform: translateX(-50%);
+        //         background: white;
+        //         padding: 6px;
+        //         border-radius: 50%;
+        //       }
+              
+        //       /* 🎯 Year Label Placement */
+        //       .content .year {
+        //         font-size: 14px;
+        //         font-weight: bold;
+        //         color: white;
+        //         background-color: #47b475;
+        //         padding: 6px 12px;
+        //         border-radius: 20px;
+        //         position: absolute;
+        //         bottom: -20px;
+        //         left: 50%;
+        //         transform: translateX(-50%);
+        //       }
+              
+        // }          
         .container {
             padding-bottom: 120px;
             display: flex;
@@ -114,13 +396,76 @@
     }
         
 }
+@media (max-width: 1024px) {
+  .tree_section{
+.tree {
+  width: 90%;
+}
+.content{
+padding: 30px; // Reduce padding slightly
+}
+.content.h3 {
+  font-size: 16px;
+}
 
+.content.p {
+  font-size: 13px;
+}
+
+.content.year {
+  font-size: 11px;
+  padding: 4px 8px;
+}
+
+.icon {
+  width: 130px;
+  height: 130px;
+  top: -80px;
+}
+}
+}
 
 @media (max-width: 768px) {
     /* Styles for phones */
 
     .blogs{
 
+      .tree_section{
+      .tree {
+        width: 95%;
+      }
+  
+      .branch {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+  
+        &::before {
+          display: none; // Remove connecting lines
+        }
+      }
+      .content{
+      padding: 25px; // Further reduce padding
+      }
+      .content.h3 {
+        font-size: 15px;
+      }
+  
+      .content.p {
+        font-size: 12px;
+      }
+  
+      .content.year {
+        font-size: 10px;
+        padding: 3px 7px;
+      }
+      .icon {
+        width: 120px;
+        height: 120px;
+        top: -70px;
+      }
+    
+    }
         .blog_section {
             position: relative;
             display: flex;
@@ -217,3 +562,47 @@
 }
 
 
+  @media (max-width: 480px) {
+    .tree_section{
+    .tree::before {
+      left: 10px; // Move the timeline to the left
+    }
+
+    .branch {
+      width: 100%;
+      padding: 10px 0;
+
+      &.left,
+      &.right {
+        text-align: center;
+        padding: 10px;
+        left: 0;
+      }
+    }
+
+    .icon {
+      width: 100px;
+      height: 100px;
+      top: -60px;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center; // Center align text for better readability
+
+    }
+   
+    .content.h3 {
+      font-size: 14px;
+    }
+
+    .content.p {
+      font-size: 12px;
+    }
+
+    .content.year {
+      font-size: 10px;
+      padding: 3px 6px;
+    }
+  }
+  }

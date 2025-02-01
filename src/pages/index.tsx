@@ -11,11 +11,11 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 
-const images = [
-  "/assets/images/Code Crafted-01.webp",
-  "/assets/images/Code Crafted-01.webp",
-  "/assets/images/Code Crafted-01.webp",
-  "/assets/images/Code Crafted-01.webp",
+const imageData = [
+   { imgSrc:"/assets/images/team_images/member.jpg", name: "", designation: "Designer"},
+   { imgSrc:"/assets/images/team_images/Shafiq.jpg", name: "John Doe", designation: "Designer"},
+   { imgSrc:"/assets/images/team_images/3.png", name: "Shuhaib.S.M", designation: "Creative Director"},
+   { imgSrc:"/assets/images/team_images/Tawfiq.jpg", name: "John Doe", designation: "Designer"}
 ];
 
 export default function Home() {
@@ -890,10 +890,23 @@ export default function Home() {
           loop={true}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
         >
-          {images.map((src, index) => (
+          {/* {images.map((src, index) => (
             <SwiperSlide key={index}>
               <div className="circle">
                 <img src={src} alt={`Slide ${index + 1}`} />
+              </div>
+            </SwiperSlide>
+          ))} */}
+            {imageData.map((person, index) => (
+            <SwiperSlide key={index}>
+              <div className="profile_card">
+                <div className="circle">
+                  <img src={person.imgSrc} alt={person.name} />
+                </div>
+                <div className="profile_text">
+                  <h4>{person.name}</h4>
+                  <p>{person.designation}</p>
+                </div>
               </div>
             </SwiperSlide>
           ))}

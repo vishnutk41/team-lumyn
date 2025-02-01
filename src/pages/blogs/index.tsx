@@ -1,10 +1,17 @@
 import Head from "next/head";
 import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
-
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Blogs() {
+    const timelineData = [
+        { year: "2022", title: "AD MINIM", desc: "Ad minim veniam, quis nostrud exercitation nisi.", icon: "/assets/images/Customease.webp" },
+        { year: "2017", title: "LAOREET", desc: "Laoreet dolore magna aliquam erat volutpat ut wisi enim.", icon: "/assets/images/Customease.webp" },
+        { year: "2012", title: "NONUMMY", desc: "Sed diam nonummy nibh euismodest tincidunt ut.", icon: "/assets/images/Customease.webp" },
+        { year: "2007", title: "ULLAMCROPER", desc: "Ullamcorper suscipit labor tis nisl ut aliquip ex ea commodo.", icon: "/assets/images/Customease.webp" },
+        { year: "2002", title: "LOREM IPSUM", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", icon: "/assets/images/Customease.webp" },
+      ];
 
     return(
         <>
@@ -24,6 +31,29 @@ export default function Blogs() {
                     <span>{">"}</span>
                     <span className="active">Blogs</span>
                 </div>
+                <div className="tree_section">
+                <div className="treeContainer">
+      {/* <div className="treeTitle">TREE INFOGRAPHIC</div> */}
+      <div className="tree">
+        {timelineData.map((item, index) => (
+          <div key={index} className={`${"branch"} ${index % 2 === 0 ? "left" : "right" }`}>
+            {/* <div className="content">
+              <div className="icon">{item.icon}</div> */}
+               <div className="content">
+            <div className="icon">
+              <img src={item.icon} alt={item.title} />
+            </div>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+              {/* <span className="year">{item.year}</span> */}
+            </div>
+          </div>
+        ))
+
+        }
+      </div>
+    </div> 
+    </div>
 
                 <div className="container">
                     {/* <Link  className="blog_item" href="/blogs/need-for-domain-privacy-protection"> */}
