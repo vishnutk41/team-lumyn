@@ -882,6 +882,13 @@ export default function Home() {
         <button className="primay_button">Say hello!</button>
       </a>
     </div>
+    {/* {images.map((src, index) => (
+            <SwiperSlide key={index}>
+              <div className="circle">
+                <img src={src} alt={`Slide ${index + 1}`} />
+              </div>
+            </SwiperSlide>
+          ))} */}
     <div className="slider_container">
         <Swiper
           modules={[Autoplay]}
@@ -890,13 +897,7 @@ export default function Home() {
           loop={true}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
         >
-          {/* {images.map((src, index) => (
-            <SwiperSlide key={index}>
-              <div className="circle">
-                <img src={src} alt={`Slide ${index + 1}`} />
-              </div>
-            </SwiperSlide>
-          ))} */}
+          
             {imageData.map((person, index) => (
             <SwiperSlide key={index}>
               <div className="profile_card">
@@ -911,7 +912,7 @@ export default function Home() {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+    </div>
     {/* <div className="image_content">
 
       <div className="circle_image"></div>

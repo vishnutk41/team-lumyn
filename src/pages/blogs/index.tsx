@@ -34,9 +34,29 @@ export default function Blogs() {
                 <div className="tree_section">
                 <div className="treeContainer">
       {/* <div className="treeTitle">TREE INFOGRAPHIC</div> */}
+        {/* <div className="content">
+              <div className="icon">{item.icon}</div> */}
+
+
       <div className="tree">
         {timelineData.map((item, index) => (
           <div key={index} className={`${"branch"} ${index % 2 === 0 ? "left" : "right" }`}>
+          
+               <div className="content">
+            <div className="icon">
+              <img src={item.icon} alt={item.title} />
+            </div>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </div>
+          </div>
+        ))
+
+        }
+      </div>
+      <div className="tree tree_mobile">
+        {timelineData.map((item, index) => (
+          <div key={index} className="branch left">
             {/* <div className="content">
               <div className="icon">{item.icon}</div> */}
                <div className="content">
