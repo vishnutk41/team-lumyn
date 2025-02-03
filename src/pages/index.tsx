@@ -12,10 +12,10 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 const imageData = [
-   { imgSrc:"/assets/images/team_images/member.jpg", name: "", designation: "Designer"},
-   { imgSrc:"/assets/images/team_images/Shafiq.jpg", name: "John Doe", designation: "Designer"},
+   { imgSrc:"/assets/images/team_images/member.jpg", name: "Baqir.C", designation: "Social Strategist"},
+   { imgSrc:"/assets/images/team_images/Shafiq.jpg", name: "Shafiqali.", designation: "Client Success Director"},
    { imgSrc:"/assets/images/team_images/3.png", name: "Shuhaib.S.M", designation: "Creative Director"},
-   { imgSrc:"/assets/images/team_images/Tawfiq.jpg", name: "John Doe", designation: "Designer"}
+   { imgSrc:"/assets/images/team_images/Tawfiq.jpg", name: "Tawfiq.M", designation: "Business Relationship Director"}
 ];
 
 export default function Home() {

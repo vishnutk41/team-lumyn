@@ -84,15 +84,16 @@ export default function ContactUs() {
           <NavMenuBar />
           <div className="content_section">
             <div className="map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8052650119494!2d55.345186299999995!3d25.2763596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ced3e109b31%3A0xb36bed5b11fa809b!2sNew%20Al%20safiyah%20Building!5e1!3m2!1sen!2sin!4v1736825725608!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8288225386978!2d55.33983137538432!3d25.27557747766054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db3d34d1b75%3A0xff8241aeece32183!2sLumyn.!5e1!3m2!1sen!2sin!4v1738576181899!5m2!1sen!2sin"
+  width={600}
+  height={450}
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
             </div>
             <div className="contact_form">
               <h3 className="title">Get in Touch with Our Experts.</h3>
