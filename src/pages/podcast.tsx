@@ -65,16 +65,7 @@ export default function Podcast() {
                 </div> */}
 
                 <div className="card_container">
-
-                  <div className="card_echolite">
-                    <div className="image_container">
-                    </div>
-                    <div className="bottom_container">
-                      <h4 className="title">Capture Every Word,  </h4>
-                      <h4 className="title">Elevate Every Sound </h4>
-                    </div>
-                  </div>
-                                  <div className="card_echolite_2">
+                <div className="card_echolite_2">
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">
@@ -89,6 +80,16 @@ export default function Podcast() {
                       <h4 className="title">Your voice matters </h4>
                     </div>
                   </div>
+                  <div className="card_echolite">
+                    <div className="image_container">
+                    </div>
+                    <div className="bottom_container">
+                      <h4 className="title">Capture Every Word,  </h4>
+                      <h4 className="title">Elevate Every Sound </h4>
+                    </div>
+                  </div>
+
+
                   <div className="card_sonic_max">
                     <div className="image_container"></div>
                     <div className="bottom_container">
@@ -151,17 +152,7 @@ export default function Podcast() {
                   slidesToSlide={1}
                   swipeable
                 >
-                  <div className="item_1">
-                    <div className="bottom">
-                      <span>Capture Every Word, 
-                        <br /> Elevate Every Sound
-
-                      </span>
-
-                    </div>
-
-                  </div>
-                  <div className="item_2" >
+                                    <div className="item_2" >
                   <div className="bottom">
                       <span>Perfect sound
 
@@ -177,6 +168,18 @@ export default function Podcast() {
                         </span>
                     </div>
                   </div>
+                  <div className="item_1">
+                    <div className="bottom">
+                      <span>Capture Every Word, 
+                        <br /> Elevate Every Sound
+
+                      </span>
+
+                    </div>
+
+                  </div>
+
+
                   <div className="item_4" >
                   <div className="bottom">
                       <span>Your space
