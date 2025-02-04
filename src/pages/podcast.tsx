@@ -61,7 +61,7 @@ export default function Podcast() {
               </div> */}
 
               <div className="container">
-                <h3 className="title">Create. Inspire. Amplify: Podcasting Reimagined</h3>
+                <h3 className="title">Where Your Voice Takes Center Stage</h3>
                 <p className="sub_title">
                   Book & start creating content that makes an impact
                 </p>
@@ -222,8 +222,7 @@ export default function Podcast() {
             <div className="part_one">
               <div className="wrapper">
                 <h3 className="title">
-                  Create. Inspire. Amplify: Podcasting Reimagined
-                </h3>
+                Where Your Voice Takes Center Stage                </h3>
 
                 <p className="sub_title">
                 Podcasts are more than just audio; the space where your voice takes center stage.
