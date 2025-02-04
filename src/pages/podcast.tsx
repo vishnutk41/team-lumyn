@@ -30,17 +30,11 @@ export default function Podcast() {
             <NavMenuBar />
 
             <div className="container">
-  {/* <h3 className="title">
-    YOUR VOICE, <span>YOUR STORY</span> <br />
-    <span>WITH LUMYN </span>PODCAST ROOMS
-  </h3> */}
     <h3 className="title" data-aos="fade-down">
     YOUR VOICE, <span>YOUR STORY</span> <br />
     WITH <span>ECHOPOD </span>
   </h3>
   <p className="sub_title">
-    {/* Step into our state-of-the-art studios and produce podcasts that captivate. 
-    Crystal clear sound, flawless recordings – tell your story with impact. */}
     Step into our comfy studio - produce podcasts that captivate. 
     Crystal clear & flawless. 
   </p>
