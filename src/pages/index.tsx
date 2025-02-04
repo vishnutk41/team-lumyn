@@ -323,30 +323,30 @@ export default function Home() {
                   <div className="icon_highlight">
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-10.svg"
+                        src="/assets/Icons/Icons-01.svg"
                         width={36}
                         height={35}
                         alt="map-point"
                       />
-                      Project Management
+                      High Brightness
                     </div>
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-11.svg"
+                        src="/assets/Icons/Icons-02.svg"
                         width={36}
                         height={35}
                         alt="map-point"
                       />
-                      Workflow Optimization
+                      Energy Efficiency
                     </div>
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-12.svg"
+                        src="/assets/Icons/Icons-03.svg"
                         width={36}
                         height={35}
                         alt="map-point"
                       />
-                      Efficient Execution
+                      Seamless Integration
                     </div>
                   </div>
                 </div>
@@ -365,30 +365,30 @@ export default function Home() {
                   <div className="icon_highlight">
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-13.svg"
+                        src="/assets/Icons/Icons-04.svg"
                         width={35}
                         height={35}
                         alt="map-point"
                       />
-                      Content Editing
+                      Professional Audio Recording
                     </div>
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-14.svg"
+                        src="/assets/Icons/Icons-05.svg"
                         width={35}
                         height={35}
                         alt="map-point"
                       />
-                      Video editing
+                      High-Quality Sound Monitoring
                     </div>
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-15.svg"
+                        src="/assets/Icons/Icons-06.svg"
                         width={35}
                         height={35}
                         alt="map-point"
                       />
-                      Refined Storytelling
+                      Advanced Audio Mixing
                     </div>
                   </div>
                 </div>
@@ -444,30 +444,30 @@ export default function Home() {
                   <div className="icon_highlight">
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-19.svg"
+                        src="/assets/Icons/Icons-07.svg"
                         width={35}
                         height={35}
                         alt="map-point"
                       />
-                      Custom Solutions
+                      Platform Management
                     </div>
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-20.svg"
+                        src="/assets/Icons/Icons-08.svg"
                         width={35}
                         height={35}
                         alt="map-point"
                       />
-                      Tailored Services
+                      Data-Driven Insights
                     </div>
                     <div className="wrapper">
                       <Image
-                        src="/assets/svg/WWO Icons-21.svg"
+                        src="/assets/Icons/Icons-09.svg"
                         width={35}
                         height={35}
                         alt="map-point"
                       />
-                      Client-Centric Support
+                      9. Engaging Content Creation
                     </div>
                   </div>
                 </div>

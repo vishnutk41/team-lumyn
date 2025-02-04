@@ -147,7 +147,7 @@ export default function BlogDetails() {
 
                                     <div className="content_container">
                                     <p className="top">
-by Admin  | 42 comments
+by Admin 
                                       </p>
                                       <h3 className="title">
                                       Website Revamping: A Strategic Approach to Business Growth
@@ -172,7 +172,7 @@ by Admin  | 42 comments
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
-by Admin  | 42 comments
+by Admin  
                                       </p>
                                       <h3 className="title">
                                       Domain Privacy Protection: Why It's Essential for Website Owners

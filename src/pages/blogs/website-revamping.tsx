@@ -152,7 +152,7 @@ export default function BlogDetails() {
                                     
                                     <div className="content_container">
                                     <p className="top">
-by Admin  | 42 comments
+by Admin  
                                       </p>
                                       <h3 className="title">
                                       Domain Privacy Protection: Why It's Essential for Website Owners
@@ -177,7 +177,7 @@ by Admin  | 42 comments
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
-by Admin  | 42 comments
+by Admin  
                                       </p>
                                       <h3 className="title">
                                       Driving Organic Traffic: Essential Strategies for 2025
