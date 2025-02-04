@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Blogs() {
     const timelineData = [

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
 
-import Carousel from "react-multi-carousel";
 
 export default function Products() {
 

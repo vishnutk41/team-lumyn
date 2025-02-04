@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState, FormEvent } from "react";
+import { useState, FormEvent } from "react";
 
 export const Footer = () => {
   const [email, setEmail] = useState("");

@@ -13,6 +13,7 @@ import "swiper/css/autoplay";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Link from "next/link";
 
 
 const imageData = [
@@ -940,9 +941,9 @@ export default function Home() {
                 <div className="bottom">               
                   <p className="sub_title">By Admin </p>
                   <h4 className="title" > 
-                  <a href="/blogs/driving-organic-traffic-strategies">
+                  <Link href="/blogs/driving-organic-traffic-strategies">
                     Driving Organic Traffic: Essential Strategies for 2025
-                  </a>
+                  </Link>
                   </h4>
                 </div>
               </div>
@@ -950,9 +951,9 @@ export default function Home() {
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                  <a href="/blogs/need-for-domain-privacy-protection">
+                  <Link href="/blogs/need-for-domain-privacy-protection">
                   Domain Privacy Protection: Why It's Essential for Website Owners
-                  </a>
+                  </Link>
                   </h4>
                 </div>
               </div>
@@ -960,9 +961,9 @@ export default function Home() {
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
-                  <a href="/blogs/website-revamping">
+                  <Link href="/blogs/website-revamping">
                   Website Revamping: A Strategic Approach to Business Growth
-                  </a>
+                  </Link>
                   </h4>
                 </div>
               </div>

@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "@/component/footer";
 import NavMenuBar from "@/component/menu";
-import Rating from "@/component/rating";
 
 import Carousel from "react-multi-carousel";
 import AOS from 'aos';
