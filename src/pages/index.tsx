@@ -7,7 +7,7 @@ import NavMenuBar from "@/component/menu";
 import Carousel from "react-multi-carousel";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 import AOS from 'aos';
