@@ -168,7 +168,7 @@ export default function Products() {
                       Build a stunning and functional online presence with Luma Commerce. Our tailored website packages include responsive designs, seamless e-commerce integration, and cutting-edge functionality to help your business thrive in the digital world.
                       </p>
                     </div>
-                    <button className="primay_button">Contact Us</button>
+                    <button className="primay_button" onClick={() => (window.location.href = '/contact-us')}>Contact Us</button>
                   </div>
                 </div>
                
@@ -272,7 +272,13 @@ export default function Products() {
                                 <strong>24/7</strong> support
                               </li> */}
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card standard">
                             <div className="heading">
@@ -319,7 +325,13 @@ export default function Products() {
                                 <strong>24/7</strong> support
                               </li> */}
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -368,7 +380,13 @@ export default function Products() {
                                 <strong>Advanced</strong> security features
                               </li> */}
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           {/* </div></Carousel> */}
                   </section>
@@ -435,7 +453,7 @@ export default function Products() {
                       Dominate search engines with LumaSpark. Our expert SEO packages boost your website’s rankings, increase organic traffic, and enhance visibility to ensure your business stays ahead in the digital landscape.
                       </p>
                     </div>
-                    <button className="primay_button">Contact Us</button>
+                    <button className="primay_button" onClick={() => (window.location.href = '/contact-us')}>Contact Us</button>
                   </div>
                 </div>
                 <div className="pricing_section">
@@ -483,7 +501,13 @@ export default function Products() {
                                 <strong>24/7</strong> support
                               </li> */}
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card standard">
                             <div className="heading">
@@ -519,7 +543,13 @@ export default function Products() {
                               </li>
                             
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -551,7 +581,13 @@ export default function Products() {
                               </li>
                               
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                   </section>
                 </div>
@@ -613,7 +649,7 @@ export default function Products() {
                         Transform your social media channels into powerful marketing tools with InsightMedia. From engaging content creation to brand awareness strategies, our packages are designed to drive meaningful connections and measurable growth.
                       </p>
                     </div>
-                    <button className="primay_button">Contact Us</button>
+                    <button className="primay_button" onClick={() => (window.location.href = '/contact-us')}>Contact Us</button>
                   </div>
                 </div>
                 <div className="pricing_section">
@@ -651,7 +687,13 @@ export default function Products() {
                               </li>
                               
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card standard">
                             <div className="heading">
@@ -693,7 +735,13 @@ export default function Products() {
                               </li>
                              
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -737,7 +785,13 @@ export default function Products() {
                               
                             
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -776,7 +830,13 @@ export default function Products() {
                               </li>
               
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing-card premium">
                             <div className="heading">
@@ -817,7 +877,13 @@ export default function Products() {
                               </li>
                */}
                             </ul>
-                            <button className="cta-btn">CHOOSE PLAN</button>
+<button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                           </div>
                           <div className="pricing_section">
                                                    <h3 className="pricing_title" style={{ color: "#00ed85"}}>Add-On Services</h3> 
@@ -863,7 +929,7 @@ export default function Products() {
                                              <div className="description">
                          <p className="content">Bring your brand to life with Luma Brands. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
                          </div>
-                                              <button className="primay_button">Contact Us</button>
+                                              <button className="primay_button" onClick={() => (window.location.href = '/contact-us')}>Contact Us</button>
                                                </div> 
                                                </div>
 
@@ -923,7 +989,13 @@ export default function Products() {
                                         <strong>24/7</strong> support
                                       </li> */}
                                     </ul>
-                                    <button className="cta-btn">CHOOSE PLAN</button>
+        <button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                                   </div>
                                   <div className="pricing-card standard">
                                     <div className="heading">
@@ -971,7 +1043,13 @@ export default function Products() {
                                         <strong>24/7</strong> support
                                       </li> */}
                                     </ul>
-                                    <button className="cta-btn">CHOOSE PLAN</button>
+        <button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                                   </div>
                                   <div className="pricing-card premium">
                                     <div className="heading">
@@ -1017,7 +1095,13 @@ export default function Products() {
                                       </li>
                                       
                                     </ul>
-                                    <button className="cta-btn">CHOOSE PLAN</button>
+        <button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                                   </div>
                                   <div className="pricing-card premium">
                                     <div className="heading">
@@ -1068,7 +1152,13 @@ Messaging & Positioning)
 
                                       </li>
                                     </ul>
-                                    <button className="cta-btn">CHOOSE PLAN</button>
+        <button
+  className="cta-btn"
+  onClick={() => window.location.href = "https://wa.me/message/UQCKZRNUKEGRL1"}
+>
+  CHOOSE PLAN
+</button>
+
                                   </div>
                                    <div className="pricing_section">
                                                    <h3 className="pricing_title" style={{ color: "#00ed85"}}>Add-On Services</h3> 

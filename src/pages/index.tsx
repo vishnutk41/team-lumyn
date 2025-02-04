@@ -1084,41 +1084,19 @@ export default function Home() {
             </div> */}
              
           {/* </div> */}
-
-         
-
-          <div className="section_six">
-            <h3 className="title">
-              {/* We've made our presence <br /> known across the globe{" "}
-               */}
+          {/* <div className="section_six"> */}
+            {/* <h3 className="title">
+   
                UAE BORN & BRED
-            </h3>
+            </h3> */}
 
-            <div className="container">
+            {/* <div className="container">
               
             <div className="item">
                  <img src="/assets/png/UAE.png" alt="seven emirates" height={170} width={300} />
-                 {/* <h4>INDIA</h4> */}
               </div>
-              {/* <div className="item">
-                 <img src="/assets/images/UAE.png" alt="" />
-                 <h4>UAE</h4>
-              </div>
-              <div className="item">
-                 <img src="/assets/images/india.png" alt="" />
-                 <h4>INDIA</h4>
-              </div>
-              <div className="item">
-                 <img src="/assets/images/UK.png" alt="" />
-                 <h4>UK</h4>
-              </div>
-              <div className="item">
-                 <img src="/assets/images/USA.png" alt="" />
-                 <h4>USA</h4>
-              </div> */}
-
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </main>
         <Footer />
       </div>
