@@ -828,6 +828,7 @@
       /* Swiper container */
   .slider_container {
     width: 440px;
+    // height: 440px;
     flex-shrink: 0; /* Prevents shrinking */
   }
 
@@ -880,7 +881,7 @@
       }
 
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.0);
       }
     }
 
