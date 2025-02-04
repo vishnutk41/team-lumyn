@@ -937,16 +937,17 @@ export default function Home() {
               </h3> */}
               <h3>LumaVoice</h3>
               <p>
-              Our Thoughts on Trending Ideas              </p>
+              Our Thoughts on Trending Ideas  </p>
             </div>
 
             <div className="card_container">
               <div className="card blog_image_1">
-                <div className="bottom">
+                <div className="bottom">               
                   <p className="sub_title">Upcoming </p>
-                  <h4 className="title"> 
-                  Driving Organic Traffic: Essential Strategies for 2025
-
+                  <h4 className="title" > 
+                  <a href="/blogs/driving-organic-traffic-strategies">
+                    Driving Organic Traffic: Essential Strategies for 2025
+                  </a>
                   </h4>
                 </div>
               </div>
@@ -954,7 +955,9 @@ export default function Home() {
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
+                  <a href="/blogs/need-for-domain-privacy-protection">
                   Domain Privacy Protection: Why It's Essential for Website Owners
+                  </a>
                   </h4>
                 </div>
               </div>
@@ -962,8 +965,9 @@ export default function Home() {
                 <div className="bottom">
                   <p className="sub_title">By Admin   </p>
                   <h4 className="title">
+                  <a href="/blogs/website-revamping">
                   Website Revamping: A Strategic Approach to Business Growth
-
+                  </a>
                   </h4>
                 </div>
               </div>
