@@ -927,7 +927,7 @@ export default function Home() {
     </div> */}
         
 </div>
-     <div className="section_five">
+     <div className="section_five" data-aos="fade-right">
             <div className="top">
               {/* <h3>
                 {" "}
