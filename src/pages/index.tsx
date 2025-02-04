@@ -96,7 +96,7 @@ export default function Home() {
             </span>
           </div>
           {/* ---------------------------added section-------------------------------------- */}
-          <div className="added_section_1">
+          {/* <div className="added_section_1">
          <div className="bottom">
               <div className="container">
                 <div className="left"></div>
@@ -118,9 +118,7 @@ export default function Home() {
                     <div className="item">Expert Support </div>
 
                   </div>
-                  {/* <p className="mobile text_description">
-                  Your website is your brand’s digital home—it should be as distinct as your business. At Code Crafted, we build custom websites that reflect your unique identity and align seamlessly with your goals.
-                  </p> */}
+                  
                     <h4>Why Choose Lumyn for Your Website?</h4> 
 
                     <p className="text">At Lumyn, we understand that your website isn’t just a platform—it’s a cornerstone of your brand identity. 
@@ -141,7 +139,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            </div>
+            </div> */}
             {/* --------------------------------added section-ends------------------ */}
           <div className="section_two">
             <div className="top">
