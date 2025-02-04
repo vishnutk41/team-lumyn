@@ -61,7 +61,7 @@ export default function Podcast() {
               </div> */}
 
               <div className="container">
-                <h3 className="title">Create.Inspire.Amplify:Podcasting Reimagined</h3>
+                <h3 className="title">Your Story to THE SPACE</h3>
                 <p className="sub_title">
                   Book & start creating content that makes an impact
                 </p>
@@ -76,8 +76,8 @@ export default function Podcast() {
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">
-                      <h4 className="title">Perfect sound </h4>
-                      <h4 className="title">Every times </h4>
+                      <h4 className="title">Capture Every Word,  </h4>
+                      <h4 className="title">Elevate Every Sound </h4>
                     </div>
                   </div>
                                   <div className="card_echolite_2">
@@ -159,8 +159,9 @@ export default function Podcast() {
                 >
                   <div className="item_1">
                     <div className="bottom">
-                      <span>Perfect sound 
-                        <br /> Every time 
+                      <span>Capture Every Word, 
+                        <br /> Elevate Every Sound
+
                       </span>
 
                     </div>
@@ -168,15 +169,18 @@ export default function Podcast() {
                   </div>
                   <div className="item_2" >
                   <div className="bottom">
-                      <span>Speak up
-                        <br />Your voice matters
+                      <span>Perfect sound
+
+                        <br />Every times
+
                       </span>
                     </div>
                   </div>
                   <div className="item_3" >
                   <div className="bottom">
-                      <span>Your space
-                        <br /> Time to shine</span>
+                      <span>Speak up
+                        <br /> Your voice matters
+                        </span>
                     </div>
                   </div>
                   <div className="item_4" >
@@ -185,8 +189,6 @@ export default function Podcast() {
                         <br /> Time to shine</span>
                     </div>
                   </div>
-
-
                 </Carousel>
 
 
@@ -223,7 +225,7 @@ export default function Podcast() {
             <div className="part_one">
               <div className="wrapper">
                 <h3 className="title">
-                Where Your Voice Takes Center Stage                </h3>
+                Create.Inspire.Amplify:Podcasting Reimagined                </h3>
 
                 <p className="sub_title">
                 Podcasts are more than just audio; the space where your voice takes center stage.
