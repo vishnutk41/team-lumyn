@@ -239,7 +239,7 @@ export default function Home() {
                   </div> */}
                 </div>
 
-                <div className="bottom">
+                <div className="bottom"  data-aos="zoom-in">
                   <h4 className="title">LumaBrands</h4>
                   <p className="sub_title">
                   Illuminate brands that resonate
@@ -277,7 +277,7 @@ export default function Home() {
 
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_2"></div>
-                <div className="bottom">
+                <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">LumaCommerce</h4>
                   <p className="sub_title">
                     Professional visuals that beautifully narrate your brand’s
@@ -317,7 +317,7 @@ export default function Home() {
 
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_3"></div>
-                <div className="bottom">
+                <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">LumaPanels</h4>
                   <p className="sub_title">
                     Streamline projects with optimized workflows and expert
@@ -359,7 +359,7 @@ export default function Home() {
                 <div className="img img_4">
                   
                 </div>
-                <div className="bottom">
+                <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">Echopod Studios</h4>
                   <p className="sub_title">
                   Where Your Ideas Come to Life as Killer Podcasts and Videos that Hit Hard.
@@ -399,7 +399,7 @@ export default function Home() {
 
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_5"></div>
-                <div className="bottom">
+                <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">Lumaspark</h4>
                   <p className="sub_title">
                     Fuel business growth with targeted marketing and data-driven
@@ -439,7 +439,7 @@ export default function Home() {
 
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_6"></div>
-                <div className="bottom">
+                <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">LumaSocial</h4>
                   <p className="sub_title">
                     Experience personalized solutions with client-first
