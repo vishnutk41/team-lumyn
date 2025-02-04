@@ -16,10 +16,10 @@ import { useEffect } from "react";
 
 
 const imageData = [
-   { imgSrc:"/assets/images/team_images/member.jpg", name: "Baqir.C", designation: "Social Strategist"},
-   { imgSrc:"/assets/images/team_images/Shafiq.jpg", name: "Shafiqali.", designation: "Client Success Director"},
+   { imgSrc:"/assets/images/team_images/1.png", name: "Baqir.C", designation: "Social Strategist"},
+   { imgSrc:"/assets/images/team_images/2.png", name: "Shafiqali.", designation: "Client Success Director"},
    { imgSrc:"/assets/images/team_images/3.png", name: "Shuhaib.S.M", designation: "Creative Director"},
-   { imgSrc:"/assets/images/team_images/Tawfiq.jpg", name: "Tawfiq.M", designation: "Business Relationship Director"}
+   { imgSrc:"/assets/images/team_images/4.png", name: "Tawfiq.M", designation: "Business Relationship Director"}
 ];
 
 export default function Home() {
@@ -133,7 +133,7 @@ export default function Home() {
   transformative.
 </p>
 <button
-  className="primay_button"
+  className="primay_button"  data-aos="fade-down"
   onClick={() => (window.location.href = '/contact-us')}
 >
   Contact Us
