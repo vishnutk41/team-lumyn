@@ -1091,12 +1091,16 @@ export default function Home() {
             <h3 className="title">
               {/* We've made our presence <br /> known across the globe{" "}
                */}
-               UAE BORN AND BRED
+               UAE BORN & BRED
             </h3>
 
             <div className="container">
-
-              <div className="item">
+              
+            <div className="item">
+                 <img src="/assets/png/UAE.png" alt="seven emirates" height={170} width={300} />
+                 {/* <h4>INDIA</h4> */}
+              </div>
+              {/* <div className="item">
                  <img src="/assets/images/UAE.png" alt="" />
                  <h4>UAE</h4>
               </div>
@@ -1111,7 +1115,7 @@ export default function Home() {
               <div className="item">
                  <img src="/assets/images/USA.png" alt="" />
                  <h4>USA</h4>
-              </div>
+              </div> */}
 
             </div>
           </div>
