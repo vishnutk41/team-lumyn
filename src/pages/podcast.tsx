@@ -61,7 +61,7 @@ export default function Podcast() {
               </div> */}
 
               <div className="container">
-                <h3 className="title">Where Your Voice Takes Center Stage</h3>
+                <h3 className="title">Create.Inspire.Amplify:Podcasting Reimagined</h3>
                 <p className="sub_title">
                   Book & start creating content that makes an impact
                 </p>
@@ -71,7 +71,7 @@ export default function Podcast() {
                 </div> */}
 
                 <div className="card_container">
-                <div className="card_echolite">
+                <div className="card_echolite_2">
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">

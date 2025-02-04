@@ -98,8 +98,7 @@ export default function ContactUs() {
             <div className="contact_form">
               <h3 className="title">Get in Touch with Our Experts.</h3>
               <p className="sub_title">
-                Tailoring each moment to your furry companion's individual needs.
-              </p>
+              Let’s bring your brand to light, connect with us today and get illuminated!              </p>
               <form onSubmit={handleSubmit} className="container">
                 <div className="wrapper">
                   <div className="part_one">
