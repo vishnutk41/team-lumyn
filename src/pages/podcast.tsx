@@ -218,7 +218,7 @@ export default function Podcast() {
             <div className="container">
 
 
-          <div className="section_two">
+          <div className="section_two" data-aos="fade-right">
             <div className="part_one">
               <div className="wrapper">
                 <h3 className="title">
@@ -243,7 +243,7 @@ export default function Podcast() {
             </div>
           </div>
 
-          <div className="section_three">
+          <div className="section_three" data-aos="fade-left">
             <div className="part_one"></div>
             <div className="part_two">
               <div className="wrapper">
@@ -282,7 +282,7 @@ export default function Podcast() {
             </div>
           </div>
 
-          <div className="section_four">
+          <div className="section_four" data-aos="fade-right">
             <div className="part_one">
               <div className="wrapper">
                 <h3 className="title">
@@ -328,7 +328,7 @@ No matter your podcasting format, our studio is built to make your creative proc
 
 
 
-          <div className="section_five">
+          <div className="section_five" data-aos="zoom-out">
             <div className="image"></div>
             <div className="title">Book Your Podcasting Experience</div>
             <div className="rate_container"></div>
@@ -378,7 +378,7 @@ No matter your podcasting format, our studio is built to make your creative proc
             </div>
           </div> */}
 
-          <div className="section_seven">
+          <div className="section_seven" data-aos="fade-up">
             <div className="container">
               <div className="part_one">
                 {/* <div className="column">
