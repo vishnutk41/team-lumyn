@@ -439,8 +439,7 @@ export default function Home() {
                 <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">LumaSocial</h4>
                   <p className="sub_title">
-                    Experience personalized solutions with client-first
-                    innovation and support.
+                  Grow and nurture your audience with expertly managed social platforms.
                   </p>
                   <div className="icon_highlight">
                     <div className="wrapper">
@@ -936,11 +935,10 @@ export default function Home() {
               <p>
               Our Thoughts on Trending Ideas  </p>
             </div>
-
             <div className="card_container">
               <div className="card blog_image_1">
                 <div className="bottom">               
-                  <p className="sub_title">Upcoming </p>
+                  <p className="sub_title">By Admin </p>
                   <h4 className="title" > 
                   <a href="/blogs/driving-organic-traffic-strategies">
                     Driving Organic Traffic: Essential Strategies for 2025

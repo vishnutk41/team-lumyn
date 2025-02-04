@@ -149,7 +149,7 @@ export default function Products() {
                     
                   </div>
                   <div className="part_two">
-                    <h3 className="title">Luma Commerce </h3>
+                    <h3 className="title">LumaCommerce </h3>
                     <p className="sub_title">Your Digital Gateway to Success!</p>
                    
                     <div className="container_text">
@@ -388,7 +388,7 @@ export default function Products() {
                     </div> */}
                   </div>
                   <div className="part_two">
-                    <h3 className="title">OptiRank </h3>
+                    <h3 className="title">LumaSpark </h3>
                     <p className="sub_title">Climb Higher, Stay Visible!</p>
                     {/* <div className="icon_highlight">
                       <div className="wrapper">
@@ -432,7 +432,7 @@ export default function Products() {
                     </p>
                     <div className="description">
                       <p className="content">
-                      Dominate search engines with OptiRank. Our expert SEO packages boost your website’s rankings, increase organic traffic, and enhance visibility to ensure your business stays ahead in the digital landscape.
+                      Dominate search engines with LumaSpark. Our expert SEO packages boost your website’s rankings, increase organic traffic, and enhance visibility to ensure your business stays ahead in the digital landscape.
                       </p>
                     </div>
                     <button className="primay_button">Contact Us</button>
@@ -566,7 +566,7 @@ export default function Products() {
                     
                   </div>
                   <div className="part_two">
-                    <h3 className="title">InsightMedia </h3>
+                    <h3 className="title">LumaSocial </h3>
                     <p className="sub_title">Turn Likes into Loyal Customers!</p>
                     {/* <div className="icon_highlight">
                       <div className="wrapper">
@@ -838,7 +838,7 @@ export default function Products() {
                     <Image src="/assets/images/product_images/BrandForge.webp" alt="product_image_4" width="700" height="600"/>
                       </div>
                           </div> <div className="part_two"> 
-                            <h3 className="title"> Luma Brands </h3> 
+                            <h3 className="title"> LumaBrands </h3> 
                             <p className="sub_title"> Forge a Brand That Stands Out! </p>
                              {/* <div className="icon_highlight">
                                <div className="wrapper">
