@@ -39,12 +39,13 @@ export default function Podcast() {
   <br/>Crystal clear & flawless.
 </p>
 
-  <button 
-    className="primay_button"
-    onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
-  >
-    Book Now 🎙️
-  </button>
+<button 
+  className="primay_button"
+  onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
+>
+  <img src="/assets/images/mic.png" alt="Microphone" className="mic_image" />
+  Book Now
+</button>
 </div>
           </div>
 

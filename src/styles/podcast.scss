@@ -3,7 +3,12 @@
 }
 
 .podcast {
-  
+  .mic_image {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    margin-right: 8px; /* Add spacing between the image and text */
+    vertical-align: middle; /* Align the image with the text */
+  }
   .banner_section {
     display: flex;
     flex-direction: column;
