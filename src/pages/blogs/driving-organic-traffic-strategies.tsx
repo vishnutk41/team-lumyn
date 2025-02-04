@@ -135,40 +135,56 @@ export default function BlogDetails() {
                                 <div className="navigation">
 
                                   <div className="previouse">
-                                    <div className="blog_image">12</div>
+                                    <div className="blog_image">
+                                    <Image 
+                                      src="/assets/images/blog_images/Website Revamping.webp"
+                                      alt="Website Revamping"
+                                      layout="fill"
+                                      objectFit="cover"
+                                      />
+                                    
+                                    </div>
 
                                     <div className="content_container">
                                     <p className="top">
 by Admin  | 42 comments
                                       </p>
                                       <h3 className="title">
-                                      Cruising into the Future Electric Scooters
+                                      Website Revamping: A Strategic Approach to Business Growth
                                       </h3>
-                                      <span> <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <span>
+                                        <a href="/blogs/website-revamping">
+                                         <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.185385 6.89351L6.7834 12.3786C7.0042 12.562 7.33448 12.535 7.52092 12.3179C7.70763 12.1007 7.67993 11.7759 7.45913 11.5925L1.95315 7.01532H18.9766C19.2656 7.01532 19.5 6.7848 19.5 6.50057C19.5 6.21635 19.2656 5.98583 18.9766 5.98583H1.95341L7.45939 1.40865C7.6802 1.22502 7.7079 0.900452 7.52119 0.68329C7.41758 0.562789 7.27002 0.500705 7.12113 0.500705C7.00181 0.500705 6.88168 0.540523 6.7834 0.622253L0.185385 6.10738C0.0676575 6.20509 -0.000263214 6.3489 -0.000263214 6.50057C-0.000263214 6.65225 0.0676575 6.7958 0.185385 6.89377V6.89351Z" fill="white"/>
-</svg> Previous</span>
+</svg> Previous </a></span>
                                     </div>
 
                                   </div>
 
                                   <div className="next">
                                   <div className="blog_image">
-
+                                                               <Image 
+                                                                   src="/assets/images/blog_images/Domain Privacy Protection.png"
+                                                                   alt="Website Revamping"
+                                                                   layout="fill"
+                                                                   objectFit="cover"
+                                                                   />
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
 by Admin  | 42 comments
                                       </p>
                                       <h3 className="title">
-                                      Cruising into the Future Electric Scooters
+                                      Domain Privacy Protection: Why It's Essential for Website Owners
                                       </h3>
                                       <span> 
+                                        <a href="/blogs/need-for-domain-privacy-protection">
                                          Next
                                          <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.3146 6.89351L12.7166 12.3786C12.4958 12.562 12.1655 12.535 11.9791 12.3179C11.7924 12.1007 11.8201 11.7759 12.0409 11.5925L17.5469 7.01532H0.523377C0.234388 7.01532 0 6.7848 0 6.50057C0 6.21635 0.234388 5.98583 0.523377 5.98583H17.5466L12.0406 1.40865C11.8198 1.22502 11.7921 0.900452 11.9788 0.68329C12.0824 0.562789 12.23 0.500705 12.3789 0.500705C12.4982 0.500705 12.6183 0.540523 12.7166 0.622253L19.3146 6.10738C19.4323 6.20509 19.5003 6.3489 19.5003 6.50057C19.5003 6.65225 19.4323 6.7958 19.3146 6.89377V6.89351Z" fill="white"/>
 </svg>
 
-                                         
+</a>
                                          </span>
                                   </div>
                                   </div>

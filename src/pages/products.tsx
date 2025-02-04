@@ -142,7 +142,7 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                   <div className="image_container">
-  <Image src="/assets/images/product_images/WebCommerce.webp" alt="Description of the image"  width="500" height="500" />
+  <Image src="/assets/images/WebCommerce.webp" alt="Description of the image"  width="500" height="500" />
 </div>
 
 
@@ -379,7 +379,7 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                     <div className="image_container">
-                    <Image src="/assets/images/product_images/MarketBlaze.webp" alt="product_image_2" height="600" width="700"/>
+                    <Image src="/assets/images/MarketBlaze.webp" alt="product_image_2" height="600" width="700"/>
                     </div>
                     {/* <div className="description">
                       <p className="content">
@@ -561,7 +561,7 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                     <div className="image_container">
-                      <Image src="/assets/images/product_images/InsightMedia.webp" alt="product_image_3" width="700" height="600"/>
+                      <Image src="/assets/images/Luma social.webp" alt="product_image_3" width="600" height="600"/>
                     </div>
                     
                   </div>
@@ -835,7 +835,7 @@ export default function Products() {
                 <div className="content_row"> 
                   <div className="part_one"> 
                     <div className="image_container">
-                    <Image src="/assets/images/product_images/BrandForge.webp" alt="product_image_4" width="700" height="600"/>
+                    <Image src="/assets/images/product_images/BrandForge.webp" alt="product_image_4" width="600" height="600"/>
                       </div>
                           </div> <div className="part_two"> 
                             <h3 className="title"> LumaBrands </h3> 
