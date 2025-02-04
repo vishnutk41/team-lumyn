@@ -66,6 +66,7 @@ export const Footer = () => {
               <h4>Learn More</h4>
               <Link href={'/podcast'}>Echopod</Link>
               <Link href={'/blogs'}>Blog</Link>
+              <Link href={'/products'}>Products</Link>
               <Link href={'/frequently-asked-questions'}>FAQ</Link>
             </div>
 
