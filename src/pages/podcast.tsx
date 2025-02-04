@@ -35,9 +35,10 @@ export default function Podcast() {
     WITH <span>ECHOPOD </span>
   </h3>
   <p className="sub_title">
-    Step into our comfy studio - produce podcasts that captivate. 
-    Crystal clear & flawless. 
-  </p>
+  Step into our comfy studio - produce podcasts that captivate. 
+  <br/>Crystal clear & flawless.
+</p>
+
   <button 
     className="primay_button"
     onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
@@ -84,7 +85,7 @@ export default function Podcast() {
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">
-                      <h4 className="title">Capture Every Word,  </h4>
+                      <h4 className="title">Capture Every Word  </h4>
                       <h4 className="title">Elevate Every Sound </h4>
                     </div>
                   </div>
@@ -170,7 +171,7 @@ export default function Podcast() {
                   </div>
                   <div className="item_1">
                     <div className="bottom">
-                      <span>Capture Every Word, 
+                      <span>Capture Every Word
                         <br /> Elevate Every Sound
 
                       </span>

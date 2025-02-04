@@ -318,8 +318,7 @@ export default function Home() {
                 <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">LumaPanels</h4>
                   <p className="sub_title">
-                    Streamline projects with optimized workflows and expert
-                    management.
+                  Illuminate your brand with vibrant, high-quality LED panels
                   </p>
                   <div className="icon_highlight">
                     <div className="wrapper">
@@ -398,7 +397,7 @@ export default function Home() {
               <div className="item" style={{ width: "100%" }}>
                 <div className="img img_5"></div>
                 <div className="bottom" data-aos="zoom-in">
-                  <h4 className="title">Lumaspark</h4>
+                  <h4 className="title">LumaSpark</h4>
                   <p className="sub_title">
                     Fuel business growth with targeted marketing and data-driven
                     campaigns.
