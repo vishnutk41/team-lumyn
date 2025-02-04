@@ -10,6 +10,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 
 const imageData = [
    { imgSrc:"/assets/images/team_images/member.jpg", name: "Baqir.C", designation: "Social Strategist"},
@@ -19,6 +23,10 @@ const imageData = [
 ];
 
 export default function Home() {
+    useEffect(() => {
+      AOS.init({ duration: 1200,
+      });
+    }, []);
   return (
     <>
       <Head>
@@ -92,7 +100,7 @@ export default function Home() {
          <div className="bottom">
               <div className="container">
                 <div className="left"></div>
-                <div className="right">
+                <div className="right" data-aos="fade-left" >
                   <h3 className="title">Luma Code</h3>
                   <p className="sub_title">
                   Your digital presence, redefined with bespoke web solutions.

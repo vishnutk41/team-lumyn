@@ -4,8 +4,18 @@ import NavMenuBar from "@/component/menu";
 import Rating from "@/component/rating";
 
 import Carousel from "react-multi-carousel";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
+
+
 
 export default function Podcast() {
+  useEffect(() => {
+    AOS.init({ duration: 1200,
+    });
+  }, []);
   return (
     <>
       <Head>
@@ -24,7 +34,7 @@ export default function Podcast() {
     YOUR VOICE, <span>YOUR STORY</span> <br />
     <span>WITH LUMYN </span>PODCAST ROOMS
   </h3> */}
-    <h3 className="title">
+    <h3 className="title" data-aos="fade-down">
     YOUR VOICE, <span>YOUR STORY</span> <br />
     WITH <span>ECHOPOD </span>
   </h3>
@@ -43,7 +53,7 @@ export default function Podcast() {
 </div>
           </div>
 
-          <div className="section_one">
+          <div className="section_one" data-aos="fade-right">
             <div className="wrapper">
 {/* 
               <div className="amplify_your_voice">
