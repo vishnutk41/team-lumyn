@@ -240,7 +240,7 @@ export default function Home() {
                 <div className="bottom"  data-aos="zoom-in">
                   <h4 className="title">LumaBrands</h4>
                   <p className="sub_title">
-                  Illuminate brands that resonate
+                  Illuminate brands that resonate.
                   </p>
                   <div className="icon_highlight">
                     <div className="wrapper">
@@ -260,7 +260,7 @@ export default function Home() {
                         alt="map-point"
                       />
                     Brand Design                    </div>
-                    {/* <div className="wrapper">
+                    <div className="wrapper">
                       <Image
                         src="/assets/svg/WWO Icons-03.svg"
                         width={36}
@@ -268,7 +268,7 @@ export default function Home() {
                         alt="map-point"
                       />
                       Strategic Positioning
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
