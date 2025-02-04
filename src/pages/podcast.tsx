@@ -71,7 +71,8 @@ export default function Podcast() {
                 </div> */}
 
                 <div className="card_container">
-                <div className="card_echolite_2">
+
+                  <div className="card_echolite">
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">
@@ -79,7 +80,7 @@ export default function Podcast() {
                       <h4 className="title">Every times </h4>
                     </div>
                   </div>
-                  <div className="card_echolite">
+                                  <div className="card_echolite_2">
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">
