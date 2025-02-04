@@ -335,9 +335,16 @@ No matter your podcasting format, our studio is built to make your creative proc
             <div className="title">Book Your Podcasting Experience</div>
             <div className="rate_container"></div>
             <div className="wrapper">
-              <span> Choose Your Package </span>
+            <div className="gif-container"> <img src="/assets/gif/1.gif" className="gif-style" />
+            <div className="hover-text">Choose Package </div></div>
+            <div className="gif-container"> <img src="/assets/gif/2.gif" className="gif-style" />
+            <div className="hover-text">Pick Timeslot </div></div>
+            <div className="gif-container"> <img src="/assets/gif/3.gif" className="gif-style" />
+            <div className="hover-text">Book Now</div></div>
+
+              {/* <span> Choose Your Package </span>
               <span> Pick a Time Slot </span>
-              <span> Confirm Your Booking </span>
+              <span> Confirm Your Booking </span> */}
             </div>
             <button className="primay_button"
                 onClick={() => window.location.href = 'https://lumyn.setmore.com/'}
