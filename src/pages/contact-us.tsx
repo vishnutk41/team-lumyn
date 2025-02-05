@@ -141,6 +141,7 @@ export default function ContactUs() {
                         placeholder="Mobile number" 
                         value={phoneNumber}
                         onChange={(e) => setPhoneNumber(e.target.value)}
+                        style={{ width: "80%" }}
                       />
                     </div>
                     {errors.phoneNumber && <div style={{color: 'red', fontSize: '0.8rem'}}>{errors.phoneNumber}</div>}
