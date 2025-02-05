@@ -396,7 +396,7 @@ export default function Products() {
                 <div className="content_row">
                   <div className="part_one">
                     <div className="image_container">
-                    <Image src="/assets/images/MarketBlaze.webp" alt="product_image_2" height="600" width="700"/>
+                    <Image src="/assets/images/MarketBlaze.webp" alt="product_image_2" height="600" width="600"/>
                     </div>
                     {/* <div className="description">
                       <p className="content">

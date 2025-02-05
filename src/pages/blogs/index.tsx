@@ -66,7 +66,11 @@ export default function Blogs() {
               <img src={item.icon} alt={item.title} />
             </div>
               <h3>{item.title}</h3>
-              <p>{item.desc}</p>
+              <p>
+              <a href={item.link}>
+                {item.desc}
+                </a>
+                </p>
               {/* <span className="year">{item.year}</span> */}
             </div>
           </div>

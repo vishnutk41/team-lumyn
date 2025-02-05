@@ -986,11 +986,14 @@
       flex-direction: column;
       padding: 60px 20px;
       width:100%;
+      touch-action: pan-y !important;
+    
     
       .wrapper {
         display: flex;
         flex-direction: row;
         width:100%;
+       
     
         .amplify_your_voice {
           display: none;
@@ -1132,7 +1135,7 @@
             border-radius: 8px;
             margin-top: 60px;
             display: flex;
-
+            
 
             .react-multiple-carousel__arrow {
               display: none;

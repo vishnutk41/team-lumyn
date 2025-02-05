@@ -319,7 +319,7 @@ export default function Home() {
                 <div className="bottom" data-aos="zoom-in">
                   <h4 className="title">LumaPanels</h4>
                   <p className="sub_title">
-                  Illuminate your brand with vibrant, high-quality LED panels
+                  Illuminate your brand with vibrant, high-quality LED panels.
                   </p>
                   <div className="icon_highlight">
                     <div className="wrapper">

@@ -336,7 +336,7 @@
         }
 
         .img:hover{
-          background-blend-mode: multiply;
+          // background-blend-mode: multiply;
           cursor: pointer;
           opacity: 0.6;
         }
@@ -1491,6 +1491,7 @@
         .img {
           height:350px !important;
           width:350px !important;
+          
         }
         .bottom{
           padding: 25px 15px;
