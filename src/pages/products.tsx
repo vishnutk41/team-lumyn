@@ -645,7 +645,7 @@ export default function Products() {
                     </p>
                     <div className="description">
                       <p className="content">
-                        Transform your social media channels into powerful marketing tools with InsightMedia. From engaging content creation to brand awareness strategies, our packages are designed to drive meaningful connections and measurable growth.
+                        Transform your social media channels into powerful marketing tools with LumaSocial. From engaging content creation to brand awareness strategies, our packages are designed to drive meaningful connections and measurable growth.
                       </p>
                     </div>
                     <button className="primay_button" onClick={() => (window.location.href = '/contact-us')}>Contact Us</button>
@@ -900,7 +900,7 @@ export default function Products() {
                 <div className="content_row"> 
                   <div className="part_one"> 
                     <div className="image_container">
-                    <Image src="/assets/images/product_images/BrandForge.webp" alt="product_image_4" width="600" height="600"/>
+                    <Image src="/assets/images/BrandForge.webp" alt="product_image_4" width="600" height="600"/>
                       </div>
                           </div> <div className="part_two"> 
                             <h3 className="title"> LumaBrands </h3> 
@@ -926,7 +926,7 @@ export default function Products() {
                                             
                                              {/* <p className="extra_description mobile"> Vestibulum ante ipsum primis in faucibus orci luctus... </p> */}
                                              <div className="description">
-                         <p className="content">Bring your brand to life with Luma Brands. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
+                         <p className="content">Bring your brand to life with LumaBrands. Our branding packages include bespoke logo designs, cohesive brand kits, and creative solutions that build a lasting impression for your business. </p> 
                          </div>
                                               <button className="primay_button" onClick={() => (window.location.href = '/contact-us')}>Contact Us</button>
                                                </div> 
