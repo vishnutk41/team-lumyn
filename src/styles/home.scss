@@ -1209,14 +1209,15 @@
   .section_two{
     .offer_section{
       .img{
-        height: 350px !important;
-        width:   350px !important;
+        height: 300px !important;
+        width:   300px !important;
       }
   }
 }}}
 @media (max-width: 1024px) {
   .section_two .offer_section {
     grid-template-columns: repeat(2, 1fr);
+   
   }
 }
 @media (max-width: 768px) {
@@ -1241,7 +1242,7 @@
       padding: 0px 20px;
       width:100%;
       background: url("/assets/HB-Mobile.gif");
-      background-size: contain; //changed cover to contain to avoid zooming effect while scrolling
+      background-size: cover; 
       background-position: center;
       background-repeat: no-repeat;
     
