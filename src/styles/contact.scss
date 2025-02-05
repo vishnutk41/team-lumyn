@@ -179,12 +179,13 @@
                     padding: 20px;
 
                     .wrapper {
-                        gap: 15px;
+                        gap: 10px;
 
                         .phone_input {
+                       
                             .country_code {
-                                min-width: 60px;
-                                padding: 12px;
+                                min-width: 50px !important;
+                                padding: 12px ;
                             }
                         }
                     }
