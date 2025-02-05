@@ -1085,19 +1085,19 @@ export default function Home() {
             </div> */}
              
           {/* </div> */}
-          {/* <div className="section_six"> */}
-            {/* <h3 className="title">
+          <div className="section_six"> 
+             <h3 className="title">
    
                UAE BORN & BRED
-            </h3> */}
+            </h3>
 
-            {/* <div className="container">
+            <div className="container">
               
             <div className="item">
                  <img src="/assets/png/UAE.png" alt="seven emirates" height={170} width={300} />
               </div>
-            </div> */}
-          {/* </div> */}
+            </div>
+          </div>
         </main>
         <Footer />
       </div>
