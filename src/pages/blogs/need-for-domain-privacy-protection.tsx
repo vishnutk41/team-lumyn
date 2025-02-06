@@ -32,16 +32,17 @@ export default function BlogDetails() {
                                 </div>
 
                                 <div className="blog_image">
-                                <Image 
+                                <img src="/assets/images/blog_images/Domain Privacy Protection.png" alt="Domain Privacy Protection Banner"  height="100%" width="100%"/>
+                                {/* <Image 
                                 src="/assets/images/blog_images/Domain Privacy Protection.png"
                                 alt="Domain Privacy Protection Banner"
                                 layout="fill"
                                 objectFit="cover"
-                                />
+                                /> */}
                                 </div>
 
                                 <div className="blog_title_description">
-                                  <div className="comments">by Admin </div>
+                                  <div className="comments">team Lumyn </div>
                                   <h3 className="title"> Domain Privacy Protection: Why It's Essential for Website Owners  </h3>
                                   <p className="description"> Domain privacy protection, also known as WHOIS privacy, is a service that shields your personal information from public view when you register a domain name. Without it, details like your name, address, phone number, and email are publicly accessible through WHOIS databases. </p>
                                 </div>
@@ -134,17 +135,19 @@ export default function BlogDetails() {
                                 <div className="navigation">
 
                                   <div className="previouse">
-                                    <div className="blog_image">  
-                                      <Image 
+                                    <div className="blog_image">
+                                    <img src="/assets/images/blog_images/Driving Organic Traffic.webp" alt="Driving Organic Traffic Banner"  height="100%" width="100%"/>  
+                                      {/* <Image 
                                       src="/assets/images/blog_images/Driving Organic Traffic.webp"
                                       alt="Domain Privacy Protection Banner"
                                       layout="fill"
                                       objectFit="cover"
-                                      /></div>
+                                      /> */}
+                                      </div>
 
                                     <div className="content_container">
                                     <p className="top">
-by Admin  
+                                     team Lumyn  
                                       </p>
                                       <h3 className="title">
                                       Driving Organic Traffic: Essential Strategies for 2025
@@ -162,17 +165,18 @@ by Admin
 
                                   <div className="next">
                                   <div className="blog_image">
-                                    <Image 
+                                  <img src="/assets/images/blog_images/Website Revamping.webp" alt="Website Revamping Banner"  height="100%" width="100%"/>
+                                    {/* <Image 
                                     src="/assets/images/blog_images/Website Revamping.webp"
                                     alt="Website Revamping"
                                     layout="fill"
                                     objectFit="cover"
-                                    />
+                                    /> */}
                                                                        
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
-by Admin  
+                                    team Lumyn  
                                       </p>
                                       <h3 className="title">
                                       Website Revamping: A Strategic Approach to Business Growth

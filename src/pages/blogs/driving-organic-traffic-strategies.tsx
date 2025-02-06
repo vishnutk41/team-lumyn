@@ -32,16 +32,17 @@ export default function BlogDetails() {
                                 </div>
 
                                 <div className="blog_image">
-                                <Image 
+                                  <img src="/assets/images/blog_images/Driving Organic Traffic.webp" alt="Driving Organic Traffic Banner"  height="100%" width="100%"/>
+                                {/* <Image 
                                 src="/assets/images/blog_images/Driving Organic Traffic.webp"
-                                alt="Domain Privacy Protection Banner"
+                                alt="Driving Organic Traffic Banner"
                                 layout="fill"
                                 objectFit="cover"
-                                />
+                                /> */}
                                 </div>
 
                                 <div className="blog_title_description">
-                                  <div className="comments">by Admin </div>
+                                  <div className="comments">team Lumyn </div>
                                   <h1 className="title"> Driving Organic Traffic: Essential Strategies for 2025 </h1>
                                   <p className="description"> Organic traffic refers to visitors who find your website through unpaid search 
                                     results. It's the foundation of sustainable online visibility and involves optimizing your website through 
@@ -137,18 +138,19 @@ export default function BlogDetails() {
 
                                   <div className="previouse">
                                     <div className="blog_image">
-                                    <Image 
+                                    <img src="/assets/images/blog_images/Website Revamping.webp" alt=" Website Revamping Banner"  height="100%" width="100%"/> 
+                                    {/* <Image 
                                       src="/assets/images/blog_images/Website Revamping.webp"
                                       alt="Website Revamping"
                                       layout="fill"
                                       objectFit="cover"
-                                      />
+                                      /> */}
                                     
                                     </div>
 
                                     <div className="content_container">
                                     <p className="top">
-by Admin 
+                                     team Lumyn
                                       </p>
                                       <h3 className="title">
                                       Website Revamping: A Strategic Approach to Business Growth
@@ -164,16 +166,17 @@ by Admin
 
                                   <div className="next">
                                   <div className="blog_image">
-                                                               <Image 
-                                                                   src="/assets/images/blog_images/Domain Privacy Protection.png"
-                                                                   alt="Website Revamping"
-                                                                   layout="fill"
-                                                                   objectFit="cover"
-                                                                   />
+                                  <img src="/assets/images/blog_images/Domain Privacy Protection.png" alt=" Domain Privacy Protection Banner"  height="100%" width="100%"/>
+                                  {/* <Image 
+                                      src="/assets/images/blog_images/Domain Privacy Protection.png"
+                                      alt="Website Revamping"
+                                      layout="fill"
+                                      objectFit="cover"
+                                      /> */}
                                   </div>
                                   <div className="content_container">
                                       <p className="top">
-by Admin  
+                                    team Lumyn 
                                       </p>
                                       <h3 className="title">
                                       Domain Privacy Protection: Why It's Essential for Website Owners
