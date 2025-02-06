@@ -939,7 +939,7 @@ export default function Home() {
             <div className="card_container">
               <div className="card blog_image_1">
                 <div className="bottom">               
-                  <p className="sub_title">By Admin </p>
+                  <p className="sub_title">Team Lumyn</p>
                   <h4 className="title" > 
                   <Link href="/blogs/driving-organic-traffic-strategies">
                     Driving Organic Traffic: Essential Strategies for 2025
@@ -949,7 +949,7 @@ export default function Home() {
               </div>
               <div className="card blog_image_2">
                 <div className="bottom">
-                  <p className="sub_title">By Admin   </p>
+                  <p className="sub_title">Team Lumyn</p>
                   <h4 className="title">
                   <Link href="/blogs/need-for-domain-privacy-protection">
                   Domain Privacy Protection: Why It's Essential for Website Owners

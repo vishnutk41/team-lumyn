@@ -4,9 +4,9 @@ import NavMenuBar from "@/component/menu";
 
 export default function Blogs() {
     const timelineData = [
-        { year: "2022", title: "By Admin", desc: "Driving Organic Traffic: Essential Strategies for 2025", icon: "/assets/images/blog_images/Driving Organic Traffic.webp", link:"/blogs/driving-organic-traffic-strategies" },
-        { year: "2017", title: "By Admin", desc: "Domain Privacy Protection: Why It's Essential for Website Owners", icon: "/assets/images/blog_images/Domain Privacy Protection.png", link:"/blogs/need-for-domain-privacy-protection" },
-        { year: "2012", title: "By Admin", desc: " Website Revamping: A Strategic Approach to Business Growth", icon: "/assets/images/blog_images/Website Revamping.webp", link:"/blogs/website-revamping" },
+        { year: "2022", title: "Team Lumyn", desc: "Driving Organic Traffic: Essential Strategies for 2025", icon: "/assets/images/blog_images/Driving Organic Traffic.webp", link:"/blogs/driving-organic-traffic-strategies" },
+        { year: "2017", title: "Team Lumyn", desc: "Domain Privacy Protection: Why It's Essential for Website Owners", icon: "/assets/images/blog_images/Domain Privacy Protection.png", link:"/blogs/need-for-domain-privacy-protection" },
+        { year: "2012", title: "Team Lumyn", desc: " Website Revamping: A Strategic Approach to Business Growth", icon: "/assets/images/blog_images/Website Revamping.webp", link:"/blogs/website-revamping" },
         // { year: "2007", title: "ULLAMCROPER", desc: "Ullamcorper suscipit labor tis nisl ut aliquip ex ea commodo.", icon: "/assets/images/Customease.webp", link:"#" },
         // { year: "2002", title: "LOREM IPSUM", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", icon: "/assets/images/Customease.webp", link:"#" },
       ];
