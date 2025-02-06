@@ -1209,8 +1209,8 @@
   .section_two{
     .offer_section{
       .img{
-        height: 300px !important;
-        width:   300px !important;
+        height: 180px !important;
+        width:   180px !important;
       }
   }
 }}}
@@ -1484,7 +1484,7 @@
       //   position: relative;
       // --------------------------------
        .offer_section {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr) !important;
         .item {
           padding: 0px 0px;
           height: auto !important;
