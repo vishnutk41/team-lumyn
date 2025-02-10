@@ -468,7 +468,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      9. Engaging Content Creation
+                      Engaging Content Creation
                     </div>
                   </div>
                 </div>
