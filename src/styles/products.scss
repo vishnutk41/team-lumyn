@@ -460,7 +460,13 @@
                 text-align: left;
                 text-underline-position: from-font;
                 text-decoration-skip-ink: none;
-                color: #ffffff;
+                color: #00ff99; /* Adjust to match exact shade */
+                // text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 20px #00ff99, 
+                // 0 0 40px #008f66, 0 0 80px #008f66;
+                text-shadow: 0 0 2px #00ff99, 0 0 2px #00ff99, 0 0 5px #008f66, 0 0 10px #008f66;
+                // text-shadow: 0 0 2px #00ff99, 0 0 2px #00ff99, 0 0 5px #008f66, 0 0 89px #008f66;
+
+              
               }
   
               .sub_title {
