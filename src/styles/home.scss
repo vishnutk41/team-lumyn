@@ -350,7 +350,7 @@
           flex-direction: column;
           // margin-top: auto;
           margin-top: 10px;
-          width: 100%;
+          width: 90%;
           padding: 25px;
           height: 200px;
           background-color: #212236;
@@ -372,7 +372,7 @@
           .sub_title {
              font-family: "Poppins", serif;
              margin-top: 6px;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 400;
             line-height: 22px;
             text-align: left;
@@ -385,7 +385,7 @@
             display: flex;
             margin-top: auto;
             flex-direction: row;
-            width: 100%;
+            width: 80%;
             gap: 10px;
   
             .wrapper {
@@ -394,7 +394,7 @@
               width: fit-content;
               align-items: center;
               font-family: "Poppins", serif;
-              font-size: 14px;
+              font-size: 12px;
               font-weight: 400;
               line-height: 16px;
               text-align: left;
@@ -1006,9 +1006,9 @@
             color: #00ed85;
           }
 
-          .primay_button{
-            // margin-top: 40px;
-          }
+          // .primay_button{
+          //   // margin-top: 40px;
+          // }
   
         }
       }
@@ -2026,8 +2026,11 @@
                text-align: left; 
                text-underline-position: from-font; 
                text-decoration-skip-ink: none; color: #00ed85; 
-              } .primay_button{ // margin-top: 40px; 
-                } } } } }
+              } 
+              // .primay_button{ 
+              //   // margin-top: 40px; 
+              //   }
+               } } } }
     
     .section_five {
       // min-height: 100vh;
