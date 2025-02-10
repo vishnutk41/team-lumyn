@@ -30,7 +30,7 @@ export default function Podcast() {
 
             <div className="container">
     <h3 className="title" data-aos="fade-down">
-    YOUR VOICE, <span>YOUR STORY</span> <br />
+    YOUR STORY, <span>YOUR SPACE</span> <br />
     WITH <span>ECHOPOD </span>
   </h3>
   <p className="sub_title">
@@ -71,13 +71,13 @@ export default function Podcast() {
                     </div>
                     <div className="bottom_container">
                       <h4 className="title">Perfect sound </h4>
-                      <h4 className="title">Every times </h4>
+                      <h4 className="title">Every time. </h4>
                     </div>
                   </div>
                   <div className="card_resonance_pro">
                     <div className="image_container"></div>
                     <div className="bottom_container">
-                      <h4 className="title">Speak up </h4>
+                      <h4 className="title">Speak Up, </h4>
                       <h4 className="title">Your voice matters </h4>
                     </div>
                   </div>
@@ -85,8 +85,8 @@ export default function Podcast() {
                     <div className="image_container">
                     </div>
                     <div className="bottom_container">
-                      <h4 className="title">Capture Every Word  </h4>
-                      <h4 className="title">Elevate Every Sound </h4>
+                      <h4 className="title">Capture Every Word,  </h4>
+                      <h4 className="title">Elevate Every Sound. </h4>
                     </div>
                   </div>
 
@@ -95,7 +95,7 @@ export default function Podcast() {
                     <div className="image_container"></div>
                     <div className="bottom_container">
                       <h4 className="title">Your space </h4>
-                      <h4 className="title">Time to shine </h4>
+                      <h4 className="title">Your Time to shine </h4>
                     </div>
                   </div>
                 </div>
@@ -223,7 +223,7 @@ export default function Podcast() {
             <div className="part_one">
               <div className="wrapper">
                 <h3 className="title">
-                Create.Inspire.Amplify:Podcasting Reimagined                </h3>
+                Create. Inspire. Amplify: Podcasting Reimagined                </h3>
 
                 <p className="sub_title">
                 Podcasts are more than just audio; the space where your voice takes center stage.
