@@ -25,7 +25,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
   
     // h2 {
     //   font-family: "Poppins", serif;
@@ -69,7 +70,9 @@
   
     .primay_button {
       margin-top: auto;
-      margin-left: 290px;
+      // margin-left: 290px;
+      align-self: center; /* Center the button horizontally */
+
       margin-bottom: 5vh;
     }
     
@@ -309,23 +312,23 @@
     // .react-multi-carousel-list {
       .offer_section{
         display: grid; 
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
       
         .item {
           position: relative;
           display: flex;
           flex-direction: column;
           padding: 0px 15px;
-          height: 721px;
+          height: 621px;
           border-radius: 15px; // Added border-radius
           // overflow: hidden; // Ensure child elements follow the border radius
         }
 
         .img {
         
-          height: 520px;
-          width: 520px; // Ensure the image is a square
+          height: 420px;
+          width: 420px; // Ensure the image is a square
           border-radius: 50%; // Make the image a circle
           margin: 0 auto;
           // background-color: var(--gray-200);
