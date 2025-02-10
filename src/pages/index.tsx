@@ -38,8 +38,10 @@ export default function Home() {
       </Head>
       <div className="page">
         <main className="main home">
+
+        <div className="parallax-container">
           <div className="banner_section">
-            <NavMenuBar />
+          <NavMenuBar />
 
             {/* <div className="star_container">
             <h2 className="title_one"> <span>LUMYN:</span> WHERE</h2>
@@ -49,6 +51,7 @@ export default function Home() {
       <h2 className="title_two">FINDS <span>LIGHT</span></h2> */}
             <button className="primay_button"   onClick={() => (window.location.href = '/products')}
             >Learn more</button>
+          </div>
           </div>
 {/* --------------remove section------------------------------------- */}
           {/* <div className="section_one">
