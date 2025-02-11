@@ -600,8 +600,8 @@
      .pricing-card.standard { --col: #00ed85; }
       .pricing-card.premium { --col: #00ed85; }
        .pricing-card:hover { border-color: var(--col); background-color: #26262680; box-shadow: 0 0 32px #171717; transform: translateY(-16px) scale(1.02); transition: all 0.5s ease; } .pricing-card > *:not(:last-child) { margin-bottom: 32px; }
-        .pricing-card .heading h4 { padding-bottom: 12px; color: var(--col); font-size: 24px; font-weight: normal; }
-         .pricing-card .heading p { color: #a3a3a3; font-size: 14px; font-weight: lighter; }
+        .pricing-card .heading h4 { padding-bottom: 12px; color: var(--col); font-size: 24px; font-weight: bold; }
+         .pricing-card .heading p { color: #a3a3a3; font-size: 16px; font-weight: normal; }
           .pricing-card .price { position: relative; color: var(--col); font-size: 30px; font-weight: bold; }
            .pricing-card .price sub { position: absolute; bottom: 14px; color: #a3a3a3; font-size: 14px; font-weight: lighter; }
             .pricing-card .features li { padding-bottom: 16px;
@@ -623,13 +623,33 @@
               .pricing-card .features li strong
                { padding-left: 16px;
                } 
-              .pricing-card .cta-btn { position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); width: 200px; padding: 12px; border-radius: 4px; border: 1px solid var(--col);
+              .pricing-card .cta-btn {
+                 position: absolute; 
+                 bottom: 32px; 
+                 left: 50%; 
+                 transform: translateX(-50%); 
+                 width: 200px; padding: 12px; 
+                 border-radius: 4px; 
+                 border: 1px solid var(--col);
                 //  background-color: #00ed85;
                   color: #e4e4e7; 
                 // background: rgb(0,90,85);
                 background: linear-gradient(270deg, rgba(0,90,85,1) 0%, rgba(0,115,93,1) 17%, rgba(0,236,132,1) 100%);
-                  font-size: 20px; 
-                  font-weight: 500; 
+              
+                  
+
+
+                  width: 156px;
+                  height: 45px;
+                  border-radius: 45px;
+                   font-family: "Poppins", serif;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 19.36px;
+                  text-align: center;
+                  text-underline-position: from-font;
+                  text-decoration-skip-ink: none;
+                  color: var(--balck)
                 }
                .pricing-card .cta-btn:active { background-color: transparent; color: var(--col); transition: all 0.3s ease; } 
      

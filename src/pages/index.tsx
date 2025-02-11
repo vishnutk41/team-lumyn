@@ -1091,7 +1091,10 @@ export default function Home() {
           <div className="section_six"> 
              <h3 className="title">
    
-               UAE BORN & BRED
+             <span className="word1">UAE </span>
+             <span className="word2">BORN </span> 
+              <span className="word3">& </span>
+              <span className="word4">BRED </span>
             </h3>
 
             <div className="container">

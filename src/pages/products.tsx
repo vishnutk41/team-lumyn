@@ -230,7 +230,7 @@ export default function Products() {
                           <div className="pricing-card basic">
                             <div className="heading">
                               <h4>BASIC</h4>
-                              <p>for basic websites </p>
+                              <p>For basic websites </p>
                             </div>
                             <p className="price">
                              AED 1625
@@ -239,15 +239,15 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Up to 4 Pages</strong>(Home, About, Services, Contact)
+                                <strong>Up to 4 Pages</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Mobile</strong> Responsive Design
+                                <strong>Responsive Design</strong> 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>SEO </strong>-Basic Setup
+                                <strong>SEO Basic Setup</strong>
 
                               </li>
                               {/* <li>
@@ -282,7 +282,7 @@ export default function Products() {
                           <div className="pricing-card standard">
                             <div className="heading">
                               <h4>STANDARD</h4>
-                              <p>for medium-sized businesses </p>
+                              <p>For medium-sized businesses </p>
                             </div>
                             <p className="price">
                              AED 3250
@@ -295,21 +295,20 @@ export default function Products() {
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Custom</strong> Design with Animations
+                                <strong>Custom  Design </strong>
+                              </li>
+                              <li>
+                                <i className="fa-solid fa-check"></i>
+                                <strong>Google Maps Integration</strong>
+                              </li>
+                              <li>
+                                <i className="fa-solid fa-check"></i>
+                                <strong>Blog Setup</strong>
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Contact </strong>Forms &<strong>Google</strong>Maps Integration
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-check"></i>
-                                <strong>Blog</strong> Section Setup
-
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-check"></i>
-                                <strong>SEO +</strong>  Speed Optimization
+                                <strong>SEO  Advanced Setup </strong>
                               </li>
                               {/* <li>
                                 <i className="fa-solid fa-check"></i>
@@ -335,7 +334,7 @@ export default function Products() {
                           <div className="pricing-card premium">
                             <div className="heading">
                               <h4>PREMIUM</h4>
-                              <p>for E-Commerce Websites</p>
+                              <p>For E-Commerce Websites</p>
                             </div>
                             <p className="price">
                             AED 5410
@@ -344,20 +343,34 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Product Uploads</strong> (Up to 100 Products)
+                                <strong>Product Uploads</strong> 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> Payment </strong>Gateway Integration
+                                <strong> Payment Integration</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>User </strong> Accounts & Wishlist Features
+                                <strong>User Accounts</strong> 
                               </li>
                               <li>
+                                <i className="fa-solid fa-check"></i>
+                                <strong>Custom  Design </strong>
+                              </li>
+                             
+                              <li>
+                                <i className="fa-solid fa-check"></i>
+                                <strong>Blog  Setup</strong>
+
+                              </li>
+                              <li>
+                                <i className="fa-solid fa-check"></i>
+                                <strong>SEO  Advanced Setup</strong>
+                              </li>
+                              {/* <li>
                                 <i className="fa-solid fa-check"></i>
                                 <strong>Free</strong> First Year  Maintenance
-                              </li>
+                              </li> */}
                               {/* <li>
                                 <i className="fa-solid fa-check"></i>
                                 <strong>Unlimited email</strong> accounts
@@ -469,19 +482,19 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Keyword</strong> Research & Implementation
+                                <strong>Keyword  Research</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>On-Page </strong> Optimization (5 Pages)
+                                <strong>On-Page SEO </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>100GB </strong>of bandwidth
+                                <strong>100GB  bandwidth</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> Monthly </strong>SEO Report
+                                <strong>Monthly SEO Report(Basic) </strong>
                               </li>
                               {/* <li>
                                 <i className="fa-solid fa-check"></i>
@@ -520,25 +533,29 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Keyword</strong> Research &<strong>Competitor</strong> Analysis
+                                <strong>Keyword  Research</strong> 
+                              </li>
+                              <li>
+                              <i className="fa-solid fa-check"></i>
+                              <strong>Competitor  Analysis</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> On-Page </strong>Optimization (10 Pages)
+                                <strong> On-Page SEO </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                               <strong>Off-Page </strong>Optimization(Link Building, Directory Submissions)
+                               <strong>Off-Page SEO </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
                                 <strong>Technical SEO </strong>
-                                (Site Speed, Mobile Optimization)
+                             
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Monthly </strong>Reporting with Insights
+                                <strong>Monthly SEO Report(Standard)</strong>
                               </li>
                             
                             </ul>
@@ -560,23 +577,30 @@ export default function Products() {
                               <sub>/month</sub>
                             </p>
                             <ul className="features">
-                              <li>
+                            <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Full SEO Suite </strong>(On-Page, Off-Page, Technical)
+                                <strong>Keyword  Research</strong> 
+                              </li>
+                              <li>
+                              <i className="fa-solid fa-check"></i>
+                              <strong>Competitor  Analysis</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Content Optimization </strong>(Blog Posts & Articles)
+                                <strong>Full SEO Suite </strong>
+                              </li>
+                              <li>
+                                <i className="fa-solid fa-check"></i>
+                                <strong>Content Optimization </strong>
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Local SEO</strong>(Google My Business Optimization)
+                                <strong>Local SEO</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Performance</strong>-Monthly Reports with Strategy Suggestions
-
+                                <strong>Monthly SEO Reports(Advanced)</strong>
                               </li>
                               
                             </ul>
@@ -656,7 +680,7 @@ export default function Products() {
                           <div className="pricing-card basic">
                             <div className="heading">
                               <h4>STARTER</h4>
-                              <p>(Ideal for Small Businesses)</p>
+                              <p> For Small Businesses</p>
                             </div>
                             <p className="price">
                             AED 2160
@@ -665,24 +689,24 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Account </strong>Setup & Optimization(1-2 platforms)
+                                <strong>Account Setup </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>3 Static Posts</strong> per Month(Graphics + Captions + Editing)
+                                <strong>3 Static Posts/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>3 Video/Reel </strong> per Month
+                                <strong>3 Video or Reel/Month </strong>
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Calendar</strong> Content Creation
+                                <strong>Content Creation</strong> 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Basic</strong> Performance Report (Monthly)
+                                <strong>Monthly Report(Basic)</strong>
                               </li>
                               
                             </ul>
@@ -697,7 +721,7 @@ export default function Products() {
                           <div className="pricing-card standard">
                             <div className="heading">
                               <h4>GROWTH</h4>
-                              <p>for Growing Brands</p>
+                              <p>For Growing Brands</p>
                             </div>
                             <p className="price">
                             AED 2599
@@ -706,31 +730,31 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Account</strong> Setup & Optimization (2-4 platforms)
+                                <strong>Account  Setup </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>6 Static Posts</strong> per Month (Graphics + Captions + Editing)
+                                <strong>6 Static Posts/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> 4 Video/Reel </strong> per Month
+                                <strong> 4 Video or Reel/Month </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>4-6 Stories</strong>  per Month
+                                <strong>4-6 Stories/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Basic Engagement</strong>(Responding to Comments & DMs)
+                                <strong>Basic Engagement  Management</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> Calendar</strong>Content Creation
+                                <strong>Content Creation</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> Performance</strong>-Monthly Report
+                                <strong>Monthly Report(Standard)</strong>
                               </li>
                              
                             </ul>
@@ -745,7 +769,7 @@ export default function Products() {
                           <div className="pricing-card premium">
                             <div className="heading">
                               <h4>PRO</h4>
-                              <p>for Established Businesses</p>
+                              <p>For Established Businesses</p>
                             </div>
                             <p className="price">
                             AED 4105
@@ -754,32 +778,32 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Account</strong> Setup & Optimization (Up to 4 platforms)
+                                <strong>Account  Setup</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>8 Static Posts</strong>  per Month (Graphics + Captions + Editing)
+                                <strong>8 Static Posts/Month </strong>
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>6 Video/Reel</strong> per Month
+                                <strong>6 Video or Reel/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>8 Stories</strong> per Month
+                                <strong>8 Stories/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Basic Engagement</strong> (Comments & DMs)
+                                <strong>Basic Engagement  Management</strong> 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>1 Video/Reel</strong>  per Month
+                                <strong>1 Video or Reel/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Advanced Performance </strong> Report (Monthly Insights + Suggestions)
+                                <strong>Monthly Report(Advanced) </strong>
                               </li>
                               
                             
@@ -795,7 +819,7 @@ export default function Products() {
                           <div className="pricing-card premium">
                             <div className="heading">
                               <h4>PREMIUM</h4>
-                              <p>Comprehensive Social Media Management</p>
+                              <p> Social Media Management</p>
                             </div>
                             <p className="price">
                             AED 6478.92
@@ -804,28 +828,28 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Account</strong>Setup & Optimization (Up to 6 platforms)
+                                <strong>Account Setup</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> 12 Static Posts</strong> per Month (Graphics, Captions, Hashtags, Editing)
+                                <strong> 12 Static Posts/Month</strong> 
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>8 Video/Reel</strong> per Month
+                                <strong>8 Video or Reel/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>12 Stories</strong> per Month
+                                <strong>12 Stories/Month</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Full Engagement</strong>  Management (Comments, DMs, Tag Monitoring)
+                                <strong>Full Engagement  Management </strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Monthly Strategy Call</strong>   + Performance Report
+                                <strong>Monthly Strategy Call</strong>
                               </li>
               
                             </ul>
@@ -840,7 +864,7 @@ export default function Products() {
                           <div className="pricing-card premium">
                             <div className="heading">
                               <h4>CUSTOM</h4>
-                              <p>Comprehensive Social Media Management</p>
+                              <p>Social Media Management</p>
                             </div>
                             <p>  Starting at </p>
                             <p className="price">
@@ -850,16 +874,16 @@ export default function Products() {
                             <ul className="features">
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Paid Ad Campaign</strong> Management (Facebook, Instagram, LinkedIn, etc.)
+                                <strong>Paid Ad Campaigns</strong>
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong> Influencer </strong>Collaboration Management
+                                <strong> Influencer Collaboration</strong>
 
                               </li>
                               <li>
                                 <i className="fa-solid fa-check"></i>
-                                <strong>Event-Based</strong> Campaigns
+                                <strong>Event-Based  Campaigns</strong>
                               </li>
                               {/* <p>Add on services</p>
                               <li>
@@ -884,13 +908,13 @@ export default function Products() {
 </button>
 
                           </div>
-                          <div className="pricing_section">
+                          {/* <div className="pricing_section">
                                                    <h3 className="pricing_title" style={{ color: "#00ed85"}}>Add-On Services</h3> 
                                                    <div className="pricing_item">Social Media Ad Campaigns: Starting at AED 1,080/Monthly </div> 
                                                    <div className="pricing_item">Video/Reel Editing: AED 540/Video</div> 
                                                    <div className="pricing_item">Influencer Campaign Management: Starting at AED 1,625/Project</div>
                                                    
-                                                    </div> 
+                                                    </div>  */}
                   </section>
                 </div>
 
@@ -947,7 +971,7 @@ export default function Products() {
                                   <div className="pricing-card basic">
                                     <div className="heading">
                                       <h4>BASIC</h4>
-                                      <p>Ideal for Startups</p>
+                                      <p>For Startups</p>
                                     </div>
                                     <p className="price">
                                     AED 1620
@@ -956,20 +980,20 @@ export default function Products() {
                                     <ul className="features">
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Logo Design</strong> (3 Initial Concepts +1 Revision)
+                                        <strong>Logo Design</strong>
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong> Basic Brand Color Palette</strong> (Primary & Secondary Colors)
+                                        <strong> Basic Brand Color Palette</strong>
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Typography Guide  </strong>(Primary & Secondary Fonts)
+                                        <strong>Typography Guide  </strong>
 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong> Digital Assets</strong> (Business Card Design, Email Signature Design)
+                                        <strong> Digital Assets</strong> 
                                       </li>
                                       {/* <li>
                                         <i className="fa-solid fa-check"></i>
@@ -1008,25 +1032,24 @@ export default function Products() {
                                     <ul className="features">
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong> Logo Design</strong> (5 Initial Concepts with 2 Revisions)
+                                        <strong> Logo Design</strong> 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Brand Color Palette </strong> (Primary, Secondary & Tertiary Colors)
+                                        <strong>Brand Color Palette </strong> 
+                                      </li>
+                                      <li>
+                                        <i className="fa-solid fa-check"></i>
+                                        <strong>Typography Guide</strong> 
+                                      </li>
+                                      <li>
+                                        <i className="fa-solid fa-check"></i>
+                                        <strong>Social Media Brand Kit</strong> 
 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Typography Guide</strong> (Primary, Secondary Fonts, & Usage Guidelines)
-                                      </li>
-                                      <li>
-                                        <i className="fa-solid fa-check"></i>
-                                        <strong>Social Media Branding Kit</strong> (Profile Pictures, Cover Photos, Post)
-
-                                      </li>
-                                      <li>
-                                        <i className="fa-solid fa-check"></i>
-                                        <strong>Digital Assets </strong> (Business Card Design, Letterhead, Email Signature)
+                                        <strong>Digital Assets </strong>
 
                                       </li>
                                       {/* <li>
@@ -1062,34 +1085,32 @@ export default function Products() {
                                     <ul className="features">
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong> Logo Design</strong> (5 Concepts & 5 Revisions)
+                                        <strong> Logo Design</strong>
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Logo Animation </strong> (3 Concepts & 3 Revisions)
+                                        <strong>Logo Animation </strong> 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Comprehensive Brand Color Palette </strong> ( with Usage Guidelines)
+                                        <strong>Advanced Brand Color Palette </strong> 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Typography Guide </strong>(Fonts for Print, Web & Mobile)
+                                        <strong>Typography Guide </strong>
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Social Media Branding Kit </strong>(Profile Pictures, Cover Photos, Post & Story)
+                                        <strong>Social Media Brand Kit </strong>
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Digital & Print Assets</strong>  (Business Card, Letterhead, Invoice Template,
-                               Email Signature)
+                                        <strong>Digital & Print Assets</strong> 
 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Brand Guidelines Document</strong> (Logo Usage, Color & Font Guidelines,
-                               Tone of Voice, Imagery Style)
+                                        <strong>Brand Guidelines Kit</strong> 
 
                                       </li>
                                       
@@ -1105,7 +1126,7 @@ export default function Products() {
                                   <div className="pricing-card premium">
                                     <div className="heading">
                                       <h4>PREMIUM</h4>
-                                      <p>Comprehensive Corporate Identity</p>
+                                      <p>Advanced Corporate Identity</p>
                                     </div>
                                     <p className="price">
                                     AED 8099
@@ -1114,39 +1135,36 @@ export default function Products() {
                                     <ul className="features">
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong> Logo Design</strong> (10 Concepts & 10 Revisions)
+                                        <strong> Logo Design</strong> 
 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Logo Animation </strong> (5 Concepts & 5 Revisions)
+                                        <strong>Logo Animation </strong> 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Full Brand Identity System </strong> (Color Palette, Typography, Iconography)
+                                        <strong>Full Brand Identity System </strong> 
                                       </li>
                                       
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Social Media Branding Kit </strong>(Profile Pictures, Cover Photos, Post & Story)
+                                        <strong>Social Media Brand Kit </strong>
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Digital & Print Assets</strong>  (Business Card, Letterhead, Invoice, Email
-                                          Signature, Presentation Template)
+                                        <strong>Digital & Print Assets</strong> 
                              
 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"></i>
-                                        <strong>Brand Guidelines Document</strong>(Detailed Usage Guidelines + Brand
-Messaging & Positioning)
-
+                                        <strong>Brand Guidelines Kit</strong>
 
                                       </li>
                                       <li>
                                         <i className="fa-solid fa-check"> </i>
-                                        <strong>1 Brand Strategy </strong> Consultation Session
+                                        <strong>1 Brand Strategy </strong>
                              
 
                                       </li>
@@ -1159,13 +1177,13 @@ Messaging & Positioning)
 </button>
 
                                   </div>
-                                   <div className="pricing_section">
+                                   {/* <div className="pricing_section">
                                                    <h3 className="pricing_title" style={{ color: "#00ed85"}}>Add-On Services</h3> 
                                                    <div className="pricing_item">Packaging Design: Starting at AED 865/Design</div> 
                                                    <div className="pricing_item">Merch Design (T-Shirts, Mugs, etc.): Starting at AED 750</div> 
                                                    <div className="pricing_item">Social Media Launch Campaign: AED 1620</div>
                                                    <div className="pricing_item">Website Branding Integration: AED 2160</div>
-                                                    </div> 
+                                                    </div>  */}
 
                                 </section>
                             </div>
