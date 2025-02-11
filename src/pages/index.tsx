@@ -17,10 +17,10 @@ import Link from "next/link";
 
 
 const imageData = [
-   { imgSrc:"/assets/images/team_images/1.png", name: "Baqir.C", designation: "Social Strategist"},
-   { imgSrc:"/assets/images/team_images/2.png", name: "Shafiqali.", designation: "Client Success Director"},
-   { imgSrc:"/assets/images/team_images/3.png", name: "Shuhaib.S.M", designation: "Creative Director"},
-   { imgSrc:"/assets/images/team_images/4.png", name: "Tawfiq.M", designation: "Business Relationship Director"}
+   { imgSrc:"/assets/images/team_images/1.png", name: "Baqir", designation: "Social Strategist"},
+   { imgSrc:"/assets/images/team_images/2.png", name: "Shafiqali", designation: "Client Success Director"},
+   { imgSrc:"/assets/images/team_images/3.png", name: "Shuaib", designation: "Creative Director"},
+   { imgSrc:"/assets/images/team_images/4.png", name: "Tawfiq", designation: "Business Relationship Director"}
 ];
 
 export default function Home() {
