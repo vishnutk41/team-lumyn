@@ -32,7 +32,7 @@ export default function BlogDetails() {
                                 </div>
 
                                 <div className="blog_image">
-                                  <img src="/assets/images/blog_images/Driving Organic Traffic.webp" alt="Driving Organic Traffic Banner"  height="100%" width="100%"/>
+                                  <img src="/assets/images/blog_images/Driving_Organic_Traffic.jpeg" alt="Driving Organic Traffic Banner"  height="100%" width="100%"/>
                                 {/* <Image 
                                 src="/assets/images/blog_images/Driving Organic Traffic.webp"
                                 alt="Driving Organic Traffic Banner"
@@ -138,7 +138,7 @@ export default function BlogDetails() {
 
                                   <div className="previouse">
                                     <div className="blog_image">
-                                    <img src="/assets/images/blog_images/Website Revamping.webp" alt=" Website Revamping Banner"  height="100%" width="100%"/> 
+                                    <img src="/assets/images/blog_images/Website_Revamping.jpeg" alt=" Website Revamping Banner"  height="100%" width="100%"/> 
                                     {/* <Image 
                                       src="/assets/images/blog_images/Website Revamping.webp"
                                       alt="Website Revamping"
@@ -166,7 +166,7 @@ export default function BlogDetails() {
 
                                   <div className="next">
                                   <div className="blog_image">
-                                  <img src="/assets/images/blog_images/Domain Privacy Protection.png" alt=" Domain Privacy Protection Banner"  height="100%" width="100%"/>
+                                  <img src="/assets/images/blog_images/Domain_Privacy.jpeg" alt=" Domain Privacy Protection Banner"  height="100%" width="100%"/>
                                   {/* <Image 
                                       src="/assets/images/blog_images/Domain Privacy Protection.png"
                                       alt="Website Revamping"
