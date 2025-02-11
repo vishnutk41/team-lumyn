@@ -412,7 +412,7 @@ html {
             display: flex;
             margin-top: auto;
             flex-direction: row;
-            width: 80%;
+            width: 90%;
             gap: 10px;
   
             .wrapper {
@@ -1249,6 +1249,9 @@ html {
     font-size: 14px;
   }
   .home{
+    .banner_section {
+      background-size: contain;  
+    }
   .section_two{
     .offer_section{
       .img{
@@ -1284,8 +1287,8 @@ html {
       min-height: 100vh;
       padding: 0px 20px;
       width:100%;
-      background: url("/assets/HB-Mobile.gif");
-      background-size: cover; 
+      background: url("/assets/gif/Hero Banner-Mobile_V4.gif");
+      background-size: contain; 
       background-position: center;
       background-repeat: no-repeat;
     
@@ -1335,7 +1338,7 @@ html {
       .primay_button {
         margin-left: 20px;
         margin-top: auto;
-        margin-bottom: 10vh;
+        margin-bottom: 15vh;
       }
       
     }

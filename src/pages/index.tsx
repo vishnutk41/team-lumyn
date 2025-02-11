@@ -254,7 +254,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Brand Development
+                      Brand Growth
                     </div>
                     <div className="wrapper">
                       <Image
@@ -263,7 +263,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                    Brand Design                    </div>
+                    Brand Identity                   </div>
                     <div className="wrapper">
                       <Image
                         src="/assets/svg/WWO Icons-03.svg"
@@ -271,7 +271,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Strategic Positioning
+                      Brand Strategy
                     </div>
                   </div>
                 </div>
@@ -293,7 +293,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      E-Commerce Solutions
+                      Digital Commerce
                     </div>
                     <div className="wrapper">
                       <Image
@@ -302,7 +302,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Custom Web Design
+                      Custom  Design
                     </div>
                     <div className="wrapper">
                       <Image
@@ -311,7 +311,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Conversion Optimization
+                      Sales Boosting
                     </div>
                   </div>
                 </div>
@@ -332,7 +332,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      High Brightness
+                      Ultra Bright
                     </div>
                     <div className="wrapper">
                       <Image
@@ -341,7 +341,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Energy Efficiency
+                      Power Saving
                     </div>
                     <div className="wrapper">
                       <Image
@@ -350,7 +350,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Seamless Integration
+                      Unified System
                     </div>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Professional Audio Recording
+                      Pro Audio
                     </div>
                     <div className="wrapper">
                       <Image
@@ -383,7 +383,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      High-Quality Sound Monitoring
+                      Premium Sound
                     </div>
                     <div className="wrapper">
                       <Image
@@ -392,7 +392,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Advanced Audio Mixing
+                      Adv AudioMix
                     </div>
                   </div>
                 </div>
@@ -414,7 +414,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Marketing Strategies
+                      Market Moves
                     </div>
                     <div className="wrapper">
                       <Image
@@ -423,7 +423,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      SEO Campaigns
+                      Search Surge
                     </div>
                     <div className="wrapper">
                       <Image
@@ -432,7 +432,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Ad Optimization
+                      Ad Edge
                     </div>
                   </div>
                 </div>
@@ -453,7 +453,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Platform Management
+                      Platform Command
                     </div>
                     <div className="wrapper">
                       <Image
@@ -462,7 +462,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Data-Driven Insights
+                      Insight Engine
                     </div>
                     <div className="wrapper">
                       <Image
@@ -471,7 +471,7 @@ export default function Home() {
                         height={35}
                         alt="map-point"
                       />
-                      Engaging Content Creation
+                      Content Catalyst
                     </div>
                   </div>
                 </div>
