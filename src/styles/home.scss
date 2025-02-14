@@ -79,8 +79,8 @@ html {
       margin-top: auto;
       // margin-left: 290px;
       align-self: center; /* Center the button horizontally */
-
-      margin-bottom: 5vh;
+      margin: auto;
+      margin-bottom: 15vh;
 
       cursor: pointer;
       outline: none;
@@ -852,7 +852,7 @@ html {
         }
     
         .primay_button {
-          margin: auto auto 0 0; // Align button to the left
+          margin: auto auto; // Align button to the left
         }
       }
       /* Swiper container */
